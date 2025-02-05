@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pedro Manrique</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Domínguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-02-02" who="SAT">First version in XML-TEI</change>
+      <change when="2020-04-22" who="#SAT">Apply transcription criteria</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-16" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_24" xml:lang="es">
+    <body>
+      <head>Pedro Manrique</head>
+      <!-- Don Pedro Manrique -->
+      <p><pb edRef="#DBordonaFPG" n="85"/><persName>Pero Manrique, <roleName>adelantado de
+              <placeName>León</placeName></roleName></persName>, fue un grande e virtuoso cavallero.
+        E porque del linaje de los <name>Manriques</name> es dicho asaz, resta de dizir como su
+        madre, doña <persName>Juana de Mendoça</persName>, fue una notable dueña.</p>
+      <p>Era este <roleName>adelantado</roleName> muy pequeño de cuerpo, la nariz luenga, muy
+        avisado e discreto e bien razonado e de buena conçiençia e temeroso de Dios. Amó mucho los
+        buenos religiosos e todos ellos amavan a él. Ovo mucho buenos parientes, de los quales se
+        ayudó mucho en sus neçesidades. Fue onbre de grant coraçón e asaz esforçado. Algunos lo
+        razonavan por bolliçioso e ambiçioso de mandar e rigir; yo non lo sé çierto, pero si lo fue
+        non lo avería a maravilla, porque todos los que se sienten dispuestos e sufiçientes a alguna
+        obra e acto, su propia virtud los punje e estimula a la exerçitar e usar, ca apenas <pb
+          edRef="#DBordonaFPG" n="86"/><add resp="#DBordonaFPG">[avrá]</add> onbre alguno bien
+        dispuesto a un ofiçio que non se deleyte en lo usar; e ansí este cavallero <add
+          resp="#DBordonaFPG">[que]</add> por su grand discriçión era bastante a rigir e governar,
+        veyendo un tiempo tan confuso e tan suelto que quien más tomava de las cosas más avía
+        dellas, non es mucho de maravillar si se entremetía dello. La verdad es esta: que en el
+        tiempo del <persName><roleName>rey</roleName> don Iohan el segundo</persName>, en el cual
+        ovo grandes e diversos mudamientos, non fue alguno en que él non fuese, non a fin de
+        deservir al rey nin de procurar daño del reyno, mas por valer e aver poder; de lo cual,
+        muchas vezes se siguen escándalos e males. E ansí, en tales abtos, pasó por diversas
+        fortunas prósperas e adversas: ca algunas vezes ovo grant lugar en el rigimiento del reyno e
+        acreçentó su casa e estado, e otras vezes pasó por grandes trabajos, ca fue una vez
+        desterrado e otra, preso. Algunos quisieron dizir que él allegava bien los parientes de que
+        los avía menester, e después los olvidava: desto, ovo algunos que se quexaron dél. Otros lo
+        escusavan diziendo que non avía tanto poder e facultad para que pudiese satisfazer a tantos
+        e tan grandes onbres, o por ventura él faziendo su poder, ellos non se contentavan. Todavía
+        él fue buen cavallero e devoto christiano e tanto discreto e avisado, que solía dél <pb
+          edRef="#DBordonaFPG" n="87"/>dizir don <persName>Sancho de Rojas, <roleName>arçobispo de
+              <placeName>Toledo</placeName></roleName></persName>, que "<quote>cuanto Dios le
+          menguara del cuerpo, le acreçentara en el seso</quote>".</p>
+      <p>Murió en hedad de <date>çincuenta e nueve</date> años.</p>
+    </body>
+
+  </text>
+</TEI>

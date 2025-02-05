@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pedro Tenorio</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Domínguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-22" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-15" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_13" xml:lang="es">
+    <body>
+      <head>Pedro Tenorio</head>
+      <!--Don Pedro Tenorio-->
+      <p><pb edRef="#DBordonaFPG" n="59"/>Don <persName>Pero Tenorio, <roleName>arçobispo de
+              <placeName>Toledo</placeName></roleName></persName>, fue natural de
+          <placeName>Talavera</placeName>, fijo de un cavallero de pequeño estado pero de buen
+        linaje de los <name>Tenorios</name>; su solar es en <placeName>Galizia</placeName>.</p>
+      <p>Fue alto de cuerpo e de buena presona, la nariz alta, el rostro colorado e barroso, la boz
+        rezia e tal que mostrava bien la audaçia e rigor de su coraçón. Fue grant dotor e onbre de
+        grant entendimiento. Fue muy porfioso e reguroso, e aun destos dos viçios <pb
+          edRef="#DBordonaFPG" n="60"/> tomava él en sí grant vanagloria. Era de grant zelo en la
+        justiçia. Fue buen christiano, casto e linpio de su persona. Non fue franco segunt tenía la
+        renta. Traía grant conpañía de letrados çerca de sí, de cuya çiençia él se aprovechava mucho
+        en los grandes fechos: entre los otros era don <persName>Gonçalo, <roleName>obispo de
+              <placeName>Segovia</placeName></roleName></persName>, que fiso <bibl><title>la
+            Pelegrina</title></bibl>, e don <persName>Viçente Arias, <roleName>obispo de
+              <placeName>Plazençia</placeName></roleName></persName>, e don <persName>Iohan de
+          Illescas, <roleName>obispo de <placeName>Sigüença</placeName></roleName></persName>, e su
+        hermano, que fue <roleName>obispo de <placeName>Burgos</placeName></roleName>, e
+          <persName>Juan Alfonso de Madrid</persName>, que fue un grande e famoso dotor en <foreign
+          xml:lang="lat">utroque</foreign>. Ovo este <pb edRef="#DBordonaFPG" n="61"/>arçobispo muy
+        grant lugar con el <persName><roleName>rey</roleName> don Iohan</persName> e con el
+            <persName><roleName>rey</roleName> don Enrique</persName> su fijo, e grant poder en el
+        regimiento del reyno; pero, con toda la privança que ovo, nunca para sí nin pariente suyo
+        ganó un vasallo del rey, nin por el grande estado que ovo e grant privança de los reyes non
+        dexó de visitar él, por su presona, su arçobispado: las cuales tachas <pb
+          edRef="#DBordonaFPG" n="62"/> creo que se fallen en pocos perlados deste nuestro
+        tienpo.</p>
+      <p>Murió en <placeName>Toledo</placeName>, de más de <date>setenta años</date>.</p>
+    </body>
+
+  </text>
+</TEI>

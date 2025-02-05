@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prólogo</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03-06" who="#SAT">First encoding by Susanna Allés-Torrent. Application
+            of transcription criteria. Association with schema.</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_00" xml:lang="es">
+      <body>
+         <head>Libro de los Claros Varones de Castilla dirigido a la Reina Nuestra Señora</head>
+        
+         <p><pb edRef="#DBordonaFP" n="05"/>Muy exçelente e muy poderosa reina nuestra señora:
+            algunos ystoriadores griegos e romanos escrivieron bien por estenso las fazañas que los
+            claros varones de su tierra fizieron, e les parescieron dignas de memoria. Otros
+            escritores ovo que las sacaron de las ystorias, e fizieron dellas tratados aparte, a fin
+            que fuesen más comunicadas, segúnd fizo <persName>Valerio Máximo</persName>, e
+               <persName>Plutarco</persName>, e otros algunos, que con amor de su tierra, o con
+            afeción de personas, o por mostrar su elocuencia, quisieron adornar sus fechos,
+            exaltándolos con palabras algo por ventura más de lo que fueron en obras. </p>
+         <p><pb edRef="#DBordonaFPG" n="06"/>Yo, muy excelente reina e señora, de amas cosas veo
+            menguadas las corónicas destos vuestros reinos de Castilla e de León, en perjuizio
+            grande del honor que se deve a los claros varones naturales dellos e a sus decendientes,
+            porque como sea verdad que fiziesen notables fechos, pero no los leemos estendidamente
+            en las corónicas cómo los fizieron, ni veo que ninguno los escrivió aparte, como fizo
+               <persName>Valerio</persName>, e los otros. Verdad es que el noble cavallero,
+               <persName>Fernand Peres de Guzmán</persName>, escrivió en metro algunos claros
+            varones naturales dellos que fueron en <placeName>España</placeName>; asimismo escrivió
+            brevemente en prosa las condiciones del muy alto e excelente rey <persName>Don
+               Juan</persName>, de esclarecida memoria, vuestro padre, e de algunos cavalleros e
+            perlados, sus súbditos, que fueron en su tiempo. Eso mismo ví en
+               <placeName>Francia</placeName> el compendio que fizo un maestre <persName>Jorge de la
+               Vernada, <roleName>secretario del rey Carlos</roleName></persName>, en que copiló los
+            fechos notables de algunos cavalleros e perlados <pb edRef="#DBordonaFPG" n="06"/> de
+            aquel reino que fueron en su tiempo. Y aun en aquel libro de la <title>Sacra
+               Escritura</title> que fizo <persName>Jhesú, fijo de Sirac</persName>, quiso loar los
+            varones gloriosos de su nación. También <persName>sant Gerónimo</persName> y otros
+            algunos escrivieron loando los ilustres varones dignos de memoria, para loable enxemplo
+            de nuestro bevir.</p>
+         <p>Yo, muy excelente reina e señora, criado desde mi menor hedad en la corte del rey
+            vuestro padre, e del rey <persName>Don Enrique</persName> vuestro hermano, movido con
+            aquel amor de mi tierra que los otros ovieron de la suya, me dispuse a escrevir de
+            algunos claros varones, perlados e cavalleros, naturales de los vuestros reinos, que yo
+            conoscí y comuniqué, cuyas fazañas e notables fechos, si particularmente se oviesen de
+            contar, requiría fazerse de cada uno una grand ystoria. E por ende, brevemente, con el
+            ayuda de Dios, escreviré los linajes e condiciones de cada uno, e algunos notables
+            fechos que fizieron: de los cuales se puede bien creer que, en autoridad de personas, e
+            en ornamento de virtudes, e en las abilidades que tovieron, así en ciencia como en
+            armas, no fueron menos excelente que aquellos griegos e romanos e franceses que tanto
+            son loados en sus escripturas. E primeramente pensé poner la vida e condiciones del rey
+               <persName>Don Enrrique cuarto</persName>, vuestro hermano, cuya ánima Dios haya, por
+            aver concurrido en su tiempo.</p>
+
+      </body>
+   </text>
+</TEI>

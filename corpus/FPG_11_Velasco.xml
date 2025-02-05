@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Juan Velasco</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Dominguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-22" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-15" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_11" xml:lang="es">
+    <body>
+      <head>Juan de Velasco</head>
+      <!--Don Juan de Velasco-->
+      <p><pb edRef="#DBordonaFPG" n="55"/>Don <persName>Johan de Velasco, <roleName>camarero mayor
+            del rey</roleName></persName>, fue fijo de <persName>Pero Fernandes de
+          Velasco</persName>, un grant señor e notable cavallero. Su linaje es grande e antiguo e,
+        segunt ellos dizen, vienen del linaje del <persName><roleName>conde</roleName> Ferrand
+          Gonçales</persName>: yo non lo ley. Es la verdat, que en la estoria que fabla del
+            <persName><roleName>conde</roleName> Ferrand Gonçales</persName> dize que su fijo, el
+            <persName><roleName>conde</roleName> Garçi Ferrández</persName>, que en unas cortes que
+        fizo en <placeName>Burgos</placeName> armó cavalleros dos hermanos que llamavan los
+          <name>Velascos</name>. Si estos eran parientes del conde e si dellos vienen los de
+          <name>Velasco</name>, non lo dize la estoria. </p>
+      <p>Era este don <persName>Johan de Velasco</persName> alto de cuerpo e grueso, el rostro feo e
+        colorado, la nariz alta e gruesa, <pb edRef="#DBordonaFPG" n="56"/> el cuerpo enpachado, muy
+        descreto e muy bien razonado, onbre de grant rigimiento e administraçión en su casa e
+        fazienda. Tenía grande estado e fazía grandes conbites, acogía e allegava muy bien a los
+        fijosdalgo; era franco hordenadamente, tenía grant casa de cavalleros e de escuderos. De su
+        esfuerço non se mostró, más salvo que en la batalla de
+        <placeName>Antequera</placeName><!-- ? --> ovieron la delantera él e don <persName>Sancho de
+          Rojas</persName>, e óvose allí asaz bien.</p>
+      <p>Murió en <placeName>Tordesillas</placeName>, en hedat de <date>çincuenta años</date>.</p>
+    </body>
+  </text>
+</TEI>

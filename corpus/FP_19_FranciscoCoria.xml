@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Francisco de Toledo, Obispo de Coria</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+           <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03" who="#SAT">Frist encoding </change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_19" xml:lang="es">
+      <body>
+         <head>Francisco de Toledo, Obispo de Coria</head>
+         <!-- Título XXIII
+         Del Obispo de Coria-->
+         <p><pb edRef="#DBordonaFP" n="141"/>Don Francisco, obispo de Coria, fue ombre de pequeño cuerpo e fermoso de gesto, la
+            cabeça tenía grande. Era natural de la cibdad de Toledo. Sus avuelos fueron de linaje de
+            los judíos convertidos a la fe cathólica. Desde su menor hedad fue onesto e tova
+            inclinación a la ciencia. Era cuerdo e de muy sotil ingenio. </p>
+         <p>Muertos su padre e madre e quedando moço, la vergüença que padescía por falta de lo
+            necesario, le costriñó salir de su tierra e ir al estudio de Lérida, donde mostrando
+            gramática a otros e él aprendiendo filosofia pobremente pasó algún tienpo. Durante el
+            qual, ovo noticia de su abilidad la reina doña María de Aragón, hermana del rey don Juan
+            e, porque le plazía mucho ver castellanos dados a virtud, le tomó para su capilla. E a
+            pocos días, conoscido que tal ingenio no devía ser distraído del estudio, proveyéndole
+            de su limosna para cada año, le enbió al estudio de París, donde aprendió por spacio de
+            diez años, en los quales los rectores de aquel estudio, veyendo que su grand ciencia e
+            integridad de vida suplía el defecto de su hedad, le dieron grado de magisterio, que a
+            otros tan mançebos no se acostunbra dar en aquel estudio. </p>
+         <p>Fue muy grand pedricador e çeçeava un poco e, como quier que pequeño de cuerpo, su
+            órgano resonava muy claro, e tenía singular gracia en sermonar, tan bien en lengua
+            latina como en la suya materna. Era oservantíssimo en la orden clerical que tomó.
+            Sostovo muchas vezes conclusiones de filosofia e theología en el estudio de París e en
+            corte romana e en otros estudios generales, donde alcançó honra e fama de grand
+            theólogo. </p>
+         <p>Era de vida onestíssima, e no fue visto en ninguna de sus hedades jugar ni jurar. E como
+            el entendimiento conprehende las cosas universalmente e el apetito las sigue e la
+            prudencia las ordena, puédese creer deste perlado que ni fallesció en el entender ni
+            erró en el elegir, ni menos desvió del verdadero juizio para las discerner. Movíase a la
+            obra virtuosa, no por el bien aparente, salvo por el esistente. Era ombre justo, no por
+            temor de la pena, mas por amor de la justicia. Estando en Roma, un cardenal que se dezía
+            de Formo, varón muy notable, le rescibió en su casa e, visto por esperiencia lo que
+            deste claro varón se dezía por fama, le fizo su confesor e, al tienpo de su fin, le
+            estableció albacea de su ánima. </p>
+         <p>Era de vida tan clara que jamás fizo cosa en secreto que sin reprehensión no la pudiera
+            fazer en público. No suplicó jamás por beneficio ni dignidad que oviese, mas su ciencia
+            e su vida procurava su provisión sin procuración. Muerto aquel cardenal, el papa Pio le
+            rescebió por su familiar e le proveyó del deanadgo de Toledo e de otros beneficios. E
+            conoscida la grand fuer a que tenía en el razonar, le enbió diversas vezes por enbaxador
+            al rey don Luis de Francia e al rey don Alfonso de Aragón. Fue uno de los theólogos
+            escogidos que el papa enbió dos vezes a reduzir los bohemios hereges, donde trabajó
+            mucho el espíritu y la persona en aumentación de la fe cathólica. </p>
+         <p>No tenía en tal estimación las cosas humanas que le inpidiesen la contemplación de las
+            divinas. Ordenó algunos tratados de filosofía e theología e sermones de grand dotrina. E
+            aviendo consideración del yerro grande en que caen aquellos que sin autoridad del sumo
+            pontífice presumen quitar reyes e ponerlos, ordenó un libro fundado por derecho contra
+            aquellos que fazen división en los reinos e presumen por su propia autoridad quitar un
+            rey e poner otro. E nunca fue tan laborioso que no pensase en las cosas de Dios, ni tan
+            ocioso que no trabajase en utilidad del próximo. Estava ya abituado en vida tan recta e
+            tan razonable que aquella gracia del libre arbitrio que le cupo, sienpre la exercitó en
+            loor de aquel que gela dio. </p>
+         <p>El rey don Enrique quarto le dio cargo de la enbaxada e procuración suya e de sus reinos
+            en corte romana, e el papa Sixto le fizo su dactario, que es oficio de grand confiança,
+            e le proveyó del obispado de Coria. E porque en la cibdad de Génova acaescieron grandes
+            divisiones e escándalos de los que suelen acaescer entre los de aquella cibdad, el papa,
+            que era de aquella nación genovesa, deseando los pacificar e conosciendo que el onesto
+            bevir deste perlado le clava grand autoridad, le enbió por su legado a aquella
+            provincia. El qual, conoscidos los deseos de los principales movedores e dando a cada
+            uno las razones que entendió ser medicinales a su pasión, los retroxo de las vías
+            erradas que llevaran e, puestos en las verdaderas que devían llevar, los amansó e
+            pacificó los escándalos que estavan aparejados a la destruición de la tierra. </p>
+         <p>Puestos en paz las cosas de aquella provincia e buelto a la cibdad de Roma, estando para
+            ser criado cardenal en hedad de cinqüenta e cinco años, fenesció sus días e tomó a la
+            tierra tan virgen como salió della. </p>
+         <p>E porque las molestias e tentaciones en esta vida vienen a los ombres por diversas
+            maneras, a unos por que sean punidos, a otros por que sean corregidos o por que,
+            tentados con alguna adversidad, conoscan mejor a Dios, o por otros respectos notos a él
+            e innatos a nos, puédese creer deste perlado que, así como fue amado de los buenos por
+            ser grand persuasor de virtudes, así por ser reprehensor de vicios fue aborrescido de
+            algunos malos, de cuyos mordimientos ovo molestias que sufrió e venció con verdadera
+            paciencia. </p>
+         <p>Ciertamente quien considerara la vida deste claro varón, fallará ser enxenplo e dotrina
+            para todo ombre que quisiere bien bevir. Porque ni esta opinión que tenemos de linaje le
+            sublimó, ni la conpostura del cuerpo ni las riquezas le fizieron claro varón, ni menos
+            se puede dezir que la fortuna le fue favorable para alcançar la honra e estimación
+            grande que ovo. Mas la perseverancia que tova en la vida virtuosa le abrió puerta para
+            entrar en grandes logares e le fizo aver acebción cerca de grandes señores e para aver
+            la honra que le dio claro nonbre. </p>
+
+      </body>
+   </text>
+</TEI>

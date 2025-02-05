@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan de Torquemada, Cardenal de San Sixto</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03">Frist encoding </change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_14" xml:lang="es">
+      <body>
+         <head>Juan de Torquemada, Cardenal de San Sixto</head>
+         <!--Título XVIII
+         Del Cardenal de Sant Sixto-->
+         <p><pb edRef="#DBordonaFP" n="119"/>Don Juan de Torquemada, cardenal de sant Sixto, fue
+            ombre alto de cuerpo e delgado, e de venerable gesto e presencia, natural de la cibdad
+            de Burgos. Sus avuelos fueron de linaje de los judíos convertidos a nuestra santa fe
+            cathólica. </p>
+         <p>Aprendió theología seyendo moço, porque tenía inclinación a esta ciencia más que a otra.
+            Paresció en el sosiego de su niñez que la natura le apartó de las cosas mundanas e
+            ofresció a la religión. Los días de su adolecencia siguieron las buenas costunbres que
+            ovo en su mo edad, e los de la joventud a los de la adolecencia e, así creciendo en
+            días, sienpre crescía en virtudes. E segund paresció en la onestad e linpieza de su
+            vida, quier procediese de su conplisión o de su buen seso, sienpre tovo tan fuerte
+            resistencia contra las tentaciones que no podieron corronper sus buenas costunbres.
+            Rescibió de su voluntad ábito e orden de santo Domingo. Era oservantíssimo en su
+            religión. Aprendió en el estudio de París, donde rescibió el grado de magisterio. </p>
+         <p>Venido a Castilla con deseo de su naturaleza, conoscida la ciencia e onestad de su vida,
+            fue elegido por prior del monesterio de sant Pablo de Valladolid, e después fue prior de
+            sant Pedro Mártir de la cibdad de Toledo. Estando en aquel monesterio con propósito de
+            fazer allí asiento de su vida, los hados, que llevan al que quiere para que vaya, e
+            aquellas cosas que la providencia divina tiene ordenadas, rodearon las cosas en tal
+            manera que se levantó contra él tal emulación de persona de su orden que le forçó ir a
+            Roma quando fue quitada la cisma que ovo en la iglesia entre el papa Eugenio e el que se
+            llamó Félix. </p>
+         <p>E llegó a tienpo que se avía de fazer congregación de letrados en Roma para determinar
+            algunas dudas que de la cisma pasada avían resultado, para lo qual el rey don Juan
+            acordó enbiar sus enbaxadores a Roma, entre los quales, porque era necesario enbiar
+            grandes letrados, conoscida la fama que este religioso tenía de grand theólogo, le enbió
+            mandar que se juntase con sus enbaxadores, el qual, obedeciendo al rey, lo fizo. En
+            aquella congregación de letrados, cosa maravillosa fue quánto se esmeró sobre todos los
+            otros, así en las dudas que aclaró como en la determinación que fizo en las cosas que
+            ocurrieron, lo qual fizo crecer la fama que tenía de grand letrado. E porque la onestad
+            de su vida se conformava con la abundancia de su ciencia, el papa le fizo mucha honra e
+            a suplicación del rey don Juan le crió cardenal. </p>
+         <p>Fue avido en sus tiempos por tan grand theólogo que, quando acaescía venir de qualquier
+            parte de la christiandad alguna duda o quistión de theología, todos se referían a la
+            determinación que este cardenal entre todos los otros theólogos fiziese. Era ombre
+            apartado, estudioso, manso e caritativo, e en su buena y onesta vida mostró tener gracia
+            singular, con la qual ganó honra para sí e dio enxenplo a otros para usar de virtud. </p>
+         <p>Deleitávase en las obras del entendimiento. Fizo una glosa del salterio devotíssima e
+            otros tratados e declaraciones de la Sacra Escriptura muy provechosos e dotrinables.
+            Fundó en Roma a sus espensas el monesterio de la Minerva. Rehedificó asimismo todo el
+            monesterio de sant Pablo de Valladolid e tomólo en oservancia. E fizo otras lavares e
+            reparos en monesterios e casas de oración. Estovo con grand honra en Roma, después que
+            fue criado cardenal, fasta que murió de hedad de ochenta años. </p>
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Enrique Enríquez, Conde de Alva de Liste</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+           <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2019-03">Frist encoding by Susanna Allés-Torrent</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_10" xml:lang="es">
+      <body>
+         <head>Enrique Enríquez, Conde de Alva de Liste</head>
+         <!-- [Título X]
+         El Conde de Alva de Lsite-->
+         <p><pb edRef="#DBordonaFP" n="91"/>Don Enrique Enríquez, conde de Alva de Liste, fijo del almirante don Alfonso Enríquez e
+            nieto de don Fadrique, maestre de Santiago, fue ombre de mediana estatura, bien
+            compuesto en la proporción de sus mienbros. La nariz tenía larga, los ojos un poco
+            colorados e los cabellos llanos. </p>
+         <p>Este cavallero tovo el juizio muy bivo. Era ombre de buena prudencia e, por la
+            esperiencia de los grandes fechas que por él pasaron, su parescer en las cosas se avía
+            por muy cierto. Era ombre palanciano e sienpre fablava cosas breves e graciosas. Fue
+            ombre de tan grand esfuerço que, en algunas afrentas peligrosas donde fue esperimentado,
+            ninguno otro en sus tienpos se falló tener el ánimo más libre de miedo para acometer y
+            defender. E como quiera que por su linaje, título e estado era con grand veneración
+            acatado, pero por respecto de su grand esfuer o y cierto juizio, sienpre su persona fue
+            mirada con más honrada estimación que otros que tenían mayores estados que el suyo. </p>
+         <p>Era ombre de poco sufrimiento e, en algunas diferencias que ovo en estos reinos, siguió
+            la parcialidad del almirante don Fadrique e del adelantado Pero Manrique, sus hermanos,
+            donde se le siguieron prisiones e otros infortunios que sufrió con ánimo de varón. </p>
+         <p>Era ombre de verdad e sirvió muy bien e lealmente al rey don Fernando e a la reina doña
+            Isabel en las guerras que pasaron con el rey don Alfonso de Portogal. E en la batalla
+            real que estos dos reyes ovieron entre las cibdades de Toro e Çamora, donde el rey de
+            Portogal fue vencido, este cavallero, aunque en hedad ya de setenta años, ni la fuer a
+            del coraçón se le enflaqueció ni la de los mienbros le faltó para pelear. E peleó con
+            tan grand esfuer o que fue siguiendo el alcance contra los portogueses fasta cerca de la
+            puente de Toro, donde, pensando que le guardavan los suyos, se metió tanto en los
+            contrarios que fue preso e levado a Portogal. Estando en la prisión, conoscida la
+            linpieza de su condición, le fue dada libertad para venir a Castilla con algunos
+            partidos de concordia. E cunpliendo su palabra, bolvió a la prisión, en la qual estovo
+            fasta que la Reina, a su grand honra, le fizo libre. </p>
+         <p>E feneció su vida, con grand honra e enxenplo de bueno e esfonçado cavallero, en hedad
+            de setenta e cinco años. </p>
+
+
+      </body>
+   </text>
+</TEI>

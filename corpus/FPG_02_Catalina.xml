@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Catalina de Lancaster</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés Torrent</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Dominguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-23" who="#SAT">Application o}f transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema.</change>
+      <change when="2022-06-15" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_02" xml:lang="es">
+    <body>
+      <head>Catalina de Lancaster</head>
+      <!-- Doña Catalina de Lancaster -->
+      <p><pb edRef="#DBordonaFPG" n="19"/>La <persName><roleName>reina</roleName> doña Catalina</persName>, muger deste
+          <persName><roleName>rey</roleName> don Enrique</persName>, fue fija de don <persName>Johan de
+            <placeName>Lencastre</placeName></persName>, fijo ligítimo del <persName><roleName>rey</roleName> Aduarte de
+            <placeName>Inguelaterra</placeName></persName>, el cual duque casó con doña
+          <persName>Costança</persName>, fija del <persName><roleName>rey</roleName> don Pedro de <placeName>Castill</placeName>a</persName> e
+        de doña <persName>María de Padilla</persName>.</p>
+      <p>Fue esta reina alta de cuerpo e muy gruesa, blanca e colorada e rubia. En el talle e meneo
+        del cuerpo tanto pareçía onbre como muger. Fue muy onesta e guardada en su presona e fama,
+        liberal e manífica, pero muy sometida a privados e muy regida dellos, lo cual, por la mayor
+        parte, es biçio común de los reyes. No era bien regida en su presona; ovo <pb
+          edRef="#DBordonaFPG" n="20"/> una grande dolençia de perlesia, de la cual non quedó bien
+        suelta de la lengua nin libre del cuerpo.</p>
+      <p>Murió en <placeName>Valladolid</placeName> en hedad de <date>çincuenta años</date>, <date when="1418"
+          >año de mill e cuatroçientos e dies e ocho años</date>.</p>
+    </body>
+  </text>
+</TEI>

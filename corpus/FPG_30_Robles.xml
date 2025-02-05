@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ferrán Alfonso de Robles</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Domínguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-02-02" who="SAT">First version in XML-TEI</change>
+      <change when="2020-04-19" who="#SAT">Apply transcription criteria</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-17" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_30" xml:lang="es">
+    <body>
+      <head>Fernán Alfonso de Robles</head>
+      <!-- Don Fernán Alfonso de Robles -->
+      <p><pb edRef="#DBordonaFPG" n="107"/><persName>Fernand Alonso de Robres</persName> fue natural
+        de <placeName>Mansilla</placeName>, una villa del <placeName>reyno de Leon</placeName>.
+        Onbre escuro e de baxo linaje. Fue de mediana altura, espeso de cuerpo, el color del gesto
+        çetrino, el viso turbado e corto, asaz bien razonado, de gran engeño, pero inclinado a
+        espereza e maliçia más que a nobleza nin dulçura de condiçión, muy apartado en su
+        conversaçión, fablava mucho aunque asaz atentado; pero fue muy osado e presuntuoso a mandar,
+        que es propio viçio de los omnes, cuando alcançan estado, que non se saben tener dentro de
+        límites e términos. Su ofiçio fue escrivano, e después <persName>Leonor Lopez de
+          Cordova</persName> fízole secretario de la <persName><roleName>reyna</roleName> doña <pb
+            edRef="#DBordonaFPG" n="108"/>Catalina</persName> con quien él ovo grant lugar, e tanta
+        parte alcançó con la reyna que ella non se rigía nin governava por otro consejo sino por lo <choice>
+          <orig>quel</orig>
+          <corr>que él</corr>
+        </choice> dizia. E ansí, con el fabor e abtoridad della, todos los grandes del reyno non
+        solamente lo onravan, mas se podía dizir que le obedeçían. Non pequeña confusión e vergueña
+        para <placeName>Castilla</placeName> que los grandes perlados e cavalleros, cuyos
+        anteçesores a maníficos e notables reyes pusieron freno, enpachando sus desordenadas
+        voluntades con buena e justa osadía por utilidad e provecho del reyno e por guardar sus
+        libertades, que a un onbre de tan baxa condiçión como este así se sometiesen, e aun por
+        mayor reprehensión e increpaçión dello, digo que non solo a este sinple onbre, mas a una
+        liviana e pobre muger, ansí como <persName>Leonor López</persName>, e un pequeño e raez
+        onbre, <persName>Ferrand López de Saldaña</persName>, así se sometían e inclinavan, que otro
+        tienpo a un señor de <placeName>Lara</placeName> o de <placeName>Vizcaya</placeName> non lo
+        fazían ansí los pasados.</p>
+      <p>Por graçia de brevedad non se espresan aquí muchas maneras e palabras desdeñosas e aun
+        injuriosas <pb edRef="#DBordonaFPG" n="109"/>que los suso dichos dixieron a muchos grandes e
+        buenos, lo cual es çierta prueva e claro argumento de poca virtud e mucha cobdiçia del
+        presente tienpo, que con los intereses e ganançias que por interçesión dellos avían, non
+        podiendo templar la cobdiçia, consentían mandar e rigir a los tales que poco por linaje e
+        menos por virtudes lo mereçían, non se acordando de aquella notable <add resp="#DBordonaFPG"
+          >[e]</add> memorable palabra de <bibl><author>Fabriçio</author></bibl>, que dixo:
+          «<quote>más quiero ser señor de los ricos que ser rico</quote>», y estos, al contrario,
+        más quisieron ser siervos de los ricos que señores dellos.</p>
+      <p>Para provar la vertud del presente tiempo creo que abastara ver e considerar el regimiento
+        e la regla e buena ordenança de <placeName>Castilla</placeName>, ca por pecado de los
+        naturales della a tal punto es venida, que tanto es cada una onesto e bueno <add
+          resp="#DBordonaFPG">[cuanto]</add> su buena condiçión lo inclina a ello, e tanto es el
+        onbre defendido cuanto él por su esfuerço e industria se defiende, mas non porque a lo uno
+        nin a lo otro <add resp="#DBordonaFPG">[prouea]</add> la justiçia nin el temor real nin el
+        buen zelo e loado rigor de los prínçipes e señores; ca, en conclusión, a
+          <placeName>Castilla</placeName> posee oy e la enseñorea el interese, lançando della la
+        virtud e humanidat. Plega a la infinita clemençia de nuestro Señor de remediar a tanto
+        peligro e curar enfermedat tan pestilençial, non <pb edRef="#DBordonaFPG" n="110"/>aquella
+        cura que mejor se diría pugniçión, que ya otra vez justamente curó los defetos e pecados de
+          <placeName>España</placeName> por las culpas de las gentes della, so enseñorío de dos
+        malos reyes, <persName>Vitiça</persName> e <persName>Rodrigo</persName>, faziendo açote
+        della al malo e çelerado <persName><roleName>conde</roleName> Juliano</persName> por cuyo
+        favor e consejo los moros entraron en <placeName>España</placeName>, mas plégale de espirar
+        misericordiosamente su graçia en los súditos así que, emendando sus vidas merescan aver
+        buenos e justos reyes, ca por los pecados del pueblo es el rey mal administrador e rigidor
+        de su tierra, e por su piadad alunbre el entendimiento e esfuerçe el coraçón del rey por que
+        todos le amen e teman. <!-- n.b. pues, mal pecado, al presente se faze al contrario. --></p>
+      <p>Fázese aquí tan singular mençión deste <persName>Ferrand Alonso de Robles</persName>, non
+        porque su linaje nin condiçión requiriese que él, entre tantos nobles e notables, se
+        escriviese, mas por mostrar los viçios e defetos de <placeName>Castilla</placeName> en el
+        presente tienpo.</p>
+      <p>Este <persName>Ferrand Alfonso</persName>, después que <date>veynte</date> años así con la
+        privança de la reyna como con favor del <persName><roleName>condestable</roleName> don
+          Álvaro de Luna</persName> ovo tan grande poder, faziendo la fortuna sus acostumbrados
+        mudamyentos, e usando <placeName>Castilla</placeName> de aquella memorable palabra que dixo
+        el notable cavallero don <persName>Alonso Fernández Coronel</persName> cuando el
+            <persName><roleName>rey</roleName> don Pedro</persName> lo mandó matar: «<quote>Esta es
+            <placeName>Castilla</placeName> que faze a los <pb edRef="#DBordonaFPG" n="111"/>omes e
+          los gasta</quote>», fue preso en <placeName>Valladolid</placeName> por mandado del rey e
+        tomado todo lo suyo. E murió en la prisión, en el <placeName>castillo de Uzeda</placeName>
+        en hedad de <date>çinquenta</date> años.</p>
+    </body>
+  </text>
+</TEI>

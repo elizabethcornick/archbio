@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alfonso Enríquez</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Dominguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-22" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema.</change>
+      <change when="2022-06-15" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_05" xml:lang="es">
+    <body>
+      <head>Alfonso Enríquez</head>
+      <!-- Don Alfonso Enríquez -->
+      <p><pb edRef="#DBordonaFPG" n="37"/>Don <persName>Alfonso Enríques, <roleName>almirante de
+            Castilla</roleName></persName>, fue fijo bastardo de don <persName>Fadrique,
+            <roleName>maestre de Santiago</roleName></persName>, fijo del
+            <persName><roleName>rey</roleName> don Alfonso</persName>.</p>
+      <p>Fue onbre de mediana altura, blanco, roxo, espeso en el cuerpo, la razón breve e corta,
+        pero discreta e atentada, asaz graçioso en su dizir; turbávase muy a menudo con saña e era
+        muy arrebatado con ella; de grande esfuerço, de buen acogimiento a los buenos, e los que
+        eran de linaje del rey e non tenían tanto estado, fallavan en él favor e ayuda. Tenía
+        honrada casa, ponía muy buena mesa, entendía más que dizía. </p>
+      <p>Murió en <placeName>Guadalupe</placeName>, en hedat de <date>setenta e cinco años</date>.
+      </p>
+    </body>
+
+  </text>
+</TEI>

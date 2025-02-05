@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pedro Suárez de Quiñones</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Domínguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-22" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-16" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_23" xml:lang="es">
+    <body>
+      <head>Pedro Suárez de Quiñones</head>
+      <!-- Don Pedro Suárez de Quiñones -->
+      <p><pb edRef="#DBordonaFPG" n="81"/><persName>Pero Suárez de Quiñones, <roleName>adelantado de
+              <placeName>León</placeName></roleName></persName>, fue un grande e notable cavallero.
+        El solar de su linaje es antiguo e bueno. Yo oy dizir a algunos deste linaje, que los de
+          <name>Quiñones</name> deçienden de una <roleName>infanta</roleName> fija de un
+          <roleName>rey de <placeName>León</placeName></roleName> e, de otra parte, de un grant
+        señor llamado don <persName>Rodrigo Alvárez de Asturias, <roleName>señor de <add
+              resp="#DBordonaFPG">[Norueña]</add></roleName></persName>, pero non lo leí; ca, como
+        dicho es, en <placeName>Castilla</placeName> non se faze mençión de semblantes cosas, aunque
+        se devía fazer.</p>
+      <p>Fue este <persName>Pero Suárez</persName> de buena altura, calvo e romo e de buena presona,
+        esforçado e sabio en las guerras e discreto e diligente en los negoçios; era muy franco e
+        plazíale de tener muy buenos cavalleros <choice>
+          <orig>un</orig>
+          <corr>en</corr>
+        </choice> su casa e dávales mucho. E murió en hedad <pb edRef="#DBordonaFPG" n="82"/>de
+          <date>setenta</date> años. Non dexó fijo ligítimo, e fizo su heredero a un buen cavallero
+        su sobrino, fijo de su hermana, que dizían <persName>Diego Ferrandes de Quiñones</persName>,
+        del cual se faze aquí <add resp="#DBordonaFPG">[mención]</add> especial, ansí por su estado
+        e presona como, en espeçial, porque alcançó en este mundo aquello que muy pocos alcançan,
+        que es gran prosperidad sin aver grandes infortunios e tribulaçiones, ca él non eredó nada
+        de su padre e falló aquel tío que le dexó un grande patrimonio, e después casó con doña
+          <persName>María de Toledo</persName>, fija de <persName>Ferrand Álvarez de
+          Toledo</persName> e de doña <persName>Leonor de Ayala</persName>, e si verdat es que una
+        de las cosas que en la fortuna del onbre se paresçe es en aver buena muger, por çierto este
+        ovo esta graçia, ca ella fue una de las más onestas e nobles dueñas de su tienpo. De la cual
+        ovo el segundo bien: que fueron cuatro fijos, buenos cavalleros, e seis fijas que siguieron
+        bien el enxenplo de su madre en bondat e onestad, e casaron e ganaron todas grandes e nobles
+        onbres.<!-- n.b. onesta, noble, bondat, onestad, casamiento con grande y noble hombre --></p>
+      <p>Este <persName>Diego Ferrández</persName> ovo algunos debates e quistiones <pb
+          edRef="#DBordonaFPG" n="83"/> con algunos grandes onbres en el <placeName>reyno de
+          León</placeName>, de los cuales salió con asaz onra.</p>
+      <p>Dexó a su fin diez fijos e fijas e treynta nietos, sin ver muerte de ninguno dellos. Murió
+        de más de <date>setenta e çinco</date> años, de dolençia natural, muerte paçífica y
+        sosegada: lo cual se nota aquí porque, segunt la bida de los onbres es llena de trabajos e
+        tribulaçiones, e, por la mayor parte, non ay alguno, especialmente <add resp="#DBordonaFPG"
+          >[el]</add> que mucho biue, que non vea muchas cosas adversas e contrarias, este cavallero
+        fue así bienaventurado, que nunca sintió adversidat de fortuna.</p>
+    </body>
+
+  </text>
+</TEI>

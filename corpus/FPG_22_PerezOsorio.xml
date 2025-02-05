@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Alvar Pérez de Osorio</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Domínguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-22" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-16" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_22" xml:lang="es">
+    <body>
+      <head>Alvar Pérez de Osorio</head>
+      <!-- Don Alvar Pérez de Osorio -->
+      <p><pb edRef="#DBordonaFPG" n="79"/><persName>Alvar Pérez de Osorio</persName> fue un
+        cavallero en el <placeName>reyno de León</placeName> e muy heredado en vasallos. Este linaje
+        de los <name>Osorios</name> es grande e antiguo, e, segunt las estorias, vienen del
+            <persName><roleName>conde</roleName> don Osorio</persName>, que fue un grant señor. Yo
+        oy dizir a algunos deste linaje, que estos <name>Osorios</name> vienen de <persName>sant
+          Iohan Grisistomo</persName>, que en latín dizen <foreign xml:lang="lat">os auri</foreign>,
+        que quiere dizir «<term xml:lang="es"><add resp="#DBordonaFPG">[boca]</add> de oro</term>»,
+        pero yo nunca lo ley nin me paresçe cosa creíble, ca <persName>sant Iohan boca <choice>
+            <orig>doro</orig>
+            <corr>de oro</corr>
+          </choice></persName> fue de <placeName>Greçia</placeName> e non se lee que él nin alguno
+        de su generaçión pasase a <placeName>España</placeName>, mas pienso que fue inbençión de
+        algunt onbre sotil e inventivo: que porque en latín dizen por «<term xml:lang="es">boca de
+          oro</term>» <foreign xml:lang="lat">os auri</foreign>, e este nonbre <name>Osorio</name>
+        va çerca dello, dirían que era todo uno; pero yo non lo afirmo nin lo contradigo.</p>
+      <p>Fue este <persName>Alvar Pérez Osorio</persName> alto de cuerpo, feo <pb
+          edRef="#DBordonaFPG" n="80"/>e mal guarnido, de poca administraçión e hordenança en su
+        fazienda; de una dolençia que ovo de perlesía quedó tollido del medio cuerpo, ansí que non
+        podía andar sino sofriéndose sobre otro. Fue muy esforçado, franco e alegre, pero, como
+        dicho es, de tan poco rigimiento era en su casa, que menguava mucho su estado, ca todo su
+        tienpo espendía en burlar e aver plazer.</p>
+      <p>Murió en hedad de <date>setenta</date> años.</p>
+    </body>
+
+  </text>
+</TEI>

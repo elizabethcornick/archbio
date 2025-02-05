@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan de Silva, Conde de Cifuentes</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2019-03">Frist encoding by Susanna Allés Torrents</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_08" xml:lang="es">
+      <body>
+         <head>Juan de Silva, Conde de Cifuentes</head>
+         <!-- [Título VIII]
+         El Conde de Cifuentes-->
+         <p><pb edRef="#DBordonaFP" n="78"/>Don Juan de Silva, conde de Cifuentes e alférez mayor
+            del pendón real, fijo de Alfonso Tenorio, adelantado de Caçorla, e nieto de Arias Gómez
+            de Silva, fue ombre delgado e alto de cuerpo, e bien conpuesto en la proporción de sus
+            mienbros. La cara tenía larga y onesta, la nariz un poco luenga, tenía la lengua
+            çeçeosa. Era fijodalgo de linpia sangre. Sus avuelos fueron naturales del reino de
+            Portogal. Bivió en los tienpos del rey don Juan e del rey don Enrique, su fijo, e moço
+            de pocos días vino al servicio del rey don Juan. Tenía tan buena gracia en la manera de
+            su servicio, que fue uno de los acebtos servidores que el rey tovo.</p>
+         <p>Era ombre muy agudo e muy discreto, e inclinado a justicia. Fablava muy bien e cosas muy
+            sustanciales e conformes a la razón. Vista la autoridad de su persona e la linpieza de
+            su bevir, fue puesto en el consejo del rey.</p>
+         <p>E como acaesce que en las cortes y en las casas reales concurren muchos ombres que por
+            diversas vías van tras sus deseos e, algunos por que les den, otros por que no les
+            quiten, loan lo que devrían callar e callan lo que devrían reprehender, e si algunos
+            dizen cosa conforme a la razón, la dañan, mezclándola con alguna pasión e odio de
+            personas, este cavallero tenía una condición de ombre claro sin ninguna encubierta e
+            realmente pospuesta toda afeción e odio. Dezía con muy buena gracia su parecer en las
+            cosas e no dexava de dezir aquello que otros, o por gratificar o por no indignar,
+            callavan. E como quier que su voto fuese contra el deseo de algunos, pero porque sus
+            fablas se mostravan proceder de buenas e no dañadas entrañas, no eran mal recebidas. E
+            su persona por esta causa era muy estimada e su parecer en las cosas muy esperado. </p>
+         <p>Era grand zelador del bien común e con todas sus fuerças procuró muchas vezes la
+            conservación del patrimonio real, e contradezía a los que, procurando sus intereses
+            particulares, ofendían al bien general. E por esto ovo algunas molestias e trabajos de
+            los que suelen aver los favorescedores de la verdad. Pero al fin, seyendo constante en
+            el camino de la virtud, fue muy acebtado e honrado, e el rey le fizo su alférez mayor e
+            le encargó grandes e arduos negocios, porque entendía que tratava verdad e guardava
+            fidelidad. </p>
+         <p>Acaesció en sus tienpos que todos los príncipes christianos se acordaron con los
+            perlados e clerezía de fazer concilio en la ciudad de Basilea, que es en la alta
+            Alemania, sobre una grand cisma que por estonces avía en la iglesia de Dios entre el
+            papa Eugenio e otro que se llamó Félix, a la qual congregación como todos acordasen
+            enbiar sus enbaxadores, porque convenía mostrarse en aquella congregación la
+            magnificencia e poderío de los reyes, el rey don Juan, conoscida la suficiencia deste
+            cavallero, le cometió esta enbaxada. E enbió con él grandes letrados e fue aconpañado de
+            mucha conpaña de hidalgos, con grandes e muy suntuosos arreos. E así en sus fablas como
+            en la continencia de su persona e en todos los otros atos que deve fazer ombre discreto
+            e de grand autoridad, guardó tan bien la honra del rey e de su tierra e de su persona
+            que ninguno de quantos enbaxadores fueron en aquella congregación la guardó mejor. </p>
+         <p>E como acaesciese un día que el enbaxador del rey de Inglaterra quisiese anticiparse e
+            ocupar el logar de la precedencia que al rey de Castilla pertenescía, no podiendo este
+            cavallero sofrir tienpo para que se determinase por razón lo que veía levar por fuer a,
+            llegó aquel enbaxador e, puestas las manos en él, con grand osadía le arrebató e echó de
+            aquel logar e él se puso en él. Visto este exceso fecho en el palacio de la
+            congregación, la gente de armas que tenía la salvaguarda de la ciudad se escandalizó e
+            tentaron de proceder contra él e contra los suyos por aver cometido cosa de fecho sin
+            esperar determinación de derecho. Este cavallero, guardada su autoridad sin recebir
+            alteración, insistió en su propósito e, preguntado por el cavallero presidente de la
+            justicia cómo avía osado poner las manos en tan notable enbaxador e de tan grand
+            príncipe como era el rey de Inglaterra, con ánimo no vencido le respondió: «Digos,
+            presidente, que, quando padesce defeto la razón, no deven faltar manos al coraçón». E
+            con su grand osadía, junto con su buena razón, fue guardada la preheminencia del rey e
+            la honra del reino, e fue amansado aquel escándalo. Después de largo tienpo, concluidas
+            las cosas de aquel concilio, bolvió al reino con fama de ombre magnífico, porque fue muy
+            franco en el destribuir, e de cavallero esforçado, porque mostró valentía en el osar, e
+            varón discreto, porque govemó aquel cargo con grand sagacidad e prudencia. </p>
+         <p>Venido al reino de Castilla e tomado al logar que tenía en el consejo del rey, entendió
+            muchas vezes, e con grandes trabajos del cuerpo e del espíritu, en concordar al príncipe
+            don Enrique con el rey su padre e en escusar las grandes roturas que se esperavan sobre
+            algunas diferencias que entre ellos avía. E éste sopo tratar con grand prudencia,
+            persuadiendo la obediencia que el fijo devía tener al padre e mitigando la indignación
+            que el padre tenía contra el fijo, e desviando las sinistres intenciones que avía de la
+            una parte e de la otra. </p>
+         <p>Entendió ansimismo en otros grandes e arduos negocios, en los quales el rey, conoscidos
+            sus leales servicios e trabajos, le fizo merced de las villas de Cifuentes e Montemayor,
+            e de otros logares e bienes e rentas en cantidad mucho mayor de la que heredó de su
+            padre. E como veemos alcançar riquezas por caso e conservarlas por seso, puédese creer
+            deste cavallero que conplidamente ovo lo uno e lo otro, porque, si tovo fortuna para
+            alcançar bienes, tovo asimismo prudencia para los conservar. </p>
+         <p>Después de la muerte del rey don Juan, el rey don Enrique le dio título de conde de la
+            villa de Cifuentes e le fizo otras mercedes. E como veemos por esperiencia que los
+            ombres vanos e incapaces, quando les acaesce aver oficios e riquezas tenporales, se
+            alteran e, quiriéndose mostrar magnánimos, fazen cosas fuera de lo que su medida
+            requiere, puédese bien creer que así asentó en este cavallero el nuevo estado e
+            dignidad, e tan poca alteración fizo en su persona la abundancia de los bienes como si
+            de sus avuelos por grande antigüedad los oviera avido. </p>
+         <p>Al fin, entrado ya en los días de la vejez, en los quales suele más reinar en los ombres
+            la avaricia, cosa fue por cierto singular e digna de enxenplo el fin que este cavallero
+            puso a su cobdicia, porque, dado que fue llamado por el rey para que entendiese en
+            grandes cosas do podiera aver grandes intereses, todo lo pospuso e se retroxo a su casa,
+            do fizo loable fin. E dexados dos mayorazgos de asaz rentas a dos fijos, murió
+            conosciendo a Dios en hedad de sesenta e cinco años. </p>
+      </body>
+   </text>
+</TEI>

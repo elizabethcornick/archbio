@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alfonso de Santa María, Obispo de Burgos</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03" who="#SAT">Frist encoding </change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_18" xml:lang="es">
+      <body>
+         <head>Alfonso de Santa María, Obispo de Burgos</head>
+         <!-- Título XXII
+         Del Obispo de Burgos-->
+         <p><pb edRef="#DBordonaFP" n="137"/>Don Alfonso de Santa María, obispo de Burgos, fue ombre
+            de buen cuerpo, bien conpuesto en la proporción de sus mienbros. Tenía cara e persona
+            muy reverenda. Era fijo de don Pablo, obispo que fue de Burgos, el qual le ovo en su
+            muger legítima, que tovo antes que entrase en la religión eclesiástica. Este obispo don
+            Pablo fue de linaje de los judíos e tan gran sabio que fue alunbrado de la gracia del
+            espíritu santo e, aviendo conoscimiento de la verdad, se convertió a la nuestra santa fe
+            cathólica. </p>
+         <p>Este obispo don Alfonso, su fijo, desde su moçedad fue criado en la iglesia e en escuela
+            de ciencia, e fue grand letrado en derecho canónico e cevil, era asimismo grand filósofo
+            natural. Fablava muy bien e con buena gracia, çeçeava un poco, e su persona era tan
+            reverenda e de tanta autoridad que en su presencia todos se onestavan e ninguno osava
+            dezir ni fazer cosa torpe. Era ya tan acostunbrado en los actos de virtud que se
+            deleitava en ellos. Era muy linpio en su persona e en las ropas que traía e el servicio
+            de su mesa, e todas las otras cosas que le tocavan fazía tratar con grand linpieza e
+            aborrescía mucho los ombres que no eran linpios, porque la linpieza esterior del ombre
+            dezía él que era alguna señal de la interior. Pero entendía aprovechar poco la linpieza
+            del cuerpo e de las ropas e de las muy linpias vestiduras e aparatos si no se conseguían
+            con ello la sinceridad de los pensamientos e la linpieza de las obras. </p>
+         <p>Entre los letrados que fueron escogidos para enbiar a un grand concilio que se fizo en
+            Basilea, este obispo, seyendo deán de Santiago, fue uno de los nonbrados a quien el rey
+            don Juan mandó ir en aquella enbaxada, en la qual, conoscida su ciencia e la esperiencia
+            de sus letras e claras costunbres, ganó tan grand fama que, estando en Roma el papa
+            Eugenio, le proveyó del obispado de Burgos, que era del obispo don Pablo su padre.
+            Puesto en esta dignidad, guardó tan bien los precebtos, que segund los sacros cánones e
+            decretos deve guardar el perlado, que fue enxenplo de vida e dotrina a todos los otros
+            perlados que fueron en su tienpo. Fue enbaxador al rey de Portogal por mandado del rey
+            don Juan e, con la fuerçª de sus razones, escusó la guerra e concluyó la paz que por
+            estonces ovo entre estos dos reinos. </p>
+         <p>Era oservantíssimo en la orden e ábito que tomó. Predicava, confessava, corregía e usava
+            en su diocesi de aquellas cosas que perlado es obligado a fazer. Era limosnero e ayudó
+            con grand suma a hedeficar el monesterio de sant Pablo de Burgos, e rehedificó otras
+            iglesias e monesterios de su obispado. </p>
+         <p>Fue varón quito de cobdicias tenporales e nunca se sintió en él punto de enbidia. Dezía
+            él que no podía ser alegre con sus bienes el que se atormenta con bienes agenos. Era de
+            espíritu humilde e, dotrinando con humilidad su dotrina, era mejor rescebida e fazía
+            mejor fruto. </p>
+         <p>Tomó de lengua latina en nuestra lengua vulgar cierta obras de Séneca, que el rey don
+            Juan le mandó reduzir. Era ombre muy estudioso e deleitávase en platicar las cosas de
+            ciencia. Ovo una grand disputa con un filósofo e orador grande de Italia, que se llamó
+            Leonardo de Arecio, sobre la nueva traslación que fizo de las Éticas de Aristóteles, en
+            la qual disputa se contienen muchos e muy dotrinables precebtos. Fizo asimismo algunos
+            tratados de filosofia moral e de theología, provechosos a la vida, los quales están oy
+            en la capilla do está enterrado, en la iglesia mayor de Burgos. </p>
+         <p>Aborrescía los loores que en presencia le dezían, porque, si la conciencia acusava de
+            dentro, poco, dezía él que aprovechan los loores de fuera. E si el entendimiento humano
+            es tan alto e generoso que pone sus términos cercanos a los del alto Dios, quien bien
+            considerare los actos esteriores deste perlado, conoscerá sin duda que sus pensamientos
+            interiores más participavan con las cosas celestiales que con las terrenales. </p>
+         <p>Al fin, seyendo en hedad de setenta años, como propusiese ir en romería a Santiago, aun
+            en éste su voto paresció ser bien acebto a Dios, porque le dio gracia que fuese en salvo
+            e conpliese su romería. La qual conplida e tomado a su diocesi, finó conosciendo a Dios
+            e dexando fama loable e claro enxenplo de vida. </p>
+
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="archbio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ana</title>
+            <author ref="#Luna">Álvaro de Luna</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="SAT">Susanna Allés Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2020</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print" ana="#Castillo_1908">
+               <title>Libro de las claras e virtuosas mugeres</title> por el Condestable de Castilla
+               Don <author>Álvaro de Luna</author>, Maestre de Santiago, edición crítica por Don
+                  <editor>Manuel Castillo</editor>, Catedrático y Director del Instituto General y
+               Técnico de Cáceres. <publisher>Establecimiento tipográfico de Rafael G.
+                  Menor</publisher>, <pubPlace>Madrid - Toledo</pubPlace>
+               <date when="1980">1908</date>
+            </bibl>
+
+            <bibl type="digital"><publisher>Internet Archive</publisher>. Uploaded on <date
+                  when="2009-04-27">April 27, 2009</date>
+               <ref>https://archive.org/details/librodelasclara00unkngoog/page/n8</ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2020-05-05" who="#SAT">Primera codificación.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:id="LUNA_1_10" xml:lang="es">
+      <body>
+         <head>Capítulo X. De Ana</head>
+         <pb edRef="#Castillo_1908" n="50"/>
+
+         <p>Ana, madre del profeta Samuel, fue muger de un onbre llamado por nonbre Elcana, del
+            monte de Estrayún. Esta dueña Ana, segund cuenta su estoria en el primero libro de los
+            Reyes en el primero e segundo capítulos, era mañera que non avía fijos, por causa de lo
+            qual ella muy triste bivía. E acaeció que un día en tienpo del grande sacerdote Helí,
+            seyendo a la sazon el tenplo de Dios en el lugar llamado Silo, este buen varón Elcana e
+            la dicha Ana su muger fueron en romería al dicho tenplo de Silo por adorar e sacrificar
+            a Dios, segund que el pueblo de Israel lo avían de buena costunbre en aquel tienpo. E
+            como la dicha Ana entrase en el tenplo ella començó de fazer su oración a Dios con
+            grande lloro, suplicándole muy devotamente que le diese generación, al qual fizo voto
+            diziendo así: “Señor Dios de las virtudes, si tú acatares la aflicción de la tu sierva e
+            te menbrares de mí dándome fijo varón, yo lo daré para servicio tuyo todos los días de
+            la su vida”. </p>
+         <p> E como ella se detoviese mucho orando a Dios, meneando los labrios e fablando consigo e
+            entre sí mesma de manera que ninguno non la oía, el profeta e grand sacerdote Helí que a
+            esa sazón estava asentado en su silla cerca de la entrada del tenplo, pensando que con
+            tardança de tan luenga oración e por aver estado tanto espacio fablando entre sí ella
+            estoviese fuera de su sano sentido con algund vino que oviese bevido, díxole que quitase
+            de sí el vino, a lo qual ella le respondió con grand umildad diziéndole así: </p>
+         <sp>
+            <p>-Señor mío, yo te soplico que tú non quieras contar por beuda nin desordenada a esta
+               su sirvienta, ca yo so muger desaventurada e non beví vino nin otra cosa que pueda
+               enbeudar, mas reconté ante Dios mi grand dolor e amargura. </p>
+         </sp>
+         <p> Entonce le dixo el profeta e sacerdote Helí que se fuese en paz ca Dios conplirá las
+            sus peticiones, ella respondió: </p>
+         <sp>
+            <p>-Plega a Dios que ello sea así.</p>
+         </sp>
+
+         <p> E otro día por la mañana el buen onbre Alcana e la dicha Ana su muger se fueron al
+            tenplo e adoraron a Dios e partiéronse para su tierra, e desque y fueron la dicha santa
+            muger Ana concibió del dicho su marido Alcana un fijo varón, que después fue llamado
+            Samuel, uno de los mayores profetas de Dios. E desque el niño fue destetado, Ana e su
+            marido lo llevaron al tenplo, e ella lo apresentó e ofreció al dicho profeta e sacerdote
+            Helí para que sirviese a Dios todos los días de la su vida como lo ella avía prometido. </p>
+         
+         <p>Entonce esta dueña Ana fizo e conpuso una muy solepne oración e cántica de grandes
+            loores a Dios, la qual es escripta en el capítulo segundo del dicho libro, dando
+            infinitas gracias a Dios por tanto beneficio. Esta oración e cántica es muy notable e
+            santa e contiene en sí grandes secretos e muy altas cosas, e es de tanta excelencia como
+            otra cualquier de la Santa Escriptura. E así Samuel quedó allí en el tenplo sirviendo a
+            Dios con el dicho Helí sacerdote, segund largamente cuenta su estoria en el dicho
+            primero libro de los Reyes.</p>
+         
+         <p>Non es sin razón de ser mucho loada esta santa dueña, pues que mereció seyendo ma-ñera e
+            non aviendo fijos ser oída e rescebida por Dios su petición, e que oviese tan santo e
+            excelente fijo como la Escriptura Santa da fee que fue el dicho profeta Samuel. Lo qual
+            ella procuró e suplicó a Dios con tanta oración e con tan buen deseo e propósito muy
+            santo, e después gelo ofreció e dio para que todos los días de su vida lo sirviese; e
+            asimesmo porque tanta paciencia e tenprança ovo en sí, ca non enbargante qu’el dicho
+            grande sacerdote Helí le dixo tan agras palabras e la maltraxo tanto, diziéndole que
+            estava beuda, con todo eso ella non se turbó, mas ante aviendo grand esperança en Dios
+            lo sufrió todo con buena paciencia e continuó su oración a Dios suplicando lo suso
+            dicho. En lo qual razonablemente podemos dezir que ella fue muy virtuosa así en
+            paciencia como en grande fee e esperança e amor de Dios.</p>
+         
+         <p>E, ¿quién es aquel que puede dubdar, segund la estoria desta santa muger, que ella con
+            muy entera e buena voluntad sirviese a Dios e que sienpre se oviese en todos sus fechos
+            muy onesta e virtuosamente?, pues que ella mereció ser oída por Dios e con grand fee e
+            fortaleza de coraçón non se turbó de las palabras de tan grand sacerdote nin se partió
+            de la razón, mas con loable paciencia lo sufrió todo aviendo grande esperança en Dios
+            que conpliría sus peticiones, por donde paresce que non sin razón se puede bien dezir
+            que non solamente las virtudes, mas aun las profecías e revelaciones son comunes así a
+            las mugeres como a los onbres.</p>
+         
+         <p> Otrosí mucho son de loar en común las mugeres del Viejo Testamento por aquello que muy
+            notable e francamente e con muy grande sabidoría e diligencia ellas trabajaron en la
+            obra del tabernáculo que el profeta Moisén fizo por mandado de Dios andando el pueblo de
+            Israel en el yermo, e non menos por aquello que usando de la virtud de la franqueza e
+            magnificencia ofrecieron e dieron muy franca e abondosamente muchas notables joyas de
+            oro e plata e seda e piedras muy preciosas e otras cosas de muy grand valor para la
+            dicha obra, segund largamente se lee en el XXXV capítulo del libro de la ley llamado
+            Éxodo donde iguala las mugeres a los onbres sin otro departimiento en todas las cosas
+            que fueron menester para la obra del dicho tabernáculo, las quales segund faze fee la
+            Santa Escriptura ellas dieron e ofrecieron con voluntad muy presta e entención muy
+            devota. E si algunos fablando de voluntad ayan dicho las mugeres ser escassas
+            naturalmente, por estas podemos dezir e afirmar lo contrario, especialmente en las cosas
+            tocantes al servicio de Dios, el qual es de poner delante a todas las otras cosas. </p>
+
+      </body>
+   </text>
+</TEI>

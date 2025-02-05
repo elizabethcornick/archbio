@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rodrigo de Villandrando, Conde de Ribadeo</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="20121">Frist encoding by Susanna Allés-Torrent</change>
+
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_07" xml:lang="es">
+      <body>
+         <head>Rodrigo de Villandrando, Conde de Ribadeo</head>
+         <!-- [Título VII]
+            El Conde don Rodrigo de Villandrando-->
+         <p><pb edRef="#DBordonaFP" n="67"/>Don Rodrigo de Villandrando, conde de Ribadeo, fue fijo
+            de un escudero fijodalgo natural de la villa de Valladolid, ombre de buen cuerpo, bien
+            compuesto en sus mienbros e de muy rezia fuerça. Las faciones del rostro tenía fermosas
+            e la catadura feroce. </p>
+         <p>Seyendo de pocos días, su grand coraçón e su buena costelación le llevaron moço y pobre
+            y solo al reino de Francia, en el tiempo que en aquellas partes avía grandes guerras e
+            divisiones e compañías de gente de armas. E como en aquellos tiempos de guerra
+            concurrían en aquel reino ombres estrangeros de todas partes, este cavallero, por ser
+            dispuesto para los trabajos de la guerra, falló luego capitán que le recibió en su
+            compañía, en la qual aprovó tan bien, seyendo moço e después en las cosas que ombre
+            mançebo deve fazer, que ganó por las armas estimación de ombre valiente e esforçado, e
+            su capitán lo reputava por ombre singular entre todos los otros de su capitanía. </p>
+         <p>Acaesció algunas vezes que estando las batallas en el campo, quando algún ombre de armas
+            de la parte contraria confiando en sus fuerças quería fazer armas e demandava batalla
+            uno por uno, este cavallero se esmerava entre todos los otros de su parte. E presentes
+            las batallas de la una parte e de la otra, salía a pelear con el contrario, y le vencía
+            e derribava e traía sus armas e despojo a su capitán. E esta vitoria, que algunas vezes
+            ovo, le dio honra, la qual así como le puso en gracia e estimación de algunos, así le
+            troxo en odio e enbidia de otros, la qual cresció tanto que por ser estrangero fue
+            costreñido de se apartar de su capitán. </p>
+         <p>E como quier que le fue grave de sofrir, pero como veemos muchas vezes que los
+            infortunios de presente son causa de la prosperidad futura segund que las cosas de la
+            providencia las suele rodear, este cavallero, veyéndose solo de parientes,
+            desfavorescido de compañeros, sin arrimo de capitán, pobre de dinero e sin amigos e en
+            tierra agena, no ovo otro refugio sino a su buen seso e grand esfuer o e, con otro e
+            otros dos que se llegaron a él, se aventurava con buena destreza e grande osadía a fazer
+            saltos en la tierra de los contrarios en logares peligrosos, e fazíales guerra e tomava
+            alguna presa con que se podía sostener. Esto fizo muchas vezes e con tanta sagacidad y
+            esfuer o que siempre salía en salvo. </p>
+         <p>E como la fama de su valentía e de las presas que tomava se divulgó por la tierra,
+            allegáronse a él algunos ombres e, creciendo de día en día el cora ón con las fazañas e
+            las fazañas con la gente e la gente con el interese, allegáronse a él muchas más gentes,
+            fasta que alcan ó a ser capitán una vez de mili ombres a cavallo e después de grado en
+            grado su capitanía fasta ser capitán de diez mill ombres, e su poder fue de los mayores
+            que tenía ninguno de los otros capitanes del rey de Francia a quien servía. E con aquel
+            su grand poder robó, quemó, destruyó, derribó, despobló villas e logares e pueblos de
+            Borgoña e de Francia, en tiempo que aquel miserable reino padescía guerras crueles que
+            duraron por tiempo de cinqüenta años. </p>
+         <p>Andava lo más del tiempo en el campo e ponía grand diligencia en la guarda de los reales
+            para que su gente no rescibiese daño. Era ombre airado en los logares que convenía
+            serlo, e mostrava tan grand ferocidad con la ira que todos le avían miedo. Tenía dos
+            singulares condiciones, la una, que fazía guardar la justicia entre la gente que tenía e
+            no consintía fuer¡ça ni robo ni otro crimen e, si alguno lo cometía, él por sus manos lo
+            punía. E con esto todas las gentes de su hueste, aunque eran muchas e de diversas
+            naciones e tenían oficio de robar, le temían e estavan en paz, e no osavan cometer
+            fuer¡ça ni crimen uno contra otro. Fazía asimismo repartir las presas igualmente, segund
+            que cada uno lo devía aver, e de tal manera dividía lo robado por justicia que fazía
+            durar los robadores en concordia. </p>
+         <p>Era asimismo ombre de verdad e el seguro que clava a qualquier villa o logar o
+            provincia, o qualquier pacto que ponía con ellos, guardávalo estrechamente. E si alguno
+            robava o fazía daño al que él segurava, fazíale buscar con grand diligencia e executar
+            en él la justicia. E con esta condición que en él veían muchos pueblos e provincias e
+            otras personas singulares, se fiavan de su palabra e la compravan con grandes precios a
+            fin de ser seguros de sus gentes. E con esto tenía sus reales bastecidos de viandas e
+            armas e de todas las cosas necesarias, porque mandava guardar e pagar a los que venían a
+            ellos con provisión, e su mandado era muy temido e complido. </p>
+         <p>Ovo muchas batallas con ingleses e con borgoñeses, en las quales Dios le libró por
+            muchos casos de ser perdido e le ayudó por muchas maneras a ser vencedor. Especialmente
+            venció una batalla que ovo con el príncipe de Orenja, donde concurrió mucha gente de
+            amas partes. Esta batalla fue muy ferida y sangrienta, en la qual los que le vieron
+            pelear le conpararon a león bravo en el estrago que fazía en los contrarios e el ayuda e
+            esfuen;o que clava a los suyos. E acabado de aver el vencimiento, tova esta astucia.
+            Fabló con uno de los prisioneros que tenía e prometióle libertad si le descubriese el
+            valor de los prisioneros que las otras sus gentes avían tomado en la batalla. E como se
+            informó secretamente de lo que cada uno podía valer, comprólos todos, dando por cada uno
+            mucho me-nor precio de lo que valían. E como fueron puestos en su poder, rescatólos a
+            todos por mucho mayores precios de lo que le costaron. E con esta astucia ovo grand
+            thesoro e la fortuna le puso en tan grand reputación que alcançó casar con la fija del
+            duque de Barbón, que era de la sangre real de Francia, e fue señor de veinte y siete
+            villas en la tierra de Barbones, dellas compradas e dellas ganadas. </p>
+         <p>E en veinte años que siguió aquella guerra fizo otras notables fazañas, entre las quales
+            acaesció que un día estando a punto de batalla con un grand capitán de Inglaterra, que
+            se llamaba Talabot, en la provincia de Guiana, el capitán inglés, que por oídas conoscía
+            las condiciones deste cavallero, deseava asimismo conocer su persona por ver qué cuerpo
+            e qué faziones tenía ombre que de tan pequeña manera avía subido a tan grand estado. E
+            como por medio de sus harautes acordasen de se fablar, dexadas el uno e el otro sus
+            huestes en buena guarda, estos dos capitanes solos se juntaron e vieron en la ribera de
+            un río llamado Lera. E el capitán Talabot le dixo: «Deseava ver tu persona, pues tengo
+            conoscida tu condición. Ruégote», dixo él, «pues los hados nos troxieron juntos a este
+            logar, que comamos sendos bocados de pan e bevamos sendas vezes de vino, e después será
+            la ventura de la batalla como a Dios pluguiere e señor sant Jorge ayudare». </p>
+         <p>Este capitán Rodrigo le respondió: «Si otra cosa no te plaze, ésta por cierto no la
+            quiero fazer porque, si la fortuna dispusiere que ayamos de pelear, perdería grand parte
+            de la ira que en la fazienda devo tener e menos firiría mi fierro en los tuyos
+            menbrándome aver comido pan contigo». E diziendo estas palabras bolvió la rienda a su
+            cavallo e tomó para sus batallas, e el capitán Talabot, aunque era cavallero esforçado,
+            concibió de aquellas palabras tal concebto que, así por ellas como por la disposición
+            del logar do estava, acordó de no pelear, aunque tenía mayor número de gente que él.
+            Afirmóse aver dicho este capitán en su lenguaje: «No es de pelear con cabeça española en
+            tienpo de su ira». </p>
+         <p>Después de muchos tienpos de guerras e destruiciones avicias en aquella tierra, ovo Dios
+            piedad de los moradores dellas e dio tales vitorias al rey Carlos de Francia que lançó
+            de todo su reino al rey Eduarte de Inglaterra, su enemigo, e a todas sus gentes, e
+            fueron cesando las crudas guerras que en aquel reino avía. E en aquel tienpo acaesció
+            aver en Castilla grandes debates e disensiones, para las quales el rey don Juan enbió
+            mandar a este cavallero, su natural, que viniese en Castilla a le servir con la más
+            gente que pudiese, el qual vino a su llamamiento con quatro mil ombres a cavallo. E el
+            rey le recibió muy bien e le fizo merced de la villa de Ribadeo e diole título de conde
+            della, e fizole otras mercedes. </p>
+         <p>Muerta la primera muger francesa, casó en Castilla con muger noble de linaje de Stúñiga,
+            e el rey le puso en su consejo e fazía dél grand confian a, especialmente de aquellas
+            cosa que concernían a la guerra que por estonçes avía en sus remos. </p>
+         <p>Acaesció que como el rey en tienpo de aquellas disensiones fuese a la ciudad de Toledo e
+            los de aquella ciudad rebellasen contra él y le cerrasen las puertas, puesto el rey en
+            algún recelo de la gente de armas que a la ora estava apoderada de aquella ciudad, este
+            conde de Ribadeo fizo inproviso en la iglesia de sant Lázaro, que es bien cerca de la
+            ciudad, un palenque con tan grand defensa que la persona del rey, con la poca gente que
+            por estonces con él estava, podía ser segura e sin daño, fasta que los otros sus
+            capitanes e gentes de armas que venían en la re aga ovieron tienpo de llegar. E por
+            memoria perpetua deste servicio que fizo en el día señalado de la Epifanía, el rey fizo
+            merced a él e a sus decendientes de la ropa que él y los reyes de Castilla sus
+            subcesores vistiesen aquel día, e que comiese con él a su mesa, de la qual merced goza
+            oy su subcesor. </p>
+         <p> E al fin, veyéndose ya viejo e enfermo de dolencia tal que no podía escapar, Dios, que
+            ni dexa al ombre sin punición ni le niega su misericordia, le dio tienpo esperando en
+            que se corrigiese arrepintiéndose. E por cierto, cosa fue maravillosa e enxenplo digno
+            de memoria a los mortales la grand contrición que ovo e el arrepentimiento de sus
+            pecados e el derramar de las lágrimas que fizo continuamente muchos días antes que
+            muriese, llamando a Dios e pidiéndole con todo coraçón que le perdonase e oviese merced
+            de su ánima. E con esta contrición fenesció sus días en hedad de setenta años. E por
+            esta fin que con tal contrición ovo, se pone aquí en el número de los claros varones. </p>
+
+
+      </body>
+   </text>
+</TEI>

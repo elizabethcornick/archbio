@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="archbio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>XXX</title>
+            <author ref="#Luna">Álvaro de Luna</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="SAT">Susanna Allés Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2020</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print" ana="#Castillo_1908">
+               <title>Libro de las claras e virtuosas mugeres</title> por el Condestable de Castilla
+               Don <author>Álvaro de Luna</author>, Maestre de Santiago, edición crítica por Don
+                  <editor>Manuel Castillo</editor>, Catedrático y Director del Instituto General y
+               Técnico de Cáceres. <publisher>Establecimiento tipográfico de Rafael G.
+                  Menor</publisher>, <pubPlace>Madrid - Toledo</pubPlace>
+               <date when="1980">1908</date>
+            </bibl>
+
+            <bibl type="digital"><publisher>Internet Archive</publisher>. Uploaded on <date
+                  when="2009-04-27">April 27, 2009</date>
+               <ref>https://archive.org/details/librodelasclara00unkngoog/page/n8</ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2020-05-05" who="#SAT">Primera codificación.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:id="LUNA_1_1X" xml:lang="es">
+      <body>
+         <head>Capítulo XVII. De Santa Elisabet</head>
+         <p>Non es de olvidar entre las otras santas mugeres la santa Elisabet tía de Nuestro Señor
+            Jesucristo e madre del bienaventurado sant Johan Bautista, del qual Nuestro Señor
+            Jesucristo dixo que era profeta e más que profeta, e que entre los fijos de las mugeres
+            non se levantará ninguno que mayor fuese que él. E comoquier que esta santa Elisabet
+            alcançó algund tanto de la ley de gracia pero non es dubda que ella aya seído en el
+            tienpo del Testamento Viejo, por lo qual es puesta aquí en fin. </p>
+         <p>La istoria de la qual es muy auténtica e provada, ca la escrive e da fee d’ella el
+            evangelista sant Lucas en el primero e segundo capítulo de su Evangelio, donde paresce
+            que esta santa Elisabet fue muger del sacerdote Zacarías, e ella era mañera que non
+            paría e ellos e amos a dos marido e muger eran muy viejos, de tal guisa que ya él non
+            era para fazer fijos nin ella para concebir. E Nuestro Señor Dios queriendo se aver
+            miraglosamente con ellos enbió al ángel Grabiel al dicho Zacarías sacerdote que estava
+            ministrando e faziendo su oficio en el tenplo de Dios notificándole que comoquier que el
+            dicho Zacarías e su muger eran muy viejos e ella era mañera165 que nunca avía concebido,
+            que a él plazía de les dar un fijo el qual oviese por nonbre Johan. E así fue fecho e
+            conplido, e aviendo concebido la dicha santa Elisabet del dicho Zacarías su marido, ella
+            tovo encubierta su preñez cinco meses. </p>
+         <p>En ese tienpo Nuestro Señor Dios enbió al ángel Graviel a la virgen María faziéndole
+            saber como plazía a Dios que concibiese de Espíritu Santo, e que por la virtud de Dios
+            avría un fijo el qual sería llamado Jesús e salvaría el pueblo de los sus pecados e
+            sería llamado fijo de Dios, e que a Dios avía plazido que la dicha santa Elisabet
+            concibiese otro fijo en su vejez, non enbargante que era mañera e que aquel era el sesto
+            mes que lo avía concebido, ca acerca de Dios todas las cosas eran posibles. E entonce la
+            virgen María respondió e dixo al ángel: “Ahé aquí la sierva del Señor, sea fecho a mí
+            segund que tú lo dizes”. </p>
+         <p>En aquel tienpo la virgen María se partió para la cibdat donde era Zacarías e Elisabet
+            su muger por visitar a la dicha santa Elisabet, la qual el ángel le avía dicho que era
+            preñada e estava ya en los seis meses. E entrando por la puerta de su casa la virgen
+            gloriosa salvó167 a la dicha santa Elisabet, e como la así salvase168 el niño sant Johan
+            que la dicha santa Elisabet169 tenía en el vientre se alegró. E entonce la dicha santa
+            Elisabet llena de Espíritu Santo con boz muy alta dixo a la virgen María: </p>
+         <sp>
+            <p>-Bendita eres tú entre las mugeres e bendito es el fruto del tu vientre. E, ¿dónde me
+               vino esto que la madre del mi Señor venga a mí? Ca oída la boz de la salutación que
+               me feziste en entrando por la puerta se alegró con gozo el niño en el mi vientre. Tú
+               eres bienaventurada que creíste, ca conplirse han todas las cosas que a ti son dichas
+               por el Señor. </p>
+         </sp>
+         <p> E entonce la virgen María dixo: </p>
+         <sp>
+            <p> -La mi ánima magnificará al Señor e el mi espíritu se alegró en el Dios mi salvador
+               que acató la umildad de la su sierva, e por esto me dirán bienaventurada todas las
+               naciones. Ca aquel Dios poderoso fizo comigo grandes cosas e santo es el su nonbre e
+               la su misericordia es de generación en generación en aquellos 49r que lo temen. </p>
+         </sp>
+         <p>E así fue procediendo dando muy grandes loores a Dios, e la virgen María quedó en
+            conpañía de la dicha santa Elisabet cerca de tres meses. E conplidos los nueve meses que
+            la dicha santa Elisabet avía concebido, parió a sant Johan Bautista, e todo el pueblo
+            fue muy maravillado por ella ser muger mañera e el su marido e ella ser muy viejos. </p>
+         <p>¡O muger digna de grandes loanças que por su muy alta e buena vida e grandes virtudes
+            mereció aver espíritu de profecía e concebir miraglosamente seyendo mañera e ella e su
+            marido viejos e que este concebimiento fuese anunciado por el ángel de Dios e que ella
+            oviese tan santo e tan noble fijo!, el qual, segund suso es dicho e la Santa Escriptura
+            dello da testimonio, fue profeta e más que profeta, e ninguno otro non fue mayor que él
+            sacando Nuestro Señor Jesucristo verdadero Dios e verdadero onbre. El qual sant Johan
+            por su santidad e merescimientos por ordenança de toda la iglesia de Dios fecha por
+            Espíritu Santo es antepuesto en la ledanía de los santos a todos los patriarcas e
+            profetas del Viejo Testamento, e asimesmo a los apóstoles e evangelistas e mártires e
+            confesores e a todos los santos e santas del Nuevo Testamento. </p>
+         <p> E non sin razón es de ensalçar por grandes loanças esta santa Elisabet, pues por sus
+            grandes virtudes e merescimientos mereció ser visitada de la Virgen sin manzilla Nuestra
+            Señora santa María, ella trayendo en el su vientre virginal a Nuestro Señor Jesucristo,
+            el qual rige e govierna el cielo e la tierra e bive para sienpre; e asimesmo esta santa
+            Elisabet fue digna de reconoscer por espíritu profético 49v a su Señor e criador que la
+            dicha Virgen gloriosa traía en su vientre en quanto onbre, e que ella bendixiese a la
+            dicha Virgen e recontase sus loores segund largamente lo recuenta el dicho evangelista
+            sant Lucas. E comoquier que esto fuese profetizado por los santos profetas muchos
+            tienpos antepasados, e asimesmo anunciado por el ángel Graviel a la dicha virgen María,
+            non leemos que a otra persona alguna fuese esto revelado salvo a la dicha santa
+            Elisabet, así que en esto ella alcançó gracia e don muy singular de Dios más que otra
+            presona alguna onbre nin muger. </p>
+      </body>
+   </text>
+</TEI>

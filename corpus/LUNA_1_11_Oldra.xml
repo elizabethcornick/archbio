@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="archbio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Oldra</title>
+            <author ref="#Luna">Álvaro de Luna</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="SAT">Susanna Allés Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2020</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print" ana="#Castillo_1908">
+               <title>Libro de las claras e virtuosas mugeres</title> por el Condestable de Castilla
+               Don <author>Álvaro de Luna</author>, Maestre de Santiago, edición crítica por Don
+                  <editor>Manuel Castillo</editor>, Catedrático y Director del Instituto General y
+               Técnico de Cáceres. <publisher>Establecimiento tipográfico de Rafael G.
+                  Menor</publisher>, <pubPlace>Madrid - Toledo</pubPlace>
+               <date when="1980">1908</date>
+            </bibl>
+
+            <bibl type="digital"><publisher>Internet Archive</publisher>. Uploaded on <date
+                  when="2009-04-27">April 27, 2009</date>
+               <ref>https://archive.org/details/librodelasclara00unkngoog/page/n8</ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2020-05-05" who="#SAT">Primera codificación.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:id="LUNA_1_11" xml:lang="es">
+      <body>
+         <head>Capítulo XI. De Oldra, que ovo spíritu de propheçía</head>
+         <p> Esi por la maravillosa excelencia de virtudes, el fin de las quales es grave de fallar,
+            por esta presente obra non sea dada tanta loor a las santas mugeres e profetisas e
+            reinas e otras nobles dueñas suso escriptas quanta la honrada gloria suya e la verdad
+            demanda, con todo eso me paresce razonable de aplicar la péndola a Oldra muger
+            profetisa, porque muger tan virtuosa llena de espíritu de Dios digna de grande maravilla
+            non deve pasar sin fablar d’ella. A la qual como oviesen enbiado preguntar e pedir
+            consejo de sus fechos el rey Josías muy justo e santo del pueblo de Israel, espantado de
+            las palabras escriptas en el libro de la ley de Dios que fabla de las penas muy grandes
+            que averían los que non guardasen los mandamientos de Dios, el qual libro aquel varón
+            llamado Elquías sacerdote avía fallado en el tenplo del Señor, como se lee abiertamente
+            en el quarto libro de los Reyes, la dicha profetisa declaró a los mensajeros del rey las
+            justas culpas que Nuestro Señor Dios avía de demandar a toda la gente de los onbres de
+            aquella cibdad por los pecados por ellos fechos e cometidos, las quales culpas por la
+            maravillosa bondad suya, muchas vezes él disimula e las tarde demanda, aunque algunas
+            vezes el mucho tardar conpensa con justicia agravando 34r la pena. </p>
+         <p>Onde el dicho rey Josías requerido por esta profetisa mandó alinpiar el tenplo de Dios
+            de algunas cosas non convenibles que allí eran puestas, e quitó de tierra de Judea e de
+            Jerusalem los adevinos que llaman fitonisos e a138 los encantadores e a las figuras de
+            los ídolos e todas las otras cosas de idolatría aborrescibles a Dios porque cunpliese
+            las palabras de la ley que en aquel libro eran139 escriptas como en el segundo capítulo
+            del dicho libro abiertamente paresce. </p>
+         <p>En lo qual esta muger profetisa non es menos, mas ante mucho más de loar, que los
+            adevinos de los gentiles, ca segund los sus estoriadores notablemente escrivieron, los
+            romanos con mucha religión e santidad buscaron las respuestas de aquel sabio Apolo que
+            ellos llamavan Dios, e dende por singular diligencia los acostunbraron alcançar como
+            paresce ellos averlo fecho así quando trabajados del agra e continua guerra de la cibdad
+            de Vejenta, desque vieron el lago que era llamado por nonbre Albano sallir de su común
+            curso non acrescentando por aguas del cielo nin por otro qualquier allegamiento de agua,
+            guardaron con mucha diligencia los mandamientos de los intérpetres que eran los que
+            declaravan la voluntad de los sus dioses, e estos otro tienpo eran tenidos en grande
+            honra. Asimesmo paresce por el servicio de Lucio Sila cónsul que como trabajase en
+            sacrificios en el canpo llamado Nolano e de la parte del ara viese correr el agua,
+            apartó luego su hueste por consejo 34v de un sabio llamado por nonbre Póstumo, e fuese a
+            las fuertes batallas de las gentes llamadas samitas, de los quales ovo fundamiento de su
+            victoria. Así que ciertamente creían non por fortuna nin acaescimiento mas por
+            providencia de Dios venir todas las cosas. Et esto paresce asimesmo por la auctoridad
+            del Senado de Roma, el qual, dexada ya la cibdad de los franceses, por oír la boz de
+            Centurio dexó luego el consejo de pasar a las gentes llamadas vejos. Aquesto mesmo
+            paresce por Lucio Paulo, cónsul de Roma, al qual como viese en suerte que fiziese guerra
+            al rey de Persia, por la respuesta de su fija concibió en su coraçón cierta esperança de
+            clara victoria, la qual ovo dende gloriosamente. Paresce asimesmo por salvación de aquel
+            cavallero romano llamado Galio Marcio que fue juzgado enemigo por los padres, e como
+            fuese traído en guarda a la casa de Favia, amonestado que se fuese141 a lugar donde
+            podría escapar, recusó de rescibir el consejo, e fuese para la mar e luego subió en una
+            nao en la qual vino a África e retráxose de rescibir las armas vencedoras de Lucio Sila. </p>
+         <p>Tornando agora a nuestro propósito, ¿quál onbre de sano entendimiento se deve maravillar
+            que el rey Josías por respuesta de aquesta profetisa se aya movido en tan grande aparato
+            con cerimonias tan solepnes de alinpiar el santuario del Señor Dios, que era la tierra
+            de Judea e Jerusalén, si ella non oviese seído muy santa e virtuosa e de muy grand
+            auctoridad e tenida en grande cuenta? E pues que los antiguos romanos, que fueron
+            señores de todo el mundo, estudiaron e trabajaron de guardar con mucha diligencia las
+            respuestas del su dios Apolo e la predicación de los sus adevinos, ¿qué diremos nos de
+            los mandamientos de aquesta profetisa?, que tantas fueron sus virtudes que, aunque ella
+            aya seído doctada en grande honra de espíritu de profecía, pero demás desto ella
+            floreció en santidad, en sabidoría, en honestad de vida, en firmeza, en piedad, en todas
+            las otras loables costunbres, que es de creer que todo su pensamiento fuese sienpre en
+            contenplación del muy alto e soberano bien que es Nuestro Señor Dios, e que ella se
+            tractase muchas vezes en imaginar notables consejos para aprovechar a sí mesma e a
+            otros, e asimesmo en cosas altas pertenescientes a bevir bienaventuradamente. </p>
+         <p>E si por aventura alguno crea que de aquesta profetisa es dicho asaz, piense en sí mesmo
+            si aquella sabiduría soberana que todas las cosas vee en un acatamiento le diera tan
+            singular don otorgado a tan pocos como es el espíritu de profecía si ella non fuera un
+            sagrario de cosas muy buenas e altas, lo qual bien acatado, luego abiertamente él
+            entenderá aquesta averse trabajado de guardar toda pureza e toda dignidad e conplimiento
+            de vida, e así, que deve ser igualada a los profetas e antepuesta a muchos notables
+            varones que non ovieron espíritu de profecía aunque fueron virtuosos, lo qual se muestra
+            muy claro ser así, pues tan alto e tan santo e tan religioso rey e tantos sacerdotes e
+            pueblo tan grande e donde avía tantos sabios demandaron su consejo e obedecieron e
+            conplieron su mandamiento con tan grand umildad e reverencia, donde bien142 paresce la
+            soberana auctoridad en que acerca de todos esta santa profetisa era tenida e avida. </p>
+      </body>
+   </text>
+</TEI>

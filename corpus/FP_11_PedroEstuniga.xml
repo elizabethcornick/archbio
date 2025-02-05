@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pedro López de Zúñiga, Conde de Plasencia</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+           <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03">Frist encoding by Susanna Allés-Torrent</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_11" xml:lang="es">
+      <body>
+         <head>Pedro López de Zúñiga, Conde de Plasencia</head>
+         <!-- [Título XI]
+         El Conde de Plazencia-->
+         <p><pb edRef="#DBordonaFP" n="93"/>Don Pedro de Estúñiga, conde de Plazencia, fijo de Diego López de Estúñiga, justicia
+            mayor del rey, fue ombre alto de cuerpo, bien proporcionado en la conpostura de sus
+            mienbros. E el rostro tenía largo e la nariz afilada. Sus avuelos fueron de linaje
+            noble, naturales del reino de Navarra. </p>
+         <p>Era ombre de buen seso e de pocas palabras e de grand execución en las cosas que quería.
+            En sus tienpos fue tenido en grand estimación por respecto de su persona e de su grand
+            casa. Era cavallero esfonçado e muy perseverante en la opinión que tomava. Plazíale
+            tener ombres esforçados e defendíalos de las fazañas que cometían, e por esta causa
+            sienpre estava conpañado de ombres de todas suertes. En su tienpo fue acrecentada su
+            casa e floresció su fama por la grand copia de gente que de continuo era inclinado a
+            mantener. </p>
+         <p>Acaesció que como el rey don Juan el segundo oviese necesarias algunas gentes de armas
+            para pacificar los escándalos que estonces en sus reinos avía, este cavallero, como
+            quiera que era ya viejo e enfermo e muy gravado de gota, pero con zelo grande que tovo
+            de servir a su rey, se fizo traer en andas al real do estava la hueste e, rodeado de
+            grand copia de gente de armas de su casa, vino a le servir e sirvióle con otros
+            cavalleros de tal manera en aquella jornada que el rey rescibió dél servicio señalado, e
+            él alcan ó fama de leal súbdito e fue enxenplo de lealtad a otros que se movieron a
+            servir su rey, veyendo venir cómo vino este cavallero en andas a le servir. Murió con
+            grand honra de hedad de setenta años. </p>
+
+      </body>
+   </text>
+</TEI>

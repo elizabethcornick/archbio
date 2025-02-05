@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Diego López de Stúñiga</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Dominguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-22" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema.</change>
+      <change when="2022-06-15" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_07" xml:lang="es">
+    <body>
+      <head>Diego López de Stúñiga</head>
+      <!-- Don Diego López de Stúñiga -->
+      <p><pb edRef="#DBordonaFPG" n="33"/><persName>Diego López Destúñiga, <roleName>justiçia mayor
+            del rey</roleName></persName>, fue en tienpo del <persName><roleName>rey</roleName>
+          Iohan</persName> e del <persName><roleName>rey</roleName> don Enrique el
+          terçero</persName>. De parte del padre, fue de <name>Astuñiga</name>. El solar deste
+        linaje es en <placeName>Navarra</placeName>. Yo oy dizir a algunos dellos, que los
+          d'<name>Estuñiga</name> vienen de los <roleName>reyes de
+          <placeName>Navarra</placeName></roleName> e, señaladamente, de un grande onbre de quien
+        los <roleName>reyes de <placeName>Navarra</placeName></roleName> ovieron comienço, que
+        llamaron <persName>Iñigo Arista</persName>, pero desto yo non sé otra çertidumbre. De parte
+        de su madre, venía este <persName>Diego López de los de Horosco</persName>, un buen linaje
+        de cavalleros.</p>
+      <p>Fue onbre de buen gesto, de mediana altura, el rostro e los ojos colorados e las piernas
+        delgadas; onbre apartado en su conversaçión e de pocas palabras, pero, segund dizen los que
+        le platicaron, era onbre de buen seso e que en pocas palabras fazía grandes conclusiones.
+        Buen amigo de sus amigos. Fué muy açebto e allegado a aquellos dos reyes en cuyo tienpo fue.
+        Alcançó muy grande estado, vestíase muy bien e, aun en la madura hedat, amó muchas <pb
+          edRef="#DBordonaFPG" n="44"/> mugeres e dióse a ellas con toda soltura. De su esfuerço non
+        oy, esto creo porque en su tienpo no ovo guerras nin batallas en que lo mostrase, pero de
+        presumir es que un cavallero de tal linaje e de tanta discriçión, que guardaría su onra e
+        fama e vergueña, en que va todo el fruto del esfuerço de las armas.</p>
+    </body>
+
+  </text>
+</TEI>

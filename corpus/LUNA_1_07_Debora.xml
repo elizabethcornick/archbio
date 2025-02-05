@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="archbio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Débora</title>
+            <author ref="#Luna">Álvaro de Luna</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#APC">Anna Pineda Cirera</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                  target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                  Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2020</date>
+         </publicationStmt>
+         
+         <sourceDesc>
+            <bibl type="print" ana="#Castillo_1908">
+               <title>Libro de las claras e virtuosas mugeres</title> por el Condestable de Castilla
+               Don <author>Álvaro de Luna</author>, Maestre de Santiago, edición crítica por Don
+               <editor>Manuel Castillo</editor>, Catedrático y Director del Instituto General y
+               Técnico de Cáceres. <publisher>Establecimiento tipográfico de Rafael G.
+                  Menor</publisher>, <pubPlace>Madrid - Toledo</pubPlace>
+               <date when="1980">1908</date>
+            </bibl>
+            
+            <bibl type="digital"><publisher>Internet Archive</publisher>. Uploaded on <date
+               when="2009-04-27">April 27, 2009</date>
+               <ref>https://archive.org/details/librodelasclara00unkngoog/page/n8</ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change><date when="2020-03-20">20 marzo 2020</date>. Primera codificación hecha por Anna Pineda Cirera</change>
+         <change><date when="2020-03-21">21 marzo 2020</date>. Regularización hecha por Anna Pineda Cirera</change>
+         <change when="2020-05-05" who="#SAT">Cambios en la transcripción del texto.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:id="LUNA_1_07" xml:lang="es">
+      <body>
+         <head>Capítulo VII. Delbora</head>
+         <p><persName>Delbora</persName> <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            mujer <choice>
+               <orig>Hebrea</orig>
+               <reg>hebrea</reg>
+            </choice> 
+            , esta fué mujer
+            de un hombre lhunado <persName>Lapidoth</persName>, la qual non du-
+            <pb edRef="#MCastillo" n="53"/>do, que se ha de anteponer á los varones muy no-
+            bles de la sabiduría casi <choice>
+            <orig>Diuinal</orig>
+            <reg>divinal</reg>
+            </choice> 
+            de los quales, é 
+            de la justicia muy clara nos solemos <choice>
+               <orig>marauillar</orig>
+               <reg>maravillar</reg>
+            </choice> 
+            , 
+            tanto, que como yo conmigo lo pienso, quanto res-
+            plandor de las muy excelentes virtudes en ella 
+            <choice>
+               <orig>auía</orig>
+               <reg>abía</reg>
+            </choice> 
+            seydo, porque tanto esclareció en su tiempo
+            más que los otros por grandeza de consejo, é por
+            justicia, la qual es una virtud señora de todas, é
+            <choice>
+               <orig>Reyna</orig>
+               <reg>reyna</reg>
+            </choice> 
+            de las virtudes, que acerca del pueblo de 
+            <placeName>Isrrael</placeName> con razón <choice>
+               <orig>tobo</orig>
+               <reg>tovo</reg>
+            </choice> 
+            la alteza del <choice>
+               <orig>Juzgado</orig>
+               <reg>juzgado</reg>
+            </choice> 
+            ; ca 
+            esta <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            , según cuenta la historia del libro 
+            de los <choice>
+               <orig>Juezes</orig>
+               <reg>juezes</reg>
+            </choice> 
+            en el quarto capítulo, <choice>
+            <orig>fué</orig>
+            <reg>fue</reg>
+            </choice> 
+            en el tiem-
+            po del <choice>
+               <orig>Rey</orig>
+               <reg>rey</reg>
+            </choice> 
+            <persName>Jauín</persName>, que entonces reynaba en el <placeName>Rey-
+             no de Asor</placeName>: este <choice>
+                  <orig>Rey</orig>
+                  <reg>rey</reg>
+               </choice> 
+            sojuzgó el dicho pueblo de
+            <placeName>Isrrael</placeName> después de la muerte de <persName>Ajot</persName>, <choice>
+                  <orig>juez</orig>
+                  <reg>rey</reg>
+            </choice>  
+            <choice>
+                  <orig>dellos</orig>
+                  <reg>de ellos</reg>
+            </choice>; 
+            ca el dicho pueblo <choice>
+               <orig>aun</orig>
+               <reg>aún</reg>
+            </choice> 
+            entonces non <choice>
+                  <orig>auían</orig>
+                  <reg>abían</reg>
+               </choice> 
+               <choice>
+                  <orig>Rey</orig>
+                  <reg>rey</reg>
+               </choice>
+            ,
+            mas  <choice>
+               <orig>gouernábanse</orig>
+               <reg>gobernábanse</reg>
+            </choice>
+            por
+               <choice>
+                  <orig>Juezes</orig>
+                  <reg>juezes</reg>
+               </choice>: 
+            este 
+               <choice>
+                  <orig>Rey</orig>
+                  <reg>rey</reg>
+               </choice> 
+               <persName>Javín</persName> <choice>
+                  <orig>auía</orig>
+                  <reg>abía</reg>
+               </choice>  
+            un  <choice>
+                  <orig>Príncipe</orig>
+                  <reg>príncipe</reg>
+               </choice> 
+            de la su <choice>
+                  <orig>cauallería</orig>
+                  <reg>caballería</reg>
+               </choice> 
+            llamado <persName>Sisera</persName>,
+            del qual dicho <choice>
+                  <orig>Rey</orig>
+                  <reg>rey</reg>
+               </choice> 
+            , é de los suyos el dicho pueblo
+            eran muy atormentados, tanto, que con la gran
+            cuyta, en que eran, non les quedaba otro remedio, 
+            <choice>
+               <orig>saluo</orig>
+               <reg>salvo</reg>
+            </choice> 
+            clamar cada día á <persName>Dios</persName>, suplicándole que los
+            librase de poderío de aquel <choice>
+                  <orig>Rey</orig>
+                  <reg>rey</reg>
+               </choice> 
+            ; en aquel tiempo 
+            la dicha <persName>Delbora</persName> juzgaba el dicho pueblo de <placeName>Is-
+            rrael</placeName>, é facía su morada só una palma entre dos lu-
+            gares, llamados <placeName>Ramá</placeName>, é <placeName>Betel</placeName>, en el monte de
+            <placeName>Efraín</placeName>: queriendo <persName>Dios</persName> socorrer al dicho pueblo, 
+            é lo librar de poderío del dicho <choice>
+                  <orig>Rey</orig>
+                  <reg>rey</reg>
+               </choice> 
+            , mandó á la
+            dicha  <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            , que ella de su parte dijesse, é 
+            mandasse á un <choice>
+               <orig>cauallero</orig>
+               <reg>caballero</reg>
+            </choice> 
+            de aquel <choice>
+                  <orig>Pueblo</orig>
+                  <reg>pueblo</reg>
+               </choice>
+            , llamado 
+            <persName>Barach</persName>, que moraba en tierra de <persName>Neptalín</persName>, que to-
+            masse consigo diez mill combatientes de las Com-
+            <pb edRef="#MCastillo" n="54"/>pañías de <persName>Neptalín</persName>, é <persName>Zabulón</persName> é se fuesse con 
+            ellos al monte, llamado <placeName>Tabor</placeName>, é cerca del río 
+               <placeName>Cisón</placeName>, é peleasse con el dicho <persName>Sisera</persName>, <choice>
+                  <orig>Príncipe</orig>
+                  <reg>príncipe</reg>
+               </choice> 
+            de
+            la <choice>
+               <orig>cauallería</orig>
+               <reg>caballería</reg>
+            </choice> 
+            del <choice>
+                  <orig>Rey</orig>
+                  <reg>rey</reg>
+               </choice>  
+            <persName>Jauín</persName>, é con la su hueste,
+             non embargante que los del dicho <choice>
+                  <orig>Príncipe</orig>
+                  <reg>príncipe</reg>
+               </choice> 
+            <persName>Sisera</persName>
+            fuessen muchos más, é muy armados; ca <persName>Dios</persName> le
+            <choice>
+               <orig>auía</orig>
+               <reg>abía</reg>
+            </choice> 
+            prometido victoria contra ellos, lo qual dicha
+            <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            <persName>Delbora</persName> mandó é dijo assí de parte de 
+            <persName>Dios</persName> al dicho <choice>
+               <orig>cauallero</orig>
+               <reg>cavallero</reg>
+            </choice> 
+            <persName>Barach</persName>; el qual le respon-
+            dió que en alguna manera non lo faría, <choice>
+                  <orig>saluo</orig>
+                  <reg>salvo</reg>
+               </choice> 
+            si la
+            dicha <persName>Delbora</persName> <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            fuesse con él en su com-
+            pañía; el qual <persName>Barach</persName>, escogidos diez mill com-
+            batienles de aquélla su gente, é <choice>
+            <orig>lleuando</orig>
+            <reg>llevando</reg>
+            </choice> 
+            en su
+            compañía á la dicha <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            <persName>Delbora</persName>, se <choice>
+               <orig>fué</orig>
+               <reg>fue</reg>
+            </choice> 
+            con
+            ellos al dicho monte <placeName>Tabor</placeName>; é como la fama <choice>
+               <orig>desto</orig>
+               <reg>de esto</reg>
+            </choice> 
+            viniesse al dicho <choice>
+                  <orig>Príncipe</orig>
+                  <reg>príncipe</reg>
+            </choice> 
+            <persName>Sisera</persName>, él ayuntó luego
+            mucha gente de armas, é 900 carros armados, é 
+            fuesse para él con toda su hueste al logar, llamado 
+            <persName>Arozet de los Gentiles</persName>; entonces la dicha <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            dijo al <choice>
+                  <orig>cauallero</orig>
+                  <reg>caballero</reg>
+               </choice> 
+           <persName>Barach</persName>, que se moviesse contra 
+           el dicho <choice>
+                  <orig>Príncipe</orig>
+                  <reg>príncipe</reg>
+               </choice> 
+            , ca <persName>Dios</persName> era el su guiador, é 
+            aquél era el día, en que <persName>Dios</persName> se lo pondría en su 
+            poder; lo qual el dicho <persName>Barach</persName> fizo assí, é descen-
+            dió del dicho monte <placeName>Tabor</placeName> con los diez mill com-
+            batientes, é peleó con el dicho <choice>
+                  <orig>Príncipe</orig>
+                  <reg>príncipe</reg>
+            </choice> 
+            ; é enton-
+            ces el señor <persName>Dios</persName>, el qual sólo abaja las cabezas 
+            de los <choice>
+               <orig>sobervios</orig>
+               <reg>soberbios</reg>
+            </choice> 
+            , é alza á los que esperan en él, 
+            firió de temor el corazón de aquel <choice>
+            <orig>Príncipe</orig>
+            <reg>príncipe</reg>
+            </choice> 
+            , é de 
+            toda la muchedumbre de su hueste, tanto, que 
+            él descendió del carro, é <choice>
+               <orig>ovo</orig>
+               <reg>obo</reg>
+            </choice>  
+            de foir á pie, é todos 
+            los suyos perecieron por muerte sangrienta; é este 
+               <choice>
+                  <orig>Príncipe</orig>
+                  <reg>príncipe</reg>
+               </choice> 
+             , pensando escapar, se vino á una tien-
+            <pb edRef="#MCastillo" n="55"/>da de una dueña, llamada <persName>Jael</persName>, mujer de <persName>Aber</persName>,
+             la qual le <choice>
+                  <orig>reciuió</orig>
+                  <reg>recibió</reg>
+            </choice> 
+            , él le pidió agua, por quanto
+               <choice>
+                  <orig>auía</orig>
+                  <reg>abía</reg>
+               </choice> 
+            muy gran sed, la qual en logar de agua le 
+            dió á beber leche, é él se durmió, é ella le ma-
+            tó con el estaca de fierro de la dicha tienda, la 
+            qual le puso por la cabeza, dando golpes en ella 
+            con un martillo; é en tanto <persName>Barach</persName>, andando bus-
+            cando con gran diligencia al dicho <choice>
+            <orig>Príncipe</orig>
+            <reg>príncipe</reg>
+            </choice> 
+            por le 
+            tomar, é matar, la dicha dueña salió á él al cami-
+            no, é le contó, é mostró cómo ella le <choice>
+            <orig>auía</orig>
+            <reg>abía</reg>
+            </choice> 
+            muerto; 
+            é assí por esta victoria fué librado aquel pueblo de
+            poder del dicho <choice>
+               <orig>Rey</orig>
+               <reg>rey</reg>
+            </choice> 
+            <persName>Jauín</persName>, la qual victoria plogo 
+            á <persName>Dios</persName> que <choice>
+               <orig>oviesse</orig>
+               <reg>obiesse</reg>
+            </choice>  
+            el dicho pueblo por mano é or-
+            denanza de la dicha <choice>
+               <orig>Profetisa</orig>
+               <reg>profetisa</reg>
+            </choice> 
+            <persName>Delbora</persName>, la qual por
+            sus excelentes virtudes, é grande dignidad de su 
+            sabiduría, é espíritu de profezía, mereció <choice>
+               <orig>auer</orig>
+               <reg>aber</reg>
+            </choice> 
+            tan 
+            grande gloria <choice>
+               <orig>desta</orig>
+               <reg>de esta</reg>
+            </choice> 
+            vitoria, de la qual ella fizo, é 
+            ordenó muy notables cantinelas á loor de <persName>Dios</persName>, se-
+            ñor de las batallas, según se lee en el quinto capí-
+            tulo del dicho libro de los <choice>
+               <orig>Jueces</orig>
+               <reg>jueces</reg>
+            </choice> 
+            . É como quier 
+            que acerca del pueblo <choice>
+            <orig>Romano</orig>
+            <reg>romano</reg>
+            </choice> 
+            , é de los otros <choice>
+               <orig>Gentiles</orig>
+               <reg>gentiles</reg>
+            </choice> 
+            los adivinos eran muy grandes en todo honor, 
+            tanto que ninguno intentaba de facer algo, si pri-
+            meramente ellos non lo ordenassen; é si los <choice>
+               <orig>adiuinos</orig>
+               <reg>adivinos</reg>
+            </choice>
+            del sol, que más que los otros decían las cosas
+            antes que acaesciesen, é mayormente acerca de los
+            <choice>
+               <orig>Griegos</orig>
+               <reg>griegos</reg>
+            </choice>, mucho eran honrrados: ¿por quál razón
+            non diremos nos <persName>Delbora</persName> ser muy digna de toda 
+            honrra, é gloriosa loanza? la cual non sólo resplan-
+            descíó por espíritu de profezía, que es el mayor 
+            grado que el hombre alcanzar puede, mas resplan-
+            desció por grandeza de consejo, é por muy clara 
+            <pb edRef="#MCastillo" n="56"/>justicia; ciertamente diremos que sí: pues agora 
+            ¿quién es aquel tanto non conosciente assimesmo 
+            que pensar pueda esta mujer ser antepuesta en 
+            oficio de <choice>
+               <orig>Juzgado</orig>
+               <reg>juzgado</reg>
+            </choice>
+            por el pueblo de <placeName>Isrrael</placeName>, acerca 
+            del qual toda verdadera sapiencia florecía si ella 
+            non fuesse esclarecida por muy singulares, é casi 
+            <choice>
+               <orig>díuinales</orig>
+               <reg>dívinales</reg>
+            </choice>
+            virtudes? bien pienso yo que ninguno non 
+            sea que lo contrario diga; é que este pueblo aya 
+            seydo alumbrado por verdadera lumbre de sabidu-
+            ría; pienso que ligeramente esto puede ser visto 
+            como á este pueblo más que á los otros en el tiem-
+            po primero <choice>
+               <orig>fué</orig>
+               <reg>fue</reg>
+            </choice>
+            dado aqueste singular privilegio, 
+            para que juslamente conociesse al muy alto <persName>Dios</persName>, 
+            é derechamente lo sirviesse, porque aquella luz de 
+            la verdad eterna vestida de la carne passible, es á 
+            <choice>
+               <orig>sauer</orig>
+               <reg>saber</reg>
+            </choice>
+            , <persName>Nuestro Señor Jesuchristo</persName>, aún non auía 
+            <choice>
+               <orig>conuersado</orig>
+               <reg>conversado</reg>
+            </choice>
+            en las tierras; é como quier que pare-
+            ce los primeros filósofos ser dotados de <choice>
+               <orig>marauillosa</orig>
+               <reg>maravillosa</reg>
+            </choice>  
+            <choice>
+               <orig>sauiduría</orig>
+               <reg>sabiduría</reg>
+            </choice>  
+            , empero non consiguieron aquella <choice>
+               <orig>sauiduría</orig>
+               <reg>sabiduría</reg>
+            </choice>  
+            , que es antepuesta más que las otras por co-
+            nocimiento limpio de la divinal bondad, mas de 
+            aquesta algún conocimiento alcanzaron, é por esta 
+            causa, é por la muy gran igualdad del movimiento, 
+            é retorno del cielo, por la fermosura, é departimien-
+            to, é orden de la luna, é el sol, é todas las <choice>
+               <orig>Estrellas</orig>
+               <reg>estrellas</reg>
+               </choice>  
+            ; é como ellos contemnplassen el acatamiento 
+            de aquestas cosas, por él se mostraba asaz non 
+            ser aquellas cosas por el acaecimiento de fortuna, 
+            mas entendía ser alguna cosa, la qual fuesse an-
+            tepuesta, é más alta, é á la qual obedecen tantos 
+            movimientos, é tantos rodeos, é las órdenes de 
+            tantas, é tan muchas cosas, en las quales la ve-
+            <pb edRef="#MCastillo" n="57"/>jez sin medida nunca ha mentido; por lo qual 
+            se concluye ser cosa necessaria ser governados 
+            tantos movimientos de natura por alguna cosa 
+            muy perfecta, é complida, el qual es <persName>Dios</persName>; por en-
+            de si por tan altas autoridades paresce las mujeres 
+            <choice>
+               <orig>auer</orig>
+               <reg>aber</reg>
+            </choice>  
+            seydo muy sobrepujantes, las quales por la 
+            muy singular excelencia de virtudes merecen glo-
+            ría de verdadera alabanza; é ser algunas en nues-
+            tro tiempo muy claras non sólo por nobleza de li-
+            naje, mas por costumbres muy loables, é por muy 
+            honestos enseñamientos; mucho me <choice>
+               <orig>marauillo</orig>
+               <reg>maravillo</reg>
+            </choice>  
+            con 
+            quál presente la locura de los malos presume que-
+            rer afear toda la generación de las mujeres; é si
+            por aventura por tachas de algunas, como pienso, 
+            estos maldicientes quieran inculpar toda la gene-
+            ración de las mujeres, non paran mientes al gran
+            error que esto facen, porque muchos de los varo-
+            nes muy claros egualmente caerían en señal de 
+            infamia; ca non es de dudar la generación de los
+            hombres ser aparejada de su nacimiento á toda 
+            caída, é deleznamiento, según suso al comienzo
+            <choice>
+               <orig>desta</orig>
+               <reg>de esta</reg>
+            </choice>  
+            obra claramente por autoridades es probado,
+            é la experiencia lo muestra de cada día; é esto non
+            solamente <choice>
+               <orig>há</orig>
+               <reg>ha</reg>
+            </choice>  
+            logar en las mujeres, mas eso mesmo
+            en los varones, é non sólo en los simples, mas en
+            los sabios, lo qual non <choice>
+               <orig>há</orig>
+               <reg>ha</reg>
+            </choice>  
+            menester probanza, 
+            porque de suyo está probado: é quién es tan loco, 
+            que piense debe ser deleznada por la non conti-
+            nencia de algunos la singular continencia de <persName>Ci-
+            pión</persName>? el qual, entrada, é tomada la nueua ciudad 
+            de <placeName>Carthago</placeName>, como entre los otros, que fueron 
+            <choice>
+               <orig>cautibos</orig>
+               <reg>cautivos</reg>
+            </choice>  
+            , fallasse una doncella virgen, é de fermo-
+            <pb edRef="#MCastillo" n="58"/>so gesto, é de edad razonable, é él fuesse mance-
+            bo, é polido, é vencedor, <choice>
+               <orig>sauiendo</orig>
+               <reg>sabiendo</reg>
+            </choice>  
+            que ella fuesse
+            desposada con un <choice>
+               <orig>manceuo</orig>
+               <reg>mancebo</reg>
+            </choice>  
+            muy noble, llamados 
+            los parientes, é el esposo, se la fizo tomar sin ser 
+            forzada; nin por la culpa de algunos, si mal usan, 
+            <choice>
+               <orig>deue</orig>
+               <reg>debe</reg>
+            </choice>  
+            ser mancillada la continencia del postrimero 
+            <persName>Catón</persName>, el cual como <choice>
+               <orig>oviesse</orig>
+               <reg>obiesse</reg>
+            </choice>  
+            ido por <choice>
+               <orig>reciuir</orig>
+               <reg>reibir</reg>
+            </choice>  
+            el te-
+            soro <choice>
+               <orig>deuido</orig>
+               <reg>debido</reg>
+            </choice>  
+            al Imperio Romano, <choice>
+               <orig>ovo</orig>
+               <reg>obo</reg>
+            </choice>  
+            el corazón 
+            tan fuerte contra la lujuria, é contra su propio 
+            <choice>
+                  <orig>prouecho</orig>
+                  <reg>provecho</reg>
+            </choice>  
+            , que entremetido en la muy gran mate-
+            ria de poder caer en el uno, é en el otro error, <choice>
+               <orig>dió</orig>
+               <reg>dio</reg>
+            </choice>     
+            muy cierto argumento del vientre de la misma ma-
+            teria ser ambos nascidos, es á <choice>
+               <orig>sauer</orig>
+               <reg>saber</reg>
+               </choice>     
+            , la continen-
+            cia, é esse mesmo <persName>Catón</persName>; é assí los que quieren 
+            culpar las mujeres más que á los hombres, mucho 
+            ierran, pues que los ierros, é vicios son comunes 
+            assi á los hombres, como á las mujeres, según que 
+            las virtudes son comunes á ellos, é á ellas.</p>
+      </body>
+   </text>
+</TEI>

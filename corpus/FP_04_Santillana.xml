@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Íñigo López de Mendoza, Marqués de Santillana</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2019-03">Frist encoding by Carlos Fernández González (UNED, 2019) </change>
+         <change when="2021-03-06" who="#SAT">Application of transcription criteria. Association
+            with schema.</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_04" xml:lang="es">
+      <body>
+         <head>Íñigo López de Mendoza, Marqués de Santillana</head>
+         <!-- [Título IV]
+            El Marqués de Santillana -->
+         <p><pb edRef="#DBordonaFP" n="39"/>Don Íñigo López de Mendoça, marqués de Santillana e
+            conde del Real de Mançanares, señor de la casa de la Vega, fijo del almirante don Diego
+            Hurtado de Mendoça e nieto de Pero Gonçález de Mendoça, señor de Álava, fue ombre de
+            mediana estatura, bien proporcionado en la compostura de sus mienbros e fermoso en las
+            faciones de su rostro, de linaje noble castellano e muy antiguo. </p>
+         <p>Era ombre agudo y discreto, e de tan grand coraçón que ni las grandes cosas le alteravan
+            ni en las pequeñas le plazía entender. En la continencia de su persona e en el resonar
+            de su fabla, mostrava ser ombre generoso e magnánimo. Fablava muy bien e nunca le oían
+            dezir palabra que no fuese de notar, quier para dotrina quier para plazer. Era cortés e
+            honrador de todos los que a él venían, especialmente de los ombres de ciencia. </p>
+         <p> Muertos el almirante, su padre, e doña Leonor de la Vega, su madre, e quedando bien
+            pequeño de hedad, le fueron ocupadas las Asturias de Santillana e grand parte de los
+            otros sus bienes. E como fue en hedad que conoció ser defraudado en su patrimonio, la
+            necesidad que despierta el buen entendimiento e el coraçón grande que no dexa caer sus
+            cosas, le fizieron poner tal diligencia que, vezes por justicia vezes por las armas,
+            recobró todos sus bienes. </p>
+         <p> Fue muy templado en su comer e bever, e en esto tenía una singular continencia. Tovo en
+            su vida dos notables exercicios, uno en la diciplina militar, otro en el estudio de la
+            ciencia. ni las armas le ocupavan el estudio, ni el estudio le impedía el tiempo para
+            platicar con los cavalleros e escuderos de su casa en la forma de las armas necesarias
+            para defender e quáles avían de ser para ofender, e cómo se avía de ferir el enemigo e
+            en qué manera avían de ser ordenadas las batallas e la disposición de los reales, e cómo
+            se avían de conbatir y defender las fortalezas e las otras cosas que requiere el
+            exercicio de la cavallería. E en esta plática se deleitava por la grand abituación que
+            en ella tovo en su mocedad. E por que los suyos sopiesen por esperiencia lo que le oían
+            dezir por dotrina, mandava continuar en su casa justas e ordenava que se fiziesen otros
+            exercicios de guerra por que sus gentes, estando abituados en el uso de las armas, les
+            fuesen menores los trabajos de la guerra. </p>
+         <p> Era cavallero esforçado e, ante de la fazienda, cuerdo y templado e, puesto en ella,
+            era ardid e osado. E ni su osadía era sin tiento ni en su cordura se mezcló jamás punto
+            de covardía. Fue capitán principal en muchas batallas que ovo con christianos e con
+            moros, donde fue vencedor y vencido. Especialmente ovo una batalla contra los aragoneses
+            cerca de Araviana, otra batalla cerca del río de Torote, e estas dos batallas fueron muy
+            heridas e sangrientas, porque peleando e no huyendo murieron de amas partes muchos
+            ombres e cavallos, en las quales, porque este cavallero se falló en el campo con su
+            gente, aunque los suyos vido ser en número mucho menor que los contrarios, pero porque
+            veyendo al enemigo delante reputava mayor mengua bolver las espaldas sin pelear que
+            morir o dexar el campo peleando, cometióse a la fortuna de la batalla e peleó con tanto
+            vigor y esfuerço que, como quier que fue herido y vencido, pero su persona ganó honra e
+            reputación de valiente capitán. </p>
+         <p>Conocidas por el rey don Juan las abilidades deste cavallero, le enbió por capitán de la
+            guerra contra los moros, el qual rescibió el cargo con alegre cara e lo tovo en la
+            frontera grand tiempo. El qual ovo con el rey de Granada e con otros capitanes de aquel
+            reino muchas batallas e grandes recuentros, do fue siempre vencedor e fizo muchas talas
+            en la vega de Granada. E ganó por fuerça de armas la villa de Huelma, e puso los moros
+            en tal estrecho que ganara otros logares e fiziera otras grandes fazañas dignas de
+            memoria, salvo que el rey, constreñido por algunas necesidades que en aquel tiempo
+            ocurrieron en su reino, le enbió mandar que cesase la guerra que fazía e les diese
+            tregua. E como ovo esta comisión, fizo la guerra tan cruda a los moros que los puso so
+            el yugo de servidumbre e los apremió a dar en parias cada año mayor cantidad de oro de
+            la qual el rey esperava rescebir ni ellos jamás pensaron dar. E allende del oro que
+            dieron, les constriñó que soltasen todos los christianos que estavan cativos en tierra
+            de moros, los quales este marqués redimió del cativerio en que estavan e los puso en
+            libertad. </p>
+         <p> Governava asimismo con grand prudencia las gentes de armas de su capitanía e sabía ser
+            con ellos señor y compañero, e ni era altivo en el señorío ni raez en la compañía.
+            Porque dentro de sí tenía una humildad que le fazía amigo de Dios e fuera guardava tal
+            autoridad que le fazía estimado entre los ombres. Dava liberalmente todo lo que a él
+            como a capitán mayor pertenecía de las presas que se tomavan e, allende de aquello, les
+            repartía de lo suyo en los tiempos necesarios. E al que le regradescía las dádivas que
+            clava, solía dezir: «Si deseamos bienes al que bien nos da, devémoslos dar al que bien
+            nos desea». E guardando su continencia con graciosa liberalidad, las gentes de su
+            capitanía le amavan. E temiendo de le enojar, no salían de su orden en las batallas. </p>
+         <p>Loan mucho las estorias romanas el caso de Manlio Torcato, cónsul romano, el qual, como
+            constituyese que ninguno sin su licencia saliese de la hueste a pelear con los latinos
+            contrarios de Roma e un cavallero de la hueste contraria conbidase a batalla singular de
+            uno por uno al fijo deste cónsul, vituperando con palabras a él e a los de la hueste
+            porque no osavan acebtar la batalla, no podiendo el mançebo sofrir la mengua que de su
+            mengua resultava a los romanos, peleó con aquel cavallero e lo mató. E viniendo como
+            vencedor a se presentar con los espojos del vencido ante el cónsul, su padre, le fizo
+            atar e, contra voluntad de toda la hueste romana, le mandó degollar por que fuese
+            enxemplo a otros que no osasen ir contra los mandamientos de su capitán. ¡Cómo si no
+            oviese otro remedio para tener la hueste bien mandada sino matar el capitán, su fijo!
+            Dura deviera ser por cierto e muy pertinaz la rebelión de los romanos, pues tan cruel
+            enxemplo les era necesario para que fuesen obedientes a su capitán. E por cierto yo no
+            sé qué mayor vengarn;a pudo aver el padre del latino vencido de la que le dio el padre
+            del romano vencedor. Deste caso fazen grand minción Frontino e Máximo e otros
+            estoriadores, loando al padre de buen castigador e al fijo de buen vencedor. Pero yo no
+            sé cómo se deva loar el padre de tan cruel castigo como el fijo se quexa, ni cómo loemos
+            al fijo de tan grand transgresión como el padre le impone. Bien podemos dezir que fizo
+            este capitán crueldad digna de memoria, pero no dotrina digna de enxemplo ni mucho menos
+            digna de loor. Pues los mismos loadores dizen que fue triste por la muerte del fijo e
+            aborrescido de la joventud romana todo el tiempo de su vida, y no puedo entender cómo el
+            triste e aborrescido deva ser loado. </p>
+         <p>No digo yo que las constituciones de la cavallería no se devan guardar por los
+            inconvenientes generales que no se guardando pueden recrecer, pero digo que deven ser
+            añadidas, menguadas, interpretadas e en alguna manera templadas por el príncipe, aviendo
+            respeto al tiempo, al logar, a la persona e a las otras circunstancias e nuevos casos
+            que acaescen, que son tantos e tales que no pueden ser comprehendidos en los ringlones
+            de la ley. E porque estas cosas fueron bien consideradas por este claro varón en las
+            huestes que governó, con mayor loor por cierto y mejor enxemplo de dotrina se puede
+            fazer memoria dél, pues sin matar fijo ni fazer crueldad inhumana, mas con la autoridad
+            de su persona y no con el miedo de su cuchillo, governó sus gentes, amado de todos e no
+            odioso a ninguno. </p>
+         <p>Conoscidas por el rey don Juan las claras virtudes deste cavallero e cómo era digno de
+            dignidad, le dio título de marqués de Santillana e le fizo conde del Real de Mançanares,
+            e le acrecentó su casa e patrimonio. Otrosí confiava dél su persona e algunas vezes la
+            govemación de sus reinos, el qual govemava con tanta prudencia que los poetas dezían por
+            él que en corte era grand Febo, por su clara govemación, e en campo Aníbal, por su grand
+            esfuerço. </p>
+         <p>Era muy celoso de las cosas que a varón pertenescía fazer e tan reprehensor de las
+            flaquezas que veía en algunos ombres que, como viese llorar a un cavallero en el
+            infortunio que estava, movido con alguna ira le dixo: «¡O quánd digno de reprehensión es
+            el cavallero que por ningún grave infortunio que le venga derrama lágrimas sino a los
+            pies del confesor.» Era ombre magnánimo y esta su magnanimidad le era ornamento e
+            compostura de todas las otras virtudes. Acaescióle un día que, fablándole en su fazienda
+            e ofresciéndole acrecentamiento de sus rentas, como ombre poco atento en semejantes
+            pláticas, respondió: «Eso que dezís no es mi lenguaje. Fablad», dixo él, «esa cosa allá
+            con ombres que mejor la entiendan». E solía dezir, a los que procuravan los deleites,
+            que mucho más deletable devía ser el trabajo virtuoso que la vida sin virtud, quanto
+            quier que fuese deletable. Tenía una tal pie-dad que qualquier atribulado o perseguido
+            que venía a él, fallava defensa e consolación en su casa, pospuesto qualquier
+            inconveniente que por le defender se le pudiese seguir. Considerava asimismo los ombres
+            e las cosas segund su realidad e no segund la opinión. Y en esto tenía una virtud
+            singular e casi divina, porque nunca le vieron fazer acebción de personas, ni mirava
+            dónde ni quién, sino cómo e quál era cada uno. </p>
+
+         <p>Este cavallero ordenó en metros los proverbios que comiern;an: «Fijo mío, mucho amado,
+            etc.», en los quales se contienen casi todos los precebtos de la filosofia moral que son
+            necesarios para virtuosamente bivir. Tenía grand copia de libros e dávase al estudio,
+            especialmente de la filosofia moral e de cosas peregrinas e antiguas. Tenía siempre en
+            su casa doc-tores e maestros con quien platicava en las ciencias e leturas que
+            estudiava. Fizo asimismo otros tratados en metros e en prosa, muy dotrinables para
+            provocar a virtudes e refrenar vicios. E en estas cosas pasó lo más del tiempo de su
+            retraimiento. Tenía grand fama e claro renonbre en muchos reinos fuera de España, pero
+            reputava mucho más la estimación entre los sabios que la fama entre los muchos. </p>
+         <p> E porque muchas vezes veemos responder la condición de los ombres a su complisión e
+            tener sinistras inclinaciones aquellos que no tienen buenas complisiones, podemos sin
+            dubda creer que este cavallero fue en grand cargo a Dios por le aver compuesto la natura
+            de tan igual complisión que fue ábile para recebir todo uso de virtud e refrenar sin
+            grand pena qualquier tentación de pecado. No quiero negar que no toviese algunas
+            tentaciones de las que esta nuestra carne suele dar a nuestro espíritu, e que algunas
+            vezes fuese vencido, quier de ira quier de luxuria, o que excediese faziendo o faltase
+            alguna vez no faziendo lo que era obligado. Porque estando como estovo enbuelto en
+            guerras e en otros grandes fechas que por él pasaron, difícile fuera entre tanta
+            multitud de errores bevir sin errar. Pero, si verdad es que las virtudes dan alegría e
+            los vicios traen tristeza, como sea verdad que este cavallero lo más del tiempo estava
+            alegre, bien se puede juzgar que mucho más fue acompañado de virtudes que dan alegría
+            que señoreado de vicios que ponen tristeza. E como quiera que pasaron por él infortunios
+            en batallas e ovo algunos pesares por muertes de fijos e de algunos otros sus propincos,
+            pero sufríalos con aquella fuerça de ánimo que a otros dotrinava que sufriesen. </p>
+         <p>Fenesció sus días en hedad de sesenta e cinco años con grand honra e prosperidad. E si
+            se puede dezir que los ombres alcançan alguna felicidad después de muertos, segund la
+            opinión de algunos, creeremos sin dubda que este cavallero la ovo, porque dexó seis
+            fijos varones. E el mayor, que heredó su mayorazgo, lo acrecentó e subió en dignidad de
+            duque. E el segundo fijo fue conde de Tendilla e el tercero fue conde Curuña. E el
+            quarto fue cardenal de España e arçobispo de Toledo e obispo de Cigüença, e uno de los
+            mayores perlados que en sus días ovo en la iglesia de Dios. E a estos quatro e a los
+            otros dos, que se llamaron don Juan e don Hurtado, dexó villas e logares e rentas de que
+            fizo cinco casas de mayorazgos, allende de su casa e mayorazgo principal. </p>
+
+
+      </body>
+   </text>
+</TEI>

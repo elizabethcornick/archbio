@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan de Carvajal, Cardenal de San Angelo</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03" who="#SAT">Frist encoding </change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_15" xml:lang="es">
+      <body>
+         <head>Juan de Carvajal, Cardenal de San Angelo</head>
+         <!-- Título XIX
+         Del Cardenal de Sant Angelo-->
+         <p><pb edRef="#DBordonaFP" n="123"/>Don Juan de Carvajal, cardenal de sant Angelo, fue
+            ombre alto de cuerpo, el gesto blanco e el cabello cano, e de muy venerable e fermosa
+            presencia, natural de la cibdad de Plazencia, de linaje de ombres fijosdalgo. </p>
+         <p>Desde su menor hedad continuó el estudio, fue grand letrado en derecho canónico e cevil.
+            Era ombre muy onesto e gracioso en sus fablas. Quando propuso de tomar orden1
+            eclesiástica, fue a Roma donde, conoscido por grand letrado e ombre de onesta vida, el
+            papa Eugenio le encargó negocios arduos e le enbió diversas vezes en enbaxadas de grand
+            inportancia, en las quales guardó sienpre su honra e su conciencia, e dio la razón que
+            ombre letrado e discreto devía dar. Fue proveído del obispado de aquella cibdad de
+            Plazencia, do era natural. E viniendo de una enbaxada do fue enbiado al concilio de
+            Basilea, conoscida su grand suficiencia en las cosas que allí negoció, le fue dado el
+            capelo de cardenal. Era ombre esencial, aborrescedor de apariencias y de cirimonias
+            infladas. Quanto más huía de la honra mundana, tanto más le seguía. Nunca en sus votos
+            públicos ni fablas privadas fue visto desviar punto de la justicia, por afeción ni por
+            interese suyo ni ageno, ni fizo cosa que pareciese fuera de razón ni demandó que otro la
+            fiziese.</p>
+         <p>Después que ovo la renta de aquel obispado de Plazencia, la qual entendió ser necesaria
+            para sostener su estado, no pensó en gastar la vida cobdiciando riquezas, mas propuso
+            bevir obrando virtudes, e puso tales límites a la cobdicia que se puede bien dezir
+            averla vencido. Porque no solamente dexó de procurar más renta de la que avía de su
+            obispado, mas cerró su deseo e apartó de sí la cobdicia, de tal manera que jamás quiso
+            rescebir otras rentas e dignidades que muchas vezes le fueron ofrecidas. E de muchos e
+            grandes cargos que tovo e comisiones que le fueron fechas, donde por razón pudiera aver
+            grandes intereses, nunca rescibió ni consintió a sus oficiales rescebir interese pequeño
+            ni grande. E en esta manera señoreando la cobdicia, señoreava aquellos a quien señoreava
+            la cobdicia, e ninguno osava agraviarse de sus determinaciones, conosciendo que
+            carescían de afectión e de interese. Reprehendía mucho a los ombres que, sobrándoles las
+            rentas allende de lo necesario, tenían el deseo de adquerir en infinito. </p>
+         <p>Este varón sopo bien quánta fuer a suele fazer a las vezes el oro a la justicia, la qual
+            teme poco el criminoso cuando con dinero piensa redemir su crimen. Conosció asimismo
+            cómo todo juez que toma, luego es tomado, e que no puede huir de ser injusto o ingrato:
+            injusto, si, por el don que rescibe, tuerce el derecho; ingrato, si no le tuerce en
+            favor de aquel que le dio. E si faze justicia o lo abrevia por lo que rescibió, puédese
+            dezir vendedor de la justicia por precio. </p>
+         <p>Conoscidos por este perlado los inconvenientes que del cobdiciar allende de lo necesario
+            se siguen, ni se atormentó cobdiciando ni se avergonçó demandando. E teniendo la
+            cobdicia tan subjecta, tenía la honra tan alta. Estava continuamente alegre porque
+            gozava de la virtud de la tenplança, abenidora de la razón con el apetito. Era prudente
+            e de grand entendimiento, que son partes esenciales del ánima, e las ovo por arte e
+            esperiencia de tienpos. Estas virtudes conoscidas en él, fue legado del papa a la
+            provincia de Alemaña dos vezes. </p>
+         <p>E en estas sus legaciones fizo, determinó e declaró grandes fechas e pacificó los
+            príncipes de aquellas partes e las comunidades que estavan en discordia. E castigó la
+            heregía de los bohemios e fizo otras singulares cosas en servicio de Dios e aumentación
+            de la fe christiana. Otrosí por escusar el daño grande que conosció recrecer a todas las
+            gentes que pasavan el río de Tajo cerca de la cibdad de Plazencia, movido con ferviente
+            caridad, fizo a sus grandes espensas la puente que oy allí está hedificada, que se llama
+            la Puente del Cardenal, hedificio muy notable. </p>
+         <p>Puédese creer deste claro varón que su buen seso le fizo aprender ciencia, e su ciencia
+            le dio saber, e su saber le dio esperiencia e la esperiencia le dio conoscimiento de las
+            cosas, de las quales sopo con prudencia elegir las que le fizieron ábito de virtud,
+            mediante la qual bivió próspero ochenta años sin pasión de cobdicia e con abundancia de
+            lo necesario. E murió con grand honra en la cibdad de Roma. </p>
+
+
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alfonso de Fonseca, Arzobispo de Sevilla</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03" who="#SAT">Frist encoding</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_17" xml:lang="es">
+      <body>
+         <head>Alfonso de Fonseca, Arzobispo de Sevilla</head>
+         <!-- Título XXI
+         Del Arçobispo de Sevilla-->
+         <p><pb edRef="#DBordonaFP" n="133"/>Don Alfonso de Fonseca, arçobispo de Sevilla, fue ombre
+            de mediana estatura, bien proporcionado en las faciones de su rostro e en la conposición
+            de sus mienbros, fijo del doctor Juan Alfonso de Ulloa, de linaje de ombres fijosdalgo
+            del reino de Galizia. Era natural de la cibdad de Toro. Tomó el apellido de su madre,
+            que era de linaje de Fonseca. </p>
+         <p>Era ombre de muy agudo ingenio e de buen entendimiento, e bien instruto en lo que
+            requería al ábito e profesión eclesiástica que tomó. El sentido de la vista tenía muy
+            ávido e cobdicioso más que ninguno de los otros sentidos. E siguiendo esta su
+            inclinación, plazíale tener piedras preciosas e perlas e joyas de oro e de plata e otras
+            cosas fermosas a la vista. Las cosas necesarias para el servicio de su persona e para el
+            arreo de su casa quería que fuesen muy primas e toviesen singularidad de perfeción sobre
+            todas las otras, e deleitávase en ello. Era asimismo muy linpio en su persona e en su
+            vestidura e trajes, e reglado e muy ordenado en sus gastos. </p>
+         <p>Començando la hedad de mancebo, salió del estudio e vino al servicio del rey don
+            Enrique, seyendo príncipe, e fue su capellán mayor. E por su intercesión fue proveído
+            del obispado de Avila e después fue proveído a dignidad de arçobispo de Sevilla. Fablava
+            muy bien e con buena gracia. Tova grand logar en la govemación del reino en tienpo del
+            rey don Juan e del rey don Enrique su fijo. Quería tanto gratificar a los que con él
+            negociavan que ninguno iva mal contento de su respuesta. </p>
+         <p>Era ombre muy astuto e diligente. Dava buenos e prestos remedios a los casos que
+            acaescían. Zelava mucho la justicia e la honra de la corona real. Era tan agudo que
+            sienpre inventava grandes cosas. Procurava mucho la honra e sienpre quería tener el
+            principal logar cerca de los reyes, e ser único con ellos en sus fablas e retraimientos.
+            E como acaesce en las cortes de los reyes ser enbidiados e odiosos aquellos que más
+            cerca dellos están, este arçobispo, por esta singular acebción que procurava sienpre
+            tener acerca del rey don Juan e del rey don Enrique e por la grand confiança que en
+            aquellos tienpos fizieron de algunos arduos negocios que ocurrían, se le siguieron
+            enemistades peligrosas con algunos grandes del reino, las quales, por discurso de tienpo
+            e con obras que fizo de amistad, sopo con buen juizio satisfazer, de tal manera que
+            saneó el odio que dél fue concebido. </p>
+         <p>Conoscidos los grandes trabajos, así del espíritu como de la persona, que ovo en la
+            govemación del reino, le fue fecha merced por el rey don Juan de la villas de Coca e de
+            Halaejos e otras grandes mercedes, de que fizo casa e mayorazgo que dexó a su hermano. </p>
+         <p>Tenía la cobdicia común que todos los ombres tienen de aver bienes tenporales, e
+            sabíalos muy bien e con grand diligencia adquerir. Este ar obispo hedeficó de principio
+            en aquella su villa de Halaejos la fortaleza que en ella está oy fundada. E como acaesce
+            que algunos, procurando las cosas que desean, se reputan mesquinos quando no las alcan
+            an, e serloían si las alcan asen, otros ay que, aborresciendo las que piensan serles
+            dañosas, su buena fortuna les fuer a que las reciban por la utilidad que dellas se les
+            ha de seguir. Puédese creer deste ar obispo que ovo tan buena fortuna acerca destas
+            cosas mundanas que sienpre se le apartava aquello que procurava si al fin le avía de ser
+            dañoso, e se le aparejava lo que aborrescía si al fin le avía de ser próspero. </p>
+         <p>Murió en honra e prosperidad en la su villa de Coca, conosciendo a Dios como buen
+            perlado e con devoción de cathólico christiano, en hedad de cinquenta e cinco años. </p>
+
+      </body>
+   </text>
+</TEI>

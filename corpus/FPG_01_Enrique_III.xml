@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Enrique III, el Doliente, Rey de Castilla</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Dominguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-23" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema.</change>
+      <change when="2021-07-13" who="#SAT">Revision according Domínguez Bordona'edition of
+        1924.</change>
+      <change when="2022-06-15" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+
+  <text xml:id="FPG_01" xml:lang="es">
+    <body>
+      <head>Enrique III, Rey de Castilla</head>
+      <!-- Don Enrique III de Castilla -->
+      <p><pb edRef="#DBordonaFPG" n="11"/>Este <persName><roleName>rey</roleName> don Enrique el
+          Terçero</persName> fue fijo del <persName><roleName>rey</roleName> don Johan</persName> e
+        de la <persName><roleName>reyna</roleName> doña Leonor</persName>, fija del
+            <persName><roleName>rey</roleName> don Pedro de <placeName>Aragón</placeName></persName>, e desçendió de la
+        noble e muy antigua e clara generaçión de los <name>reyes godos</name> e, señaladamente, del
+        glorioso y católico <persName>prínçipe Recaredo, <roleName>rey de los
+          godos</roleName></persName> en <placeName>España</placeName>. E, segunt por las estorias
+        de <placeName>Castilla</placeName> paresçe, la sangre de los reyes de
+          <placeName>Castilla</placeName> e su suçesión de un rey en otro se ha continuado fasta oy,
+        que son más de ochoçientos años, sin aver en ella mudamiento de otra liña nin <pb
+          edRef="#DBordonaFPG" n="12"/>generaçión, lo cual creo que se fallará en pocas generaçiones
+        de los reyes christianos que tan luengo tienpo durase; en la cual generaçión ovo muy buenos
+        e notables reyes e prínçipes, e ovo çinco hermanos santos, que fueron: <persName>sant
+          Isidro</persName>, e <persName>sant Leandre</persName>, e <persName>sant
+          Fulgreçio</persName>, e <persName>santa Florentina <roleName>monja</roleName></persName>,
+        e la <persName><roleName>reina</roleName> Teodosia</persName>, madre del
+            <persName><roleName>rey</roleName> Recaredo</persName>, que fue avida por santa muger, e
+        un su fijo mártir que llamaron <persName>Hermenegildo</persName>; e aun en los tiempos
+        modernos es avido por santo el <persName><roleName>rey</roleName> Fernando</persName>, que ganó a
+          <placeName>Sevilla</placeName> e a <placeName>Córdova</placeName> e a toda la
+        frontera.</p>
+      <p>E este <persName><roleName>rey</roleName> don Enrique</persName> començó a reynar de poco
+        más de <date>onze años</date> e reynó <date>diez e seis</date>, ansí que bivió más de <date>veinte e siete años</date>. Fue de
+        mediana altura e asaz de buena dispusiçión. Fue blanco e rubio, la nariz un poco alta. Pero
+        cuando llegó a los <date>diez e siete</date> o <date>diez e ocho</date> años ovo muchas e grandes <pb
+          edRef="#DBordonaFPG" n="13"/>enfermedades que le enflaqueçieron el cuerpo e le dañaron la
+        conplisión e, por consiguiente, se le afeó e dañó el senblante, non quedando en el primer
+        paresçer, e aun le fueron cabsa de grandes alteraçiones en la condiçión: ca, con el trabajo
+        e afliçión de la luenga enfermedad, fízose muy triste e enojoso.</p>
+      <p>Era muy grave de ver e de muy áspera conversaçión, así que la mayor parte del tienpo estava
+        solo e malenconioso e, al juizio de muchos, si lo cabsava la enfermedad o su natural
+        condiçión, más declinava a livyandad que a graveza nin maduresa. Pero aunque la discresión
+        tanta non fuese, avía algunas condiçiones con que traía su fazienda bien hordenada e su
+        reyno razonablemente rigido, ca él presumía de sí que era sufiçiente a rigir e governar; e
+        como a los reyes menos seso e esfuerço les basta para rigir que a otros ombres, porque de
+        muchos sabios pueden aver consejo, e su poder es tan grande, espeçialmente de los reyes de
+          <placeName>Castilla</placeName>, que con poca onbredad que tengan serán muy temidos, tanto
+        que ellos ayan ende su presunçión e non se dexen governar a otros, e, ansí, él fue muy
+        temido e, junto <pb edRef="#DBordonaFPG" n="14"/>con esto, él era muy apartado, como dicho
+        es. E así como la mucha familiariedat e llaneza cabsa menospreçio, así el apartamiento e la
+        poca conversaçión faze al prínçipe ser temido.</p>
+      <p>Él avía grande voluntad de hordenar su fazienda e creçer sus rentas e tener el reyno en
+        justiçia; e cualquier onbre que se da mucho a una cosa, nesçesario es que alcançe algo
+        della, cuanto más el rey, que nunca le falleçen buenos ministros e ofiçiales para aquel
+        ofiçio en que él se deleita. Ovo este rey algunos buenos e notables religiosos e perlados e
+        dotores, con quien se apartava a ver sus fechos e con cuyo consejo hordenava sus rentas e
+        justiçias. E lo que negar non se puede, alcançó discreçión para conoçer e eligir buenas
+        presonas para el su consejo, lo cual non es pequeña virtud para el prínçipe. E ansí, con
+        tales maneras, tenía su fazienda bien hordenada e el reyno paçífico e sosegado, e llegó en
+        poco tiempo grande tesoro, ca él no era franco, e cuando el rey es escaso e de buen recabdo
+        e ha grandes rentas, nesçesario es de ser muy rico.</p>
+      <p>Del esfuerço deste rey, non se pudo saber bien la verdad, porque el esfuerço no es conoçido
+        si non en la plática e exerçiçio de las armas, y él nunca ovo guerras nin batallas en que su
+        esfuerço pudiese pareçer, o por la flaqueza, que en él era tan grande que a quien non lo
+        vido sería grave de crer, o porque <pb edRef="#DBordonaFPG" n="15"/> de su natural condiçión
+        non era dispuesto a guerras nin a batallas; e yo, sometiendo mi opinión al juicio discreto
+          <add resp="#DBordonaFPG">[de los]</add> que lo platicaron, tengo que amos estos defetos le
+        escusaron de las guerras. Es verdat que un tienpo ovo guerra con el
+            <persName><roleName>rey</roleName> don Johan de <placeName>Portogal</placeName></persName>, e el año que murió
+        tenía començada guerra con el <name><roleName>rey</roleName> de
+            <placeName>Granada</placeName></name>, pero cada una destas guerras ovo más con
+        nesçesidad que por voluntad. La guerra de <placeName>Portogal</placeName>, fue en esta
+        manera: el <name><roleName>rey</roleName> de <placeName>Portogal</placeName></name> tomó, en
+        treguas, la cibdat de <placeName>Badajoz</placeName> e prendió al
+            <persName><roleName>mariscal</roleName> Garçi Gonçález de Herrera</persName> que en ella
+        estava, y continuóse aquella guerra por <date>tres años</date>, en la cual el
+            <name><roleName>rey</roleName> de <placeName>Portogal</placeName></name> fue puesto en
+        tanto estrecho, así por la grand gente del <name>rey de Castilla</name> como porque algunos
+        grandes cavalleros de su reino se pasaron al <name>rey de Castilla</name>, que si él oviera
+        cuerpo o coraçón para prosiguir la guerra, segund la oportunidad del tiempo ge lo ofreçía, o
+        le tomara el reino o oviera dél grandes vantajas en los tratos. Los <name>cavalleros de
+            <placeName>Portogal</placeName></name> que en esta guerra a él se pasaron fueron estos:
+          <persName>Martín Vázquez de Acuña</persName> e sus hermanos <persName>Gil
+          Vázquez</persName> e <persName>Lope Vázquez</persName>, <persName>Alvar Gonçález Camelo,
+            <roleName>prior de Ocrato</roleName></persName>, e <persName>Johan Fernández
+          Pacheco</persName>, e <persName>Lope Fernández</persName><pb edRef="#DBordonaFPG" n="16"
+        />, su hermano, e <persName>Egas Cuello</persName>. En esta guerra el <name>rey de
+            <placeName>Purtugal</placeName></name> ganó la çibdad de <placeName>Tuy</placeName>, en
+          <placeName>Gallizia</placeName>, e después çercó la villa de 
+          <placeName>Alcántara</placeName>, e el rey enbió a la socorrer a su
+            <persName><roleName>condestable</roleName> don Ruy Lopes Dáualos</persName>, el cual
+        llegó allí por la otra parte del <placeName>río de Tajo</placeName> e socorrió la villa; e
+        como quier que el <name>rey de <placeName>Portugal</placeName></name> tenía y mucha gente,
+        pero desque vio que la non podía tomar partióse de allí. El <name>condestable de
+            <placeName>Castilla</placeName></name> entró en <placeName>Portugal</placeName> e anduvo
+        ay algunos días faziendo mal e grant daño, e tomó por combate una villa muy fuerte que dizen
+          <placeName>Peñamoncor</placeName>, e de allí tornó a <placeName>Castilla</placeName>. E en
+        aquel tienpo don <persName>Gonçalo Núñez de Guzmán, <roleName>maestre de 
+            Alcántara</roleName></persName>, e don <persName>Diego Furtado de Mendoça, 
+            <roleName>almirante de <placeName>Castilla</placeName></roleName></persName>, e <persName>Diego Lopes
+          Destúñiga, <roleName>justiçia mayor del rey</roleName></persName>, e <persName>Pero Suárez
+          de Quiñones, <roleName>adelantado mayor de <placeName>León</placeName></roleName></persName>, e otros grandes
+        señores, tenían cerçada <pb edRef="#DBordonaFPG" n="17"/>
+        <placeName>Miranda de Duero</placeName>; el condestable vino allí e la villa fue tanto
+        aquexada, que se ovo de aplazar e requirió a su rey que la acorriese, e non aviendo acorro,
+        entregóse. E después, tratada paz entre los reyes, ovo fin esta guerra, tornando a cada
+        reyno sus çibdades e villas.</p>
+      <!-- NB: edición de 1924 sin punto y aparte -->
+      <p>La guerra de los <name>moros</name> vino por esta cabsa: los <name>moros</name>, en
+        treguas, furtaron un castillo de don <persName>Alvar Pérez de Guzmán, <roleName>señor de
+              <placeName> Olvera</placeName></roleName></persName>, que dizen
+          <placeName>Aymonte</placeName>, e por muchas vezes fueron requeridos los moros por el rey
+        que lo tornasen e non lo quisieron fazer. Con todo esto, sigund opinión de algunos, aun el
+        rey non los fiziera guerra, salvo que él teniendo puestos sus fronteros, por que el
+          <name>rey de <placeName>Granada</placeName></name> con temor de la guerra viniese a lo que
+        él quería, acaeçió, por hordenança de nuestro Señor Dios, que muchas <add
+          resp="#DBordonaFPG">[vezes]</add> fase sus obras contra la dispusiçión de los onbres, que
+        los <name>moros</name> entraron poderosamente por la parte de <placeName>Quesada</placeName>
+        contra <placeName>Baeça</placeName>; e <persName>Pero Manrique, <roleName>adelantado de
+            <placeName>León</placeName></roleName></persName>, que era frontero en el <placeName>obispado de
+          Jahen</placeName>, salió a ellos, e con él <persName>Día Sánchez de Benavides,
+            <roleName>cabdillo</roleName></persName> del dicho obispado, e otros cavalleros: e como
+        quier que los <name>moros</name> eran en mayor numero, pelearon con ellos e atravesaron sus
+        hazes con muy buen esfuerço e pasaron a un otero alto, porque anocheçía ya. E murieron pieça
+        de <name>cavalleros moros</name>, <pb edRef="#DBordonaFPG" n="18"/> e de los
+          <name>cristianos</name>, murió <persName>Martín de Rojas</persName>, hermano de don
+          <persName>Sancho de Rojas, <roleName>arçobispo de <placeName>Toledo</placeName></roleName></persName>, e
+        <persName>Johan de Herrera, <roleName>mariscal</roleName></persName> del <persName>Infante don
+              Fernando</persName>, e <persName>Alfonso Dáualos</persName>,
+        sobrino del <persName><roleName>condestable</roleName> don Rui López</persName>, e
+          <persName>Garçi Álvarez Osorio</persName>, e otros algunos. E como quier que en esta pelea
+        non se declaró la vitoria por ninguna parte, pero es çierto que el <name>adelantado</name> e
+        los cavalleros que con él eran pelearon muy bien, como buenos cavalleros. E ansí esta pelea
+        fue cabsa por que el rey se movió a la guerra.</p>
+      <p>E vino a <placeName>Toledo</placeName> e allí mandó juntar todas sus gentes e fizo cortes
+        para aver dineros e hordenar los fechos de la guerra. Estando en
+          <placeName>Toledo</placeName>, aquexólo mucho la dolençia, e murió <date when="1407-12-25"
+          >día de navidad, año de mil e cuatroçientos e siete años</date>. E dexó fijos a don
+          <persName>Johan</persName>, que después dél reinó, e a la
+            <persName><roleName>infanta</roleName> doña María</persName>, que es <roleName>reyna de
+            <placeName>Aragón</placeName></roleName>, e a la <persName><roleName>infanta</roleName>
+          doña Catalina</persName>, nasçida de pocos días e casó con el
+            <persName><roleName>infante</roleName> don Enrique</persName>. E dexó por tutores del
+        rey su <add resp="#DBordonaFPG">[hijo]</add> a la <persName><roleName>reina</roleName> doña
+          Catalina</persName> e al <persName><roleName>infante</roleName> don Ferrando</persName> su
+        hermano.</p>
+    </body>
+  </text>
+</TEI>

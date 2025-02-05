@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Rodrigo Manrique, Maestre y Conde de Paredes</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03" who="#SAT">Frist encoding </change>
+
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_13" xml:lang="es">
+      <body>
+         <head>Rodrigo Manrique, Maestre y Conde de Paredes</head>
+         <!-- [Título XIII]
+         El Maestre Don Rodrigo Manrrique, Conde de Paredes-->
+         <p><pb edRef="#DBordonaFP" n="97"/>Don <persName>Rodrigo Manrique, <roleName>conde de
+                  Paredes</roleName> e <roleName>maestre de Santiago</roleName></persName>, fijo
+            segundo de <persName>Pedro Manrique, <roleName>adelantado mayor del reino de
+                  León</roleName></persName>, fué ombre de mediana estatura, bien proporcionado en
+            la conpostura de sus mienbros; los cabellos tenía roxos e la naríz un poco larga. Era de
+            linaje noble castellano.</p>
+         <p>En los actos que fazía en su menor hedad paresció ser inclinado al oficio de la
+            cavallería. Tomó hábito e orden de Santiago, e fué comendador de Segura, que es cercana
+            a la tierra de los moros: e estando por frontero en aquella su encomienda, fizo muchas
+            entradas en la tierra de los moros, donde ovo fama de tan buen cavallero, que el
+            adelantado su padre, por la estimación grande en que este su fijo era tenido, apartó de
+            su mayorasgo la villa de Paredes, e le fizo donación della, e el
+                  <persName><roleName>rey</roleName> don Juan</persName> le dio título de conde de
+            aquella villa. </p>
+         <p><pb edRef="DBordonaFP" n="98"/>Este varón gozó de dos singulares virtudes: de la
+            prudencia, conosciendo los tienpos, los logares, las personas e las otras cosas que en
+            la guerra conviene que sepa el buen capitán. Fué asimismo dotado de la virtud de la
+            fortaleza; no por aquellas vías en que se muestran fuertes los que fingida e no
+            verdaderamente lo son; más así por su buena conposición natural como por los muchos
+            actos que fizo en el exercicio de las armas, asentó tan perfectamente en su ánimo el
+            ábito de la fortaleza, que se deleitava cuando le ocurría logar en que la deviese
+            exercitar. Esperava con buen esfuerço los peligros, acometía las fazañas con grande
+            osadía, e ningún trabajo de guerra a él ni a los suyos era nuevo. Preciávase mucho que
+            sus criados fuesen dispuestos para las armas. Su plática con ellos era la manera del
+            defender e del ofender el enemigo, e ni se dezía ni fazía en su casa acto ninguno de
+            molleza, enemiga del oficcio de las armas. Quería que todos los de su conpañía fuesen
+            escogidos para aquel exercicio, e no convenía a ninguno durar en su casa si en él fuese
+            conoscido punto de covardía; e si alguno venía a ella que no fuese dispuesto para el uso
+            de las armas, el grand exercicio que avía e veya en los otros le fazía ábile e diestro
+            en ellas. En las <pb n="99" edRef="#DBordonaFP"/>batallas e muchos recuentros que ovo
+            con moros e con christianos, este cavallero fué el que mostrando grand esfuerço a los
+            suyos, fería primero en los contrarios: e las gentes de su conpañía, visto el esfuerço
+            de su capitán, todos le seguían e cobravan osadía de pelear. Tenía tan grand
+            conoscimiento de las cosas del canpo, e provey[a]las en tal manera, que donde fué él
+            principal capitán nunca puso su gente en logar dó se oviese de retraer, porque bolver
+            las espaldas al enemigo era tan ageno de su ánimo, que elegía antes recebir la muerte
+            peleando, que salvar la vida huyendo.</p>
+         <p>Este cavallero osó acometer grandes fazañas: especialmente, escaló una noche la cibdad
+            de Huesca, que es del reino de Granada; e como quier que subiendo el escala los suyos
+            fueron sentidos de los moros, e fueron algunos derribados del adarve, e feridos en la
+            subida; pero el esfuerço deste capitán se inprimió a la ora tanto en los suyos, que
+            pospuesta la vida e propuesta la gloria, subieron el muro peleando, e no fallescieron de
+            sus fuerças defendiéndolo, aunque veyan los unos derramar su sangre, los otros caer de
+            la cerca. E en esta manera matando de los moros, e muriendo de los suyos, este capitán,
+            ferido en el braço de una saeta, peleando entró la cibdad <pb edRef="#DBordonaFP"
+               n="100"/>e retroxo los moros fasta que los cercó en la fortaleza: e esperando el
+            socorro que le farían los cristianos, no temió el socorro que venía a los moros. En
+            aquella ora los suyos, vencidos de miedo, vista la multitud que sobre ellos venía por
+            todas partes a socorrer los moros, e tardar el socorro que esperavan de los cristianos,
+            le amonestaron que desanparase la cibdad, e no encomendase a la fortuna de una ora la
+            vida suya, e de aquellas gentes, juntamente con la honrra ganada en su hedad pasada; e
+            requeríanle que, pues tenía tienpo para se proveer, no esperase ora en que tomase el
+            consejo necesario, e no el que agora tenía voluntario. Visto por este cavallero el temor
+            que los suyos mostravan. «No ̶dixo él ̶, suele vencer la muchedunbre de los moros al
+            esfuerço de los cristianos cuando son buenos, aunque no sean tantos. La buena fortuna
+            del cavallero crece cresciendo su esfuerço: e si a estos moros que vienen cumple
+            socorrer a su infortunio, a nosotros conviene permanecer en nuestra vitoria fasta la
+            acabar o morir, porque si el miedo de los moros nos fiziese desanparar esta cibdad,
+            ganada ya con tanta sangre, justa culpa nos pornían los cristianos por no aver esperado
+            su socorro; e es mejor que sean ellos culpados por no venir, que nosotros por no
+            esperar». «De una cosa ̶dixo él ̶ sed ciertos: que entre tanto que Dios me diere vida,
+            nunca <pb edRef="#DBordonaFP" n="101"/>el moro me porná miedo, porque tengo tal
+            confiança, en Dios e en vuestras fuerças, que no fallecerán peleando, veyendo vuestro
+            capitán pelear». Este cavallero duró, e fizo durar a los suyos conbatiendo a los moros
+            que tenía cercados, e resistiendo a los moros que le tenían cercado por espacio de dos
+            días, fasta que vino el socorro que esperava, e ovo el fruto que suelen aver aquellos
+            que permanescen en la virtud de la fortaleza.</p>
+         <p>Ganada aquella cibdad, e dexado en ella por capitán a un su hermano llamado
+               <persName>Gómes Manrrique</persName>, ganó otras fortalezas en la comarca; socorrió
+            muchas vezes algunas cibdades e villas e capitanes cristianos en tienpo de estrema
+            necesidad; e fizo tanta guerra en aquellas tierras, que en el reino de Granada el nonbre
+            de <persName>Rodrigo Manrrique</persName> fue mucho tienpo a los moros grand terror.</p>
+         <p>Cercó asimismo este cavallero la <placeName>fortaleza de Alcaráz</placeName>, por la
+            reduzir a la corona real. Cercó la <placeName>fortaleza de Uclés</placeName>, por la
+            reduzir a la su orden de Santiago<!-- ? -->. Esperó en estos dos sitios las gentes que
+            contra él vinieron a socorrer estas fortalezas: e como quier que la gente contraria vido
+            ser en mucho mayor número que la suya, mostró tal esfuerço, que los contrarios no le
+            osaron acometer, e él consiguió con grand honrra el fin de aquellas empresas que tomó:
+            dó se puede bien creer que <pb edRef="DBordonaFP" n="102"/>venció, más con el esfuerço
+            de su ánimo, que con el número de su gente.</p>
+         <p>Ovo asimismo este cavallero otras batallas e fechos de armas con cristianos y con moros,
+            que requerían grand estoria si de cada una por estenso se oviese de azer minción: porque
+            toda la mayor parte de su vida trabajó en guerras e en fechos de armas. </p>
+         <p>Fablava muy bien, e deleitávase en recontar los casos que le acaescían en las
+            guerras.</p>
+         <p>Usava de tanta liberalidad, que no bastava su renta a sus gastos; ni le bastára si muy
+            grandes rentas e tesoros toviera, segúnd la continuación que tovo en las guerras.</p>
+         <p>Era varón de altos pensamientos, e inclinado a cometer grandes e peligrosas fazañas, e
+            no podía sofrir cosa que le paresciese no sofridera, e desta condición se le siguieron
+            grandes peligros e molestias. E ciertamente por esperiencia veemos pasar por grandes
+            infortunios a muchos que presumen forçar la fuerça del tienpo, los cuales, por no sofrir
+            una sola cosa, les acaesce sofrir muchas e a muchos a quien de fuerça an de tener
+            contentos para conseguir su poco sofrimiento. </p>
+         <p>Era amado por los cavalleros de la orden de Santiago, los cuales, visto que concurrían
+            en él todas las cosas dignas de aquella dignidad, le eligieron <pb edRef="#DBordonaFP"
+               n="103"/>por maestre en la <placeName>provincia de Castilla</placeName> por fin del
+                  <persName><roleName>maestre</roleName> don Juan Pacheco</persName>.</p>
+         <p>Murió con grand honra en hedad de setenta años.</p>
+      </body>
+   </text>
+</TEI>

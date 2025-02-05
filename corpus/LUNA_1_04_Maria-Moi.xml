@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="archbio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>María, hermana de Moisés</title>
+            <author ref="#Luna">Álvaro de Luna</author>
+            <respStmt>
+               <resp>Encoded by: </resp>
+               <persName xml:id="APC">Anna Pineda Cirera</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2020</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print" xml:id="Castillo_1908">
+               <title>Libro de las claras e virtuosas mugeres</title> por el Condestable de Castilla
+               Don <author>Álvaro de Luna</author>, Maestre de Santiago, edición crítica por Don
+                  <editor>Manuel Castillo</editor>, Catedrático y Director del Instituto General y
+               Técnico de Cáceres. <publisher>Establecimiento tipográfico de Rafael G.
+                  Menor</publisher>, <pubPlace>Madrid - Toledo</pubPlace>
+               <date when="1980">1908</date>
+            </bibl>
+
+            <bibl type="digital"><publisher>Internet Archive</publisher>. Uploaded on <date
+                  when="2009-04-27">April 27, 2009</date>
+               <ref>https://archive.org/details/librodelasclara00unkngoog/page/n8</ref></bibl>
+         </sourceDesc>
+
+      </fileDesc>
+      <revisionDesc>
+         <change when="2020-03-20" who="#APC">Primera codificación hecha por Anna Pineda
+            Cirera.</change>
+         <change when="2020-03-21" who="#APC">Regularización hecha por Anna Pineda Cirera</change>
+         <change when="2020-05-05" who="#SAT">Revisión según criterios de transcripción de
+            Archbio.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:id="Luna_1_04" xml:lang="es">
+      <body>
+         <head>Capítulo IV. María, Ermana de Moysén, hermano de Aaron</head>
+
+         <p>Pues que de suso avemos fablado, segund nuestra industria e estudio, de la muy tenprada
+               <persName>Sarra</persName> madre nuestra, la orden de nuestra escriptura demandaría
+            que la muy cuerda <persName>Rebeca</persName>, mujer del grand
+               <roleName>patriarca</roleName>
+            <persName>Ysaque</persName>, e asimesmo las muy sabias e virtuosas
+               <persName>Raquel</persName> e <persName>Lía</persName>, mugeres del grand
+               <roleName>patriarca</roleName>
+            <persName>Jacob</persName>, floresçientes por maravillosos dotes de sus coraçones, nos
+            las ensalçásemos por ayuntamiento de muchas loanças, si <persName>María</persName>,
+            prophetiza, hermana del grand <roleName>propheta</roleName>
+            <persName>Moysén</persName> e de <persName>Arón</persName>, primero saçerdote del pueblo
+            de <placeName>Ysrrael</placeName>, por la grandeza de las sus muy nobles virtudes non
+            nos troxiese a que d’ella devamos fablar.</p>
+         <p>La qual, como muy amadora de todos los muy nobles enseñamientos, e abastada de spíritu
+            de dios, se lee que ella teniendo en su mano un instrumento músico por cántico çelestial
+            de grande suavidad e dulçedunbre, más que las otras mugeres del pueblo de
+               <placeName>Ysrael</placeName> que la siguían e yvan en pos d’ella, en el tienpo qu’el
+            dicho pueblo yva por medio del <placeName>Mar Bermejo</placeName>, librado de la cruel
+            servidumbre de los <name>egipcianos</name>, aver ensalçado la gloria, non mortal, de
+            aquel muy alto prínçipe que toda la natura manda e contiene, es a saber, nuestro señor
+            dios, <cb n="2"/>segund paresçe por el libro de la ley de dios llamado
+               <title>Éxodo</title>, en el quinto déçimo capítulo, onde se muestra que esta
+               <roleName>santa prophetiza</roleName>
+            <persName>María</persName> aya seydo guiadora en la liberaçión de su gente e pueblo; la
+            qual liberaçión non se podía fazer por ninguna avisaçión de onbre mortal, e aver seydo
+            ygualada a <persName>Moysén</persName> e <persName>Arón</persName> sus hermanos varones
+            muy santos, segund paresçe por el <roleName>profeta</roleName>
+            <persName>Miquea</persName> en el capítulo VIº de su libro, donde se escrive que nuestro
+            señor dios, por la sabidoría del qual todo el mundo se rige, retrayendo al pueblo de
+               <placeName>Ysrrael</placeName>, porque bivían mal, e recontando los benefiçios que
+            les avía fecho, dizía aquestas palabras: <q>Pueblo mío, yo te traxe de tierra de
+                  <placeName>Egipto</placeName> e te saqué de la casa de servidunbre, e enbié ante
+               ti a <persName>Moysén</persName> e a <persName>Arón</persName> e a
+                  <persName>María</persName></q> etc. </p>
+         <p>La qual <persName>María</persName> era avida e tenida en el pueblo de
+               <placeName>Ysrrael</placeName> en tan grande e tan alta reputaçión, e se fazía d’ella
+            tan grand cuenta, que segund se lee por su ystoria, andando el dicho pueblo por el
+            yermo, por entrar a tierra de promissión, ella fue ocupada por siete días que non pudo
+            partir del lugar onde el dicho pueblo estava, e todas las huestes de los <name>doze
+               tribus</name> del dicho pueblo, de los quales cada un tribu traía su <pb
+               edRef="#Castillo_1908" n="36"/>estandarte, se detovieron en aquel lugar, onde
+            primeramente estavan, e non partieron de allí aquellos siete días, fasta tanto que la
+            dicha <persName>María</persName> fue libre, e se partieron todos en una conpañía.</p>
+         <p>Eso mesmo paresçe por la grande honrra e solepnidad que el dicho pueblo le fizo al
+            tienpo de su muerte; pues agora, ¿quién es de tan poco sentido que non piense, aquesta
+            dueña <persName>María</persName> ser adelantada a muchos e grandes varones, así en toda
+            gloria de las cosas que pertenesçen al servicio de dios, commo en virtud e grandeza de
+            consejo, e en sofrimiento e paçiençia de todas las cosas que pertenesçen a los onbres,
+            como eso mesmo, en menospreçiamiento de la fortuna, e dende en toda otra virtud que es
+            conveniente e firme deseo del ánima? </p>
+         <p>La qual faze loable a aquellos que la han, si por la boca de dios veemos la dicha santa
+            muger ser ygualada a estos tan santos e tan notables varones, a los quales nin aun
+               <persName>Jecobete</persName>, madre d’ellos, muy guardadora de todas las muy claras
+            virtudes, non leemos que aya seydo conparada, non enbargante que esta
+               <persName>Jecobete</persName> aya resplandecido por señalada cordura e avisaçión, en
+            tanto que tan sabiamente, tovo ascondido a <persName>Moysén</persName> su fijo, luego
+            que nasçió, que ella le procuró la vida, e que non peresçiese, porque el <name>rey
+               Faraón</name> avía mandado matar todos los fijos machos que nasçiesen del pueblo de
+               <persName>Ysrrael</persName>, segund que se lee en su ystoria, en el sesto capítulo
+            del <title>Libro del Éxodo</title>. </p>
+         <p>Mas ¿para qué me deterné yo en recontar las loanças d'esta muy noble
+               <persName>María</persName>? Ca paresce ella dever ser puesta adelante de los
+               <name>varones romanos</name> muy triunphantes, de los quales, açerca de los muy
+            polidos escriptores de las ystorias, se dizen d’ellos pocas cosas, pues que non fallamos
+            escripto que ninguno de los romanos llamados del linage de los <name>Metolos</name>,
+            ninguno de los <name>Catones</name>, ninguno de los <name>Curçios</name>, ninguno de los
+               <name>Cepiones</name>, nin alguno de los otros, ser encomendado por la boca de dios,
+            por muy altos e grandes loores, segund que lo fue esta muy bienaventurada dueña.</p>
+         <p>Ca çiertamente diría yo que faría injuria a ella, si la conparase a
+               <persName>Sócrates</persName>, vaso de la sabidoría de los onbres, non enbargante
+            qu’el dicho <persName>Sócrates</persName> fue adelantado e sobrepujado en tanta firmeza
+            de coraçón, tanto que en el tienpo que falsamente él fue acusado de muerte ante aquellos
+            malos juezes, non demandó abogado que por él razonase ante los juezes, mas ante,
+            teniendo en la mano el vaso de la ponçoña, dixo palabras tan santas, por las quales non
+            parescía que él era traydo a la muerte, mas que se yva para el çielo.</p>
+         <p>Pues que así es abasta, fasta aquí nos aver trabajado la péndola, porque razonable cosa
+            es rendir las armas, e dar lugar a la sentençia del muy alto dios, que d'esta santa
+            dueña dize tantas loores, e tornaremos a fablar de las otras.</p>
+      </body>
+   </text>
+</TEI>

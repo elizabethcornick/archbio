@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Juan Pacheco, Maestre de Santiago</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03">Frist encoding by Susanna Allés Torrent</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_06" xml:lang="es">
+      <body>
+         <head>Juan Pacheco, Maestre de Santiago</head>
+         <!-- [Título VI]
+            Don Juan Pacheco, Maestre de Santiago-->
+         <p><pb edRef="#DBordonaFP" n="59"/>Don Juan Pacheco, marqués de Villena e maestre de
+            Santiago, fijo de Alfonso Téllez Girón, fue ombre de mediana estatura, el cuerpo delgado
+            e bien compuesto, las faciones fermosas e buena gracia en el gesto. Era de nación
+            portoguesa, de los más nobles de aquel reino, nieto de Juan Femández Pacheco, uno de los
+            cavalleros que vinieron de Portogal a Castilla al servicio del rey don Juan, el que fue
+            vencido en la batalla de Aljubarota. </p>
+         <p>Era ombre agudo e de grand prudencia. E seyendo moço vino a bivir con el rey don Enrique
+            quando era príncipe, e alcançó tanta gracia que fue más acebto a él que ninguno de los
+            que en aquel tiempo estavan en su servicio. E así por el amor que el príncipe le avía,
+            como porque creciendo en días florescían en él las virtudes inteletuales, le encargó la
+            govemación de los grandes negocios que le ocurrían. Fablava con buena gracia e
+            abundancia en razones, sin prolixidad de palabras. Tenblávale un poco la boz por
+            enfermedad acidental e no por defeto natural. En la hedad de moço tovo seso e autoridad
+            de viejo. Era ombre esencial e no curava de aparencias ni de cirimonias infladas. </p>
+         <p> En el tiempo que el rey don Juan ovo alguna indignación contra el rey de Aragón, que
+            estonces era rey de Navarra, este cavallero, seyendo bien mancebo, entendió por parte
+            del príncipe en algunas disensiones que por estonces en el reino acaescieron. E ora
+            procediese de su buena dicha, ora lo imputemos a su sagacidad, él sopo rodear las cosas
+            de tal manera que el rey don Juan, a suplicación del príncipe, le dio título de marqués
+            de Villena e en pocos días le fizo merced de todas las más villas e logares de aquel
+            marquesado, las que eran del rey de Aragón. </p>
+         <p>Tenía muy grand abilidad para la govemación destas cosas temporales, para la qual, como
+            sean necesarias agudeza, prudencia, diligencia e sufrimiento, puédese creer deste
+            cavallero que fue tan bien dotado destas quatro cosas como el ombre que más en su tiempo
+            las tovo. Considerava muy bien la calidad del negocio, el tiempo, el logar, la persona,
+            e las otras circunstancias que la prudencia deve considerar en la governación de las
+            cosas. </p>
+         <p>Tenía la agudeza tan biva que a pocas razones conoscía las condiciones e los fines de
+            los ombres. E dando a cada uno esperança de sus deseos, alcançava muchas vezes lo que él
+            de eava. Tenía tan grand sufrimiento que ni palabra áspera que le dixesen le movía, ni
+            novedad de negocio que oyese le alterava, e en el mayor discrimen de las cosas tenía
+            mejor arbitrio para las entender e remediar. Era ombre que con madura deliberación
+            determinava lo que avía de fazer, e no forçava al tiempo, mas forçava a sí mismo
+            esperando tiempo para las fazer. </p>
+         <p>De su natural condición paresció ombre de verdad e plazíale comunicación de ombres
+            verdaderos e constantes, aunque los que están en deseo de adquerir grandes bienes e
+            onores, e especialmente aquellos que entienden en la govemación de grandes cosas,
+            algunas vezes les acaesce fengir, dilatar, simular e disimular aquella diversidad de los
+            tiempos o la variedad de los negocios, o por escusar mayores daños o por aver mayores
+            provechos, ayan de fazer variaciones en negocios, segund la veen en los tiempos. </p>
+         <p>Tovo algunos amigos de los que la próspera fortuna suele traer. Tovo asimismo muchos
+            contrarios de los que la enbidia de los bienes suele criar, los quales le trataron
+            muerte e destruición e indignación grande con el rey don Juan e con el príncipe su fijo,
+            a quien él servía. E como quier que algunas vezes llegaron al punto de la execución,
+            pero, por casos inopinados e dignos de admiración, fue libre de los lazos de muerte que
+            muchas vezes le fueron puestos. </p>
+         <p> Era ombre de buen coraçón e mostró ser cavallero esforçado en algunos logares que fue
+            necesario. Era muy sabio y templado en su comer e bever, e paresció ser vencido de la
+            luxuria, por los muchos fijos e fijas que ovo de diversas mugeres allende de los que ovo
+            en su muger legítima. E porque conoscía que ninguna utilidad ay en estos bienes de
+            fortuna, quando no se reparten e destribuyen segund deven, usava dellos francamente en
+            los logares e tiempos e con las personas que devía ser liberal, e dando e destribuyendo
+            ganava más fazienda e conservava mejor la avida. E con esta virtud de liberalidad que
+            tova, fue bien servido de los suyos e avisado de los estraños en algunos tiempos e
+            logares que complió mucho a la conservación de su vida e estado. </p>
+         <p>Tenía el común deseo que todos tenemos de alcan ar honras e bienes temporales, e sópolas
+            bien procurar e adquerir. E quier fuese por dicha, quier por abilidad, o por amas cosas,
+            alcançó tener mayores rentas e estado que ninguno de los otros señores de España que
+            fueron en su tiempo. </p>
+         <p> Fue ombre tratable e de dulce conversación, e tanto humano que nunca fue en muerte de
+            ninguno ni la consintió, aunque tovo cargo de govemación. No era varón de venganças, ni
+            perdía tiempo ni pensamiento en las seguir. Dezía él que todo ombre que piensa en
+            vengança antes atormenta a sí que daña al contrario. Perdonava ligeramente e era piadoso
+            en la execución de la justicia criminal, porque pensava ser más acebtable a Dios la
+            grand misericordia que la estrema justicia. </p>
+         <p>Tenía un tal singular sufrimiento que, por grand discordia que oviese con alguno, ralas
+            vezes le vieron romper en palabras e mucho menos en obras. Antes ponía siempre sus
+            diferencias en trato de concordia que en rigor ni rotura, porque reputava ser mejor
+            cierta paz que incierta vitoria. No quería encomendar a la fortuna de una ora todo lo
+            avicio en la vida pasada. E como quier que algunas vezes amenazava con la fuerça, pero
+            nunca venía a mostrar lo último de lo que podía fazer contra ninguno, aunque fuese menos
+            poderoso que él. </p>
+         <p>Porque tener al adversario en miedo con amenazas, dezía él que era mucho mejor que
+            quitárgelo mostrando el cabo de sus fuerças. E teniendo sufrimiento e esperando tiempo,
+            alcançó honra e acrecentó bienes. </p>
+         <p>E como veemos por esperiencia la graveza grande que todos los mortales sienten en caer
+            del grado en que se veen puestos, e las fazañas grandes e aventuras peligrosas a que se
+            ponen por lo conservar e no caer, este cavallero, sintiendo que su estada cerca de la
+            persona del rey don Enrique no le era segura, por el peligro de muerte e destruición que
+            otros que estavan acebtos al rey pensó que le tratavan, apartóse de su servicio. E fue
+            el principal de los cavalleros e perlados que fizieron división en el reino entre el rey
+            don Enrique e el rey don Alfonso su hermano. E en aquellas discordias sopo tener tales
+            mañas que fue elegido e proveído del maestradgo de Santiago. </p>
+         <p>E porque ninguno es bien corregido si puramente no es arrepentido, conosciendo este
+            cavallero aver desviado del camino que devía seguir, no solamente tomó a él, mas aún tra
+            bajó de amansar quanto pudo las voluntades alteradas de los cavalleros e perlados que
+            aquella división querían continuar. E tornó en la gracia del rey don Enrique, el qual le
+            perdonó e fizo grandes mercedes de villas e logares e otras grandes rentas, e confió dél
+            toda la govemación de sus reinos. E dende en adelante govemó absolutamente e con mayor
+            esención e libertad que primero solía governar. </p>
+         <p>No quiero negar que como ombre humano este cavallero no toviese vicios como los otros
+            ombres, pero puédese bien creer que, si la flaqueza de su humanidad no los podía
+            resistir, la fuerça de su prudencia los sabía disimular. Bivió governando en qualquier
+            parte que estovo por espacio de treinta a os, e murió en grand prosperidad, de hedad de
+            cinqüenta e cinco. </p>
+
+
+      </body>
+   </text>
+</TEI>

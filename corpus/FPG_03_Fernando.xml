@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Fernando I, el de Antequera</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Dominguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-01" who="#SAT">First encoding by Susanna Allés-Torrent</change>
+      <change when="2020-04-23" who="#SAT">Application of transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema.</change>
+      <change when="2022-06-15" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text xml:id="FPG_03" xml:lang="es">
+    <body>
+      <head>Fernando I de Aragón</head>
+      <!-- Don Fernando I de Aragón -->
+      <p><pb edRef="#DBordonaFPG" n="21"/>En el tienpo deste <persName><roleName>rey</roleName> don
+          Enrique</persName> e so su señorío, fue el <persName><roleName>infante</roleName> don
+          Ferrando</persName> su hermano, prínçipe muy fermoso de gesto, sosegado e benigno, casto e
+        onesto, muy católico e devoto christiano, la fabla vagarosa e floxa, e aun en todos sus
+        abtos era <pb edRef="#DBordonaFPG" n="22"/>tardío e vagaroso; tanto paçiente e sofrido, que
+        pareçía que non avía en él tribulaçión de saña nin ira, pero fue prínçipe de grant
+        discriçión e que sienpre fizo sus fechos con bueno e maduro consejo. A los que le sirvieron
+        fue asaz franco, pero entre todas las virtudes las que más fueron en él de loar, fueron la
+        grant homilldat e obidiençia que sienpre guardó al rey, su hermano, e la lealtad e amor que
+        ovo al <persName><roleName>rey</roleName> don Johan</persName> su fijo. Ca ansí fue, que el
+        dicho <persName><roleName>rey</roleName> don Enrique</persName>, o porque, comunmente, todos
+        los reyes han por sospechosos a sus hermanos e a todos los que ligitimamente deçienden de la
+        generaçión real, o si a él en particular falsamente le fueron puestas algunas dubdas del
+        infante, su hermano, sienpre le tovo muy apremiado e encogido; pero él, non curando de la
+        aspereza e sospecha suya, conportólo e<pb edRef="#DBordonaFPG" n="23"/> sufriólo con grande
+        paçiençia, estando con toda humilldat a su obidiencia. E como quier que por algunos grandes
+        del reyno fuese tentado e requerido, que pues el rey su hermano, por ser apasionado, non
+        podíe bien rigir e governar, que él tomase la carga de la governaçión , nunca él lo quiso
+        fazer, dexando a la voluntad e dispusiçión de nuestro Señor así el rigimiento del reyno como
+        lo que a su presona tocava, queriendo más esperar el remedio que Dios daría en lo uno e en
+        lo otro que no la provisión que él pudiera fazer, la cual fuera con escándalo e rigor. E
+        ansí el nuestro Señor, que muchas vezes aun en este mundo, responde a las buenas voluntades,
+        catando la homilldat e inoçençia deste prínçipe, guardóle de la sospecha de su hermano, e
+        aquella governaçión del reyno que él non acebtó cuando inportunamente e sin sazón le era
+        ofreçida, diógela con voluntad del rey e plazer de todo el reino, ca, como dicho es, el rey
+        su hermano, a su fin, le dexó por tutor del rey su fijo e regidor de sus reynos: claro
+        enxenplo e noble dotrina en que todos los prínçipes que son en subjeción e señorío de reyes
+        en que, como en un espejo, se deven mirar, porque con ambiçión e cobdicia desordenada de
+        rigir o mandar nin de otra utilidad propia se entremetan de turbar nin ocupar el señorío
+        real nin moverse contra él, mas con toda obidiencia e lealtad,<pb edRef="#DBordonaFPG"
+          n="24"/> estar so aquel yugo en que Dios los puso, a enxenplo de aquel santo e notable
+            <persName><roleName>rey</roleName> David</persName>, el cual, como se viese persiguido
+        del <persName><roleName>rey</roleName> Saul</persName>, que era reprovado e desechado de
+        Dios, aunque algunas vezes lo pudiera matar, arredró su mano de tal obra esperando la
+        provisión e remedio que Dios en ello daríe. Faziéndolo ellos así, Dios responderá a su buena
+        voluntad, dándoles graçiosamente aquello que ellos virtuosamente menospreçiaron, como este
+        santo <persName><roleName>rey</roleName> David</persName> fizo.</p>
+      <p>Tornando al propósito, este noble e católico prínçipe, después que el rey su hermano murió
+        e él quedó con la <persName><roleName>reina</roleName> doña Catalina</persName> en la tutela
+        del rey e governaçión del reyno (por que en suma e brevemente relate sus notables e
+        virtuosos fechos, ca, como al comienço dixe, non es mi entençión de fazer proçeso de
+        estoria, mas un memorial o registro açerca de los artículos ya dichos), así bien e
+        discretamente se ovo açerca de la presona del rey su sobrino en la governaçión del reyno e
+        en onor de la corona de <placeName>Castilla</placeName>, que con grande verdad se pueden dél
+        notar tres obras muy singulares: primera, gran fideliedad e lealtad al rey; segunda, grant
+        justiçia en el reyno; tercera, procurando grandísimo honor a la naçión. Ca, como a todos es
+        notorio, aquella guerra de <placeName>Granada</placeName> que el rey su hermano dexó
+        començada con nesçesidad, él la prosiguió e continuó con voluntad de serviçio de Dios e onor
+        de <placeName>Castilla</placeName>. Viniendo a la primera, que es guardar <pb
+          edRef="#DBordonaFPG" n="25"/>fidelidad e lealtad al rey su señor e sobrino, como todos
+        saben, quedando el rey en la cuna en hedat de veinte e dos meses, en tanta reverençia le ovo
+        e ansí lo servió e obedeçió como al rey su padre, e con tanta diligencia e estudio guardando
+        su presona como si su propio fijo fuera. Pues, cuanto a la administraçión de la justiçia de
+        su reyno, creería que, para en prueva dello, bastara dezir tanto que, en diez años o más que
+        él con la reyna rigió e governó, nunca aquel tienpo ovo sabor nin color de tutorías (en
+        tanta tranquilidad e paz estovo el reyno) mas ansí biuían las gentes, paçíficas e sosegadas,
+        como en el tiempo del rey su hermano. E ansí, cuanto fue su buena industria e discreta en el
+        rigir, muéstrase porque después que él murió nunca, fasta oy, ovo concordia e paz en el
+        reino. Non me paresçe que más ebidente e clara prueva puede ser de su buena governaçión que
+        seyendo él tutor e en tienpo de niño rey, fue el reino mejor rigido que después que el rey
+        salió de tutorías e llegó a hedat perfeta de onbre, que es de cuarenta años. En el cual
+        tienpo después de su muerte fasta este año, que es de <date when="1450">mill e cuatroçientos
+          e cincuenta</date>, nunca çesaron discordias e disensiones, de lo cual cuantas <pb
+          edRef="#DBordonaFPG" n="26"/>muertes, prisiones, destierros e confiscaçiones son venidos,
+        por ser tan notorio non curo de lo escrivir. E viniendo al tercero acto virtuoso suyo:
+        muerto el rey su hermano e ordenadas las provinçias que él e la reyna cada uno avía de
+        rigir, luego partió para la frontera, non plaziendo dello a algunos; e por dolençia que le
+        recresçió non pudo entrar en el reino de <placeName>Granada</placeName> fasta en fin de
+          <date>setienbre</date>, e, por esta cabsa, este <date>primero año</date> non pudo fazer
+        más, salvo que çercó la villa de <placeName>Setenil</placeName>, e porque es muy fuerte e el
+        invierno se venía, non la pudo aver; pero embiando gentes por toda la tierra fizieron grand
+        daño en el reyno, e ganó desta vez <placeName>Asara</placeName>, que es una muy noble
+        fortaleza, e <placeName>Pruna</placeName> e <placeName>Cañete</placeName> e
+          <placeName>Ortexicar</placeName> e la <placeName>Torre del Alhaquín</placeName>, e,
+        dexando fronteros, vínose al rey. E luego, el <date>terçer año</date> que el rey su hermano
+        murió, tornó a la guerra e en el mes de <date>mayo</date> çercó la villa de
+          <placeName>Antequera</placeName>, e teniéndola cercada, vinieron allí con el poder de
+          <placeName>Granada</placeName> dos infantes, hermanos del <name>rey moro</name>, que
+        dizían <persName>Çid Ali</persName> e <persName>Çidi Hamete</persName>, con los cuales el
+        infante ovo su batalla entre dos sierras que dicen la <placeName>Boca del Asna</placeName>
+        e, con el ayuda de Dios, los <name>moros</name> fueron vençidos. Esta batalla començaron don
+          <persName>Sancho de Rojas<pb edRef="#DBordonaFPG" n="27"/>, <roleName>arçobispo de
+              <placeName>Toledo</placeName></roleName></persName>, e <persName>Johan de Velasco,
+            <roleName>camarero mayor del rey</roleName></persName>, porque posavan en un otero alto,
+        a la parte por do los <name>moros</name> venían, e allí fueron luego vençidos. El infante
+        con toda la gente fue por la otra parte de <placeName>Antequera</placeName>, e como él llegó
+        a la <placeName>Boca del Asna</placeName> los <name>moros</name> de todo punto dexaron el
+        real. Dízese que eran los <name>moros</name> çinco mil <roleName>cavalleros</roleName> e
+        ochenta mil <roleName>peones</roleName>, e murieron dellos fasta çinco mil onbres, e
+        murieran muchos más si non porque los <name>castellanos</name> se fartan con poca vitoria, e
+        la gente común por desnudar un moro júntanse veinte a ello, e por esto el alcançe non se
+        siguió como devía, e ansí los <name>castellanos</name> supieron vençer, mas non siguir la
+        vitoria. En esta batalla murió un cavallero muy bueno que llamavan <persName>Lope Ortiz
+          Destúñiga, <roleName>alcalde mayor de
+        <placeName>Sevilla</placeName></roleName></persName>. E la batalla vençida, el infante se
+        tornó a su real; e tovo çercada <placeName>Antequera</placeName> más de çinco meses, e
+        tomóla en el mes de <date>otubre</date>, e ganó otras fortalrey don Martín de Aragónezas
+        çerca della, e dexó en ella por alcayde un buen cavallero su criado que llamavan
+          <persName>Rodrigo de Narváez</persName>; e antes que de <placeName>Antequera</placeName>
+        partiese, <pb edRef="#DBordonaFPG" n="28"/> supo como era muerto el
+            <persName><roleName>rey</roleName> don Martín de
+          <placeName>Aragón</placeName></persName>, su tío, sin fijos, ca el
+            <persName><roleName>rey</roleName> Martín de <placeName>Çiçilia</placeName></persName>,
+        su fijo, era muerto poco tienpo antes e venía al infante la suçesión del <placeName>reyno de
+          Aragón</placeName>. E por esta causa, él çesó de la prosecuçión de la guerra de
+          <placeName>Granada</placeName>, ca, en otra manera, segunt el estado en que la él tenía e
+        voluntad que él avía de la continuar, sin dubda la conquistara. E después de muchos tratos
+        ovo el <placeName>reyno de Aragón</placeName>, para lo cual le fue muy favorable el
+          <placeName>reyno de Castilla</placeName>, así con muchas gentes <choice>
+          <orig>darmas</orig>
+          <corr>de armas</corr>
+        </choice> como con el ayuda que el rey su sobrino le fizo de dineros, dándole el pedido e
+        monedas de un año, que montó cuarenta cuentos.</p>
+      <p>Algunos quisieron a este infante notarle de cobdicia porque ovo para el infante <add
+          resp="#DBordonaFPG">[don Enrique]</add> su fijo el <roleName>maestradgo de
+          Santiago</roleName>, e para su fijo el <persName><roleName>infante</roleName> don
+          Sancho</persName> el <roleName>maestradgo de Alcántara</roleName>; pero a estos tales está
+        bien presta la respuesta: ca, segunt la espirençia lo ha mostrado, cada uno de los grandes
+        que alcançan poder e privança, toma para <pb edRef="#DBordonaFPG" n="29"/>sí cuanto puede de
+        dignidades y ofiçios e vasallos.</p>
+      <p>Murió este <roleName>rey d'Aragón</roleName> en un lugar de su reyno que dizen
+          <placeName>Igualada</placeName>, por cuya muerte se desigualó la paz e concordia de
+          <placeName>Castilla</placeName>. Murió en hedad de <date>treinta e cuatro años</date>.
+        Dexó fijos a don <persName>Alonso</persName>, que oy reina en <placeName>Aragón</placeName>,
+        e a don <persName>Johan, <roleName>rey de
+          <placeName>Navarra</placeName></roleName></persName>, el
+            <persName><roleName>infante</roleName> don Enrique, <roleName>maestre de
+            Santiago</roleName></persName>, e al <persName><roleName>infante</roleName> don
+          Pedro</persName>, que en la çerca de <placeName>Nápul</placeName> murió de una piedra de
+        trueno, el <persName><roleName>infante</roleName> don Sancho, <roleName>maestre de
+            Alcántara</roleName></persName>, que murió poco ante que su padre. E fijas a doña
+          <persName>María, <roleName>reyna de <placeName>Castilla</placeName></roleName></persName>,
+        e a doña <persName>Leonor, <roleName>reyna de
+          <placeName>Portogal</placeName></roleName></persName>. E así sus fijos e fijas poseyeron
+        los cuatro reinos de España.</p>
+    </body>
+
+  </text>
+</TEI>

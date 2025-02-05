@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Alfonso Fernández de Madrigal, Obispo de Ávila</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03" who="#SAT">Frist encoding.</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_20" xml:lang="es">
+      <body>
+         <head>Alfonso Fernández de Madrigal, Obispo de Ávila</head>
+         <!-- Título XXIV
+         Del Obispo de Avila-->
+         <p><pb edRef="#DBordonaFP" n="147"/>Don Alfonso, obispo de Ávila, fue ombre de mediana
+            estatura, el cuerpo espeso, bien proporcionado en la conpostura de sus mienbros. Tenía
+            la cabeça grande e el gesto robusto, el pescueço un poco corto. Era natural de la villa
+            de Madrigal, de linaje de labradores. </p>
+         <p>Desde su niñez tovo inclinación a la ciencia e, creciendo en días, creció más en deseo
+            de aprender. Era ombre agudo e de grand memoria. Ovo principios en filosofia e
+            theología. Aprendió en el estudio de Salamanca, donde recibió ábito clerical. Fue
+            observantíssimo en la orden que rescibió e, de hedad de veinte e cinco años, ovo el
+            grado de magisterio. E tanto resplandecía en ciencia e en vida onesta que, como quier
+            que avía otros de mayor hedad e de grand suficiencia, pero por sus méritos fue elegido
+            para leer las cátedras de theología e filosofia. E tovo grand continuación e
+            perseverancia en el estudio, tanto que, el tienpo que se pasava, sienpre lo tenía
+            presente, porque gozava en la ora presente de lo que en la pasada avía aprendido. Tovo
+            muchos diciplos e, después que fue maestro, nunca halló mostrador, porque ni se escusó
+            jamás de aprender ni fue acusado de aver mal aprendido. </p>
+         <p>El papa, movido por la abilidad interior deste claro varón más que por suplicación
+            exterior de otro, le proveyó de maestrescuela de Salamanca. Seyendo grand maestro en
+            artes e theología se dispuso aprender derecho canónico y cevil, e fue en aquellas
+            facultades bien instruto. E tan grande era la fama de su saber en todas ciencias que,
+            estando en aquel estudio, duró grand tienpo que venían a le ver ombres doctos, tan bien
+            de los reinos estraños como de los reinos de España. </p>
+         <p>Cierto es que ningún ombre, dado que biva largos tienpos, puede saber la perfectión e
+            profundidad de todas las ciencias. E no quiero dezir que este sabio perlado las alcançó
+            todas, pero puédese creer dél que en la ciencia de las artes e theología e filosofia
+            natural e moral, e asimismo en el arte del estrología e astronomía, no se vido en los
+            reinos de España ni en otros estraños se oyó aver otro en sus tienpos que con él se
+            conparase. </p>
+         <p>Era ombre callado e resplandecía más en él la lunbre de la ciencia que el florear de la
+            lengua. Fue a Roma donde sostovo conclusiones de grand ciencia e alcançó fama de varón
+            muy sabio, e fue mirado por el papa e por todos los cardenales como ombre singular en la
+            iglesia de Dios. Este fizo muchos tratados de filosofia e theología, e escrivió sobre el
+            testo de la Sacra Escriptura una muy copiosa declaración e de grand dotrina, que está oy
+            en el monesterio de Guadalupe e en el estudio de Salamanca, en el qual verá quien bien
+            la mirare, quánto este perlado abundava en todas ciencias e cómo es verdad lo que dél
+            aquí se pedrica. El rey don Juan, que era un príncipe a quien plazía oir lecturas e
+            saber declaraciones e secretos de la Sacra Escriptura, lo tovo cerca de sí e le fizo de
+            su consejo e suplicó al papa que le proveyese del obispado de Avila. Duró perlado en
+            aquel obispado seis años e murió de hedad de cinqüenta e cinco, conosciendo a Dios e con
+            fama del más sabio ombre que en sus tienpos ovo en la iglesia de Dios. </p>
+      </body>
+   </text>
+</TEI>

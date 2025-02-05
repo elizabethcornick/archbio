@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Razonamiento hecho a la Reina Nuestra Señora</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-08" who="#SAT">Frist encoding </change>
+
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_13-14_Razonamiento" xml:lang="es">
+      <body>
+         <head>Razonamiento hecho a la Reina Nuestra Señora</head>
+         <!-- [Título XIV]
+         [Razonamiento hecho a la Reina Nuestra Señora]-->
+         <p><pb edRef="#DBordonaFP" n="105"/>Otros muchos claros varones naturales de vuestros
+            reinos ovo, que fizieron cosas dignas de memoria, las cuales si, como di[x]e, se
+            escriviesen particularmente, sin d[ub]da sería mayor libro e de mayores e más claras
+            fazañas que el que fizo <persName>Valerio</persName>, e los otros que escrivieron los
+            fechos de los griegos y de los romanos. Entre los cuales fazen grand memoria de
+               <persName>Mucio Cévola</persName> que ascondidamente salió de la cibdad de
+               <placeName>Roma</placeName>, e fué a matar al <persName><roleName>rey</roleName>
+               Persena</persName> que la tenía cercada, e exáltan[l]o mucho en aver quemado su braço
+            porque no acertó de matar al rey que pensava, e mató a otro que parescía ser el rey. Ved
+            qué culpa tovo <pb edRef="#DBordonaFP" n="106"/>su braço por el yerro que ovo su
+            pensamiento. Y por cierto si la pena que éste dió a su braço toviese logar de loor,
+            loaríamos al espada que faze buen golpe e no al que la menea.</p>
+         <p>E pues deste caso se faze grand estima por los estoriadores romanos, razón es que faga
+            aquí memoria de lo que sope y es notorio en <placeName>Francia</placeName>, que fizo un
+            fijodalgo vuestro natural, que se llamó <persName>Pedro Fajardo</persName>, moço de
+            veinte años, el cual como sirviese en la cámara del <persName>rey Carlos de
+               Francia</persName>, e le pidiese merced de un cavallo e un arnés para le servir en la
+            batalla que tenía aplazada con el <persName>rey de Inglaterra</persName>; e el rey,
+            avido respeto que su hedad era aún tierna para entrar en batalla, no gelo quisiese dar,
+            e le mandase quedar en su cámara, este <persName>Pedro Fajardo</persName> respondió al
+            rey: <quote>«No suelen los fijosdalgo de Castilla que son de mi hedad quedar en la
+               cámara yendo su señor a la guerra: yo vos certifico, señor ̶dixo él ̶, que si no me
+               forneces de armas y de cavallo, que yo iré a pie delante las escuadras de vuestra
+               gente a morir, peleando en la batalla»</quote>. El rey, conocida la animosidad de
+            este fijodalgo, le dió un cavallo e un arnés: e como se vido armado, un día antes de la
+            batalla, en presencia del rey fizo voto solepne de matar al rey de Inglaterra, o
+            derribar su estandarte real, o morir en la demanda. El coraçón deste moço conoscido por
+            algunos mancebos <pb edRef="#DBordonaFP" n="107"/>franceses, despertó sus ánimos, e
+            prometieron de le ayudar a conplir su voto. Otro día, las fazes tendidas, e fecha señal
+            de las trompetas para se juntar las hazes, este fijodalgo castellano se adelantó de las
+            otras gentes e, dando golpes en los enemigos, e recibiéndoles en todo su cuerpo, entró
+            por fuerça en la batalla del <roleName>rey inglés</roleName>, e abraçose con su
+            estandarte real, e vino con él al suelo: e allí recibió tan grandes feridas en la
+            cabeça, que perdió las fuerças e el sentido, e fué preso por los ingleses, pero
+            consiguió el fin de su voto por donde su parte fué vencedora.</p>
+         <p>Este <persName>Pero Fajardo</persName> castellano e el otro <persName>Cévola</persName>
+            romano iguales me paresce que fueron en los propósitos, pues que amos ivan con
+            deliberación de recebir muerte por ayudar a su parte; pero el castellano se mostró claro
+            enemigo, porque guerreando los contrarios fue como cavallero a conplir su voto: el
+            romano, como ombre encubierto, con simulación fengida, fué a conplir el propósito que no
+            consiguió, porque mató a otro e no al rey que pensó matar.</p>
+         <p>Notorio es asimismo en toda la cristiandad el paso que <persName>Suero de Quiñones,
+                  <roleName>cavallero fijodalgo</roleName></persName>, sostovo un año en la puente
+            de <placeName>Orvigo</placeName>, que es camino de <placeName>Santiago</placeName>, e
+            cómo este cavallero enbió publicar con sus harautes por las cortes de los reyes e
+            señores de la cristiandad, que cualquier <pb edRef="#DBordonaFP" n="108"/>gentilomme que
+            por aquella puente pasase avía de fazer armas con él. Concurrieron a esta recuesta
+            muchos cavalleros e gentilesommres de diversas tierras, que en el paso de aquella puente
+            de <placeName>Orvigo</placeName> fizieron armas con este cavallero: en las cuales, e en
+            todo otro ato de cavallería que allí intervino, ningún estrangero se esmeró ni ovo igual
+            vitoria de la que por las armas este fijodalgo castellano ovo.</p>
+         <p>¿Cuál de los capitanes romanos pudo pujar al esfuerço de don <persName>Juan Ramírez,
+                  <roleName>comendador mayor de Calatrava</roleName></persName>, de linaje noble de
+               <name>Guzmán</name>; el cual mostrava tan grand ardideza en las batallas, e tenía
+            tanta destreza en el governar las armas, que el braço desnudo, el espada en la mano,
+            esforçando los suyos, firiendo los enemigos, venció muchas batallas de moros: e con
+            tanto esfuerço acometía, e con tal perseverancia durava en los peligros, que como ageno
+            de todo miedo lo inprimía en los enemigos.</p>
+         <!-- [Título XV]
+         [Garcilaso de la Vega]-->
+         <p><pb edRef="#DBordonaFP" n="109"/><persName>Garcilaso de la Vega</persName>, cavallero de
+            noble sangre e antiguo, criado desde su menor hedad en el oficio de las armas, en la
+            mayor priesa de las batallas tenía mejor tiento para fazer golpe cierto en el enemigo: e
+            ni la multitud de las saetas, <pb edRef="#DBordonaFP" n="110"/>ni los tiros de las
+            lanças, ni los otros golpes de los contrarios que le rodeavan, alteraron su continencia
+            para fazer desconcierto en la manera de su pelear.</p>
+         <p>De loar es por cierto <persName>Oracio Teocles</persName>, romano, que peleó en la
+               <placeName>puente <!--Suplicia--> Suhicia del Tiberi</placeName> con los
+               <name>toscanos</name>, e los detovo peleando entre tanto que se derribava el un arco
+            de aquella puente, porque los romanos fuesen salvos; pero no es menos de estimar el
+            esfuerço deste <persName>Garcilasso</persName> el cual como viese que su gente estava en
+            punto de se perder, fuyendo de la multitud de los cavalleros moros que los seguían, este
+            cavallero, ofresciendo su vida por la salud de los suyos, tornó con gran esfuerço a los
+            enemigos, e toma[n]do un paso, los inpidió peleando con ellos tanto espacio que su gente
+            se pudo salvar que no pereciese. </p>
+         <p>Este cavallero era omme, callado, sufrido, esencial, amigo de efetos y enemigo de
+            palabras, e tovo tal gracia, que todos los cavalleros de su tienpo desearon remidar sus
+            costumbres.</p>
+         <!-- [Título XVI]
+         [Don Juan de Sahavedra]-->
+         <p><pb edRef="#DBordonaFP" n="111"/><persName>Juan de Sahavedra, <roleName>cavallero
+                  fijodalgo</roleName></persName>, guerreó los moros muchos tienpos, e tan osado era
+            en las batallas, que con menor número de gente sienpre osó acometer los enemigos, aunque
+            fuesen mucho más que los suyos, e los venció muchas vezes e desbarató. </p>
+         <p><persName>Gonçalo de Sahavedra</persName>, su hermano, en guerras de moros e de
+            cristianos ningún romano pudo tener mayor diligencia ni mejor conoscimiento para ordenar
+            las batallas, ni en saber los logares, ni en poner las guardas, e en todas las otras
+            cosas que para seguridad de las huestes se requiere saber a todo buen capitán: el cual
+            fué tan discreto, e considerava las cosas e los casos que podían acaescer en las
+            guerras, e las proveya de tal manera, que nunca se falló que por defeto de su provisión
+            los de su parte recibiesen inconveniente.</p>
+         <!-- [Título XVII]
+         [De Rodríguez de Narvaez]-->
+         <p>¿Quién fué visto ser más industrioso ni más acebto en los atos de la guerra que
+               <persName>Rodrigo de Narbáez, <roleName>cavallero fijodalgo</roleName></persName>, a
+            quien por las notables fazañas que contra los moros fizo, le fué cometida la cibdad de
+               <placeName>Antequera</placeName>, en la guarda de la cual, y en los vencimientos que
+            fizo a los moros, ganó tanta honra e estimación de buen cavallero, que ninguno en sus
+            tiempos la ovo mayor en aquellas fronteras? Y es de considerar, que <pb
+               edRef="#DBordonaFP" n="114"/>como quier que los moros son ommes belicosos, astutos e
+            muy engañosos en las artes de la guerra, e varones robustos e crueles e, aunque poseen
+            tierra de grandes e altas montañas, e de logares tanto ásperos e fragosos que la
+            disposición de la misma tierra es la mayor parte de su defensa: pero la fuerça e el
+            esfuerço destos cavalleros, e de otros muchos nobles e fijosdalgo vuestros naturales,
+            que continuaron guerra con ellos, siempre [los] oprimieron a que diesen parias a los
+            reyes vuestros progenitores, e se ofreciesen por sus vasallos. E ni estos grandes
+            señores e cavalleros e fijosdalgo, de quien aquí con causas razonables es fecha memoria,
+            ni los otros pasados que guerreando a España la ganaron del poder de los enemigos, no
+            mataron por cierto sus fijos, como fizieron los <roleName>cónsules</roleName>
+            <persName>Bruto</persName> y <persName>Torcato</persName>, ni quemaron sus braços, como
+            fizo <persName>Cevola</persName> ni fizieron en su propia sangre las crueldades que
+            repugna la natura e defiende la razón; más con fortaleza e perseverancia, e con
+            prudencia e diligencia, con justicia e con clemencia, ganando el amor de los suyos, e
+            siendo terror a los estraños, governaron <pb edRef="#DBordonaFP" n="115"/>huestes,
+            ordenaron batallas, vencieron los enemigos, ganaron tierras agenas, e defendieron las
+            suyas.</p>
+         <p>Yo por cierto no ví en mis tiempos, ni leí que en los pasados viniesen tantos cavalleros
+            de otros reinos e tierras estrañas a estos vuestros <placeName>reinos de Castilla e de
+               León</placeName> por fazer armas a todo trance, como ví que fueron cavalleros de
+               <placeName>Castilla</placeName> a las buscar por otras partes de la cristiandad.
+            Conoscí al <persName><roleName>conde</roleName> don Gonçalo de Guzmán</persName>, e a
+               <persName>Juan de Merlo</persName>: conoscí a <persName>Juan de Torres</persName> e a
+               <persName>Juan de Polanco</persName>, <persName>Alfarán de Bivero</persName> e a
+                  <persName><roleName>Mosén</roleName> Pero Vázquez de Sayavedra</persName>, a
+               <persName>Gutierre Quixada</persName> e a <persName>mosén Diego de Valera</persName>;
+            e oí dezir de otros castellanos que con ánimo de cavalleros fueron por los reinos
+            estraños a fazer armas con qualquier cavallero que quisiese fazerlas con ellos, e por
+            ellas ganaron honrra para sí, e fama de valientes e esforçados cavalleros para los
+            fijosdalgo de <placeName>Castilla</placeName>. Asimismo <pb edRef="#DBordonaFP" n="116"
+            /> supe que ovo guerras en <placeName>Francia</placeName>, e en
+               <placeName>Nápoles</placeName>, e en otras partes, donde concurrieron gentes de
+            muchas naciones, e fui informado que el capitán francés o el italiano tenía estonces por
+            muy bien fornecida la escuadra de su gente, cuando podía aver en ella algunos cavalleros
+            castellanos, porque conoscía dellos tener esfuerço y constancia en los peligros más que
+            los de otras naciones. Ví también guerras en <placeName>Castilla</placeName>, e durar
+            algunos tiempos; pero no ví que viniesen a ella guerreros de otras partes: porque así
+            como ninguno piensa llevar fierro a la tierra de <placeName>Vizcaya</placeName>, donde
+            ello nace, bien así los estrangeros reputavan a mal seso venir a mostrar su valentía a
+            la tierra de <placeName>Castilla</placeName>, dó saben que ay tanta abundancia de
+            fuerças y esfuerço en los varones della, que la suya será poco estimada.</p>
+         <p>Así que, reina muy excelente, estos cavalleros, e perlados, e otros muchos naturales de
+            vuestros reinos, de que no fago aquí mención por <pb edRef="#DBordonaFP" n="117"
+            />ocupación de mi persona, alcançaron con sus loables trabajos que ovieron, e virtudes
+            que siguieron, el nonbre de varones claros, de que sus descendientes en especial se
+            deven arrear, e todos los fijosdalgo de vuestros reinos deven tomar enxenplo para
+            limpiamente bivir, porque puedan fenecer sus días en toda prosperidad, como estos
+            bivieron e fenecieron. Lo qual sin duda todo omme podrá fazer sacudiendo de sí malas
+            aficiones e pensamientos torpes, que al principio prometen dulçura, e a la fin paren
+            tristeza e disfamia.</p>
+         <p>Agora, razón es facer aquí memoria de algunos perlados naturales de
+               <placeName>Castilla</placeName>, que en mis tiempos, por su sciencia, méritos e
+            virtudes, subieron a grandes estados, [e] tovieron grandes dignidades en la iglesia de
+            Dios.</p>
+      </body>
+   </text>
+</TEI>

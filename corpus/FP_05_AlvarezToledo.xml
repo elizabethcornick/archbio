@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fernán Álvarez de Toledo, Conde de Alba</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2019-03">Frist encoding by Carlos Fernández González (UNED, 2019) </change>
+         <change when="2021-03-06" who="#SAT">Application of transcription criteria. Association
+            with schema.</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_05" xml:lang="es">
+      <body>
+         <head>Fernán Álvarez de Toledo, Conde de Alba</head>
+         <!-- [Título V]
+            Don Fernand Alvares de Toledo, Conde de Alva -->
+         <p>Don <persName>Fernand Álvarez de Toledo, conde de Alva</persName>, fijo de
+               <persName>Garcí Álvarez de Toledo</persName> e nieto de <persName>Fernand Álvarez de
+               Toledo</persName>, era de linaje noble de los antiguos cavalleros de aquella ciudad,
+            ombre de buen cuerpo e de fermosa disposición, gracioso e palanciano en sus fablas. Era
+            de buen entendimiento e cavallero esforçado. Fue criado en la diciplina militar e
+            siempre desde su mo edad deseó fazer en el ábito de la cavallería cosas dignas de loable
+            memoria. </p>
+         <p>Conoscida por el rey don Juan la abilidad deste cavallero, le mandó estar en la villa de
+            Requena por capitán de cierta gente de armas en el tiempo que tenía guerra con el rey
+            don Alfonso de Aragón, su primo. E fizo tanta guerra a los del reino de Valencia que
+            ganó por fuer a de armas la villa e castillo de Xalance con otras tres fortalezas de las
+            principales de aquel reino. Asimismo venció la batalla campal que ovo con algunos
+            cavalleros de aquel reino de Valencia cerca de [...] de donde ovo grand despojo e les
+            tomó las vanderas que traían. Fenescida por concordia esta guerra de Aragón, el rey don
+            Juan encomendó a este cavallero la frontera de los moros, en la qual estovo por espacio
+            de tres años. </p>
+         <p>Era muy cauto e astuto en los engaños de la guerra. Venció al rey moro e a otros
+            capitanes de Granada en batallas campales, e tomó las vanderas de los enemigos en los
+            vencimientos que ovo, las quales e las vanderas que tomó en la batalla do venció a los
+            valencianos, están oy puestas en la su casa de Alva de Tormes, e las traen sus
+            subcesores en las orladuras de sus armas. Ganó asimismo las villas e fortalezas de
+            Benamaurel e Bençalema, e Castril e Arenas, que son muy fuertes, e tomó muchas presas e
+            fizo otras notables fazañas en serviio de Dios e del rey e con amor de su patria e deseo
+            de su honra. </p>
+         <p>Entre las quales acaesció que entrando una vez en el reino de Granada con toda la gente
+            de su capitanía a fazer guerra a una tierra que dizen el Exerquía, que es cercana a la
+            mar e onfina con la ciudad de Málaga, como fue sentido por los moros que en aquellas
+            partes moran, juntáronse grand multitud dellos e, antes que se pudiese proveer, le
+            cercaron por todas partes en un valle tal que, segund la disposición de la tierra, no
+            podía salir salvo peleando por un logar muy estrecho e con grand daño suyo e de las
+            gentes de su capitanía. Veyéndose cercado este capitán, por la una parte de la mar, por
+            la otra de las sierras, e que los enemigos se le llegavan e avían tomado aquel paso por
+            do podía salvar su gente, conoscido aquel peligro e visto cómo su gente desmayava, no se
+            le amortiguó el ánimo en el tiempo del terror, como faze a los covardes, mas despertó
+            esfuerço de valiente capitán, como fazen los varones fuertes, e fabló a sus gentes: </p>
+         <p>«Cavalleros», dixo él, «en tal logar nos ha puestos la fortuna que, si somos covardes,
+            tenemos cierta la muerte e el cativerio e, si somos esforçados, podrá ser cierta la vida
+            e la honra. «Yo», dixo él, «elijo antes pelear para nos salvar, si podiéremos, que
+            rendimos para ser cativos como piensan los moros». </p>
+         <p>E juntando a grand priesa la obra con las palabras, se apeó del cavallo con fasta
+            treinta ombres de armas e púsose con ellos en aquel portillo, e mandó salir por él toda
+            su gente. E él con aquellos treinta, peleando con los moros e sufriendo por todas partes
+            grand multitud de saetadas e lanc;adas e otros golpes de piedra, clava priesa con grand
+            ardideza, a una parte para se defender e a otra para ofender e ferir en los moros,
+            faziendo logar para que pasase toda su gente, la qual peleava con los moros que fallava
+            delante, e aquél caía muerto que menos esfuerço tenía peleando. E así duró aquella
+            priesa por espacio de tres oras, en las quales murieron e fueron feridos muchos de la
+            una parte e de la otra. E al fin el conde, vista ya su gente en logar seguro, cavalgó a
+            cavallo e salió él e los que con él estavan por pura fuerça de armas e de coraçón de
+            aquel grand peligro en que la fortuna le avía metido. </p>
+         <p>E ciertamente veemos por esperiencia que, así como el miedo derriba al covarde, así pone
+            ánimo al ombre esforc;ado. E como el cometer e el durar en las lides son dos atos
+            pertenescientes a la virtud de la fortaleza, e para el acometer sea necesaria la ira e
+            para el durar en la obra convenga tener buen tiento, por cierto las claras fazañas deste
+            cavallero nos mostraron que tovo gracia singular para usar de lo uno e de lo otro, de
+            cada cosa en sus tiempos. Esta fazaña fizo este conde, en la qual nos dio a conocer que
+            la virtud de la fortaleza no se muestra en guerrear lo flaco, mas paresce en resistir lo
+            fuerte, e que tovo tan buen ánimo para no ser vencido como buena fortuna para ser
+            vencedor. </p>
+         <p>Al fin, quando por mandado del rey dexó el cargo de aquella guerra, avidas en ella
+            grandes presas de los moros e venido a su tierra con honra e provecho, don Gutierre de
+            Toledo su tío, arc;obispo que fue de Toledo, conoscida la grand suficiencia deste
+            cavallero su sobrino, e cómo sienpre le sirvió e en todas las cosas le fue obediente,
+            concibió dél grand amor, allende del que por razón del deudo era obligado de le aver, e
+            como quier que tenía otros sobrinos en el grado que aquél era, deliberó dexarle por
+            heredero universal de todos sus bienes, entre los quales le dio la su villa de Alva de
+            Tormes, de la qual el rey don Juan le dio título de conde. E en todas las guerras e
+            diferencias del reino, fue de los principales cavalleros de quien se fazía cuenta e
+            estimación. </p>
+         <p>E como veemos que la prosperidad e el infortunio andan n esta vida variando con los
+            ombres, e vezes lo uno sube, vezes lo otro deciende, acaeció que estando en la amistad e
+            parcialidad del condestable don Alvaro de Luna, maestre de Santiago, a quien el rey don
+            Juan confiava la governación de sus reinos, el maestre tova manera que este conde fuese
+            preso, juntamente con otros condes e cavalleros que el rey mandó prender en la villa de
+            Tordesillas, e fuele tomada grand parte de su patrimonio. Este infortunio que le vino
+            sufrió con buena cara, mostrando corac;ón de varón, pero quexávase gravemente de aver
+            recebido aquel daño por voluntad e rodeo del maestre de Santiago, confiándose dél e
+            aviéndole fecho obras de amigo. </p>
+         <p>Fue ombre deseoso de alcançar honra e procurávala por todas las vías que podía. Tenía la
+            cobdicia común que los ombres tienen de aver bienes, e trabajava mucho por los adquerir.
+            Era ombre liberal, así en el distribuir de los bienes como en los otros negocios que le
+            ocurrían, e sin enpacho ninguno clava o determinava presto lo que avía de fazer. En
+            algunas cosas era airado e mal sufrido, especialmente en aquellas que entendía tocarle
+            en la honra, de lo qual se le siguieron algunos debates, gastos e fatigas. Duró en la
+            prisión do estava fasta que el rey don Juan murió e reinó el rey don Enrique su fijo,
+            que le puso en libertad e restituyó todos sus bienes. E después de suelto bivió en honra
+            e prosperidad algunos años fasta que murió en su casa conosciendo a Dios e dexando a su
+            fijo su casa y patrimonio mucho más acrecentada que lo él ovo de su padre. </p>
+
+      </body>
+   </text>
+</TEI>

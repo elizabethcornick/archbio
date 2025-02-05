@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="archbio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Santa María</title>
+            <author ref="#Luna">Álvaro de Luna</author>
+            <respStmt>
+               <resp>Encoded by: </resp>
+               <persName xml:id="EMRG">Eva María Rodrigo Gómez</persName>
+            </respStmt>
+            <respStmt>
+               <resp>Revised by:</resp>
+               <persName ref="#SAT">Susanna Allés Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2020</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print" xml:id="Castillo_1908">
+               <title>Libro de las claras e virtuosas mugeres</title> por el Condestable de Castilla
+               Don <author>Álvaro de Luna</author>, Maestre de Santiago, edición crítica por Don
+                  <editor>Manuel Castillo</editor>, Catedrático y Director del Instituto General y
+               Técnico de Cáceres. <publisher>Establecimiento tipográfico de Rafael G.
+                  Menor</publisher>, <pubPlace>Madrid - Toledo</pubPlace>
+               <date when="1980">1908</date>
+            </bibl>
+
+            <bibl type="digital"><publisher>Internet Archive</publisher>. Uploaded on <date
+                  when="2009-04-27">April 27, 2009</date>
+               <ref>https://archive.org/details/librodelasclara00unkngoog/page/n8</ref></bibl>
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2019-03" who="#EMRG">Parte del ejercicio final de la asignatura Introducción
+            a la edición digital de textos: Marcado y Etiquetado TEI I, impartida por la profesora
+            Susanna Allés Torrent, en la UNED, durante el curso 2018-2019.</change>
+         <change when="2020-05-05" who="#SAT">Revisión según criterios de transcripción de
+            Archbio.</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text xml:id="Luna_1_01" xml:lang="es">
+      <body>
+         <pb edRef="#Castillo_1908" n="29"/>
+         <head>Capítulo I. Santa María nuestra señora</head>
+
+         <p><cb n="1"/>O virgen bienaventurada e gloriosa: si en el tu vientre virginal traxiste aquel, el qual
+            non solamente con exçelente e divinal razón rige, mas crió tantos movimientos del çielo,
+            tantas maravillosas órdenes de estrellas, tantas costantes revoluçiones del sol, el qual
+            sol, quier açercándose a nos, quier apartándose, produze tanta diversidat de tienpo, es
+            a saber, estío, otoño, verano e ynvierno; si tú traxiste a aquel, el qual posee todo el
+            prinçipado de la natura, e al qual resçibir non podían los cielos, ¿quién será aquel que
+            pueda dignamente contar tus loores? çiertamente ninguno, aunque fablase por boca de
+            ángel.</p>
+
+         <p>Tú, gloriosa virgen, eres espejo de honestad, grand tenplo de santidat , onorable vaso
+            de verdad, blanco lilio de virginidad, rosa suave de parayso, resplandesçiente corona de
+            las santas vírgenes, inperatris de los ángeles, boz magnífica de los prophetas, doctrina
+            de los apóstoles, enxienplo glorioso de los mártires, maravillosa regla de los
+            confesores; tú eres piadosa, tú umill , tú devota, nasçida de ínclita prosapia de reyes,
+            e de santíssimos prophetas patriarchas e saçerdotes , pues de razón es escripto de ti en
+               <cb n="2"/> el quarto capítulo de los cánticos: <q>toda fermosa eres, e manzilla en
+               ti non se falla</q>.</p>
+
+         <p>Tú de fija fecha madre, así como escrive <persName>Ysayas</persName> en el seteno
+            capítulo: <q>catad que la virgen conçibrá e parirá fijo, el nonbre del qual será llamado <persName>Hemanuel</persName>, es a saber, dios fuerte, o dios con nos</q>.</p>
+
+         <p> Abriste con una maravillosa mansedunbre la puerta de la eterrenal vida, la qual por el
+            peccado del primero onbre, muchos siglos fue çerrada. E así, maravillosa virgen,
+            gloriosa, obraste que el linage de los onbres pudiese venir a aquella alta bien
+            aventurança de parayso, para la qual fue por dios criado.</p>
+
+         <p> Mas ¿para qué, virgen gloriosa, yo deva tractar contando tus loores, así commo si a la
+            gloria d'ellos oviese menester agena ayuda? Ciertamente a ellos non es nesçesaria
+            alabança agena, porque non tan solamente son magnificados por boca de los fieles, mas
+            aun de los infieles, la qual non callará jamás por ningund tienpo, quanto quier que sea
+            muy luengo, nin çesará de recontar aquellos.</p>
+
+         <p>E por ende yo delibré callar todos los otros loores que a mí fuera posible de dezir; e
+            por esto una <pb edRef="#Castillo_1908" n="30"/><cb n="1"/>sola cosa queda, es a saber: umillmente
+            suplicaré, que seas presente en esta obra, e quieras deñar de la guardar de los engaños
+            e enbidias <cb n="2"/>de los malos, porque yo te pueda dezir aquello que dize el propheta
+               <persName>David</persName>: <q>non a mí, virgen gloriosa, non a mí, mas a tu santo
+               nonbre sea gloria</q>.</p>
+
+      </body>
+   </text>
+</TEI>

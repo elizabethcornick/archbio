@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pablo García de Santa María</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Domínguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-02-02" who="SAT">First version in XML-TEI</change>
+      <change when="2020-04-19" who="#SAT">Apply transcription criteria</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-16" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_26" xml:lang="es">
+    <body>
+      <head>Pablo de Santa María</head>
+      <!-- Don Pablo de Santa María -->
+      <p><pb edRef="#DBordonaFPG" n="91"/>Don <persName>Pablo, <roleName>obispo de
+              <placeName>Burgos</placeName></roleName></persName>, fue un grant sabio e valiente
+        onbre en çiençia. Fue natural de <placeName>Burgos</placeName> e fue ebreo, de grant linaje
+        de aquella naçión. Fue conbertido por la graçia de Dios e por conosçimiento que ovo de la
+        verdat, que fue grant letrado en amas las leyes. Antes de su conversión era grande filósofo
+        e teólogo, e desque fue convertido, continuando el estudio estando en la corte del papa en
+          <placeName>Aviñón</placeName>, fue avido por grande predicador. Fue primero
+          <roleName>arçidiano de <placeName>Treuiño</placeName></roleName>, e después
+          <roleName>obispo de <placeName>Cartajena</placeName></roleName>, a la fin,
+          <roleName>obispo de <placeName>Burgos</placeName></roleName>, e, después,
+          <roleName>chançiller mayor de <placeName>Castilla</placeName></roleName>.</p>
+      <p>Ovo muy grande lugar con el <persName><roleName>rey</roleName> don Enrique el
+          terçero</persName> e fue muy açebto a él; e, sin dubda, era muy grande razón que de todo
+        rey o prínçipe discreto fuese amado, ca era onbre de grant consejo e de grant discriçión e
+        de grant secreto, que son virtudes e graçias que fazen al onbre digno de la <pb
+          edRef="#DBordonaFPG" n="92"/>privança de cualquier discreto rey. Cuando el dicho rey
+        murió, dexólo por uno de sus testamentarios. E después ovo grande lugar con el
+            <persName><roleName>papa</roleName> Benedicto XIII</persName>.</p>
+      <p>Fue muy grande pedricador. Fizo algunas escrituras muy provechosas de nuestra fe, de las
+        cuales fue una las <bibl><title>Adiçiones sobre Niculao de Lira</title></bibl>, e un tratado
+            <bibl><title>De çena Domini</title></bibl>, e otro <bibl><title>De la generaçión de
+            Jhesu Christo</title></bibl>, e un grant velumen que se llama <bibl><title>Escrutinio de
+            las Escrituras</title></bibl>, en el cual, por fuertes e biuas razones, prueva ser
+        venido el <persName>Mexía</persName>, e Aquél ser Dios e ome.</p>
+      <p>En este lugar acordé de enxerir algunas razones contra la opinión de algunos que, sin
+        distinçión e diferençia, absoluta e sueltamente condenan e afean en grande estremo esta
+        naçión de los <roleName>christianos <pb edRef="#DBordonaFPG" n="93"/>nuevos</roleName> en
+        nuestro tienpo conbertidos, afirmando non ser christianos nin fue buena nin útil su <add
+          resp="#DBordonaFPG">[conbersion]</add>. E yo, fablando con reverencia de los que así,
+        determinadamente e sin çiertos límites e condiçiones lo dizen, digo, que non dubdo que una
+        gente que toda su generaçión biuió en aquella ley, e ellos naçieron e se criaron en ella, e,
+        mayormente, los que en ella enbegeçieron e fueron por fuerça, sin otras amonestaçiones e
+        exortaçiones, traydos a nueva ley, que non sean así fieles e católicos christianos como los
+        que en ella naçieron e fueron enseñados e informados por dotores e escrituras. Ca aun los
+        diçípulos de nuestro Señor, que oyeron sus santos sermones e, lo que es más, vieron sus
+        grandes miraglos e maravillosas obras, e, con todo eso, a la pasión, lo desanpararon e
+        dubdaron de su resuriçión con mengua de la fe, fasta que por el Espíritu Santo fueron
+        confirmados en la fee. E aun después, por hordenança de los apóstoles, a los que de nuevo se
+        conviertían dexavan usar algunas çirimonias de la ley vieja, fasta que, poco a poco, se
+        afirma en la fe. Por todas razones non me maravillaría que aya algunos, espeçialmente
+        mugeres e omes groseros e torpes, que non son sabios en la ley, que non sean católicos
+        christianos; ca el sabidor <pb edRef="#DBordonaFPG" n="94"/> o letrado mas <add
+          resp="#DBordonaFPG">[ligero]</add> es de traer al conoçimiento de la verdad que el
+        inorante, que sólo cree la fe porque la heredó de su padre mas non porque della aya otra
+        razón. Pero yo esto non lo creo de todos ansí generalmente, antes creo aver algunas devotas
+        e buenas presonas entre ellos, e muévenme a ello las razones siguientes: la primera, que de
+        tanta virtud creo ser la santa agua del bautismo, que non sin algunt fruto sería en tantos
+        esparzida e derramada; la segunda, que yo he conosçido e conosco dellos algunos buenos
+        religiosos que pasan en las religiones áspera e fuerte vida de su propia voluntad; la
+        terçera, que he visto algunos, ansy en hedifiçios de monesterios como en reformaçión de
+        algunas <add resp="#DBordonaFPG">[hordenes]</add> que en algunos monesterios estavan
+        corrutas e disulutas, trabajar e gastar asaz de lo suyo, e vi otros, ansí como este obispo e
+        el onorable su fijo don <persName>Alfonso, <roleName>obispo de
+            <placeName>Burgos</placeName></roleName></persName>, que fizieron algunas escrituras de
+        grande utilidad a nuestra fe. E si algunos dizen que ellos fazen estas obras por temor de
+        los reyes e de los perlados o por ser más graçiosos en los ojos de los prínçipes e perlados
+        e valer más con ellos, respóndoles que por pecados non es oy tanto el rigor e zelo de la ley
+        nin de la fe por que con este temor nin con esta <pb edRef="#DBordonaFPG" n="95"/>esperança
+        lo devan fazer, ca con dones e presentes se ganan oy los coraçones de los reyes e perlados
+        mas non con virtudes e devoçiones, nin es tan reguroso el zelo de la fe por que con temor
+        dél se dexe de fazer mal e se faga bien. Por ende, a mi ver, no ansí preçisa e absolutamente
+        se deve condenar toda una naçión, e non negando que las plantas nuevas e enxertos tyernos
+        han menester mucha lavor e gran diligençia; e aun digo más, que los fijos de los primeros
+        convertidos devrían ser apartados de los padres, porque en los coraçones de los niños grant
+        inpresión fazen los preçetos e consejos de los padres. E aunque ansí fuese como ellos por
+        larga manera lo quieren afirmar, yo digo que todavía su conversión fue útil e provechosa, ca
+        el <bibl><author>apóstol sant Pablo</author></bibl> dize: "<quote>En esto me alegraré que el
+          nonbre de Jhesu Christo sea loado con verdad o con infinta</quote>". Asimismo, puesto que
+        los primeros non sean tan buenos cristianos, pero a la segunda e terçera generaçión, e
+        todavía más adelante, serán católicos e firmes en la fe. E para en prueva desto, en las
+        corónicas de <placeName>Castilla</placeName> se lee que cuando los moros ganaron la tierra,
+        por pecados del <persName><roleName>rey</roleName> Rodrigo</persName> e trayçión del
+            <persName><roleName>conde</roleName> Julián</persName>, muchos de los christianos fueron
+        tornados a la seta de los moros, cuyos fijos e nietos e deçendientes nos defendieron e
+        defienden <pb edRef="#DBordonaFPG" n="96"/> la tierra e son asaz contrarios a nuestra ley,
+        ca tanto quedó España poblada dellos como de moros. Yo vi en este nuestro tienpo, cuando el
+            <persName><roleName>rey</roleName> don Johan el segundo</persName> fizo guerra a los
+        moros, que, por división que avían los moros con su <persName><roleName>rey</roleName>
+          Esquierdo</persName>, se pasaron acá muchos cavalleros moros e, con ellos, muchos
+          <roleName>elches</roleName>, los cuales, aunque avían asaz libertad para lo fazer, nunca
+        uno se tornó a nuestra fe porque estavan ya afirmados e asentados desde niños en aquel
+        error, e aun algunos dellos que acá murieron ansí <choice>
+          <sic>estavan ya afirmados e asentados desde niños en aquel error, e aun algunos dellos que
+            acá murieron así</sic>
+          <corr resp="#SAT"/>
+          <!-- repite la frase -->
+        </choice> estavan ya endureçidos en aquella mala aventurada seta e presos de aquel error,
+        que aun en el artículo de la muerte, cuando ya non esperavan goçar de aquellas carnales
+        deleytaçiones, nin avían temor de los moros estando en tierra de christianos, murieron en su
+        mala e porfiada seta. Pues ¿por qué yo non pensaré de algunos de los conversos lo que vi de
+        todos aquellos? E ansí, a mi ver, en todas aquestas cosas son de dexar los estremos e tener
+        medios e limites en los juyçios; o si de algunos saben que non guardan la ley, acúsenlos
+        ante los perlados en manera que la pena sea a ellos castigo e a otros enxenplo: mas condenar
+        a todos e <pb edRef="#DBordonaFPG" n="97"/>non acusar a ninguno, más pareçe voluntad de
+        dizir mal que zelo de <add resp="#DBordonaFPG">[correction]</add>.</p>
+      <p>Tornando al propósito, morió este <persName><roleName>obispo</roleName> don
+          Pablo</persName> en edad de <date>ochenta e çinco</date> años, e dexó dos fijos, grandes
+        letrados: don <persName>Alfonso de Burgos</persName> e don <persName>Gonçalo,
+            <roleName>obispo de <placeName>Plazençia</placeName></roleName></persName>.</p>
+    </body>
+  </text>
+</TEI>

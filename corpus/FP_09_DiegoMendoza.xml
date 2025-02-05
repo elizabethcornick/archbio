@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Diego Hurtado de Mendoza, Duque del Infantado</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03">Frist encoding by Susanna Allés-Torrent </change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_09" xml:lang="es">
+      <body>
+         <head>Diego Hurtado de Mendoza, Duque del Infantado</head>
+         <!-- [Título IX]
+         El Duque del Infantadgo-->
+         <p><pb edRef="#DBordonaFP" n="86"/>Don Diego Hurtado de Mendoça, duque del Infantadgo,
+            marqués de Santillana e conde del Real de Mançanares, fijo del marqués don lñigo López
+            de Mendoça e nieto del almirante don Diego Hurtado, fue ombre delgado e alto de cuerpo.
+            Tenía los ojos prietos e las faciones del rostro fermosas, e bien proporcionado en la
+            conpostura de sus mienbros. Era de linaje noble castellano muy antiguo. </p>
+         <p>Seyendo moço, el marqués su padre le enbió a la su casa de la Vega por pacificar la
+            tierra de las Asturias de Santillana e la librar de algunos tiranos que gela ocupavan,
+            con los quales ovo algunos recuentros e fechos de armas, en que usó el exercicio de la
+            cavallería e fizo ábito en la diciplina militar. E porque las gentes de aquellas tierras
+            son ombres valientes, esforçados e muy cursados en las peleas a pie que, segund la
+            disposición de aquellas montañas se requiere fazer, este cavallero se vicio con ellos
+            muchas vezes en grandes trabajos e peligros de la guerra continua que con ellos tovo,
+            fasta que al fin, vencidos sus contrarios por batallas en canpo, e muerto su principal
+            capitán, alinpió aquellas sus montañas de la tiranía en que por largos tienpos avían
+            estado. </p>
+         <p>Era ombre bien instruto en las letras latinas e tenía tan buena memoria que pocas cosas
+            se le olvidavan de lo que en la Sacra Escritura avía leído. Era ombre de verdad e
+            aborrescía tanto mentiras e mentirosos que ninguno de los tales ovo jamás logar cerca
+            dél. Heredó la casa de su padre en el tienpo del rey don Enrique quarto e fue uno de los
+            principales señores del reino que entendieron en pacificar las divisiones que ovo entre
+            el rey don Enrique e el rey don Alfonso, su hermano. </p>
+         <p>Fue tan perseverante en la virtud de la constancia que por ningún interese jamás le
+            vieron fazer mudan a de aquello que una vez asentava de fazer. E esta virtud se
+            esperimentó en él porque no dexó de seguir la vía del rey don Enrique, aunque en ella
+            ovo algunos sinistres e se vicio en grandes discrimines e aventuras de perder su persona
+            e casa, porque se tenía por dicho que en el infortunio reluzía la constancia. Peleó en
+            la batalla que estos dos reyes ovieron cerca de la villa de Olmedo, ante de la qual,
+            veyéndose las fazes contrarias unas e otras en el canpo, ni el miedo le turbó el seso
+            para consejar ni el esfuerço se enflaqueció para cometer, ni menos cansó la fuerça del
+            coraçón peleando para vencer. </p>
+         <p>Zelava este cavallero tanto la honra que con dificultad era traído a entender en ninguna
+            negociación ni trato que le fuese movido, recelando que las variedades de los tienpos le
+            forçasen a fazer mudança de su palabra, por do podiese caer en punto de mengua. </p>
+         <p>Era ombre muy llano e tratable con todos e honrador en los recebimientos de los que a él
+            venían, e ageno de disimulationes. Tenía ánimo tan noble e las entrañas tan claras e tan
+            abiertas que jamás fue conoscido en él pensamiento para muerte e destruición ni injuria
+            de ninguno. E de su natural inclinación no quería entender salvo en cosas justas e
+            rectas. Todas las cautelas e fictiones aborrescía como cosa contraria a su natural
+            condición. </p>
+         <p>No era varón de venganças, e perdonava tan fácilmente a los que le erravan que jamás
+            avía memoria de sus yerros. Acaescióle que, como algunos suyos le errasen de tal manera
+            que la graveza del delito les cerrase la puerta de la esperança para ser perdonados,
+            movido este cavallero por la piedad natural que tenía, podiendo aver dellos entera
+            vengança, le acaesció llamarlos e perdonarlos e, quedando linpio de todo odio, les dio
+            de sus bienes. Porque dezía él que ninguna mayor pena podía rescebir el injuriador que
+            venir a manos del injuriado, ni mayor gloria el injuriado que dar vida e beneficios al
+            injuriador. </p>
+         <p>Tenía la cobdicia de aver bienes tenporales como todos los mortales tienen. Pero en esto
+            tovo una tan singular tenplança que, por grand utilidad e acrecentamiento que oviese, no
+            fiziera cosa fea ni desonesta. E como veemos todos los ombres desear honra e
+            acrecentamiento, especialmente en las tierras de su morada, e la necesidad de los
+            tienpos acarrease que el rey en remuneración de sus servicios le ofreciese donación
+            perpetua de Guadalajara, do era su asiento, este cavallero no la quiso rescebir, porque
+            su humanidad no pudo sofrir la pasión y trabajo que otros sentían por ser puestos en
+            señorío particular e apartados del señorío real. Dezía él que el inperio for oso más se
+            puede dezir cuidado grave que posesión deleitosa. </p>
+         <p>Fue ombre que se deleitava en lavores de casas e hedeficios. Este duque fundó de
+            principio en la su villa de Man anares la fortaleza que está en ella hedificada, e fizo
+            de nuevo e reparó algunas casas de morada en sus tierras e logares. E en esto más que en
+            otras cosas fue liberal. Fue asimismo vencido de mugeres e del apetito de los manjares.
+            E aviendo acrecentado su título y patrimonio allende de lo que le dexó el Marqués su
+            padre, murió en toda prosperidad en hedad de sesenta e cinco años. </p>
+
+      </body>
+   </text>
+</TEI>

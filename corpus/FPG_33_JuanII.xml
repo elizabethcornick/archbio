@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Juan II de Castilla</title>
+        <author ref="#FPG">Fernán Pérez de Guzmán</author>
+        <respStmt>
+          <resp>Edited and Encoded by</resp>
+          <persName ref="#SAT">Susanna Allés-Torrent</persName>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+          (ArchBio)</authority>
+        <publisher>University of Miami</publisher>
+        <pubPlace>Coral Gables, FL</pubPlace>
+        <availability status="free">
+          <p>This electronic text is distributed by ArchBio under a <ref
+              target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+              Attribution-NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+        </availability>
+        <date>2020</date>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl type="print">
+          <author>Fernán Pérez de Guzmán</author>
+          <title>Generaciones y semblanzas</title>
+          <editor ref="#DBordonaFPG">Jesús Domínguez Bordona</editor>
+          <pubPlace>Madrid</pubPlace>
+          <publisher>Ediciones La Lectura</publisher>
+          <date>1924</date>
+        </bibl>
+
+        <bibl type="digital">
+          <note resp="#SAT">Domínguez Bordona's 1924 edition is fully digitizied in HathiTrust, but
+            is only available from the US.</note>
+          <publisher>Hathi Trust</publisher>
+          <date>2020</date>
+          <ref>https://hdl.handle.net/2027/mdp.39015002249095</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <revisionDesc>
+      <change when="2020-02-02" who="SAT">First version in XML-TEI</change>
+      <change when="2020-04-19" who="#SAT">Apply transcription criteria.</change>
+      <change when="2020-05-05" who="#SAT">Association with schema</change>
+      <change when="2022-06-17" who="#SAT">Further revision of the transcription according to
+        Domínguez Bordona's edition of 1924.</change>
+    </revisionDesc>
+
+  </teiHeader>
+  <text xml:id="FPG_33" xml:lang="es">
+    <body>
+      <head>Juan II de Castilla</head>
+      <!-- Don Juan II de Castilla -->
+      <p><pb edRef="#DBordonaFPG" n="118"/>Don <persName>Johan, el segundo</persName> de los reyes
+        que en <placeName>Castilla</placeName> ovieron este nombre, fue fijo del
+            <persName><roleName>rey</roleName> don Enrique el terçero</persName> e de la
+            <persName><roleName>reyna</roleName> doña Catalina</persName> su muger; e naçió en
+          <placeName>Toro</placeName>, <date when="1405-03-06">viernes, seys dyas de março, día de
+            <persName>Santo Tomas</persName>, año de la Encarnaçión de mill e cuatroçientos e
+          çinco</date>; e començó a reynar el <date when="1407-12-25">día de Nauidad, año de mill e
+          cuatroçientos e siete</date>, que murió el rey su padre en la cibdad de
+          <placeName>Toledo</placeName> el dicho día, ansí que avía veynte e dos meses que naçiera,
+        e allí fue alçado por rey, estando ay el <persName><roleName>infante</roleName> don
+          Fernando</persName>, su tío, e don <persName>Rui López Dávalos, <roleName>condestable de
+              <roleName>Castilla</roleName></roleName></persName>, e <persName>Johan de Velasco,
+            <roleName>camarero mayor del rey</roleName></persName>, e <persName>Diego López
+          Destúñiga, su <roleName>justiçia mayor</roleName></persName>, e don <persName>Sancho, de
+          Rojas, <roleName>obispo de <placeName>Palençia</placeName></roleName></persName> que
+        después fue <roleName>arçobispo de <placeName>Toledo</placeName></roleName>, e don
+          <persName>Johan de Illescas, <roleName>obispo de
+            <placeName>Sigüença</placeName></roleName></persName>. E a la <pb edRef="#DBordonaFPG"
+          n="120"/>sazón que el rey su padre murió, estava en <placeName>Segovia</placeName>, que lo
+        tenía allí la reyna su madre; e quedaron por sus tutores e rigidores, por testamento del
+        rey, la reyna e el infante, e la guarda e tenençia del rey niño quedava a <persName>Diego
+          López de Estúñiga</persName> e <persName>Johan de Velasco</persName>, pero porque la reyna
+        se sintió dello por muy agraviada e ansímesmo a los grandes del reyno non plazía dello,
+        fueles fecha emienda, e la reina tovo al rey, e dende a pocos días que el rey su padre
+        murió, partió de <placeName>Toledo</placeName> el infante e todos los cavalleros que con él
+        eran para <placeName>Segovia</placeName>, donde el rey estava. E vinieron allí muchos
+        grandes perlados e cavalleros e los procuradores de las çibdades e villas, e ansí fue allí
+        un grande ayuntamiento de gente, e ovo algunos debates entre la reyna e el infante sobre la
+        forma del rigimiento, pero concordóse en esta manera: que la reina oviese la governaçión de
+        allende los puertos contra <placeName>Burgos</placeName>, salvo a
+          <placeName>Córdova</placeName> e algunos lugares otros que fueron de su regimiento; el
+        infante ovo la parte de aquende los puertos contra <placeName>Toledo</placeName> e
+          <placeName>Andaluzía</placeName>, salvo a <placeName>Burgos</placeName> e a otros lugares.
+        E esto ansí concordado, el infante se partió para la guerra de los moros e con él todos los
+        grandes del reyno, e la reyna quedóse en <placeName>Segovia</placeName> con el rey. Lo que
+        el infante fizo en el año e otro siguiente <pb edRef="#DBordonaFPG" n="121"/> en aquella
+        guerra, porque ya suso es contado non se dize aquí más, salvo tanto que si a nuestro Señor
+        non provocaran a indignaçión los pecados de <placeName>Castilla</placeName>, para que
+        viniese en ello algunt enbargo, sin dubda este noble infante diera fin a la dicha guerra e
+        tornara a <placeName>España</placeName> en su antigua posesión, lançando los moros della e
+        restituyéndola a los christianos. Pero estando este infante sobre
+          <placeName>Antequera</placeName>, aviendo vençido una batalla e teniendo a los moros muy
+        afincados, murió el <persName><roleName>rey</roleName> Martín de Aragón</persName> sin
+        fijos, e por derecho suçedía el reyno este <persName><roleName>infante</roleName> don
+          Fernando</persName> que era fijo <choice>
+          <sic>de de</sic>
+          <corr resp="#SAT">de</corr>
+        </choice> la <persName><roleName>reyna</roleName> doña Leonor de Castilla</persName>,
+        hermana deste <persName><roleName>rey</roleName> Martín</persName>; e por eso ovo el dicho
+        infante <add resp="#DBordonaFPG">[de]</add> dexar la dicha guerra e bolverse a la
+        prosecuçión del <placeName>reyno de Aragón</placeName>, lo cual fue grant daño para
+          <placeName>Castilla</placeName>, ansí por perderse aquella conquista como por absentarse
+        el infante de la governaçión del reyno que él governava en tanta paz <!--e justiçia--> como,
+        mal pecado, se mostró después en los grandes daños e males que, por falta de buen
+        regimiento, son venidos, ca el bien nunca es conoçido si non por su contrario.</p>
+      <p>E tornando a fablar deste <persName><roleName>rey</roleName> don Johan</persName>, es de
+        saber que él fue alto de cuerpo, e de grandes <!--fuertes--> mienbros, pera non de buen
+        talle nin de grant fuerça; de buen gesto, blanco e ruvio, los onbros altos, el rostro
+        grande, la fabla un poco arrebatada; sosegado <pb edRef="#DBordonaFPG" n="122"/> e manso,
+        muy mesurado e <add resp="#DBordonaFPG">[llano]</add> en su palabra. E porque la condiçión
+        suya fue estraña e maravillosa, es nesçesario de alargar la relaçión della, ca ansí fue que
+        él era ome que fablava cuerda e razonablemente e avía conosçimiento de los omes para
+        entender cuál fablava mejor e más atentado e más graçioso. Plazíale oyr los omes avisados e
+        graçiosos e notava mucho lo que dellos oya, sabía fablar <add resp="#DBordonaFPG">[e]</add>
+        entender latín, leya muy bien, plazíanle muchos libros e estorias, oya muy de grado los
+        dizires rimados e conoçía los viçios dellos, avía grant plazer en oyr palabras alegres e
+        bien apuntadas, e aun el mesmo las sabía bien dizir. Usava mucho la caça e el monte e
+        entendía bien en toda la arte dello. Sabía <choice>
+          <sic>del l'arte</sic>
+          <corr resp="#SAT">del</corr>
+        </choice> de la música, cantava e tañía bien, e aun en el justar e juegos de cañas se avía
+        bien. Pero como quier que de todas estas graçias oviese razonable parte, de aquellas que
+        verdaderamente son virtudes e que a todo ome, e prinçipalmente a los reyes, son nesçesarias,
+        fue muy defetuoso. Ca la <pb edRef="#DBordonaFPG" n="123"/>prinçipal virtud del rey, después
+        de la fee, es ser industrioso e diligente en la governaçión e rigimiento de su reyno, e
+        pruévase por aquel más sabio de los reyes, <persName>Salamón</persName>, el cual, aviendo
+        mandamiento de Dios que pidiese lo que quisiese, non demandó <!--ál,--> salvo seso para
+        rigir e hordenar el pueblo, la cual petiçión tanto fue agradable a nuestro Señor, que le
+        otorgó aquella e otras singulares graçias. De aquesta virtud fue ansí privado e menguado
+        este rey, que aviendo todas las graçias suso dichas, nunca una <add resp="#DBordonaFPG"
+          >[ora]</add> sola quiso entender nin trabajar en el regimiento del reino aunque en su
+        tienpo fueron en <pb edRef="#DBordonaFPG" n="124"/><placeName>Castilla</placeName> tantas
+        rebueltas e movimientos <!--e daños--> e males e peligros cuantos non ovo en tienpo de reyes
+        pasados por espaçio de dozientos años, de lo cual a su persona e fama <!--e reino--> venía
+        asaz peligro. Tanta fue la negligençia e remisión en la governaçión del reyno, dándose a
+        otras obras mas pazibles e deleytables que útiles nin onorables, que nunca en ello quiso
+        entender. E como quier que en aquellas estorias que leya fallase los males e daños que
+        vinieron a los reyes e a sus reynos por la nigligençia e remisión de los reyes, e ansímesmo,
+        como quier que por muchos religiosos e cavalleros le fue dicho que su presona e su reyno
+        estavan en grant peligro por el non entender en el regimiento de su reyno, e que su fama era
+        menguada por ello, e, lo que más grave era, que su conçiençia era muy encargada e avía a
+        Dios de dar muy estrecha cuenta del mal que a sus súditos venía por defeuto de su
+        regimiento, pues le diera Dios discriçión e seso para entender en ello, con todo esto,
+        aunque él mesmo veya la poca obidiençia que le era guardada e con cuán poca reverençia era
+        tratado e la poca mençión que de sus cartas e mandamientos se fazía, con todo <pb
+          edRef="#DBordonaFPG" n="125"/>esto, nunca un día quiso bolver el rostro nin trabajar el
+        spíritu en la ordenança de su casa nin en el regimiento de su reino, mas dexava el cargo de
+        todo ello al su condestable, del cual fizo tanta e tan singular fiança, que a los que lo non
+        vieron pareçería cosa increyble, e a los que lo vieron fue estraña e maravillosa obra: ca
+        las rentas e tesoros suyos e en los ofiçios de su casa e en la justiçia de su reyno, non
+        solamente se fazía todo por su hordenança, mas ninguna cosa se fazía sin su mandado, ca como
+        quier que las provisiones o cartas de justiçia e los libramientos e merçedes e donadíos
+        fuesen fechas en nonbre del rey e firmadas de su nonbre, pero nin los secretarios escrivían,
+        nin el rey firmava, nin el chançiller sellava, nin las cartas avían vigor nin esecuçión sin
+        voluntad del condestable. Tanta e tan singular fue la fiança que el rey fizo del condestable
+        e tan grande e tan exçesiva su potençia, que apenas se podría saber de ningunt rey o
+        prínçipe, por muy temido e obedeçido que fuese en su reyno, que más lo fuese que él en
+          <placeName>Castilla</placeName> nin que mas libremente oviese la governaçión e el
+        regimiento. Ca non solamente los ofiçios e estados e mercedes de que el rey podía prover,
+        mas las dignidades e benefiçios eclesiásticos non eran en el reino quien ossase suplicar al
+        papa nin aun acebtar su provisión si <foreign xml:lang="lat">propio motu</foreign> lo fazía
+        sin consentimiento del condestable, ansí que lo temporal e spiritual todo era en su mano.
+        Toda la abtoridad del rey era firmar las cartas,<pb edRef="#DBordonaFPG" n="126"/> mas la
+        hordenança e esecuçión dellas en el condestable era. A tanto se estendió su poder e tanto se
+        encogió la virtud del rey, que del mayor ofiçio del reyno fasta la más pequeña merçed muy
+        pocos llegavan a la demandar al rey nin le fazían graçia della, mas al condestable se
+        demandava e a él se regraçiava. E lo que con mayor maravilla se podía dizir e oyr, aun en
+        los actos naturales se dio así a la ordenança del condestable, que seyendo el moço e bien
+        conplisionado e teniendo a la reyna su muger moça e fermosa, si el condestable ge lo
+        contradixese non iría a dormir a su camara della nin curava de otras mugeres, aunque
+        naturalmente <!--asaz--> era inclinado a ellas. En conclusión, son aquí de notar dos puntos
+        muy maravillosos: el primero, un rey comunalmente entendido en muchas cosas, e ser de todo
+        punto remiso e negligente en la governaçión de su reyno, non le moviendo nin estimulando a
+        ello la discriçión ni las espiriençias de muchos trabajos que pasó en las contiendas e
+        rebueltas que ovo en su reyno, nin las amonestaçiones e avisamientos de grandes cavalleros e
+        religiosos que dello le fablavan, nin, lo que mas es, la inclinaçión natural pudo en él aver
+        tanto vigor e fuerça que de todo punto, sin algunt medio, se sometiese a la hordenança e
+        consejo del condestable con más obidiençia que nunca un fijo omill lo fue a un padre, nin un
+        obidiente religioso <pb edRef="#DBordonaFPG" n="127"/> a su abad o prior. Algunos fueron
+        que, veyendo este amor tan espeçial y esta fiança tanto exçesiva, tovieron que <add
+          resp="#DBordonaFPG">[fue]</add> arte e malizia de fechizos, pero de esto non ovo cosa
+        çierta aunque algunas diligençias ovo en ello. El segundo punto, que un cavallero sin
+        parientes e con tan pobre comienço, en un reyno tan grande e donde tantos e tan poderosos
+        cavalleros avía, e en tienpo de un rey tan poco obedeçido e temido, oviese <choice>
+          <sic>tan</sic>
+          <corr resp="#SAT">tan</corr>
+        </choice> singular poder. Ca puesto que queramos dizir que esto era en virtud del rey ¿como
+        podía dar a otro el que para sí non lo tenía? O ¿como es obedeçido el lugarteniente cuando
+        el que lo pone en su lugar non falla obidiençia? Verdaderamente, yo cuydo que desto non se
+        pudiese dar clara razón, salvo si la diere Aquél que fizo la condiçión del rey tan estraña,
+        que Ése puede dar razón del poder del condestable, que yo non sé cuál destas dos cosas es de
+        mayor admiraçión: o la condiçión del rey o el poder del condestable.</p>
+      <p>En el tienpo deste <persName><roleName>rey</roleName> don Johan</persName> acaecieron en
+          <placeName>Castilla</placeName> muchos actos más grandes e estraños que buenos nin dignos
+        de memoria nin útiles nin provechosos al reyno; ca ansí fue que absente desta vida el
+            <persName><roleName>rey</roleName> don Ferrando de
+          <placeName>Aragón</placeName></persName>, su tío, por consiguiente se absentaron de
+          <placeName>Castilla</placeName> la paz e la <pb edRef="#DBordonaFPG" n="128"/>concordia; e
+        muerta otrosí la <persName><roleName>reyna</roleName> doña Catalina</persName>, madre del
+        rey, juntáronse en <placeName>Valladolid</placeName> el
+            <persName><roleName>infante</roleName> don Enrique, <roleName>maestre de
+            Santiago</roleName></persName>, e don <persName>Sancho de Rojas, <roleName>arçobispo de
+              <placeName>Toledo</placeName></roleName></persName>, e don <persName>Alfonso Enríquez,
+            <roleName>almirante de <placeName>Castilla</placeName></roleName></persName>, e don
+          <persName>Rui López Dáualos, <roleName>condestable</roleName></persName>, e
+          <persName>Johan de Velasco, <roleName>camarero mayor del rey</roleName></persName>, e
+          <persName>Pero Manrique, <roleName>adelantado mayor de
+            <placeName>Castilla</placeName></roleName></persName>, e muchos otros grandes del reyno,
+        e de acuerdo e común consentimiento de todos, sacaron al rey de aquella casa, que es çerca
+        de <placeName>Sant Pablo</placeName>, en la cual la reyna su madre le tovo por espaçio de
+        seys años e más que non sallió de allí temiendo que ge lo tomarían, e ansí que pareçía que
+        este día que de allí sallió era otro segundo nasçimiento suyo: ca ansí como el día que naçio
+        salió a la luz desta vida, ansí este día que de aquella posada sallió vio su reyno e conoçió
+        su gente, que antes non conoçía si non a los guardas que allí con él estavan e cuando
+        algunos cavalleros le venían a fazer reverençia. E como de allí sallió lleváronlo a
+          <placeName>Tordesillas</placeName>. E eran los prinçipales que el reyno governavan e
+        rigían, don <persName>Sancho de Rojas, <roleName>arçobispo de
+            <placeName>Toledo</placeName></roleName></persName>, e el
+            <persName><roleName>almirante</roleName> don Alfonso Enríquez</persName>, e el
+            <persName><roleName>condestable</roleName> don Rui López Dávalos</persName>, e el
+            <persName><roleName>adelantado</roleName> Pero Manrique</persName>. Ca como quiera que
+        allí estavan los infantes <pb edRef="#DBordonaFPG" n="129"/>don <persName>Johan</persName> e
+        don <persName>Enrique</persName>, fijos del <persName><roleName>rey</roleName> don Ferrando
+          de <placeName>Aragón</placeName></persName>, pero eran muy moços e tocados de aquella
+        dolençia real, que es común e general a todos los reales moços que son rigidos e governados
+        por ayos e maestros e aun algunos son que nunca desta dolençia sanan. Otrosí estavan allí
+        otros grandes señores, pero por estos cuatro pasavan todos los fechos. E de
+          <placeName>Tordesillas</placeName> fueron a <placeName>Medina del Campo</placeName> e allí
+        se desposó el rey con la <persName><roleName>infanta</roleName> doña María</persName>, fija
+        del <persName><roleName>rey</roleName> don Fernando de Aragón</persName>, e dende fue el rey
+        a <placeName>Madrid</placeName> dónde tomó la governaçión de sus reynos, porque avía
+        conplido hedad de los catorze años, e fízose allí una grande fiesta e solepnidad, ca estavan
+        allí juntos todos los <add resp="#DBordonaFPG">[grandes]</add> del reyno e todos los
+        procuradores; e como quier que el regimiento del reyno le fue allí entregado pero él, usando
+        de su natural condiçión e de aquella remisión e nigligençia casi mostruosa, todo el tienpo
+        que reynó se pudo más dizir tutorías que regimiento nin administraçión real. Ansí que él
+        touo título e nonbre real, no digo abtos nin obras de rey, çerca de cuarenta e siete años, <choice>
+          <sic>de el</sic>
+          <corr>del</corr>
+        </choice> día que su padre murió en <placeName>Toledo</placeName> fasta el día que él murió
+        en <placeName>Valladolid</placeName>, que nunca tovo color nin sabor de rey sino siempre
+        regido e governado; ca, aun después de muerto su <persName><roleName>condestable</roleName>
+          don Álvaro <pb edRef="#DBordonaFPG" n="130"/>de Luna</persName>, sobre el cual bivió poco
+        más de un año, lo rigió e governó don <persName>Lope de Barrientos, <roleName>obispo de
+              <placeName>Cuenca</placeName></roleName></persName>, e <persName>fray Gonçalo de
+          Illescas, <roleName>prior de <placeName>Guadalupe</placeName></roleName></persName>, e aun
+        algunos omes baxos e de poco valor; e si después de muerto el condestable algund vigor e
+        voluntad se mostró en él, non fue salvo en cobdiçia de allegar tesoros, a la cual él se dava
+        con todo deseo, mas no de rigir sus reynos nin restaurar e reparar los males e daños en
+        ellos venidos en cuarenta e siete años que él tovo nonbre e título de rey. E estando en
+          <placeName>Valladolid</placeName>, adoleçió de cuartana doble que le duró grandes días, e,
+        segunt se dize, rigíese muy mal, ca era muy comedor e mal rigido. Y como quier que
+        <!--fue--> quedó libre de cuartana, quedó mal dispuesto de la persona, e continuando su mal
+        rigimiento ovo primero algunos açidentes muy fuertes, e murió en
+          <placeName>Valladolid</placeName> a <date when="1454-07-22">veynte e dos días de jullio,
+          año de mill e quatroçientos e çinquenta e cuatro años</date>, e fue enterrado en el
+          <placeName>monesterio de Miraflores</placeName> en que él avía puesto <roleName>frayles de
+          Cartuxa</roleName>.</p>
+      <p>Antes que este <persName><roleName>rey</roleName> don Johan</persName> muriese, poco más de
+        un año, contra opinión de todos, pungido e estimulado <pb edRef="#DBordonaFPG" n="131"/>
+        segunt se cree por voluntad de Dios, o porque el su condestable lo traya más apoderado e
+        estrechado que nunca lo troxo e non le dava lugar de fazer nada de lo que quería, ca sienpre
+        estavan çerca dél presonas de su mano sin las cuales non podía fazer nin dizir cosa alguna,
+        e aun se dize que en el serviçio e mantenimiento de su mesa era tan pobre e menguado que
+        todos avían que dizir, nin le dexava estar nin usar cuando quería con la segunda reyna su
+        muger: si esta fue la cabsa, o lo que más es de creer, si como dize <bibl><author>Sant
+            Agostín</author></bibl>, era ya conplida la cobdiçia del
+        <persName>Amorreo</persName><!-- ?? --> e non pudo nin devió la divina justiçia tolerar nin
+        sufrir su tiranía e usurpaçión de señorío, que estando el rey en
+          <placeName>Burgos</placeName> sintió el condestable que <persName>Alonso Pérez de
+          Bivero</persName>, el cual él avía levantado del suelo e fecho muy grande onbre e dado
+        grant lugar çerca del rey, que tratava con el rey su apartamiento e desfazimiento, non
+        podiendo en ello aver paçiençia, fízolo venir a su casa el viernes de la Cruz, asaz
+        inportuno día para tal abto, fízolo matar, e luego adelante, el miércoles de las ochavas de
+        Pascua florida, queriendo nuestro Señor fazer obra nueva, el día que deviera ser Resureçión,
+        fue pasión del dicho condestable. Con grande admiraçión e casi increyble a todo el reyno, el
+        rey lo mandó prender a don <persName>Álvaro de Stúñiga</persName>, que fue después
+          <roleName>conde de Plazençia</roleName>, e tomóle lo que allí <pb edRef="#DBordonaFPG"
+          n="132"/>le falló, e partiendo de <placeName>Burgos</placeName> llevólo consigo a
+          <placeName>Valladolid</placeName> e fízolo poner, en <placeName>Portillo</placeName>, en
+        fierros, en una jaola de madera. ¡Qué podemos aquí dizir, sino temer e obedeçer los escuros
+        juyzios de Dios! Que un rey que fasta los cuarenta e siete años fue en poder deste
+        condestable con tan grandísima paçiençia e obidiençia, que solamente el senblante non movía
+        contra él, que agora, súpitamente, con tan grande rigor lo fiziese prender e poner en
+        fierros. E aun es de notar que aquellos prínçipes reales, el <roleName>rey de
+          Navarra</roleName> e el <persName><roleName>infante</roleName> don Enrique</persName>, con
+        acuerdo e favor de todos los grandes del reyno, muchas vezes se trabajaron de lo apartar del
+        rey e destruyrlo, e non solamente non lo acabaron, mas todos o los más dellos se perdieron
+        en aquella demanda, por ventura porque se movían con interese e non con buena intençión. E
+        si queremos dizir que el rey fizo esta obra, pareçe el contrario, porque muerto el
+        condestable, el rey se quedó en aquella misma remisión e nigligençia que primero, nin fizo
+        abto alguno de virtud nin de fortaleza en que se mostrase <pb edRef="#DBordonaFPG" n="133"
+        />ser más ome que primero. E así resta que devamos crer que esta fue la obra de sólo Dios
+        que, segunt la <bibl><title>Escritura</title></bibl>, él sólo faze grandes maravillas.</p>
+      <p>E tornando al propósito, quedando el condestable en <placeName>Portillo</placeName>, fue el
+        rey a <placeName>Escalona</placeName>
+        <choice>
+          <sic>par</sic>
+          <corr resp="#SAT">por</corr>
+        </choice> aver la villa e el tesoro que allí estava, e estando en aquella comarca, por
+        algunas informaçiones que ovo e proçediendo como en cosa notoria con conseio de los letrados
+        que en su corte eran, dio sentençia que le degollasen, e fue llevado de
+          <placeName>Portillo</placeName> a <placeName>Valladolid</placeName> e allí, públicamente,
+        e en forma de justiçia fue degollado; a la cual muerte, segund se dize, él se dispuso a la
+        sofrir más esforçada que devotamente: ca, segunt los abtos que aquel día fizo e las palabras
+        que dixo más pertenesçian a fama que a devoçión.</p>
+      <p>Deste <persName>señor <roleName>rey</roleName> don Johan</persName>, segund la opinión de
+        algunos que lo conoçían, él era de su natural condiçión cobdiçioso e luxurioso e aun
+        vindicativo, pero no le bastava el ánimo a la esecuçión dello. Las maneras e condiçiones
+        tanto estrañas de este rey e los males que por ello vinieron a sus reynos, al juiçio de
+        muchos, son atribuydos a los pecados de los naturales deste reyno, concordando con la
+            <bibl><title>Santa Escritura</title></bibl> que dize que <quote>«por pecados del pueblo
+          faze <pb edRef="#DBordonaFPG" n="134"/>Dios reynar al ipócrita».</quote>. Verdaderamente,
+        quien bien le conoçió e consideró vera que tal condiçión de rey e tantos males como della se
+        siguieron, fue por grandes pecados del pueblo.</p>
+      <p>Dexó este rey a su fin a su fijo el <persName><roleName>prínçipe</roleName> don
+          Enrique</persName>, que oy reina, e al <persName><roleName>infante</roleName> don
+          Alfonso</persName>, e a la <persName><roleName>infanta</roleName> doña
+        Elisabet</persName>.</p>
+    </body>
+
+  </text>
+</TEI>

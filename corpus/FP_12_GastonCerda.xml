@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gastón de la Cerda, Conde de Medinaceli</title>
+            <author ref="#FP">Fernando del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla</title>
+               <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
+               <publisher>Espasa Calpe</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>1923</date>
+            </bibl>
+
+            <bibl type="digital">
+               <note resp="#SAT">Dominguez Bordona's 1923 edition is fully digitizied in HathiTrust,
+                  but is only available from the US.</note>
+               <publisher>Hathi Trust</publisher>
+               <date>2020</date>
+               <ref>https://hdl.handle.net/2027/uc1.$b540680</ref>
+            </bibl>
+
+
+         </sourceDesc>
+      </fileDesc>
+
+      <revisionDesc>
+         <change when="2021-03" who="#SAT">Frist encoding</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_12" xml:lang="es">
+      <body>
+         <head>Gastón de la Cerda, Conde de Medinaceli</head>
+         <!-- [Título XII]
+         El Conde de Medinaceli-->
+         <p><pb edRef="#DBordonaFP" n="95"/>Don Gastón de la Cerda, conde de Medinaceli, fijo de don
+            Luis de la Cerda, fue ombre delgado de cuerpo, de muy hermoso gesto e de mediana
+            estatura, e bien conpuesto en la proporción de los mienbros. Çeçeava un poco. Su padre e
+            avuelos fueron de linaje de los reyes de Castilla, decendientes por legítima línea, e
+            asimismo de los reyes de Francia, e todos subcesivamente fueron condes de aquel condado
+            de Medina, el qual condado, con otras villas y logares e tierras, fue dado a su
+            trasvisavuelo, que era nieto del rey don Alfonso de Castilla, por el derecho que avía a
+            estos reinos. </p>
+         <p>Este conde fue muy franco e procurava estar aconpañado de ombres fijosdalgo. E seyendo
+            en hedad de veinte e cinco años, veyendo que el conde su padre seguía algunas
+            parcialidades de cavalleros contra la voluntad del rey don Juan, e puesto en pensamiento
+            trabajoso porque, si la opinión de su padre siguiese, creía errar a la lealtad que devía
+            al rey e, si obedescía al rey, pensava errar a la obediencia paternal. Pospuestos los
+            daños que del apartamiento de su padre se le siguieron, deliberó obedescer los
+            mandamientos reales e sirvió a su rey todo el tienpo de su vida con tanta obediencia que
+            la perseverancia que tovo en su servicio fue a otros enxenplo de lealtad. </p>
+         <p>E después que heredó la casa de su padre, sienpre bivió faziendo guerra a los contrarios
+            del rey. E fue preso en su servicio en una batalla que ovo con los aragoneses, en la
+            qual prisión estovo algún tienpo. E recibió daños en su persona e fazienda, que sufrió
+            como varón fuerte, reputándolos a prosperidad por ser en servicio de su rey. Este conde
+            conosció bien quánto reluze la lealtad e la costancia en el cavallero e quánto es fea la
+            mácula del yerro cometido contra los reyes. </p>
+         <p>Fue ombre vencido del amor de las mugeres e él fue amado dellas. Murió con grand honra
+            después que salió de la prisión, en hedad de quarenta años. </p>
+
+
+      </body>
+   </text>
+</TEI>
