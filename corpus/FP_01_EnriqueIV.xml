@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -50,550 +51,192 @@
          <change when="2019-03">Frist encoding by Carlos Fernández González (UNED, 2019) </change>
          <change when="2021-03-06" who="#SAT">Application of transcription criteria. Association
             with schema.</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_01" xml:lang="es">
       <body>
-         <head>Enrique IV, Rey de Castilla</head>
-         <!-- [Título I]
-            [Del Rey Don Enrique IV] -->
-         <p><pb edRef="#DBordonaFP" n="9"/>El rey don <persName>Enrique Quarto</persName>
-            <choice>
-               <orig>fijo</orig>
-               <reg>hijo</reg>
-            </choice>del rey don <persName>Juan el Segundo</persName> fue omme alto de cuerpo, e <choice>
-               <orig>fermoso</orig>
-               <reg>hermoso</reg>
-            </choice>de gesto, e bien proporcionado en la compostura de sus miembros. E este rey,
-            seyendo príncipe, diole el rey su padre la ciudad de <placeName>Segovia</placeName>, e
-            púsole casa e oficiales, seyendo en edad de <choice>
-               <orig>catorze</orig>
-               <reg>catorce</reg>
-            </choice> años.</p>
-         <p><choice>
-               <orig>Estovo</orig>
-               <reg>Estuvo</reg>
-            </choice>en aquella ciudad apartado del rey su padre los más días de su menor edad, en
-            los cuales se dio a algunos deleites que la mocedad suele demandar, e la honestad debe
-            negar. <choice>
-               <orig>Fizo</orig>
-               <reg>Hizo</reg>
-            </choice>ábito <choice>
-               <orig>dellos</orig>
-               <reg>de ellos</reg>
-            </choice>, porque ni la edad flaca los sabía refrenar, ni la libertad que tenia los
-            sofría castigar. No <choice>
-               <orig>bevía</orig>
-               <reg>bebía</reg>
-            </choice> vino, ni quería vestir paños muy preciosos, ni <choice>
-               <orig>curava</orig>
-               <reg>curaba</reg>
-            </choice> de la <choice>
-               <orig>cirimonia</orig>
-               <reg>ceremonia</reg>
-            </choice>que es <choice>
-               <orig>devida</orig>
-               <reg>debida</reg>
-            </choice>a persona real.</p>
-         <p>Tenía algunos <choice>
-               <orig>moços</orig>
-               <reg>mozos</reg>
-            </choice>acebtos de los que con él se <choice>
-               <orig>criavan</orig>
-               <reg>criaban</reg>
-            </choice>: <choice>
-               <orig>amávalos</orig>
-               <reg>amábalos</reg>
-            </choice> con grand afeción, e <choice>
-               <orig>dávales</orig>
-               <reg>dábales</reg>
-            </choice> muy grandes dádivas. Desobedesció algunas veces al rey su padre, no porque de
-            su voluntad procediese, mas por induzimiento de algunos que, siguiendo sus proprios
-            intereses, le traían a ello.</p>
-         <p>Era omme piadoso, e no tenía ánimo de <choice>
-               <orig>fazer</orig>
-               <reg>hacer</reg>
-            </choice>mal, ni ver padescer a ninguno, e tan humano era, que con dificultad <choice>
-               <orig>mandava</orig>
-               <reg>mandaba</reg>
-            </choice><choice>
-               <orig>executar</orig>
-               <reg>ejecutar</reg>
-            </choice>la justicia criminal, e en la <choice>
-               <orig>execución</orig>
-               <reg>ejecución</reg>
-            </choice>de la cevil e en las otras cosas necesarias a la <choice>
-               <orig>governación</orig>
-               <reg>gobernación</reg>
-            </choice>de sus reinos, algunas <choice>
-               <orig>vezes</orig>
-               <reg>veces</reg>
-            </choice>era negligente, e con dificultad entendía en cosa <choice>
-               <orig>agena</orig>
-               <reg>ajena</reg>
-            </choice>de su deletación, porque el apetito le <choice>
-               <orig>señoreava</orig>
-               <reg>señoreaba</reg>
-            </choice>la razón.</p>
-         <p>No se vido en él jamás punto de <choice>
-               <orig>sobervia</orig>
-               <reg>soberbia</reg>
-            </choice>en dicho ni en <choice>
-               <orig>fecho</orig>
-               <reg>hecho</reg>
-            </choice>, ni por cobdicia de <choice>
-               <orig>aver</orig>
-               <reg>haber</reg>
-            </choice>grandes señoríos le vieron <choice>
-               <orig>fazer</orig>
-               <reg>hacer</reg>
-            </choice>cosa fea ni desonesta: e si algunas <choice>
-               <orig>vezes</orig>
-               <reg>veces</reg>
-            </choice><choice>
-               <orig>avía</orig>
-               <reg>había</reg>
-            </choice>ira, <choice>
-               <orig>durávale</orig>
-               <reg>durábale</reg>
-            </choice>poco, e no le <choice>
-               <orig>señoreava</orig>
-               <reg>señoreaba</reg>
-            </choice>tanto que dañase a él ni a otro.</p>
-         <p>Era grand montero, e <choice>
-               <orig>plazíale</orig>
-               <reg>placíale</reg>
-            </choice>muchas<choice>
-               <orig>vezes</orig>
-               <reg>veces</reg>
-            </choice> de andar por los bosques apartado de las gentes.</p>
-         <p>Casó, seyendo príncipe, con la princesa doña<persName>Blanca</persName>, fija del rey
+         <head>El Rey Don Enrique</head>
+         <p><pb edRef="#DBordonaFP" n="09"/>El rey don <persName>Enrique cuarto</persName>, hijo del
+            rey don <persName>Juan el segundo</persName>, fue hombre alto de cuerpoy hermoso de
+            gesto y bien proporcionado en la cmnpostura de sus miembros. A este rey, seyendo
+            príncipe, dio el rey, su padre, la ciudad de <placeName>Segovia</placeName>; y púsole
+            casa y oficiales seyendo en edad de <date>catorce años</date>.</p>
+         <p>Estovo en aquella ciudad apartado del rey, su padre, los más días de su menor edad, en
+            los cuales se dio a algunos deleites que la mocedad suele demandar y la honestad debe
+            negar. E hizo hábito de ellos, porque ni la edad flaca los sabía refrenar, ni la
+            libertad que tenía los sofría castigar. No bebía vino; ni quería vestir paños muy
+            preciosos, ni curaba de la cirimonia que es debida a persona real. Tenía algunos mozos
+            aceptos de los que con él se criaban; amábalos con grand afección y dábales muy grandes
+            dádivas. Desobedeció algunas veces al rey, su padre, no porque de su voluntad
+            procediese, mas por inducimiento de algunos que, seguiendo sus propios intereses, le
+            traían a ello.</p>
+         <pb edRef="#DBordonaFPG" n="10"/>
+         <p>Era hombre piadoso y no tenía ánimo de hacer mal, ni ver padecer a ninguno. Y tan humano
+            era, que con dificultad mandaba ejecutar justicia criminal; y en la ejecución de la
+            cevil y en las otras cosas necesarias a la gobernación de sus reinos, algunas veces era
+            negligente, y con dificultad entendía en cosa ajena de su delectación. No se vido en él
+            jamás punto de soberbia en dicho ni en hecho, ni por codicia de haber grandes señoríos
+            le vieron hacer cosa fea ni deshonesta. Y si algunas veces había ira, durábale poco; y
+            no le señoreaba tanto que dañase mucho a él ni a otro. Era gran montero y placíale
+            muchas veces andar por los bosques apartado de las gentes.</p>
+         <p>Casó, seyendo príncipe, con la princesa doña<persName>Blanca</persName>, hija del rey
             don <persName>Juan de Aragón</persName>, su tío, que estonces era rey de
-               <placeName>Navarra</placeName>, con la cual estovo casado por espacio de diez años, e
-            al fin <choice>
-               <orig>ovo</orig>
-               <reg>hubo</reg>
-            </choice>divorcio entre ellos por el defeto de la generación, que él <choice>
-               <orig>imputava</orig>
-               <reg>imputaba</reg>
-            </choice>a ella e ella imputó a él.</p>
-         <p>Muerto el rey don <persName>Juan</persName>, su padre, reinó luego pacíficamenteen los
-            reinos de <placeName>Castilla</placeName> e de <placeName>León</placeName>, seyendo ya
-            en hedad de treinta años; e luego que reinó, usó de grand manificencia con ciertos <choice>
-               <orig>cavalleros</orig>
-               <reg>caballeros</reg>
-            </choice> e grandes señores de sus reinos, soltando a unos de las prisiones en que el
-            rey su padre los <choice>
-               <orig>avía</orig>
-               <reg>había</reg>
-            </choice>puesto, e <choice>
-               <orig>reduziendo</orig>
-               <reg>reduciendo</reg>
-            </choice> e perdonando a otros que <choice>
-               <orig>andavan</orig>
-               <reg>andaban</reg>
-            </choice>desterrados de sus reinos , e restituyoles todas las villas e logares e rentas,
-            e todos sus patrimonios e oficios que tenían.</p>
-         <p><choice>
-               <orig>Biviendo</orig>
-               <reg>Viviendo</reg>
-            </choice>la primera <choice>
-               <orig>muger</orig>
-               <reg>mujer</reg>
-            </choice> de quien se apartó, casó con otra hija del rey de Portugal, e en este segundo
-            casamiento se manifestó su impotencia: porque como quier que estovo casado con ella por
-            espacio de <choice>
-               <orig>quinze</orig>
-               <reg>quince</reg>
-            </choice> años, e tenía comunicación con otras <choice>
-               <orig>mugeres</orig>
-               <reg>mujeres</reg>
-            </choice>, nunca pudo <choice>
-               <orig>aver</orig>
-               <reg>haber</reg>
-            </choice> a ninguna allegamiento de varón.</p>
-         <p>Reinó veinte años, y en los diez primeros fue muy próspero, e llegó grand poder de
-            gentes e de tesoros, e los grandes e <choice>
-               <orig>cavalleros</orig>
-               <reg>caballeros</reg>
-            </choice> de sus reinos con grand obediencia cumplían sus mandamientos.</p>
-         <p>Era omme franco, e <choice>
-               <orig>fazía</orig>
-               <reg>hacía</reg>
-            </choice>grandes mercedes e dádívas, e no repitía jamás lo que <choice>
-               <orig>dava</orig>
-               <reg>daba</reg>
-            </choice> ni le plazía que otros en su presencia <choice>
-               <orig>ge</orig>
-               <reg>se</reg>
-            </choice>lo repitiessen. Llegó tanta abundancia de tesoros, que allende de los grandes
-            gastos e dádivas que <choice>
-               <orig>fazía</orig>
-               <reg>hacía</reg>
-            </choice>, mercava cualquier villa o castillo, o otra grand renta que en sus reinos se
-            vendiese, para acrecentar el patrimonio real.</p>
-         <p>Era omme que las más cosas <choice>
-               <orig>fazía</orig>
-               <reg>hacía</reg>
-            </choice>por solo su arbitrio, o a plazer de aquellos que tenía por privados: e como los
-            apartamientos que los reyes <choice>
-               <orig>fazen</orig>
-               <reg>hacen</reg>
-            </choice>, e la grand afeción que sin justa causa muestran a unos más que a otros, e las <choice>
-               <orig>eçesivas</orig>
-               <reg>excesivas</reg>
-            </choice>dádivas que les dan suelen provocar a odio, e del odio nacen malos pensamientos
-            y peores obras, algunos grandes de sus reinos, a quien no <choice>
-               <orig>comunicava</orig>
-               <reg>comunicaba</reg>
-            </choice>sus consejos, ni la <choice>
-               <orig>governación</orig>
-               <reg>gobernación</reg>
-            </choice> de sus reinos, e <choice>
-               <orig>pensavan</orig>
-               <reg>pensaban</reg>
-            </choice>que de razón les <choice>
-               <orig>devía</orig>
-               <reg>debía</reg>
-            </choice>ser comunicado, concibieron tan dañado concebto, que algunas <choice>
-               <orig>vezes</orig>
-               <reg>veces</reg>
-            </choice>conjuraron contra él para lo prender o matar. Pero como este rey era piadoso,
-            bien así usó Dios con él de piedad, e le libró de la prisión e de los otros males que
-            contra su persona se imaginaron. E ciertamente se <choice>
-               <orig>deve</orig>
-               <reg>debe</reg>
-            </choice>considerar, que como quier que no sea <choice>
-               <orig>ageno</orig>
-               <reg>ajeno</reg>
-            </choice>de los ommes tener afeción a unos más que a otros, pero especialmente los
-            reyes, que están en el miradero de todos, tanto menor licencia tienen de errar, cuanto
-            más señalados y mirados son que los otros: mayormente en las cosas de la justicia, de la
-            cual también <choice>
-               <orig>deven</orig>
-               <reg>deben</reg>
-            </choice> usar mostrando su afeción templada al que lo meresciere, como en todas las
-            otras cosas, porque de mostrarse los reyes afecionados sin templança, e no a quien, nin
-            comno, ni por lo que <choice>
-               <orig>deven</orig>
-               <reg>deben</reg>
-            </choice>ser, nascen muchas <choice>
-               <orig>vezes</orig>
-               <reg>veces</reg>
-            </choice>las <choice>
-               <orig>enbidias</orig>
-               <reg>envidias</reg>
-            </choice>, dó se siguen las desobediencias, e vienen las guerras e otros inconvenientes
-            que a este rey acaescieron.</p>
-         <p>Era grand músico, e tenía buena gracia en cantar e tañer, e en <choice>
-               <orig>fablar</orig>
-               <reg>hablar</reg>
-            </choice>en cosas generales; pero en la <choice>
-               <orig>execución</orig>
-               <reg>ejecución</reg>
-            </choice>de las particulares e necesarias, algunas veces era flaco, porque ocupava su
-            pensamiento en aquellos deleites de que <choice>
-               <orig>estava</orig>
-               <reg>estaba</reg>
-            </choice>acostumbrado, los cuales impiden el oficio de la prudencia a cualquier que <choice>
-               <orig>dellos</orig>
-               <reg>de ellos</reg>
-            </choice>está ocupado. E ciertamente veemos algunos ommes hablar muy bien, loando
-            generalmente las virtudes, e vituperando los vicios; pero cuando se les ofresce caso
-            particular que les toque, estonces, vencidos del interese o del deleite, no <choice>
-               <orig>an</orig>
-               <reg>han</reg>
-            </choice>logar de permanecer en la virtud que loaron, ni resistir el vicio que
-            vituperaron.</p>
-         <p><choice>
-               <orig>Usava</orig>
-               <reg>Usaba</reg>
-            </choice>asimismo de magnificencia en los recebimientos de grandes ommes, e de los <choice>
-               <orig>embaxadores</orig>
-               <reg>embajadores</reg>
-            </choice>de reyes que venían a él, <choice>
-               <orig>faziéndoles</orig>
-               <reg>haciéndoles</reg>
-            </choice> grandes e suntuosas fiestas, e dándoles grandes dones; otrosí en <choice>
-               <orig>fazer</orig>
-               <reg>hacer</reg>
-            </choice> grandes hedefícíos en los alcáçares e casas reales, e en iglesias e logares
-            sagrados</p>
-         <p>Este rey fundó de principio los <placeName>monesterios de la Virgen Santa María del
-               Parral</placeName>, de <placeName>Segovia</placeName>, e de <placeName>sant Gerónimo
-               del Paso</placeName>, de <placeName>Madrid</placeName>, que son de la orden de sant
-            Gerónimo, e dotóles magníficamente: e otrosí el <placeName>monesterio de sant
-               Antonio</placeName>, de <placeName>Segovia</placeName>, de la orden de sant
-            Francisco: e <choice>
-               <orig>fizo</orig>
-               <reg>hizo</reg>
-            </choice> otros grandes hedeficios e reparos en otras muchas iglesias e monesteriosde
-            sus reinos, e dioles grandes limosnas, e <choice>
-               <orig>fízoles</orig>
-               <reg>hízoles</reg>
-            </choice>muchas mercedes.</p>
-         <p>Otrosí <choice>
-               <orig>mandava</orig>
-               <reg>mandaba</reg>
-            </choice>pagar cada año en tierras e acostamientos grand número de gente de armas, e
-            allende <choice>
-               <orig>desto</orig>
-               <reg>de esto</reg>
-            </choice>
-            <choice>
-               <orig>gastava</orig>
-               <reg>gastaba</reg>
-            </choice>cada año en sueldo para la gente de <choice>
-               <orig>cavallo</orig>
-               <reg>caballo</reg>
-            </choice>continua que <choice>
-               <orig>traya</orig>
-               <reg>traía</reg>
-            </choice> en su guarda otra grand cantidad de dinero. E con esto fue tan poderoso, e su
-            poder fue tan renombrado por el mundo, que el rey don <persName>Fernando de
-               Nápoles</persName> le <choice>
-               <orig>enbió</orig>
-               <reg>envió</reg>
-            </choice> suplicar que le recibiese en su omenaje. Otrosí la ciudad de
-               <placeName>Barcelona</placeName>con todo el principado de <placeName><choice>
-                  <orig>Catalunia</orig>
-                  <reg>Cataluña</reg>
-               </choice></placeName> le ofreció de se poner en su señorío, e de le dar los tributos <choice>
-               <orig>devidos</orig>
-               <reg>debidos</reg>
-            </choice>al rey don <persName>Juan de Aragón</persName>, su tío, a quien por estonces
-            aquel principado <choice>
-               <orig>estava</orig>
-               <reg>estaba</reg>
-            </choice> rebelde.</p>
-         <p>Por enduzimientos e persuasiones de algunos que <choice>
-               <orig>estavan</orig>
-               <reg>estaban</reg>
-            </choice> cerca <choice>
-               <orig>dél</orig>
-               <reg>de él</reg>
-            </choice> en su consejo, más que procediendo de su voluntad, <choice>
-               <orig>tovo</orig>
-               <reg>tuvo</reg>
-            </choice>algunas diferencias con este rey de Aragón su tío, que asimismo se <choice>
-               <orig>intitulava</orig>
-               <reg>intitulaba</reg>
-            </choice>rey de Navarra, e entró por su persona poderosamente en el reino de
-               <placeName>Navarra</placeName>, e <choice>
-               <orig>enbió</orig>
-               <reg>envió</reg>
-            </choice> grand copia de gente de armas con sus capitanes al reino de
-               <placeName>Aragón</placeName>, e <choice>
-               <orig>fizo</orig>
-               <reg>hizo</reg>
-            </choice> guerra a los aragoneses e navarros; e puédese bien creer que segund su grand
-            poder, e la disposición del tiempo e de la tierra, e la flaqueça e poca resistencia que
-            por estonces <choice>
-               <orig>avía</orig>
-               <reg>había</reg>
-            </choice> en la parte contraria, si este rey fuera tirano e inhumano, todos aquellos
-            reinos e señoríos fueran puestos en su obediencia, <choice>
-               <orig>dellos</orig>
-               <reg>de ellos</reg>
-            </choice>con pequeña fuerça, e <choice>
-               <orig>dellos</orig>
-               <reg>de ellos</reg>
-            </choice> de su voluntad. E para pacificar estas diferencias se trataron vistas entre él
-            y el rey don <persName>Lois de Francia</persName>, que como árbitro se interpuso a las
-            pacificar: a las cuales vistas fue acompañado de grandes señores e perlados, e de grand
-            multitud de <choice>
-               <orig>cavalleros</orig>
-               <reg>caballeros</reg>
-            </choice>e fijosdalgo de sus reinos, E en los gastos que <choice>
-               <orig>fizo</orig>
-               <reg>hizo</reg>
-            </choice>, e dádivas que dio, e en los arreos e otras cosas que fueron necesarias de se
-            gastar e destribuir para tan grand acto, mostró bien la franqueza de su coraçón, e
-            paresçió la grandeza de sus reinos, e guardó la preheminencia de su persona, e la honra
-            e loable fama de sus súbditos. Fue la <choice>
-               <orig>abla</orig>
-               <reg>habla</reg>
-            </choice>
-            <choice>
-               <orig>destos</orig>
-               <reg>de estos</reg>
-            </choice>dos reyes entre la villa de <placeName>Fuenterabía</placeName>, que es del
-            reino de <placeName>Castilla</placeName>, e la ciudad de <placeName>Bayona</placeName>,
-            que es del reino de <placeName>Francia</placeName>, en la ribera de la mar.</p>
-         <p>Continuó algunos tiempos guerra contra los moros: <choice>
-               <orig>fizo</orig>
-               <reg>hizo</reg>
-            </choice>algunas entradas con grand copia de gente en el reino de
-               <placeName>Granada</placeName>. En su tiempo se ganó
-            <placeName>Gibraltar</placeName>e <placeName>Archidona</placeName>, e otros algunos
-            logares de aquel reino. Constriñó a los moros que le diesen parias algunos años porque
-            no les <choice>
-               <orig>fiziesse</orig>
-               <reg>hiciese</reg>
-            </choice>guerra ; e los reyes comarcanos temían tanto su grand poder, que ninguno <choice>
-               <orig>osava</orig>
-               <reg>osaba</reg>
-            </choice><choice>
-               <orig>fazer</orig>
-               <reg>hacer</reg>
-            </choice> el contrario de su voluntad; e todas las cosas le <choice>
-               <orig>acarreava</orig>
-               <reg>acarreaba</reg>
-            </choice>la fortuna como él las quería, e algunas mucho mejor de lo que <choice>
-               <orig>pensava</orig>
-               <reg>pensaba</reg>
-            </choice> , como suele <choice>
-               <orig>fazer</orig>
-               <reg>hacer</reg>
-            </choice> a los bien afortunados: e los de sus reinos, todo aquel tiempo que estovieron
-            en su obediencia, <choice>
-               <orig>gozavan</orig>
-               <reg>gozaban</reg>
-            </choice> de paz e de los otros bienes que <choice>
-               <orig>della</orig>
-               <reg>de ella</reg>
-            </choice> se siguen.</p>
-         <p>Fenecidos los diez años primeros de su señorío, la fortuna, <choice>
-               <orig>enbidiosa</orig>
-               <reg>envidiosa</reg>
-            </choice>de los grandes estados, mudó, como suele, la cara próspera, e començó a mostrar
-            la adversa. De la cual mudança muchos veo <choice>
-               <orig>quexarse</orig>
-               <reg>quejarse</reg>
-            </choice>, e a mi ver sin causa: porque segund pienso, allí hay mudança de prosperidad
-            dó hay corrubción de costumbres. E así por esto, como porque se <choice>
-               <orig>deve</orig>
-               <reg>debe</reg>
-            </choice>creer que Dios, quiriendo punir en esta vida alguna desobediencia que este rey
-            mostró al rey su padre, díó logar que fuese desobedecido de los suyos, e permitió que
-            algunos criados de los más aceptos que este rey tenía, e a quien de pequeños <choice>
-               <orig>fizo</orig>
-               <reg>hizo</reg>
-            </choice> ommes grandes, e dio títulos y dignidades e grandes patrimonios, quier lo <choice>
-               <orig>fiziesen</orig>
-               <reg>hiciesen</reg>
-            </choice>por conservar lo <choice>
-               <orig>avido</orig>
-               <reg>habido</reg>
-            </choice>, quier por lo acrecentar e añadir mayores rentas a sus grandes rentas, erraron
-            de la vía que la razón les <choice>
-               <orig>obligava</orig>
-               <reg>obligaba</reg>
-            </choice>: e no podiendo refrenar la <choice>
-               <orig>enbidia</orig>
-               <reg>envidia</reg>
-            </choice> concebida de otros que <choice>
-               <orig>pensavan</orig>
-               <reg>pensaban</reg>
-            </choice> ocuparles el logar que tenían, conocidas en este rey algunas flaquezas
-            nascidas del ábito que tenía <choice>
-               <orig>fecho</orig>
-               <reg>hecho</reg>
-            </choice> en los deleites, osaron desobedecerle e poner disensión en su casa. La cual,
-            porque al principio no fue castigada segund <choice>
-               <orig>devía</orig>
-               <reg>debía</reg>
-            </choice>, cresció entre ellos tanto, que <choice>
-               <orig>fizo</orig>
-               <reg>hizo</reg>
-            </choice> descrecer el estado del rey, e el temor e obediencia que los grandes de sus
-            reinos le <choice>
-               <orig>avían</orig>
-               <reg>habían</reg>
-            </choice>. Donde se siguió que algunos <choice>
-               <orig>destos</orig>
-               <reg>de estos</reg>
-            </choice>se juntaron con otros perlados e grandes señores del reino, e tomaron al
-            príncipe don <persName>Alfonso</persName> su hermano, moço de onze años, e <choice>
-               <orig>faciendo</orig>
-               <reg>haciendo</reg>
-            </choice> división en <placeName>Castilla</placeName>, lo alearon por rey <choice>
-               <orig>della</orig>
-               <reg>de ella</reg>
-            </choice>, e todos los grandes e <choice>
-               <orig>cavalleros</orig>
-               <reg>caballeros</reg>
-            </choice>, e las ciudades e villas, estovieron divisos en dos partes: la una permanesció
-            siempre con este rey don <persName>Enrique</persName>; la otra estovo con aquel rey don
-               <persName>Alonso</persName>: el cual duró con título de rey por espacio de tres años,
-            e murió en edad de catorze. En esta división se despertó la cobdicia e creció el
-            avaricia, cayó la justicia e señoreó la fuerça, reinó la rapiña e disolviose la <choice>
-               <orig>luxuria</orig>
-               <reg>lujuria</reg>
-            </choice>, e <choice>
-               <orig>ovo</orig>
-               <reg>hubo</reg>
-            </choice> mayor logar la cruel tentación de la <choice>
-               <orig>sobervia</orig>
-               <reg>soberbia</reg>
-            </choice> que la humilde persuasión de la obediencia, e las costumbres, por la mayor
-            parte, fueron corrompidas e disolutas de tal manera que muchos, olvidada la lealtad de
-            amor que <choice>
-               <orig>devían</orig>
-               <reg>debían</reg>
-            </choice> a su rey e a su tierra, e siguiendo sus intereses particulares, <choice>
-               <orig>dexaron</orig>
-               <reg>dejaron</reg>
-            </choice> caer el bien general de tal forma, que el general e el particular perescía. E
-               <persName>nuestro Señor</persName>, que algunas vezes permite males en las tierras
-            generalmente, para que cada uno sea punido particularmente segund la medida de su yerro,
-            permitió que <choice>
-               <orig>oviese</orig>
-               <reg>hubiese</reg>
-            </choice>tantas guerras en todo el reino, que ninguno puede dezir ser exhimido de los
-            males que della se siguieron; y especialmente aquellos que fueron causa de la principiar
-            se vieron en tales peligros, que quesieran <choice>
-               <orig>dexar</orig>
-               <reg>dejar</reg>
-            </choice> grand parte de lo que primero tenían, con seguridad de lo que les quedase, e
-            ser salidos de las alteraciones que a fin de acrecentar sus estados inventaron: e así
-            pudieron saber con la verdadera esperiencia lo que no les <choice>
-               <orig>dexó</orig>
-               <reg>dejó</reg>
-            </choice> conocer la ciega cobdicia. Y por cierto así acaesce, que los ommes antes que
-            sientan el mal futuro, no conocen el bien presente; pero cuando se ven <choice>
-               <orig>embueltos</orig>
-               <reg>envueltos</reg>
-            </choice> en las necesidades peligrosas en que su desordenada cobdicia los mete,
-            estonces querrían, e no pueden, <choice>
-               <orig>fazer</orig>
-               <reg>hacer</reg>
-            </choice> aquello que con menor daño pudieran <choice>
-               <orig>aver</orig>
-               <reg>haber</reg>
-            </choice>
-            <choice>
-               <orig>fecho</orig>
-               <reg>hecho</reg>
-            </choice>.</p>
-         <p>Duraron estas guerras los otros dies años postrimeros que este rey reinó, e los ommes
-            pacíficos padecieron muchas fuerças de los ommes nuevos que se levantaron e <choice>
-               <orig>fizieron</orig>
-               <reg>hicieron</reg>
-            </choice>grandes destruiçiones. Gastó en estos tiempos el rey todos sus tesoros, e
-            allende de aquellos, gastó e dio sin medida casi todas las rentas de su patrimonio real,
-            e muchas <choice>
-               <orig>dellas</orig>
-               <reg>de ellas</reg>
-            </choice> le tomaron los tiranos; de manera que aquel que con el abundancia de los
-            tesoros <choice>
-               <orig>comprava</orig>
-               <reg>compraba</reg>
-            </choice>villas e castillos, vino en tanta estrema necesidad que vendió muchas <choice>
-               <orig>vezes</orig>
-               <reg>veces</reg>
-            </choice> las rentas de su patrimonio, todo para el mantenimiento de su persona.</p>
-         <p><choice>
-               <orig>Bivió</orig>
-               <reg>Vivió</reg>
-            </choice> este rey cincuenta años, de los cuales reinó veinte, e murió en el alcáçar de
-            la villa de <placeName>Madrid</placeName>, de dolencia del yjada, de la cual en su vida
-            muchas <choice>
-               <orig>vezes</orig>
-               <reg>veces</reg>
-            </choice> fue gravemente apasionado.</p>
+               <placeName>Navarra</placeName>, con la cual estovo casado por espacio de <date>diez
+               años</date>. Y al fin, hobo divorcio entre ellos por el defecto de la generación, que
+            él imputaba a ella y ella imputó a él.</p>
+         <p>Muerto el rey don <persName>Juan</persName>, su padre, reinó luego pacíficamente en los
+            reinos de <placeName>Castilla</placeName> y de <placeName>León</placeName>, seyendo ya
+            en edad de <date>treinta años</date>.<pb edRef="#DBordonaFPG" n="11"/>. Y luego que
+            reinó, usó de gran magnificencia con ciertos caballeros y grandes señores de sus reinos,
+            soltando a unos de las presiones en que el rey, su padre, los había puesto, y reduciendo
+            y perdonando a otros que andaban desterrados de sus reinos. Y restituyóles todas las
+            villas y logares y rentas y todos sus patrimonios y oficios que tenían. Viviendo la
+            primera mujer de quien se apartó, casó con otra, hija del rey de
+               <placeName>Portugal</placeName>. Y en este casamiento se manifestó su impotencia,
+            porque como quier que estovo casado con ella por espacio de <date>quince años</date>, y
+            tenía comunicación con otras mujeres, nunca pudo haber a ninguna allegamiento de
+            varón.</p>
+         <p>Reinó <date>veinte años</date>, y en los diez primeros fue muy próspero, allegó gran
+            poder de gentes y de tesoros, y los grandes y caballeros de sus reinos con gran
+            obediencia cumplían sus mandamientos. Era hombre franco y hacía grandes mercedes y
+            dádivas; y no repetía jamás lo que daba, ni le placía que otros en presencia gelo
+            repitiesen. Llegó tanta abundancia de tesoros, que, allende de los grandes gastos y
+            dádivas que hacía, mercaba cualquier villa o castillo<pb edRef="#DBordonaFPG" n="12"/> u
+            otra gran renta que en sus reinos se vendiese para acrecentar el patrimonio real.</p>
+         <p>Era hombre que las más cosas hacía por solo su arbitrio o al placer de aquellos que
+            tenía por privados. Y como los apartamientos que los reyes hacen y la gran afección que
+            sin justa causa muestran a unos más que a otros y las excesivas dádivas que les dan
+            suelen provocar a odio, y del odio nacen malos pensamientos y peores obras, algunos
+            grandes de sus reinos, a quien no comunicaba sus consejos ni la goberanción de sus
+            reinos, y pensaba que de razón les debía ser comunicado, concebieron tan dañado
+            concepto, que algunas veces conjuraron contra él para lo prender o matar. Pero como este
+            rey era piadoso, bien así Dios usó con él de piedad y le libró de la presión y de los
+            otros males que contra su persona se imaginaron. </p>
+         <p>Y ciertamente se debe considerar que, como quier que no sea ajeno de los hombres tener
+            afección a unos más que a otros, pero especialmente los reyes, que están en el miradero
+            de todos, tanto menor licencia tienen de errar cuanto más señalados y mirados son que
+            los otros; mayormente en las cosas de la justicia, de la cual tan bien deben usar en
+            mostrar su afección templada al que lo mereciere, como en todas las otras cosas. Porque
+            de mostrarse los reyes afecionados, sin templanza, y no a quién, ni cómo, ni por lo que
+            lo deben ser, nacen muchas veces las invidias, do se siguen las desobediencias y vienen
+            las guerras y otros inconvenientes que a este rey acaecieron.</p>
+         <p>Era muy gran músico y tenía buena gracia en cantar y tañer y en hablar en cosas
+            generales, pero en la ejecución de las particulares y necesarias algunas veces era
+            flaco, porque ocupaba su pensamiento en aquellos deleites que estaba acostumbrado, los
+            cuales impiden el oficio de la prudencia a cualquier que de ellos está ocupado. <pb
+               edRef="#DBordonaFPG" n="13"/>Y ciertamente vemos algunos hombres hablar muy bien,
+            loando generalmente las virtudes y vituperando los vicios. Pero cuando se les ofrece
+            caso particular que les toque, estonces, vencidos del interese o del deleite, no han
+            lugar de permanecer en la virtud que loaron, ni resistir el vicio que vituperaron.</p>
+         <p>Usaba asimismo de magnificencia en los recibimientos de grandes hombres y de los
+            embajadores de reyes que venían a él, haciéndoles grandes y suntuosas fiestas y dándoles
+            grandes dones. Otrosí en hacer grandes eficios, en los alcázares y casas reales y en
+            iglesias y logares sagrados</p>
+         <p>Este rey fundó de principio los <placeName>monesterios de la Santa María del
+               Parral</placeName> de <placeName>Segovia</placeName> y <placeName>San Jerónimo del
+               Paso de Madrid</placeName>, que son de la <roleName>orden de San Jerónimo</roleName>,
+            y dotólos magníficamente; y otrosí el <placeName>monesterio de San Antonio</placeName>
+            de <placeName>Segovia</placeName>, de la <name>orden de San Francisco</name>. E hizo
+            otros grandes edificios y reparos en otras muchas iglesias y monesterios de sus reinos,
+            y dióles grandes limosnas e hízoles muchas mercedes.</p>
+         <p>Otrosí mandaba pagar cada año en tierras y acostamientos gran número de gente de armas.
+            Y allende de esto gastaba cada año en sueldo para la gente de caballo continua que traía
+            en su guarda otra gran cantidad de dinero. Y con esto fue tan poderoso, y su<pb
+               edRef="#DBordonaFP" n="14"/> poder fue tan renombrado por el mundo, que el rey don
+               <persName>Fernando de Nápol</persName> le envió suplicar que le recibiese en su
+            homenaje. Otrosí la ciudad de <placeName>Barcelona</placeName> con todo el principado de
+            Cataluña<placeName/> le ofreció de se poner en su señorío, y de le dar los tributos
+            debidos al rey don <persName>Juan de Aragón</persName>, su tío, a quien por estonces
+            aquel principado establa rebelde.</p>
+         <p>Por inducimiento y persuasiones de algunos que estaban cerca de él en su Consejo, más
+            que procediendo de su voluntad, tovo algunas diferencias con este <roleName>rey de
+                  <placeName>Aragón</placeName></roleName>, su tío, que a sí mesmo se intitulaba
+               <roleName>rey de <placeName>Navarra</placeName></roleName> Y entró por su persona
+            poderosamente en el reino de <placeName>Navarra</placeName> y envió gran copia de gente
+            de armas con sus capitanes al reino de <placeName>Aragón</placeName>; e hizo guerra a
+            los aragoneses y navarros. Y puédese bien creer que, según su gran poder y la
+            dispusición del tiempo y de la tierra y la flaqueza y poca resistencia que por estonces
+            había en la parte contraria, si este rey fuera tirano e inhumano, todos aquellos reinos
+            y señoríos fueran puestos en su obediencia, dellos con pequeña fuerza y dellos de su
+            voluntad. Y para pacificar estas diferencias se trataron vistas entre él<pb
+               edRef="#DBordonaFP" n="15"/> y el rey don <persName>Luis de Francia</persName>, que,
+            como árbitro se interpuso a las pacificar A las cuales vistas fue acompañado de grandes
+            señores y perlados y de gran multitud de caballeros y fijosdalgo de sus reinos. Y en los
+            gastos que hizo y dádivas que dio, y en los arreos y otras cosas que fueron necesarias
+            de se gastar y distribuir para tan gran acto, mostró bien la franqueza de su corazón; y
+            pareció la grandeza de sus reinos; y guardó la preeminencia de su persona y la honra y
+            loable fama de sus súbditos. Fue la fabla de estos dos reyes entre la villa de
+               <placeName>Fuenterrabía</placeName>, que es del reino de
+               <placeName>Castilla</placeName>, y la villa de <placeName>Bayona</placeName>, que es
+            del reino de <placeName>Francia</placeName>, en la ribera de la mar.</p>
+         <p>Continuó algunos tiempos guerra contra los moros. Hizo algunas entradas con gran copia
+            de gente en el reino de <placeName>Granada</placeName>. En su tiempo se ganó
+               <placeName>Gibraltar</placeName> y <placeName>Archidona</placeName> y otros algunos
+            lugares de aquel reino. Constreñió a los moros que le diesen parias algunos años porque
+            no les hiciese guerra. Y los reyes comarcanos temían tanto su gran poder, que ninguno
+            osaba hacer el contrario de su voluntad. Y todas las cosas le acarreaba la fortuna como
+            las él quería, y algunas mucho mejor de lo que pensaba, como suele hacer a los bien
+            afortunados. Y los de sus reinos, todo aquel tiempo que estovieron en su obediencia,
+            gozaban de paz y de los otros bienes que de ella se siguen.</p>
+         <p>Fenecidos los <date>diez años</date> primeros de su señorío, la fortuna, envidiosa de
+            los grandes estados, mudó, como suele, la cara próspera y començó a mostrar la adversa.
+            De la cual mudança muchos<pb edRef="#DBordonaFP" n="16"/> veo quejarse, y a mi ver sin
+            causa, porque, según pienso, allí hay mudanza de prosperidad do hay corrupción de
+            costumbres. E así por esto, como porque se debe creer que Dios, queriendo punir en esta
+            vida alguna desobediencia que este rey mostró al rey, su padre, dio lugar que fuese
+            desobedecido de los suyos. Y permitió que algunos criados de los más aceptos que este
+            rey tenía, y a quien de pequeños hombres hizo grandes y a quien dio títulos y dignidades
+            y grandes patrimonios, quier lo hiciesen por conservar lo habido, quier por lo
+            acrecentar y añadir mayores rentas a sus grandes rentas, erraron de la vía que la razón
+            les obligaba; y no podiendo refrenar la invidia concebida de otros que pensaban
+            ocuparles el lugar que tenían, conocidas en este rey algunas flaquezas nacidas del
+            hábito que tenía hecho en los deleites, osaron desobedecerle y poner disensión en su
+            casa. La cual, porque al principio no fue castigada según debía, creció entre ellos
+            tanto, que hizo decrecer el estado del rey y el temor y obediencia que los grandes de
+            sus reinos le habían. Donde se siguió que algunos de estos se juntaron con otros
+            perlados y grandes señores del reino y tomaron al príncipe <persName>don
+               Alfonso</persName>, su hermano, mozo de <date>once años</date>, y, haciendo división
+            en <placeName>Castilla</placeName>, lo alzaron por rey de ella. Y todos los grandes y
+            caballeros y las ciudades y villas estovieron divisos en dos partes: la una permaneció
+            siempre con este rey <persName>don Enrique</persName>; la otra estovo<pb
+               edRef="#DBordonaFP" n="17"/> con aquel rey <persName>don Alonso</persName>, el cual
+            duró con título de rey por espacio de <date>tres años</date>. Y murió en edad de
+               <date>catorce</date>. </p>
+         <p>En esta división se despertó la codicia y creció el avaricia; cayó la justicia y señoreó
+            la fuerza; reinó la rapiña y disolvióse la lujuria; y hobo mayor lugar la cruel
+            tentación de la soberbia que la humilde persuasión de la obediencia. Y las costumbres
+            por la mayor parte fueron corrompidas y disolutas, de tal manera que muchos, olvidada la
+            lealtad de amor que debían a su rey y a su tierra, y siguiendo sus intereses
+            particulares, dejaron caer el bien general, de tal forma que el general y el particular
+            perecían. </p>
+         <p>Y <persName>nuestro Señor</persName>, que algunas veces permite males en las tierras,
+            generalmente para que cada uno sea punido particularmente según la medida de su yerro,
+            permitió que hobiese tantas guerras en todo el reino, que ninguno puede decir ser
+            eximido de los males que de ella se siguieron. Y especialmente aquellos que fueron causa
+            de la principiar se vieron en tales peligros, que quesieran dejar gran parte de lo que
+            primero tenían con seguridad de lo que les quedase, y ser salidos de las alteraciones
+            que a fin de acrecentar sus estados inventaron. Y así pudieron saber con la verdadera
+            experiencia lo que no les dejó conocer la ciega codicia. Por cierto, así acaece que los
+            hombres antes que sientan el mal futuro, no conocen el bien presente, pero cuando se ven
+            envueltos en las necesidades peligrosas en que su desordenada codicia los mete,
+               estonces<pb edRef="#DBordonaFP" n="18"/> querrían, y no pueden, hacer aquello que con
+            menor daño pudieran haber hecho.</p>
+         <p>Y porque la ferviente afección de personas y la ciega codicia de los bienes hacen perder
+            el buen juicio en las cosas, duraron estas guerras los otros <date>diez años</date>
+            postrimeros que este rey reinó; y los hombres pacíficos padecieron muchas fuerzas de los
+            hombres nuevos que se levantaron e hicieron grandes destruiciones. Gastó en estos
+            tiempos el rey todos sus tesoros; y allende de aquellos, gastó y dio sin medida casi
+            todas las rentas de su patrimonio real. Y muchas de ellas le tomaron los tiranos, de
+            manera que aquel que con el abundancia de los tesoros compraba villas y castillos, vino
+            en necesidad tan extrema, que vendió muchas veces las rentas de su patrimonio para el
+            mantenimiento de su persona.</p>
+         <p>Vivió este rey <date>cincuenta años</date>, de los cuales reinó <date>veinte</date>.
+            Y murió en el alcázar de la villa de <placeName>Madrid</placeName> de dolencia del
+            ijada, de la cual en su vida muchas veces fue gravemente apasionado.</p>
 
       </body>
    </text>

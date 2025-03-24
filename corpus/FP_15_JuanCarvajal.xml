@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,68 +50,73 @@
 
       <revisionDesc>
          <change when="2021-03" who="#SAT">Frist encoding </change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_15" xml:lang="es">
       <body>
-         <head>Juan de Carvajal, Cardenal de San Angelo</head>
-         <!-- Título XIX
-         Del Cardenal de Sant Angelo-->
-         <p><pb edRef="#DBordonaFP" n="123"/>Don Juan de Carvajal, cardenal de sant Angelo, fue
-            ombre alto de cuerpo, el gesto blanco e el cabello cano, e de muy venerable e fermosa
-            presencia, natural de la cibdad de Plazencia, de linaje de ombres fijosdalgo. </p>
-         <p>Desde su menor hedad continuó el estudio, fue grand letrado en derecho canónico e cevil.
-            Era ombre muy onesto e gracioso en sus fablas. Quando propuso de tomar orden1
-            eclesiástica, fue a Roma donde, conoscido por grand letrado e ombre de onesta vida, el
-            papa Eugenio le encargó negocios arduos e le enbió diversas vezes en enbaxadas de grand
-            inportancia, en las quales guardó sienpre su honra e su conciencia, e dio la razón que
-            ombre letrado e discreto devía dar. Fue proveído del obispado de aquella cibdad de
-            Plazencia, do era natural. E viniendo de una enbaxada do fue enbiado al concilio de
-            Basilea, conoscida su grand suficiencia en las cosas que allí negoció, le fue dado el
-            capelo de cardenal. Era ombre esencial, aborrescedor de apariencias y de cirimonias
-            infladas. Quanto más huía de la honra mundana, tanto más le seguía. Nunca en sus votos
-            públicos ni fablas privadas fue visto desviar punto de la justicia, por afeción ni por
-            interese suyo ni ageno, ni fizo cosa que pareciese fuera de razón ni demandó que otro la
-            fiziese.</p>
-         <p>Después que ovo la renta de aquel obispado de Plazencia, la qual entendió ser necesaria
-            para sostener su estado, no pensó en gastar la vida cobdiciando riquezas, mas propuso
-            bevir obrando virtudes, e puso tales límites a la cobdicia que se puede bien dezir
-            averla vencido. Porque no solamente dexó de procurar más renta de la que avía de su
-            obispado, mas cerró su deseo e apartó de sí la cobdicia, de tal manera que jamás quiso
-            rescebir otras rentas e dignidades que muchas vezes le fueron ofrecidas. E de muchos e
-            grandes cargos que tovo e comisiones que le fueron fechas, donde por razón pudiera aver
-            grandes intereses, nunca rescibió ni consintió a sus oficiales rescebir interese pequeño
-            ni grande. E en esta manera señoreando la cobdicia, señoreava aquellos a quien señoreava
-            la cobdicia, e ninguno osava agraviarse de sus determinaciones, conosciendo que
-            carescían de afectión e de interese. Reprehendía mucho a los ombres que, sobrándoles las
-            rentas allende de lo necesario, tenían el deseo de adquerir en infinito. </p>
-         <p>Este varón sopo bien quánta fuer a suele fazer a las vezes el oro a la justicia, la qual
-            teme poco el criminoso cuando con dinero piensa redemir su crimen. Conosció asimismo
-            cómo todo juez que toma, luego es tomado, e que no puede huir de ser injusto o ingrato:
-            injusto, si, por el don que rescibe, tuerce el derecho; ingrato, si no le tuerce en
-            favor de aquel que le dio. E si faze justicia o lo abrevia por lo que rescibió, puédese
-            dezir vendedor de la justicia por precio. </p>
-         <p>Conoscidos por este perlado los inconvenientes que del cobdiciar allende de lo necesario
-            se siguen, ni se atormentó cobdiciando ni se avergonçó demandando. E teniendo la
-            cobdicia tan subjecta, tenía la honra tan alta. Estava continuamente alegre porque
-            gozava de la virtud de la tenplança, abenidora de la razón con el apetito. Era prudente
-            e de grand entendimiento, que son partes esenciales del ánima, e las ovo por arte e
-            esperiencia de tienpos. Estas virtudes conoscidas en él, fue legado del papa a la
-            provincia de Alemaña dos vezes. </p>
-         <p>E en estas sus legaciones fizo, determinó e declaró grandes fechas e pacificó los
-            príncipes de aquellas partes e las comunidades que estavan en discordia. E castigó la
-            heregía de los bohemios e fizo otras singulares cosas en servicio de Dios e aumentación
-            de la fe christiana. Otrosí por escusar el daño grande que conosció recrecer a todas las
-            gentes que pasavan el río de Tajo cerca de la cibdad de Plazencia, movido con ferviente
-            caridad, fizo a sus grandes espensas la puente que oy allí está hedificada, que se llama
-            la Puente del Cardenal, hedificio muy notable. </p>
-         <p>Puédese creer deste claro varón que su buen seso le fizo aprender ciencia, e su ciencia
-            le dio saber, e su saber le dio esperiencia e la esperiencia le dio conoscimiento de las
-            cosas, de las quales sopo con prudencia elegir las que le fizieron ábito de virtud,
-            mediante la qual bivió próspero ochenta años sin pasión de cobdicia e con abundancia de
-            lo necesario. E murió con grand honra en la cibdad de Roma. </p>
+         <head>Cardenal de San Angelo</head>
+         <p><pb edRef="#DBordonaFP" n="83"/><persName>Don Juan de Carvajal</persName>,
+               <roleName>cardenal de Sant Angelo</roleName>, fue hombre alto de cuerpo, el gesto
+            blanco y el cabello cano y de muy venerable y hermosa presencia; natural de la ciudad de
+               <placeName>Plasencia</placeName>, de linaje de hombres ciudadanos. </p>
+         <p>Desde su menor edad continuó el estudio. Fue gran letrado en derecho canónico y cevil.
+            Era hombre muy honesto y gracioso en sus hablas. Cuando propuso de tomar orden
+            eclesiástica, fue a <placeName>Roma</placeName>, donde, conocido por gran letrado y
+            hombre de honesta vida, el <persName>papa Eugenio</persName> le encargó negocios árduos
+            y le envió diversas veces en embajadas de gran importancia, en las cuales guardó siempre
+            su honra y su conciencia y dio la razón que hombre letrado y discreto debía dar. Fue
+            proveído del obispado de aquella ciudad de <placeName>Plasencia</placeName> do era
+            natural. Y veniendo de una embajada, do fue enviado al concilio de
+               <placeName>Basilea</placeName>, conocida su<pb edRef="#DBordonaFP" n="84"/> gran
+            suficiencia en las cosas que allí negoció, le fue dado el capelo de cardenal. </p>
+         <p>Era hombre esencial, aborrecedor de apariencias y de cirimonias infladas. Cuanto más
+            huía de la honra mundana, tanto más le seguía. Nunca en sus votos públicos ni hablas
+            privadas fue visto desviar punto de la justicia por afección, ni por interese suyo ni
+            ajeno; ni hizo cosa que pareciese fuera de razón, ni demandó que otro la hiciese.</p>
+         <p>Después que hobo la renta de aquel obispado de <placeName>Plasencia</placeName>, la cual
+            entendió ser necesaria para sostener su estado, no pensó en gastar la vida codiciando
+            riquezas, mas propuso vevir obrando virtude. Y puso tales límites a la codicia, que se
+            puede bien decir haberla vencido, porque no solamente dejó de procurar más renta de la
+            que había de su obispado, mas cerró su deseo y apartó de sí la cobdicia, de tal manera
+            que jamás quiso recibir otras rentas y dignidades que muchas veces le fueron ofrecidas.
+            Y de muchos y grandes cargos que tovo y comisiones que le fueron hechas, donde por
+            alguna razón pudiera haber grandes intereses, nunca recibió, ni consentió a sus
+            oficiales recibir interese pequeño ni grande. Y en esta manera, señoreando la codicia,
+            señoreaba aquellos a quien señoreaba la codicia, y ninguno osaba agraviarse de sus
+            determinaciones, conociendo que carecían de afección e interese. </p>
+         <p>Reprendía mucho a los hombres que, sobrándoles las rentas allende de lo necesario,
+            tenían el deseo de adquerir en infinito. Este varón sopo bien cuánta fuerza suele hacer
+            a las veces el oro a la justicia, la cual teme poco el criminoso cuando con dinero
+            piensa redemir su crimen. Conocido asimismo cómo todo juez que toma,<pb
+               edRef="#DBordonaFP" n="85"/> luego es tomado, y que no puede huir de ser injusto o
+            ingrato: injusto, si por el don que recibe, tuerce el derecho; ingrato, si no lo tuerce
+            en favor de aquel que le dio. Y si hace justicia o la abrevia por lo que recibió,
+            puédese decir vendedor de la justicia por precio. Conocido por este perlado los
+            inconvenientes que del codiciar allende de lo necesario se siguen, ni se atormentó
+            codiciando, ni se avergonzó demandando; y teniendo la codicia tan sujeta, tenía la honra
+            tan alta. Estaba continuamente alegre porque gozaba de la virtud de la templanza,
+            avenidora de la razón con el apetito. Era prudente y de gran entendimiento, que son
+            partes esenciales del ánima; y las hobo por arte y experiencia de tiempos. </p>
+         <p>Estas virtudes conocidas en él, fue legado del papa a la provincia de
+               <placeName>Alemania</placeName> dos veces. Y en estas sus legaciones hizo, determinó
+            y declaró grandes hechos, y pacificó los príncipes de aquellas partes y las comunidades
+            que estaban en discordia, y castigó la herejía de los bohemios, e hizo otras singulares
+            cosas en servicio de Dios y aumentación de la fe cristiana. </p>
+         <p>Otrosí por excusar el daño grande que conoció recrecer a todas las gentes que pasaban el
+               <placeName>río de Tajo</placeName>, acerca de la ciudad de
+               <placeName>Plasencia</placeName>, movido con ferviente caridad, hizo a sus grandes
+            expensas la puente que hoy allí está edificada, que se llama la <placeName>Puente del
+               Cardenal</placeName>, edificio muy notable. </p>
+         <p>Puédese creer de este claro varón que su buen seso le hizo aprender ciencia; y su
+            ciencia le dio saber; y su saber le dio experiencia; y la experiencia le dio
+            conocimiento de las cosas, de las cuales sopo con prudencia elegir las que le hicieron
+            hábito de virtud, mediante la cual vivió próspero <date>ochenta años</date> sin pasión
+            de codicia y con abundancia de lo necesario. Y murió con gran honra en la ciudad de
+               <placeName>Roma</placeName>. </p>
 
 
       </body>

@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,97 +50,107 @@
 
       <revisionDesc>
          <change when="2019-03">Frist encoding by Susanna Allés Torrents</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_08" xml:lang="es">
       <body>
-         <head>Juan de Silva, Conde de Cifuentes</head>
-         <!-- [Título VIII]
-         El Conde de Cifuentes-->
-         <p><pb edRef="#DBordonaFP" n="78"/>Don Juan de Silva, conde de Cifuentes e alférez mayor
-            del pendón real, fijo de Alfonso Tenorio, adelantado de Caçorla, e nieto de Arias Gómez
-            de Silva, fue ombre delgado e alto de cuerpo, e bien conpuesto en la proporción de sus
-            mienbros. La cara tenía larga y onesta, la nariz un poco luenga, tenía la lengua
-            çeçeosa. Era fijodalgo de linpia sangre. Sus avuelos fueron naturales del reino de
-            Portogal. Bivió en los tienpos del rey don Juan e del rey don Enrique, su fijo, e moço
-            de pocos días vino al servicio del rey don Juan. Tenía tan buena gracia en la manera de
-            su servicio, que fue uno de los acebtos servidores que el rey tovo.</p>
-         <p>Era ombre muy agudo e muy discreto, e inclinado a justicia. Fablava muy bien e cosas muy
-            sustanciales e conformes a la razón. Vista la autoridad de su persona e la linpieza de
-            su bevir, fue puesto en el consejo del rey.</p>
-         <p>E como acaesce que en las cortes y en las casas reales concurren muchos ombres que por
-            diversas vías van tras sus deseos e, algunos por que les den, otros por que no les
-            quiten, loan lo que devrían callar e callan lo que devrían reprehender, e si algunos
-            dizen cosa conforme a la razón, la dañan, mezclándola con alguna pasión e odio de
-            personas, este cavallero tenía una condición de ombre claro sin ninguna encubierta e
-            realmente pospuesta toda afeción e odio. Dezía con muy buena gracia su parecer en las
-            cosas e no dexava de dezir aquello que otros, o por gratificar o por no indignar,
-            callavan. E como quier que su voto fuese contra el deseo de algunos, pero porque sus
-            fablas se mostravan proceder de buenas e no dañadas entrañas, no eran mal recebidas. E
-            su persona por esta causa era muy estimada e su parecer en las cosas muy esperado. </p>
-         <p>Era grand zelador del bien común e con todas sus fuerças procuró muchas vezes la
-            conservación del patrimonio real, e contradezía a los que, procurando sus intereses
-            particulares, ofendían al bien general. E por esto ovo algunas molestias e trabajos de
-            los que suelen aver los favorescedores de la verdad. Pero al fin, seyendo constante en
-            el camino de la virtud, fue muy acebtado e honrado, e el rey le fizo su alférez mayor e
-            le encargó grandes e arduos negocios, porque entendía que tratava verdad e guardava
+         <head>El Conde de Cifuentes</head>
+         <p><pb edRef="#DBordonaFP" n="53"/><persName>Don Juan de Silva</persName>, <roleName>conde
+               de Cifuentes y alférez mayor del pendón real</roleName>, hijo de <persName>don Pero
+               Tenorio</persName>, <roleName>adelantado de Cazorla</roleName>, y nieto de
+               <persName>Arias Gómez de Silva</persName>, fue hombre delgado y alto de cuerpo y bien
+            compuesto en la proporción de sus miembros La cara tenía larga y honesta; la nariz, un
+            poco luenga; tenía la lengua ceceosa. Era fijodalgo de limpia sangre. Sus abuelos eran
+            naturales de <placeName>Portugal</placeName>. Vivió en los tiempos del <persName>rey don
+               Juan</persName><pb edRef="#DBordonaFP" n="54"/> y del <persName>rey don
+               Enrique</persName>, su hijo; y mozo de pocos días vino al servicio del <persName>rey
+               don Juan</persName>. Tenía tan buena gracia en la manera de su servicio, que fue uno
+            de los aceptos servidores que el rey tovo.</p>
+         <p>Era hombre muy agudo y muy discreto e inclinado a justicia. Hablaba muy bien y cosas muy
+            sustanciales y conformes a la razón. Vista la autoridad de su persona y la limpieza de
+            su vevir, fue puesto en el Consejo del rey. </p>
+         <p>Y como acaece que en las cortes y en las casas reales concurren muchos hombres que por
+            diversas vías van tras sus deseos, y algunos porque les den, otros porque no les quiten,
+            loan lo que debrían callar y callan lo que debrían reprender; y si algunos dicen cosa
+            conforme a la razón, la dañan mezclándola con alguna pasión y odio de personas, este
+            caballero, teniendo una tan singular condición, que era muy claro, sin ninguna
+            encubierta, y realmente pospuesta toda afección y odio, decía con muy buena gracia su
+            parecer en las cosas y no dejaba de decir aquello que otros, o por gratificar o por no
+            indignar, callaban. Y como quier que su voto fuese contra el deseo de algunos, pero
+            porque sus hablas se mostraban proceder de buenas y no dañadas entrañas, no eran mal
+            recibidas. Y su persona por esta causa era muy estimada y su parecer en las cosas, muy
+            esperado. </p>
+         <p>Era gran celador del bien común y con todas sus fuerzas procuró muchas veces la
+            conservación del patrimonio real; y contradecía a los que, procurando sus intereses
+            particulares, ofendían al bien general. Y por esto hobo algunas molestias y trabajos de
+            los que suelen haber los favorecedores de la verdad Pero, al fin, seyendo constante en
+            el camino de la virtud, fue muy acatado y honrado; y el rey le hizo su alférez mayor y
+            le encargó grandes y arduos negocios, porque entendía que trataba verdad y guardaba
             fidelidad. </p>
-         <p>Acaesció en sus tienpos que todos los príncipes christianos se acordaron con los
-            perlados e clerezía de fazer concilio en la ciudad de Basilea, que es en la alta
-            Alemania, sobre una grand cisma que por estonces avía en la iglesia de Dios entre el
-            papa Eugenio e otro que se llamó Félix, a la qual congregación como todos acordasen
-            enbiar sus enbaxadores, porque convenía mostrarse en aquella congregación la
-            magnificencia e poderío de los reyes, el rey don Juan, conoscida la suficiencia deste
-            cavallero, le cometió esta enbaxada. E enbió con él grandes letrados e fue aconpañado de
-            mucha conpaña de hidalgos, con grandes e muy suntuosos arreos. E así en sus fablas como
-            en la continencia de su persona e en todos los otros atos que deve fazer ombre discreto
-            e de grand autoridad, guardó tan bien la honra del rey e de su tierra e de su persona
-            que ninguno de quantos enbaxadores fueron en aquella congregación la guardó mejor. </p>
-         <p>E como acaesciese un día que el enbaxador del rey de Inglaterra quisiese anticiparse e
-            ocupar el logar de la precedencia que al rey de Castilla pertenescía, no podiendo este
-            cavallero sofrir tienpo para que se determinase por razón lo que veía levar por fuer a,
-            llegó aquel enbaxador e, puestas las manos en él, con grand osadía le arrebató e echó de
-            aquel logar e él se puso en él. Visto este exceso fecho en el palacio de la
-            congregación, la gente de armas que tenía la salvaguarda de la ciudad se escandalizó e
-            tentaron de proceder contra él e contra los suyos por aver cometido cosa de fecho sin
-            esperar determinación de derecho. Este cavallero, guardada su autoridad sin recebir
-            alteración, insistió en su propósito e, preguntado por el cavallero presidente de la
-            justicia cómo avía osado poner las manos en tan notable enbaxador e de tan grand
-            príncipe como era el rey de Inglaterra, con ánimo no vencido le respondió: «Digos,
-            presidente, que, quando padesce defeto la razón, no deven faltar manos al coraçón». E
-            con su grand osadía, junto con su buena razón, fue guardada la preheminencia del rey e
-            la honra del reino, e fue amansado aquel escándalo. Después de largo tienpo, concluidas
-            las cosas de aquel concilio, bolvió al reino con fama de ombre magnífico, porque fue muy
-            franco en el destribuir, e de cavallero esforçado, porque mostró valentía en el osar, e
-            varón discreto, porque govemó aquel cargo con grand sagacidad e prudencia. </p>
-         <p>Venido al reino de Castilla e tomado al logar que tenía en el consejo del rey, entendió
-            muchas vezes, e con grandes trabajos del cuerpo e del espíritu, en concordar al príncipe
-            don Enrique con el rey su padre e en escusar las grandes roturas que se esperavan sobre
-            algunas diferencias que entre ellos avía. E éste sopo tratar con grand prudencia,
-            persuadiendo la obediencia que el fijo devía tener al padre e mitigando la indignación
-            que el padre tenía contra el fijo, e desviando las sinistres intenciones que avía de la
-            una parte e de la otra. </p>
-         <p>Entendió ansimismo en otros grandes e arduos negocios, en los quales el rey, conoscidos
-            sus leales servicios e trabajos, le fizo merced de las villas de Cifuentes e Montemayor,
-            e de otros logares e bienes e rentas en cantidad mucho mayor de la que heredó de su
-            padre. E como veemos alcançar riquezas por caso e conservarlas por seso, puédese creer
-            deste cavallero que conplidamente ovo lo uno e lo otro, porque, si tovo fortuna para
-            alcançar bienes, tovo asimismo prudencia para los conservar. </p>
-         <p>Después de la muerte del rey don Juan, el rey don Enrique le dio título de conde de la
-            villa de Cifuentes e le fizo otras mercedes. E como veemos por esperiencia que los
-            ombres vanos e incapaces, quando les acaesce aver oficios e riquezas tenporales, se
-            alteran e, quiriéndose mostrar magnánimos, fazen cosas fuera de lo que su medida
-            requiere, puédese bien creer que así asentó en este cavallero el nuevo estado e
-            dignidad, e tan poca alteración fizo en su persona la abundancia de los bienes como si
-            de sus avuelos por grande antigüedad los oviera avido. </p>
-         <p>Al fin, entrado ya en los días de la vejez, en los quales suele más reinar en los ombres
-            la avaricia, cosa fue por cierto singular e digna de enxenplo el fin que este cavallero
-            puso a su cobdicia, porque, dado que fue llamado por el rey para que entendiese en
-            grandes cosas do podiera aver grandes intereses, todo lo pospuso e se retroxo a su casa,
-            do fizo loable fin. E dexados dos mayorazgos de asaz rentas a dos fijos, murió
-            conosciendo a Dios en hedad de sesenta e cinco años. </p>
+         <pb edRef="#DBordonaFP" n="55"/>
+         <p>Acaeció en sus tiempos que todos los cristianos príncipes se acordaron con los perlados
+            y clerecía de hacer concilio en la ciudad de <placeName>Basilea</placeName>, que es en
+            la alta <placeName>Alemania</placeName>, sobre una gran cisma que por entonces había en
+            la Iglesia de Dios entre el <persName>papa Eugenio</persName> y otro que se llamó
+               <persName>Félix</persName>. A la cual congregación, como todos acordasen enviar sus
+            enbajadores -porque convenía mostrarse en aquella congregación la magnificencia y
+            poderío de los reyes-, el <persName>rey don Juan</persName>, conocida la suficiencia de
+            este caballero; le cometió esta embajada, y envió con él grandes letrados; y fue
+            acompañado de mucha compaña de hidalgos, con grandes y muy suntuosos arreos. Y así en
+            sus hablas como en la continencia de su persona, y en todos los otros actos que debe
+            hacer hombre discreto y de gran autoridad, guardó tan bien la honra del rey y de su
+            tierra y de su persona, que ninguno de cuantos embajadores que fueron en aquella
+            congregación la guardó mejor. </p>
+         <p>Y como acaeciese un día que el embajador del <roleName>rey de Inlatierra</roleName>
+            quisiese anticiparse a ocupar el lugar de la precedencia que al <roleName>rey de
+               Castilla</roleName> pertenecía, no podiendo este caballero sofrir tiempo para que se
+            determinase por razón lo que veía llevar por fuerza, llegó a aquel embajador y, puestas
+            las manos en él, con gran osadía, le arrebató y echó de aquel lugar, y él se puso en él.
+            Visto este exceso hecho en el palacio de la congregación, la gente de armas, que tenía
+            la salvaguarda de la ciudad, se escandalizó y tentaron de proceder contra él y contra
+            los suyos por haber cometido cosa<pb edRef="#DBordonaFP" n="56"/> de hecho, sin esperar
+            determinación de derecho. Y este caballero, guardada su autoridad, sin recibir
+            alteración, insistió en su propósito. Y preguntado por el caballero presidente de la
+            justicia cómo había osado poner las manos en tan notable embajador y de tan gran
+            príncipe como era el <roleName>rey de Inlatierra</roleName>, con ánimo no vencido, le
+            respondió: «Dígoos, presidente, que cuando padece defecto la razón, no deben faltar
+            manos al corazón». Y con su gran osadía, junto con su buena razón, fue guardada la
+            preeminencia del rey y la honra del reino y fue amansado aquel escándalo. Después de
+            largo tiempo, concluidas las cosas, volvió al reino con fama de hombre magnífico, porque
+            fue muy franco en el distribuir; y de caballero esforzado, porque mostró valentía en el
+            osar; y de varón discreto, porque gobernó aquel cargo con gran sagacidad y prudencia. </p>
+         <p>Venido al reino de <placeName>Castilla</placeName> y tornado al logar que tenía en el
+            Consejo del rey, entendió muchas veces -y con grandes trabajos del cuerpo y del
+            espíritu- en concordar al príncipe <persName>don Enrique</persName> con el rey, su
+            padre, y en excusar las grandes roturas que se esperaban sobre algunas diferencias que
+            entre ellos había. Y este sopo tratar con gran prudencia, persuadiendo la obediencia que
+            el hijo debía tener al padre y mitigando la indignación que el padre tenía contra el
+            hijo; y desviando las siniestras intenciones que había de la una parte y de la otra. </p>
+         <p>Entendió asimismo en otros grandes y muy arduos negocios, en los cuales el rey,
+            conocidos sus muy grandes servicios, le hizo merced de las villas de
+               <placeName>Cifuentes y Montemayor</placeName> y de otros lugares y bienes y rentas en
+            cantidad mucho mayor de la que heredó de su padre. Y como vemos alcanzar riquezas por
+            caso y conservarlas<pb edRef="#DBordonaFP" n="57"/> por seso, puédese creer de este
+            caballero que cumplidamente hobo lo uno y lo otro; porque si tovo fortuna para alcanzar
+            bienes, tovo asimismo prudencia para los conservar. </p>
+         <p>Después de la muerte del rey <persName>don Juan</persName>, el rey <persName>don
+               Enrique</persName> le dio título de <roleName>conde de la villa de
+               Cifuentes</roleName> y le hizo otras mercedes. Y como vemos por experiencia que los
+            hombres vanos e incapaces, cuando les acaece haber oficios y riquezas temporales se
+            alteran con ellos y, queriéndose mostrar magnánimos, hacen cosas fuera de lo que su
+            medida requiere, puédese bien creer que así asentó en este caballero el nuevo estado y
+            dignidad; y tan poca alteración hizo en su persona la abundancia de los bienes, como si
+            de sus abuelos, por grande antigüedad, los hobiera habido. </p>
+         <p>Al fin, entrado ya en los días de la vejez, en los cuales suele más reinar la avaricia
+            de los bienes, cosa fue por cierto singular y digna de ejemplo el fin que este caballero
+            puso a su codicia: porque dado que fue llamado por el rey para que entendiese en grandes
+            cosas do pudiera haber grandes intereses, todo lo pospuso, y se retrojo a su casa, donde
+            hizo loable fin. Y dejados dos mayorazgos de asaz rentas a dos hijos, murió en edad de
+               <date>sesenta y cinco años</date>. </p>
       </body>
    </text>
 </TEI>

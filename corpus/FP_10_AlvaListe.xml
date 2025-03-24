@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -26,7 +27,7 @@
          </publicationStmt>
 
          <sourceDesc>
-           <bibl type="print">
+            <bibl type="print">
                <author>Fernando del Pulgar</author>
                <title>Claros varones de Castilla</title>
                <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
@@ -49,43 +50,50 @@
 
       <revisionDesc>
          <change when="2019-03">Frist encoding by Susanna Allés-Torrent</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_10" xml:lang="es">
       <body>
-         <head>Enrique Enríquez, Conde de Alva de Liste</head>
-         <!-- [Título X]
-         El Conde de Alva de Lsite-->
-         <p><pb edRef="#DBordonaFP" n="91"/>Don Enrique Enríquez, conde de Alva de Liste, fijo del almirante don Alfonso Enríquez e
-            nieto de don Fadrique, maestre de Santiago, fue ombre de mediana estatura, bien
-            compuesto en la proporción de sus mienbros. La nariz tenía larga, los ojos un poco
-            colorados e los cabellos llanos. </p>
-         <p>Este cavallero tovo el juizio muy bivo. Era ombre de buena prudencia e, por la
-            esperiencia de los grandes fechas que por él pasaron, su parescer en las cosas se avía
-            por muy cierto. Era ombre palanciano e sienpre fablava cosas breves e graciosas. Fue
-            ombre de tan grand esfuerço que, en algunas afrentas peligrosas donde fue esperimentado,
-            ninguno otro en sus tienpos se falló tener el ánimo más libre de miedo para acometer y
-            defender. E como quiera que por su linaje, título e estado era con grand veneración
-            acatado, pero por respecto de su grand esfuer o y cierto juizio, sienpre su persona fue
+         <head>El Conde de Alba de Liste</head>
+         <pb edRef="#DBordonaFP" n="62"/>
+         <p><persName>Don Enrique Enríquez</persName>, <roleName>conde de Alba de Liste</roleName>,
+            hijo del almirante <persName>don Alfonso Enríquez</persName> y nieto de <persName>don
+               Fadrique</persName>, <roleName>maestre de Santiago</roleName>, fue hombre de mediana
+            estatura, bien compuesto en la proporción de sus miembros. La nariz tenía larga; los
+            ojos un poco colorados; y los cabellos, llanos. </p>
+         <p>Este caballero tovo el juicio muy vivo. Era hombre de buena prudencia y, por la
+            experiencia de los grandes hechos que por él pasaron, su parecer en las cosas se había
+            por muy cierto. Era hombre palanciano y siempre hablaba cosas breves y graciosas. Fue
+            hombre de tan gran esfuerzo, que en algunas afrentas peligrosas donde fue experimentado,
+            ninguno otro en sus tienpos se halló tener el ánimo más libre de miedo para acometer y
+            defender. Y como quiera que por su linaje, título y estado era con gran veneración
+            acatado, pero por respeto de su gran esfuerzo y cierto juicio, siempre su persona fue
             mirada con más honrada estimación que otros que tenían mayores estados que el suyo. </p>
-         <p>Era ombre de poco sufrimiento e, en algunas diferencias que ovo en estos reinos, siguió
-            la parcialidad del almirante don Fadrique e del adelantado Pero Manrique, sus hermanos,
-            donde se le siguieron prisiones e otros infortunios que sufrió con ánimo de varón. </p>
-         <p>Era ombre de verdad e sirvió muy bien e lealmente al rey don Fernando e a la reina doña
-            Isabel en las guerras que pasaron con el rey don Alfonso de Portogal. E en la batalla
-            real que estos dos reyes ovieron entre las cibdades de Toro e Çamora, donde el rey de
-            Portogal fue vencido, este cavallero, aunque en hedad ya de setenta años, ni la fuer a
-            del coraçón se le enflaqueció ni la de los mienbros le faltó para pelear. E peleó con
-            tan grand esfuer o que fue siguiendo el alcance contra los portogueses fasta cerca de la
-            puente de Toro, donde, pensando que le guardavan los suyos, se metió tanto en los
-            contrarios que fue preso e levado a Portogal. Estando en la prisión, conoscida la
-            linpieza de su condición, le fue dada libertad para venir a Castilla con algunos
-            partidos de concordia. E cunpliendo su palabra, bolvió a la prisión, en la qual estovo
-            fasta que la Reina, a su grand honra, le fizo libre. </p>
-         <p>E feneció su vida, con grand honra e enxenplo de bueno e esfonçado cavallero, en hedad
-            de setenta e cinco años. </p>
+         <p>Era hombre de poco sufrimiento. Y en algunas diferencias que hobo en estos reinos,
+            siguió la parcialidad del almirante <persName>don Fadrique</persName> y del adelantado
+               <persName>Pero Manrique</persName>, sus hermanos, donde se le siguieron prisiones y
+            otros infortunios que sufrió con ánimo de varón. </p>
+         <pb edRef="#DBordonaFP" n="63"/>
+         <p>Era hombre de verdad. Y sirvió muy bien y lealmente al rey <persName>don
+               Fernando</persName> y a la reina <persName>doña Isabel</persName> en las guerras que
+            pasaron con el rey <persName>don Alfonso de Portogal</persName>. Y en la batalla real
+            que estos dos reyes hobieron entre las ciudades de <placeName>Toro</placeName> y
+               <placeName>Zamora</placeName>, donde el <roleName>rey de Portogal</roleName> fue
+            vencido, este caballero, aunque en edad ya de <date>setenta años</date>, ni la fuerza
+            del corazón se le enflaqueció, ni la de los miembros le faltó para pelear. Y peleó con
+            tan gran esfuerzo, que fue siguiendo el alcance contra los portogueses hasta cerca de la
+            puente de <placeName>Toro</placeName>, donde, pensando que le guardaban los suyos, se
+            metió tanto en los contrarios, que fue preso y llevado a
+            <placeName>Portogal</placeName>. Estando en la prisión, conocida la limpieza de su
+            condición, le fue dada libertad para venir a <placeName>Castilla</placeName> con algunos
+            partidos de concordia. Y cumpliendo su palabra, volvió a la prisión, en la cual estovo
+            hasta que la reina, a su gran honra, le hizo libre. </p>
+         <p>Y feneció su vida con gran honra y ejemplo de bueno y esforzado caballero en edad de
+               <date>setenta y cinco años</date></p>
 
 
       </body>

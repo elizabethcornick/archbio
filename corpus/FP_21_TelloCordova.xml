@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,61 +50,66 @@
 
       <revisionDesc>
          <change when="2021-03">Frist encoding.</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_21" xml:lang="es">
       <body>
-         <head>Tello de Buendía, Obispo de Córdoba</head>
-         <!--Título XXV
-         Del Obispo de Cordova-->
-         <p><pb edRef="#DBordonaFP" n="151"/>Don Tello, obispo de Córdova, fue ombre alto de cuerpo,
-            bien proporcionado en la conpostura de sus mienbros e el rostro tenía onesto. Era
-            natural de una villa que se dize Buendía, de linaje de labradores. Desde su menor hedad
-            tovo grand deseo a la ciencia e, como quier que le menguava lo necesario para continuar
-            el estudio, pero la voluntad que tenía de aprender le llevó a las escuelas de Salamanca,
-            confiando más en la providencia de Dios, que suele acorrer a los buenos deseos, que en
-            la facultad suya ni de otro ninguno que le ayudase. Aprendió en un colegio de Salamanca
-            donde muestran a los pobres por amor de Dios. Fue buen letrado en derecho canónico e en
-            aquella facultad le fue dado grado de doctor. Elegió el ábito clerical e guardó muy bien
-            aquellas cosas que la iglesia estatuyó que guardasen los buenos clérigos. Por sus
-            méritos fue proveído del arcedianadgo de Toledo e de otros beneficios en la iglesia de
-            Dios. E como este claro varón se vido con grand renta e puesto ya en la hedad que
-            demanda reposo, retróxose a la iglesia de Toledo a servir a Dios en aquella dignidad que
-            tenía. </p>
-         <p>Era ombre a quien movía más la caridad para distribuir que la cobdicia para ganar.
-            Conpadecíase de los miserables e, vezes con el consejo, vezes con el consuelo e tanbién
-            con su limosna, allí do era necesario los consolava e remediava. Porque creía que estos
-            bienes tenporales no se dieron más para poseer que para destribuir. Su deseo era fazer
-            obras de misericordia e, poniéndolas en obra, sacava todos los años cierto número de
-            cativos christianos de tierra de moros. E en esto e en casar huérfanas e socorrer
-            pobres, gastava su pensamiento e toda la renta que tenía, reputando a pecado si de un
-            año le fincase algo para otro. E esto fizo conplidamente e con tanta diligencia que sin
-            duda se puede dezir que fue leal despensero de sus bienes para los distribuir a voluntad
-            del que gelos dio. Porque fervía tanto en la virtud de la caridad que, de lo necesario a
-            su persona propria, no curava tanto quanto pensava en socorrer la necesidad agena. E
-            porque fue informado que, por falta de una torre que no avía en un término cerca de la
-            cibdad de Alcalá la Real, perescían algunos christianos en las guerras que en aquellas
-            partes tienen con los moros, este perlado enbió a la hedificar a sus proprias espensas
-            en el logar e forma que le fue dicho ser necesario al bien e defensa de aquella tierra.
-            Otrosí, visto que algunos ombres perescían en el río de Guadarrama, que pasa por el
-            camino que va desde la cibdad de Toledo a la villa de Torrijas, este claro varón
-            hedificó la puente que oy allí está hedificada, e escusó los inconvenientes que todos
-            los años por falta della en el paso de aquel río se recrecían. En la qual obra este
-            perlado usó de tal magnanimidad que, como viese la dificultad que algunas personas
-            particulares ponían en la contribución de lo necesario para aquel hedeficio, no
-            consintió que ninguno contribuyese cosa alguna para él, salvo él solo acordó de lo fazer
-            a sus espensas. E en esta liberalidad nos dio a conoscer quanto más el virtuoso se
-            deleita en el gastar que el avariento pena en el guardar. </p>
+         <head>Obispo de Córdoba</head>
+         <p><pb edRef="#DBordonaFP" n="102"/><persName>Don Tello</persName>, <roleName>obispo de
+               Córdoba</roleName>, fue hombre alto de cuerpo, bien proporcionado en la compostura de
+            sus miembros; y el rostro tenía honesto. Era natural de una villa que se dice
+               <placeName>Buendía</placeName>, de linaje de labradores. </p>
+         <p>Desde su menor edad tovo gran deseo a la ciencia. Y como quier que le menguaba lo
+            necesario para continuar el estudio, pero la voluntad que tenía de aprender le llevó a
+            las escuelas de <placeName>Salamanca</placeName>, confiando más en la providencia de
+            Dios, que suele acorrer a los buenos deseos, que en la facultad suya ni de otro ninguno
+            que le ayudase. Aprendió en un colegio de <placeName>Salamanca</placeName> donde
+            muestran a los pobres por amor de Dios. Fue buen letrado en derecho canónico y en
+            aquella facultad le fue dado grado de doctor. Elegió el hábito clerical y guardó muy
+            bien aquellas cosas que la Iglesia estatuyó que guardasen los buenos clérigos. Por sus
+            méritos fue proveído del <roleName>arcedianazgo de Toledo</roleName> y de otros
+            beneficios en la Iglesia de Dios. Y como este claro varón se vido con gran renta, y
+            puesto ya en la edad que demanda reposo, retrójose a la <placeName>iglesia de
+               Toledo</placeName> a servir a Dios en aquella dignidad que tenía. </p>
+         <p>Era hombre a quien movía más la caridad para distribuir que la codicia para ganar.
+            Compadecíase de los miserables y, veces con el consejo, veces con el consuelo y también
+            con su limosna, allí do era necesario los consolaba y remediaba: porque creía que estos
+            bienes temporales no se dieron más para poseer que para destribuir. Su deseo era hacer
+            obras de misericordia y, poniéndolas en obra, sacaba todos los años cierto número de
+            cativos cristianos<pb edRef="#DBordonaFP" n="103"/> de tierra de moros. Y en esto, y en
+            casar huérfanas y socorrer pobres, gastaba su pensamiento y toda la renta que tenía,
+            reputando a pecado si de un año le fincase algo para otro. Y esto hizo complidamente y
+            con tanta diligencia que sin duda se puede decir que fue leal despensero de sus bienes
+            para los distribuir a voluntad del que gelos dio, porque servía tanto en la virtud de la
+            caridad, que de lo necesario a su persona propia no curaba tanto cuanto pensaba en
+            socorrer la necesidad ajena. </p>
+         <p>Y porque fue informado que por falta de una torre que no había en un término cerca de la
+            ciudad de <placeName>Alcalá la Real</placeName> perecían algunos cristianos en las
+            guerras que en aquellas partes tienen con los moros, este perlado envió a la edeficar a
+            sus propias expensas en el logar y forma que le fue dicho ser necesario al bien y
+            defensa de aquella tierra. Otrosí, visto que algunos hombres perecían en el
+               <placeName>río de Guadarrama</placeName>, que pasa por el camino que va desde la
+            ciudad de <placeName>Toledo</placeName> a la villa de <placeName>Torrijos</placeName>,
+            este claro varón edeficó la puente que hoy allí está edificada y excusó los
+            inconvenientes que todos los años por falta de ella en el paso de aquel río se
+            recrecían. En la cual obra este perlado usó de tal magnanimidad, que, como viese la
+            dificultad que algunas personas particulares ponían en la contribución de lo necesario
+            para aquel edeficio, no consintió que ninguno contribuyese cosa alguna para él, salvo él
+            solo acordó de lo hacer a sus expensas. Y en esta liberalidad nos dio a conocer cuánto
+            más el virtuoso se deleita en el gastar, que el avariento pena en el guardar. </p>
+         <pb edRef="#DBordonaFP" n="104"/>
 
-         <p>La reina doña Isabel, que tenía un singular deseo de proveer a las iglesias de sus
-            reinos de personas notables, suplicó al papa que proveyese a este claro varón del
-            obispado de Córdova, el qual fue proveído de aquella iglesia. E mediante los ruegos e
-            exortaciones que de parte de la reina le fueron fechas, acebtó la provisión que el papa
-            le fizo de aquella dignidad. E dentro del año que fue proveído por perlado de aquella
-            iglesia, fenesció en esta vida con testimonio cierto de aver ganado la otra en hedad de
-            setenta años. </p>
+         <p>La reina <persName>doña Isabel</persName>, que tenía un singular deseo de proveer a las
+            iglesias de sus reinos de personas notables, suplicó al papa que proveyese a este claro
+            varón del <placeName>obispado de Córdoba</placeName>. El cual fue proveído de aquella
+            iglesia y, mediante los ruegos y exhortaciones que de parte de la reina le fueron
+            fechas, aceptó la provisión que el papa le hizo de aquella dignidad. </p>
+         <p>Y dentro del año que fue proveído por perlado de aquella iglesia, feneció en esta vida
+            con testimonio cierto de haber ganado la otra, en edad de <date>setenta años</date>. </p>
 
       </body>
    </text>

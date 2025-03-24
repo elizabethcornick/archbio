@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -50,54 +51,55 @@
       <revisionDesc>
          <change when="2021-03-06" who="#SAT">First encoding by Susanna Allés-Torrent. Application
             of transcription criteria. Association with schema.</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_00" xml:lang="es">
       <body>
-         <head>Libro de los Claros Varones de Castilla dirigido a la Reina Nuestra Señora</head>
-        
-         <p><pb edRef="#DBordonaFP" n="05"/>Muy exçelente e muy poderosa reina nuestra señora:
-            algunos ystoriadores griegos e romanos escrivieron bien por estenso las fazañas que los
-            claros varones de su tierra fizieron, e les parescieron dignas de memoria. Otros
-            escritores ovo que las sacaron de las ystorias, e fizieron dellas tratados aparte, a fin
-            que fuesen más comunicadas, segúnd fizo <persName>Valerio Máximo</persName>, e
-               <persName>Plutarco</persName>, e otros algunos, que con amor de su tierra, o con
-            afeción de personas, o por mostrar su elocuencia, quisieron adornar sus fechos,
+         <head>Prólogo</head>
+
+         <p><pb edRef="#DBordonaFP" n="05"/>Muy excelente y muy poderosa reina nuestra señora: </p>
+         <p>Algunos historiadores griegos y romanos escribieron bien por extenso las hazañas que los
+            claros varones de su tierra hicieron y les parecieron dignas de memoria. Otros
+            escritores hobo que las sacaron de las historias e hicieron de ellas tratados aparte a
+            fin que fuesen más comunicadas, según hizo <persName>Valerio Máximo</persName> y
+               <persName>Plutarco</persName>, y otros algunos que, con amor de su tierra o con
+            afección de personas o por mostrar su elocuencia, quisieron adornar sus hechos
             exaltándolos con palabras algo por ventura más de lo que fueron en obras. </p>
-         <p><pb edRef="#DBordonaFPG" n="06"/>Yo, muy excelente reina e señora, de amas cosas veo
-            menguadas las corónicas destos vuestros reinos de Castilla e de León, en perjuizio
-            grande del honor que se deve a los claros varones naturales dellos e a sus decendientes,
-            porque como sea verdad que fiziesen notables fechos, pero no los leemos estendidamente
-            en las corónicas cómo los fizieron, ni veo que ninguno los escrivió aparte, como fizo
-               <persName>Valerio</persName>, e los otros. Verdad es que el noble cavallero,
-               <persName>Fernand Peres de Guzmán</persName>, escrivió en metro algunos claros
-            varones naturales dellos que fueron en <placeName>España</placeName>; asimismo escrivió
-            brevemente en prosa las condiciones del muy alto e excelente rey <persName>Don
-               Juan</persName>, de esclarecida memoria, vuestro padre, e de algunos cavalleros e
-            perlados, sus súbditos, que fueron en su tiempo. Eso mismo ví en
-               <placeName>Francia</placeName> el compendio que fizo un maestre <persName>Jorge de la
-               Vernada, <roleName>secretario del rey Carlos</roleName></persName>, en que copiló los
-            fechos notables de algunos cavalleros e perlados <pb edRef="#DBordonaFPG" n="06"/> de
-            aquel reino que fueron en su tiempo. Y aun en aquel libro de la <title>Sacra
-               Escritura</title> que fizo <persName>Jhesú, fijo de Sirac</persName>, quiso loar los
-            varones gloriosos de su nación. También <persName>sant Gerónimo</persName> y otros
-            algunos escrivieron loando los ilustres varones dignos de memoria, para loable enxemplo
-            de nuestro bevir.</p>
-         <p>Yo, muy excelente reina e señora, criado desde mi menor hedad en la corte del rey
-            vuestro padre, e del rey <persName>Don Enrique</persName> vuestro hermano, movido con
-            aquel amor de mi tierra que los otros ovieron de la suya, me dispuse a escrevir de
-            algunos claros varones, perlados e cavalleros, naturales de los vuestros reinos, que yo
-            conoscí y comuniqué, cuyas fazañas e notables fechos, si particularmente se oviesen de
-            contar, requiría fazerse de cada uno una grand ystoria. E por ende, brevemente, con el
-            ayuda de Dios, escreviré los linajes e condiciones de cada uno, e algunos notables
-            fechos que fizieron: de los cuales se puede bien creer que, en autoridad de personas, e
-            en ornamento de virtudes, e en las abilidades que tovieron, así en ciencia como en
-            armas, no fueron menos excelente que aquellos griegos e romanos e franceses que tanto
-            son loados en sus escripturas. E primeramente pensé poner la vida e condiciones del rey
-               <persName>Don Enrrique cuarto</persName>, vuestro hermano, cuya ánima Dios haya, por
-            aver concurrido en su tiempo.</p>
+         <p>Yo, muy excelente reina y señora, de ambas cosas veo menguadas las corónicas de estos
+            vuestros reinos de <placeName>Castilla</placeName> y de <placeName>León</placeName>, en
+            perjuicio grande del honor que se debe a los claros varones naturales de ellos y a sus
+            descendientes, porque, como sea verdad que<pb edRef="#DBordonaFPG" n="06"/> hiciesen
+            notables hechos, pero no los leemos extendidamente en las corónicas cómo los hicieron,
+            ni veo que ninguno los escribió aparte, como hizo <persName>Valerio</persName> y los
+            otros. Verdad es que el noble caballero <persName>Fernán Pérez de Guzmán</persName>
+            escribió en metro algunos claros varones que fueron en <placeName>España</placeName>.
+            Asimismo escribió brevemente en prosa las condiciones del muy alto y excelente rey
+               <persName>don Juan</persName>, de esclarecida memoria, vuestro padre, y de algunos
+            caballeros y perlados, sus súbditos, que fueron en su tiempo. Eso mismo vi en
+               <placeName>Francia</placeName> el compendio que hizo un maestre, <persName>Jorge de
+               la Vernada, <roleName>secretario del rey Carlos</roleName></persName>, en que compiló
+            los hechos notables de algunos caballeros y perlados de aquel reino que fueron en su
+            tiempo. Y aun en aquel libro de la <title>Sacra Escritura</title> que hizo
+               <persName>Jesú, hijo de Sirac</persName>, quiso loar los varones gloriosos de su
+            nación. También <persName>sant Jerónimo</persName> y otros algunos escribieron loando
+            los ilustres varones dignos de memoria para ejemplo de nuestro vevir.</p>
+         <p>Yo, muy excelente reina y señora, criado desde mi menor edad en la corte del rey,
+            vuestro padre, y del rey <persName>don Enrique</persName>, vuestro hermano, movido con
+            aquel amor de mi tierra que los otros<pb edRef="#DBordonaFPG" n="07"/> hobieron de la
+            suya, me dispuse a escribir de algunos claros varones, perlados y caballeros, naturales
+            de vuestros reinos, que yo conocí y comuniqué, cuyas hazañas y notables hechos, si
+            particularmente se hobiesen de contar, requería hacerse de cada uno una grand historia.
+            Y por ende, brevemente, con el ayuda de Dios, escribiré los linajes y condiciones de
+            cada uno y algunos notables hechos que hicieron, de los cuales se puede bien creer que
+            en autoridad de personas y en ornamento de virtudes y en las habilidades que tovieron,
+            así en la ciencia como en las armas, no fueron menos excelentes que aquellos griegos y
+            romanos y franceses que tanto son loados en sus escripturas. </p>
+         <p>Y primeramente pensé poner al rey <persName>don Enrique cuarto</persName>, vuestro
+            hermano, cuya ánima Dios haya. </p>
 
       </body>
    </text>

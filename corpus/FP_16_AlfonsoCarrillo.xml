@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,67 +50,71 @@
 
       <revisionDesc>
          <change when="2021-03">Frist encoding </change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_16" xml:lang="es">
       <body>
-         <head>Alfonso Carrillo, Arzobispo de Toledo</head>
-         <!-- Título XX
-         Del Arçobispo de Toledo-->
-         <p><pb edRef="#DBordonaFP" n="127"/>Don Alfonso Carrillo, arçobispo de Toledo, fijo de Lope
-            Vásquez de Acuña, fue ombre alto de cuerpo e de buena presencia. Era de los fidalgos e
-            de linpia sangre del reino de Portogal. Su avuelo fue un cavallero portogués que vino a
-            Castilla al servicio del rey don Juan, el que fue vencido en la batalla de Aljubarota. </p>
-         <p>Fue primero obispo de Cigüença e después fue proveído del arçobispado de Toledo a
-            suplicación del rey don Juan. Rezava bien sus oras, guardava conplidamente las
-            cirimonias que la iglesia manda guardar. Fundó el monesterio de sant Francisco de Alcalá
-            e començó a fundar otro monesterio en la villa de Briyuega. </p>
-         <p>Era ombre de grand coraçón, e su principal deseo era fazer grandes cosas e tener grand
-            estado por aver fama e grand renonbre. Tenía en su casa letrados e cavalleros e ombres
-            de fación. Rescebía muy bien e honrava mucho a los que a él venían, e tratávalos con
-            buena gracia e mandávales dar grand abundancia de manjares de diversas maneras, de los
-            quales fazía sienpre tener su casa muy proveída. E tenía para ello los oficiales e
-            ministros necesarios e deleitávase en ello. Sus pensamientos deste perlado eran muy más
-            altos que sus fuerças, e su grand coraçón no le dexava discerner ni consentía medir su
-            facultad con las grandes enpresas que tomava. E desto se le seguían trabajos e fatigas
-            continuas. </p>
-         <p>Era ombre franco e, allende de las dádivas que de su voluntad con grand liberalidad
-            fazía, sienpre clava a qualquier que le demandava, porque no sofría que ninguno se
-            partiese dél descontento. E por cierto la dádiva fecha con deseo de fama e no con
-            pensamiento de razón, más se puede dezir mal fecho que buen pensamiento, porque aquel
-            beneficio es caríssimo que caresce de vanagloria. Verdad es que ni nuestra benignidad se
-            deve tanto cerrar que sea dura la comunicación de nuestros bienes, ni tanto abrir que
-            con prodigalidad se derramen, porque si del retener se sigue odio, del indiscreto
-            derramar procede tal mengua que de necesario vienen los pródigos a poner las manos en
-            bienes agenos. Así que estos bienes tenporales son buenos e a la humana sociedad mucho
-            aprovechan, quando son poseídos por varones de prudencia, para que ni dañen a otros
-            reteniéndoselos con avaricia ni pierdan al que los posee vertiéndolos con indiscrición,
-            porque tanbién parescen mal guardándose como sin causa derramándose. </p>
-         <p>Era ombre belicoso e, siguiendo esta su condición, plazíale tener continuamente gente de
-            armas e andar en guerras e juntamientos de gentes. Insistía mucho en la opinión que
-            tomava e queríala proseguir, aunque se le representavan algunos inconvenientes. E como
-            la opinión, sospecha e afeción son cosas que muchas vezes engañen a los ombres, este
-            perlado, traído por alguna déstas, procurava sienpre de sostener parcialidades, donde se
-            siguieron en sus tienpos algunas guerras en el reino, en las quales acaescieron batallas
-            canpales e otros recuentros e fechas de armas. Era grand trabajador en las cosas de la
-            guerra e, quanto era amado de algunos por ser franco, tanto era desamado de muchos por
-            ser belicoso, seyendo obligado a religión. </p>
-         <p>Plazíale saber esperiencias e propiedades de aguas e de yervas e otros secretos de
-            natura. Procurava sienpre aver grandes riquezas, no para fazer thesoro, mas para las dar
-            e destribuir. E este deseo le fizo entender muchos años en el arte del alquimia. E como
-            quier que della no veía efecto, pero creyendo sienpre alcançarla para las grandes
-            fazañas que imaginava fazer, sienpre la continuó. En la qual e en buscar thesoros e
-            mineros consumió mucho tienpo de su vida e grand parte de su renta, e todo quanto más
-            podía aver de otras partes. E como veemos algunas vezes que los ombres, deseando ser
-            ricos, se meten en tales necesidades que los fazen ser pobres, este arzobispo, dando e
-            gastando en el arte del alquimia, e en buscar mineros e thesoros, pensando alcan ar
-            grandes riquezas para las dar e destribuir, sienpre estava en continuas necesidades. E
-            sin duda se puede creer que, si lo que deseava tener este perlado respondiera al cora ón
-            que tenía, fiziera grandes cosas. </p>
-         <p>Al fin, gastando mucho e deseando gastar más, murió pobre e adeudado en la villa de
-            Alcalá, de hedad de setenta años, de los quales fue treinta e siete arçobispo de Toledo. </p>
+         <head>Arzobispo de Toledo</head>
+         <p><pb edRef="#DBordonaFP" n="86"/><persName>Don Alfonso Carrillo</persName>,
+               <roleName>arzobispo de Toledo</roleName>, hijo de <persName>Lope Vázquez de
+               Acuña</persName>, fue hombre alto de cuerpo y de buena presencia. Era de los
+            fidalgos, y de limpia sangre, del reino de <placeName>Portugal</placeName>. Su abuelo
+            fue caballero portugués, que vino a <placeName>Castilla</placeName> al servicio del rey
+               <persName>don Juan</persName>, el que fue vencido en la batalla de
+               <placeName>Aljubarota</placeName>. </p>
+         <p>Fue primero obispo de <placeName>Sigüença</placeName> y después fue proveído del
+               <roleName>arzobispado de Toledo</roleName> a suplicación del rey <persName>don
+               Juan</persName>. Rezaba bien sus horas; guardaba cumplidamente las cirimonias que la
+               iglesia<pb edRef="#DBordonaFP" n="87"/> manda guardar. Fundó el monesterio de
+               <placeName>San Francisco de Alcalá</placeName> y començó a fundar otro monesterio en
+            la villa de <placeName>Briyuega</placeName>. </p>
+         <p>Era hombre de gran corazón y su principal deseo era hacer grandes cosas y tener gran
+            estado por haber fama y gran renombre. Tenía en su casa letrados y caballeros y hombres
+            de facción. Recibía muy bien y honraba mucho a los que a él venían; y tratábalos con
+            buena gracia; y mandábales dar gran abundancia de manjares de diversas maneras, de los
+            cuales hacía siempre tener su casa muy proveída. Y tenía para ello los oficiales y
+            ministros necesarios, y deleitábase en ello. Sus pensamientos de este perlado eran muy
+            más altos que sus fuerzas y su gran corazón no le dejaba discerner, ni consentía medir
+            su facultad con las grandes empresas que tomaba. Y de esto se le seguían trabajos y
+            fatigas continuas. </p>
+         <p>Era hombre franco y, allende de las dádivas que de su voluntad con gran liberalidad
+            hacía, siempre daba algo a cualquier que<pb edRef="#DBordonaFP" n="88"/> le demandaba,
+            porque no sofría que ninguno se partiese de él descontento. Y, por cierto, la dádiva
+            hecha con deseo de fama y no con pensamiento de razón más se puede decir mal hecho que
+            buen pensamiento, porque aquel beneficio es carísimo que carece de vanagloria. Verdad es
+            que ni nuestra benignidad se debe tanto cerrar que sea dura la comunicación de nuestros
+            bienes, ni tanto abrir que con prodigalidad se derramen, porque si del retener se sigue
+            odio, de lo otro procede tal mengua que de necesario vienen los pródigos a poner las
+            manos en bienes ajenos. </p>
+         <p>Era hombre belicioso y, siguiendo esta su condición, placíale tener continuamente gente
+            de armas en guerras y en juntamientos de gente. Insistía mucho en la opinión que tomaba
+            y queríala proseguir aunque se le representaban algunos inconvenientes. Y como la
+            opinión, sospecha y afección son cosas que muchas veces engañan a los hombres, este
+            perlado, traído por algunas de estas, procuraba siempre de sostener parcialidades, donde
+            se siguieron en sus tiempos algunas guerras en el reino, en las cuales acaecieron
+            batallas campales y otros recuentros y hechos de armas. Era gran trabajador en las cosas
+            de la guerr. Y cuanto era amado de algunos por ser franco, tanto era desamado de muchos
+            por ser belicoso, seyendo obligado a religión. </p>
+         <p>Placíale saber experiencias y propriedades de aguas y de yervas y otros secretos de
+            natura. Procuraba siempre haber grandes riquezas, no para tesoro, mas para las dar y
+            distribuir. Y este deseo le hizo entender muchos años en el arte del alquimia. Y como
+            quier que de ella no veía efecto, pero creyendo siempre alcanzarla<pb
+               edRef="#DBordonaFP" n="89"/> para las grandes hazañas que imaginaba hacer, siempre la
+            continuó. En la cual, y en buscar tesoros y mineros, consumió mucho tiempo de su vida y
+            gran parte de su renta; y todo cuanto más podía haber de otras partes. Y como vemos
+            algunas veces que los hombres, deseando ser ricos, se meten en tales necesidades que los
+            hacen pobres, este arzobispo, dando y gastando en el arte del alquimia y en buscar
+            mineros y tesoros, pensando alcanzar grandes riquezas para las dar y distribuir, siempre
+            estaba en continuas necesidades. Y sin duda se puede creer que si lo que deseaba tener
+            este perlado correspondiera al corazón que tenía él en él, hiciera grandes cosas. </p>
+         <p>Al fin, gastando mucho y deseando gastar más, murió muy pobre y adeudado en la villa de
+               <placeName>Alcalá</placeName>, de edad de <date>setenta años</date>, de los cuales
+            fue <date>treinta y siete</date>
+            <roleName>arzobispo de Toledo</roleName>. </p>
 
 
       </body>

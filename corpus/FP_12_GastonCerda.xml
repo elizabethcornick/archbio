@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,39 +50,43 @@
 
       <revisionDesc>
          <change when="2021-03" who="#SAT">Frist encoding</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_12" xml:lang="es">
       <body>
-         <head>Gastón de la Cerda, Conde de Medinaceli</head>
-         <!-- [Título XII]
-         El Conde de Medinaceli-->
-         <p><pb edRef="#DBordonaFP" n="95"/>Don Gastón de la Cerda, conde de Medinaceli, fijo de don
-            Luis de la Cerda, fue ombre delgado de cuerpo, de muy hermoso gesto e de mediana
-            estatura, e bien conpuesto en la proporción de los mienbros. Çeçeava un poco. Su padre e
-            avuelos fueron de linaje de los reyes de Castilla, decendientes por legítima línea, e
-            asimismo de los reyes de Francia, e todos subcesivamente fueron condes de aquel condado
-            de Medina, el qual condado, con otras villas y logares e tierras, fue dado a su
-            trasvisavuelo, que era nieto del rey don Alfonso de Castilla, por el derecho que avía a
-            estos reinos. </p>
-         <p>Este conde fue muy franco e procurava estar aconpañado de ombres fijosdalgo. E seyendo
-            en hedad de veinte e cinco años, veyendo que el conde su padre seguía algunas
-            parcialidades de cavalleros contra la voluntad del rey don Juan, e puesto en pensamiento
-            trabajoso porque, si la opinión de su padre siguiese, creía errar a la lealtad que devía
-            al rey e, si obedescía al rey, pensava errar a la obediencia paternal. Pospuestos los
-            daños que del apartamiento de su padre se le siguieron, deliberó obedescer los
-            mandamientos reales e sirvió a su rey todo el tienpo de su vida con tanta obediencia que
-            la perseverancia que tovo en su servicio fue a otros enxenplo de lealtad. </p>
-         <p>E después que heredó la casa de su padre, sienpre bivió faziendo guerra a los contrarios
-            del rey. E fue preso en su servicio en una batalla que ovo con los aragoneses, en la
-            qual prisión estovo algún tienpo. E recibió daños en su persona e fazienda, que sufrió
+         <head>El Conde de Medinaceli</head>
+         <p><pb edRef="#DBordonaFP" n="65"/><persName>Don Gastón de la Cerda</persName>,
+               <roleName>conde de Medinaceli</roleName>, hijo de <persName>don Luis de la
+               Cerda</persName>, fue hombre delgado de cuerpo, de muy hermoso gesto, y de mediana
+            estatura y bien compuesto en la proporción de los miembros. Ceceaba un poco. Su padre y
+            abuelos fueron de linaje de los <roleName>>reyes de Castilla</roleName> decendientes por
+            legítima línea y asimismo de los <roleName>reyes de Francia</roleName>, y todos,
+            sucesivamente, fueron condes de aquel condado de <placeName>Medina</placeName>. El cual
+            condado, con otras villas y<pb edRef="#DBordonaFP" n="66"/> logares y tierras, fue dado
+            a su trasbisabuelo, que era nieto del rey <persName>don Alfonso de Castilla</persName>,
+            por el derecho que había a estos reinos. </p>
+         <p>Este conde fue muy franco y procuraba estar acompañado de hombres fijosdalgo. Y seyendo
+            en edad de <date>veinte y cinco años</date>, veyendo que el conde, su padre, seguía
+            algunas parcialidades de caballeros contra la voluntad del rey <persName>don
+               Juan</persName>, y puesto en pensamiento trabajoso, porque si la opinión de su padre
+            siguiese, creía errar a la lealtad que debía al rey, y si obedecía al rey, pensaba errar
+            a la obediencia paternal, pospuestos los daños que del apartamiento de su padre se le
+            siguieron, deliberó obedecer los mandamientos reales. Y sirvió a su rey todo el tiempo
+            de su vida con tanta obediencia, que la perseverancia que tovo en su servicio fue a
+            otros ejemplo de lealtad. </p>
+         <p>Y después que heredó la casa de su padre, siempre vivió haciendo guerra a los contrarios
+            del rey. Y fue preso en su servicio en una batalla que hobo con los aragoneses, en la
+            cual prisión estovo algún tiempo. Y recibió daños en su persona y hacienda, que sufrió
             como varón fuerte, reputándolos a prosperidad por ser en servicio de su rey. Este conde
-            conosció bien quánto reluze la lealtad e la costancia en el cavallero e quánto es fea la
-            mácula del yerro cometido contra los reyes. </p>
-         <p>Fue ombre vencido del amor de las mugeres e él fue amado dellas. Murió con grand honra
-            después que salió de la prisión, en hedad de quarenta años. </p>
+            conoció bien cuánto reluce la lealtad y la costancia en el caballero y cuánto es fea la
+            mácula del yerro cometido contra los reyes. Fue hombre vencido del amor de las mujeres,
+            y él fue amado de ellas. </p>
+         <p>Murió con gran honra, después que salió de la prisión, en edad de <date>cuarenta
+               años</date>. </p>
 
 
       </body>

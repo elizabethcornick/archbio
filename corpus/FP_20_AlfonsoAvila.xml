@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,54 +50,60 @@
 
       <revisionDesc>
          <change when="2021-03" who="#SAT">Frist encoding.</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_20" xml:lang="es">
       <body>
-         <head>Alfonso Fernández de Madrigal, Obispo de Ávila</head>
-         <!-- Título XXIV
-         Del Obispo de Avila-->
-         <p><pb edRef="#DBordonaFP" n="147"/>Don Alfonso, obispo de Ávila, fue ombre de mediana
-            estatura, el cuerpo espeso, bien proporcionado en la conpostura de sus mienbros. Tenía
-            la cabeça grande e el gesto robusto, el pescueço un poco corto. Era natural de la villa
-            de Madrigal, de linaje de labradores. </p>
-         <p>Desde su niñez tovo inclinación a la ciencia e, creciendo en días, creció más en deseo
-            de aprender. Era ombre agudo e de grand memoria. Ovo principios en filosofia e
-            theología. Aprendió en el estudio de Salamanca, donde recibió ábito clerical. Fue
-            observantíssimo en la orden que rescibió e, de hedad de veinte e cinco años, ovo el
-            grado de magisterio. E tanto resplandecía en ciencia e en vida onesta que, como quier
-            que avía otros de mayor hedad e de grand suficiencia, pero por sus méritos fue elegido
-            para leer las cátedras de theología e filosofia. E tovo grand continuación e
-            perseverancia en el estudio, tanto que, el tienpo que se pasava, sienpre lo tenía
-            presente, porque gozava en la ora presente de lo que en la pasada avía aprendido. Tovo
-            muchos diciplos e, después que fue maestro, nunca halló mostrador, porque ni se escusó
-            jamás de aprender ni fue acusado de aver mal aprendido. </p>
-         <p>El papa, movido por la abilidad interior deste claro varón más que por suplicación
-            exterior de otro, le proveyó de maestrescuela de Salamanca. Seyendo grand maestro en
-            artes e theología se dispuso aprender derecho canónico y cevil, e fue en aquellas
-            facultades bien instruto. E tan grande era la fama de su saber en todas ciencias que,
-            estando en aquel estudio, duró grand tienpo que venían a le ver ombres doctos, tan bien
-            de los reinos estraños como de los reinos de España. </p>
-         <p>Cierto es que ningún ombre, dado que biva largos tienpos, puede saber la perfectión e
-            profundidad de todas las ciencias. E no quiero dezir que este sabio perlado las alcançó
-            todas, pero puédese creer dél que en la ciencia de las artes e theología e filosofia
-            natural e moral, e asimismo en el arte del estrología e astronomía, no se vido en los
-            reinos de España ni en otros estraños se oyó aver otro en sus tienpos que con él se
-            conparase. </p>
-         <p>Era ombre callado e resplandecía más en él la lunbre de la ciencia que el florear de la
-            lengua. Fue a Roma donde sostovo conclusiones de grand ciencia e alcançó fama de varón
-            muy sabio, e fue mirado por el papa e por todos los cardenales como ombre singular en la
-            iglesia de Dios. Este fizo muchos tratados de filosofia e theología, e escrivió sobre el
-            testo de la Sacra Escriptura una muy copiosa declaración e de grand dotrina, que está oy
-            en el monesterio de Guadalupe e en el estudio de Salamanca, en el qual verá quien bien
-            la mirare, quánto este perlado abundava en todas ciencias e cómo es verdad lo que dél
-            aquí se pedrica. El rey don Juan, que era un príncipe a quien plazía oir lecturas e
-            saber declaraciones e secretos de la Sacra Escriptura, lo tovo cerca de sí e le fizo de
-            su consejo e suplicó al papa que le proveyese del obispado de Avila. Duró perlado en
-            aquel obispado seis años e murió de hedad de cinqüenta e cinco, conosciendo a Dios e con
-            fama del más sabio ombre que en sus tienpos ovo en la iglesia de Dios. </p>
+         <head>Obispo de Ávila</head>
+         <p><pb edRef="#DBordonaFP" n="99"/><persName>Don Alfonso</persName>, <roleName>obispo de
+               Ávila</roleName>, fue hombre de mediana estatura, el cuerpo espeso, bien
+            proporcionado en la compostura de sus miembros. Tenía la cabeza grande, el gesto
+            robusto, el pescuezo un poco corto. Era natural de la villa de
+               <placeName>Madrigal</placeName>, de linaje de labradores. </p>
+         <p>Desde su niñez tovo inclinación a la ciencia, y creciendo en días, creció más en deseo
+            de aprender. Era hombre agudo y de gran memoria. Hobo principios en filosofia y
+            teología. Aprendió en el estudio<pb edRef="#DBordonaFP" n="100"/> de Salamanca, donde
+            recibió hábito clerical. Fue observantísimo en la orden que recibió, y de edad de
+               <date>veinte y cinco años</date>, hobo el grado de magisterio. Y tanto resplandecía
+            en ciencia y en vida honesta que, como quier que había otros de mayor edad y de gran
+            suficiencia, pero por sus méritos fue elegido para leer las cátedras de teología y
+            filosofía. Y tovo gran perseveración en el estudio, que el tienpo que se pasaba siempre
+            lo tenía presente, porque gozaba en la hora presente de lo que en la pasada había
+            aprendido. Tovo muchos discípulos. Y después que fue maestro nunca halló mostrador,
+            porque ni se excusó jamás de aprender, ni fue acusado de haber mal aprendido. </p>
+         <p>El papa, movido por la habilidad interior de este claro varón más que por suplicación
+            exterior de otro, le proveyó de maestrescuela de <placeName>Salamanca</placeName>.
+            Seyendo gran maestro en artes y teología, se dispuso aprender derecho canónico y cevil,
+            y fue en aquellas facultades instructo como el más docto hombre que en ellas era
+            principado. Y tan gran era la fama de su saber en todas ciencias, que, estando en aquel
+            estudio, duró gran tiempo que venían a le ver hombres doctos, también de los reinos de
+               <placeName>España</placeName>. </p>
+         <p>Cierto es que ningún hombre, dado que viva largos tiempos, puede saber la perficción y
+            profundidad de todas las ciencias, y no quiero decir que este sabio perlado las alcanzó
+            todas, pero puédese creer de él que en la ciencia de las artes y teología y filosofía
+            natural y moral, ey en las facultades de derecho y asimismo en el arte del estrología y
+            astronomía, no se vido en los reinos de <placeName>España</placeName> ni en otros
+            extraños se oyó, haber otro en sus tiempos que con él se comparase. </p>
+         <pb edRef="#DBordonaFP" n="101"/>
+         <p>Era hombre callado y resplandecía más en él la lumbre de la ciencia que el florear de la
+            lengua. Fue a <placeName>Roma</placeName> donde sostovo conclusiones de gran ciencia; y
+            alcanzó fama de varón muy sabio; y fue mirado por el papa y por todos los cardenales
+            como hombre singular en la Iglesia de Dios. Este hizo muchos tratados de filosofía y
+            teología. Y escribió sobre el texto de la Sacra Escritura una muy copiosa declaración y
+            de gran doctrina que está hoy en el <placeName>monesterio de Guadalupe</placeName> y en
+            el estudio de <placeName>Salamanca</placeName>, en el cual verá, quien bien la mirare,
+            cuánto este perlado abundaba en todas ciencias y cómo es verdad lo que de él aquí se
+            predica. </p>
+         <p>El rey <persName>don Juan</persName>, que era un príncipe a quien placía oír lecturas y
+            saber declaraciones y secretos de la Sacra Escritura, lo tovo cerca de sí y le hizo de
+            su Consejo; y suplicó al papa que le proveyese del <placeName>obispado de
+               Ávila</placeName>. Duró perlado en aquel obispado <date>seis años</date>. </p>
+         <p>Y murió de edad de <date>cincuenta y cinco</date>, conociendo a Dios y con fama del más
+            sabio hombre que en sus tiempos hobo en la Iglesia de Dios. </p>
       </body>
    </text>
 </TEI>

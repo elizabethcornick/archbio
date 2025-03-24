@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,77 +50,85 @@
 
       <revisionDesc>
          <change when="2021-03">Frist encoding by Susanna Allés-Torrent </change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_09" xml:lang="es">
       <body>
-         <head>Diego Hurtado de Mendoza, Duque del Infantado</head>
-         <!-- [Título IX]
-         El Duque del Infantadgo-->
-         <p><pb edRef="#DBordonaFP" n="86"/>Don Diego Hurtado de Mendoça, duque del Infantadgo,
-            marqués de Santillana e conde del Real de Mançanares, fijo del marqués don lñigo López
-            de Mendoça e nieto del almirante don Diego Hurtado, fue ombre delgado e alto de cuerpo.
-            Tenía los ojos prietos e las faciones del rostro fermosas, e bien proporcionado en la
-            conpostura de sus mienbros. Era de linaje noble castellano muy antiguo. </p>
-         <p>Seyendo moço, el marqués su padre le enbió a la su casa de la Vega por pacificar la
-            tierra de las Asturias de Santillana e la librar de algunos tiranos que gela ocupavan,
-            con los quales ovo algunos recuentros e fechos de armas, en que usó el exercicio de la
-            cavallería e fizo ábito en la diciplina militar. E porque las gentes de aquellas tierras
-            son ombres valientes, esforçados e muy cursados en las peleas a pie que, segund la
-            disposición de aquellas montañas se requiere fazer, este cavallero se vicio con ellos
-            muchas vezes en grandes trabajos e peligros de la guerra continua que con ellos tovo,
-            fasta que al fin, vencidos sus contrarios por batallas en canpo, e muerto su principal
-            capitán, alinpió aquellas sus montañas de la tiranía en que por largos tienpos avían
-            estado. </p>
-         <p>Era ombre bien instruto en las letras latinas e tenía tan buena memoria que pocas cosas
-            se le olvidavan de lo que en la Sacra Escritura avía leído. Era ombre de verdad e
-            aborrescía tanto mentiras e mentirosos que ninguno de los tales ovo jamás logar cerca
-            dél. Heredó la casa de su padre en el tienpo del rey don Enrique quarto e fue uno de los
-            principales señores del reino que entendieron en pacificar las divisiones que ovo entre
-            el rey don Enrique e el rey don Alfonso, su hermano. </p>
-         <p>Fue tan perseverante en la virtud de la constancia que por ningún interese jamás le
-            vieron fazer mudan a de aquello que una vez asentava de fazer. E esta virtud se
-            esperimentó en él porque no dexó de seguir la vía del rey don Enrique, aunque en ella
-            ovo algunos sinistres e se vicio en grandes discrimines e aventuras de perder su persona
-            e casa, porque se tenía por dicho que en el infortunio reluzía la constancia. Peleó en
-            la batalla que estos dos reyes ovieron cerca de la villa de Olmedo, ante de la qual,
-            veyéndose las fazes contrarias unas e otras en el canpo, ni el miedo le turbó el seso
-            para consejar ni el esfuerço se enflaqueció para cometer, ni menos cansó la fuerça del
-            coraçón peleando para vencer. </p>
-         <p>Zelava este cavallero tanto la honra que con dificultad era traído a entender en ninguna
-            negociación ni trato que le fuese movido, recelando que las variedades de los tienpos le
-            forçasen a fazer mudança de su palabra, por do podiese caer en punto de mengua. </p>
-         <p>Era ombre muy llano e tratable con todos e honrador en los recebimientos de los que a él
-            venían, e ageno de disimulationes. Tenía ánimo tan noble e las entrañas tan claras e tan
-            abiertas que jamás fue conoscido en él pensamiento para muerte e destruición ni injuria
-            de ninguno. E de su natural inclinación no quería entender salvo en cosas justas e
-            rectas. Todas las cautelas e fictiones aborrescía como cosa contraria a su natural
-            condición. </p>
-         <p>No era varón de venganças, e perdonava tan fácilmente a los que le erravan que jamás
-            avía memoria de sus yerros. Acaescióle que, como algunos suyos le errasen de tal manera
-            que la graveza del delito les cerrase la puerta de la esperança para ser perdonados,
-            movido este cavallero por la piedad natural que tenía, podiendo aver dellos entera
-            vengança, le acaesció llamarlos e perdonarlos e, quedando linpio de todo odio, les dio
-            de sus bienes. Porque dezía él que ninguna mayor pena podía rescebir el injuriador que
-            venir a manos del injuriado, ni mayor gloria el injuriado que dar vida e beneficios al
+         <head>El Duque del Infantado</head>
+         <p><pb edRef="#DBordonaFP" n="58"/><persName>Don Diego Hurtado de Mendoza</persName>,
+               <roleName>duque del Infantazgo</roleName>, <roleName>marqués de Santillana</roleName>
+            y <roleName>conde del Real de Manzanares</roleName>, hijo del marqués don
+               <persName>lñigo López de Mendoza</persName> y nieto del almirante don <persName>Diego
+               Hurtado</persName>, fue hombre delgado y alto de cuerpo; tenía los ojos prietos y las
+            facciones del rostro hermosas; y bien proporcionado en la compostura de sus miembros.
+            Era de linaje noble castellano muy antiguo. </p>
+         <p>Seyendo mozo, el marqués, su padre, le envió a la su casa de la
+               <placeName>Vega</placeName> por pacificar la tierra de las
+               <placeName>Asturias</placeName> de Santillana y la librar de algunos tiranos que gela
+            ocupaban, con los cuales hobo algunos recuentros y hechos de armas en que usó el
+            ejercicio de la caballería e hizo hábito en la disciplina militar. Y porque las gentes
+            de aquellas tierras son hombres valientes, esforzados y muy cursados en las peleas a
+            pie, que según la disposición de aquellas montañas se requiere hacer, este caballero se
+            vido con ellos muchas veces en grandes trabajos y peligros de la guerra continua que con
+            ellos tovo. Hasta que, al fin, vencidos sus contrarios por batallas en campo, y muerto
+            su principal capitán, alimpió aquellas sus montañas de la tiranía en que por largos
+            tiempos habían estado. </p>
+         <pb edRef="#DBordonaFP" n="59"/>
+         <p>Era hombre bien instructo en las letras latinas, y tenía tan buena memoria, que pocas
+            cosas se le olvidaban de lo que en la Sacra Escritura había leído. Era hombre de verdad
+            y aborrecía tanto mentiras y mentirosos, que ninguno de los tales hobo jamás logar cerca
+            de él. Heredó la casa de su padre en el tiempo del rey <persName>don Enrique</persName>
+            cuarto. Y fue uno de los principales señores del reino que entendieron en pacificar las
+            divisiones que hobo entre el rey <persName>don Enrique</persName> y el rey <persName>don
+               Alfonso</persName>, su hermano. </p>
+         <p>Fue tan perseverante en la virtud de la constancia, que por ningún interese jamás le
+            vieron hacer mudanza de aquello que una vez asentaba de hacer. Y esta virtud se
+            experimentó en él, porque no dejó de seguir la vía del rey <persName>don
+               Enrique</persName>, aunque en ella hobo algunos sinistres y se vido en grandes
+            discrímines y aventuras de perder su persona y casa; porque se tenía por dicho que en el
+            infortunio relucía la constancia. Peleó en la batalla que estos<pb edRef="#DBordonaFP"
+               n="60"/> dos reyes hobieron cerca de la villa de <placeName>Olmedo</placeName>. Ante
+            de la cual, veyéndose las haces contrarias, unas y otras en el campo, ni el miedo le
+            turbó el seso para consejar, ni el esfuerzo se enflaqueció para cometer; ni menos cansó
+            la fuerza del corazón peleando para vencer. </p>
+         <p>Celava este caballero tanto la honra, que con dificultad era traído a entender en
+            ninguna negociación ni trato que le fuese movido, recelando que las variedades de los
+            tiempos le forzasen a hacer mudanza de su palabra por do podiese caer en punto de
+            mengua. Era hombre muy llano y tratable con todos; y honrador en los recibimientos de
+            los que a él venían; y ajeno de disimulaciones. Tenía ánimo tan noble y las entrañas tan
+            claras y tan abiertas, que jamás fue conocido en él pensamiento para muerte y
+            destruición ni injuria de ninguno. Y de su natural inclinación no quería entender salvo
+            en cosas justas y rectas. Todas las cautelas y ficciones aborrecía como cosa contraria a
+            su natural condición. </p>
+         <p>No era varón de venganças, y perdonaba tan fácilmente a los que le erraban, que jamás
+            había memoria de sus yerros. Acaecióle que, como algunos suyos le errasen de tal manera
+            que la graveza del delito les cerrase la puerta de la esperanza para ser perdonados,
+            movido este caballero por la piedad natural que tenía, podiendo haber de ellos entera
+            venganza, le acaeció llamarlos y perdonarlos, y quedando limpio de todo odio, les dio de
+            sus bienes. Porque decía él que ninguna mayor pena podía recibir el injuriador, que
+            venir a manos del injuriado; ni mayor gloria el injuriado, que dar vida y beneficios al
             injuriador. </p>
-         <p>Tenía la cobdicia de aver bienes tenporales como todos los mortales tienen. Pero en esto
-            tovo una tan singular tenplança que, por grand utilidad e acrecentamiento que oviese, no
-            fiziera cosa fea ni desonesta. E como veemos todos los ombres desear honra e
-            acrecentamiento, especialmente en las tierras de su morada, e la necesidad de los
-            tienpos acarrease que el rey en remuneración de sus servicios le ofreciese donación
-            perpetua de Guadalajara, do era su asiento, este cavallero no la quiso rescebir, porque
-            su humanidad no pudo sofrir la pasión y trabajo que otros sentían por ser puestos en
-            señorío particular e apartados del señorío real. Dezía él que el inperio for oso más se
-            puede dezir cuidado grave que posesión deleitosa. </p>
-         <p>Fue ombre que se deleitava en lavores de casas e hedeficios. Este duque fundó de
-            principio en la su villa de Man anares la fortaleza que está en ella hedificada, e fizo
-            de nuevo e reparó algunas casas de morada en sus tierras e logares. E en esto más que en
-            otras cosas fue liberal. Fue asimismo vencido de mugeres e del apetito de los manjares.
-            E aviendo acrecentado su título y patrimonio allende de lo que le dexó el Marqués su
-            padre, murió en toda prosperidad en hedad de sesenta e cinco años. </p>
+         <p>Tenía la codicia de haber bienes temporales como todos los mortales tienen. Pero en esto
+            tovo una tan singular templanza que, <pb edRef="#DBordonaFP" n="61"/>por gran utilidad y
+            acrecentamiento que hobiese, no hiciera cosa fea ni deshonesta. Y como vemos todos los
+            hombres desear honra y acrecentamiento, especialmente en las tierras de su morada, y la
+            necesidad de los tiempos acarrease que el rey en remuneración de sus servicios le
+            ofreciese donación perpetua de <placeName>Guadalajara</placeName>, do era su asiento,
+            este caballero no la quiso recibir; porque su humanidad no pudo sofrir la pasión y
+            trabajo que otros sentían por ser puestos en señorío particular y apartados del señorío
+            real. Decía él que el imperio forzoso más se puede dezir cuidado grav, que posesión
+            deleitosa. </p>
+         <p>Fue hombre que se deleitaba en labores de casas y edeficios. Este duque fundó de
+            principio en la su villa de <placeName>Manzanares</placeName> la fortaleza que está en
+            ella edificada; e hizo de nuevo y reparó algunas casas de morada en sus tierras y
+            logares. Y en esto, más que en otras cosas, fue liberal. Fue asimismo vencido de mujeres
+            e del apetito de los manjares. Y habiendo acrecentado su título y patrimonio allende de
+            lo que le dejó el marqués, su padre, murió en toda prosperidad en edad de <date>sesenta
+               y cinco años</date>. </p>
 
       </body>
    </text>

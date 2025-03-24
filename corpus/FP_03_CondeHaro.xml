@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -51,127 +52,129 @@
          <change when="2019-03">Frist encoding by Carlos Fernández González (UNED, 2019) </change>
          <change when="2021-03-06" who="#SAT">Application of transcription criteria. Association
             with schema.</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_03" xml:lang="es">
       <body>
-         <head>Pero Fernández de Velasco, Conde de Haro</head>
-         <!-- [Título III]
-            El Conde de Haro -->
-         <p><pb edRef="#DBordonaFP" n="31"/>Don <persName>Pero Fernándes de Velasco, <roleName>conde de Haro</roleName></persName>,
-            fijo de <persName>Juan de Velasco</persName> e nieto de don <persName>Pero Fernándes de
-               Velasco</persName>, fue omme de mediana estatura, tenía las cervices torcidas, e los
-            ojos un poco viscos.</p>
-         <p>Era de linaje noble e antiguo. Fállase por las corónicas, que él e su padre e avuelos
-            fueron r<roleName/> de los <roleName>reyes de Castilla</roleName> subcesivamente por
-            espacio de ciento e veinte años.</p>
-         <p>Era omme agudo e de buen entendimiento.</p>
-         <p>Bivió en los tiempos del <persName>rey don Juan el segundo</persName> e del
-               <persName>rey don Enrique quarto</persName>, su fijo.</p>
-         <p>En su joventud, la hedad loçana, e no aún madura ni esperimentada en los inconvinientes
-            que acaescen en la vida, le indusió que se juntase en <pb edRef="#DBordonaFP" n="29"
-            />parcialidades con otros grandes del reino, sus parientes, e repugnase la voluntad e
-            afeción grande que el <persName>rey don Juan</persName> mostrava en obras e en palabras
-            a algunos privados: e por esta causa estovo algúnd tiempo en la indignación del rey, e
-            padesció algunos infortunios. E como acaesce algunas vezes que las adversidades dan al
-            omme mejor dotrina para ser cauto, que las [prosperidades] para ser templado, este
-            cavallero despertó en la adversidad su buen entendimiento e conosció cómo dende adelante
-            biviese con más seguridad e menos peligro.</p>
-         <p>Fablava con buena gracia e con tales razones traídas a propósito, que todos avían plazer
-            de le oír. Era temeroso de Dios, e omme de verdad, e inclinado a justicia: la cual como
-            sea dividida en partes, una de las cuales se dize legal, porque es instituida por ley;
-            otra igual, que la razón natural nos manda seguir, puédese por cierto creer deste
-            cavallero, que ni fal[l]esció en lo que manda la razón natural, ni era transgresor de lo
-            escrito por ley; antes fue un tan grand zelador de la justicia, que no se puede dezir
-            otro en sus tiempos que con tan grand estudio la mirase, ni con mejor diligencia e
-            moderación la cumpliese e executase. E <pb edRef="#DBordonaFP" n="30"/>esta virtud
-            mostró bien en la governación de sus villas e logares e otras muchas tierras que tovo en
-            administración; porque allende del derecho que igualmente fazía guardar de unos e otros,
-            dio tal forma en sus tierras, que los ministros que ponía en la justicia dellas eran
-            obligados de pagar todo el robo que en el campo se fiziese a los moradores, o a otra
-            cualquier persona que pasase por ellas, o dar el malfechor que lo oviese fecho, o
-            perseguirlo fasta lo aver, o dar razón donde fuese recebtado e defendido. E luego que
-            sabía el logar do estava fazía tales diligencias, que avía el malfechor, e fazía
-            justicia dél, o apremiava en tal manera al que lo recebtava, que le fazía restituir el
-            robo, y el robado quedava satisfecho; e con esta diligencia que tenía en la justicia,
-            sus tierras eran bien guardadas, e florescían entre todas las otras comarcanas.</p>
-         <p>Tenía tierras vezinas a las montañas, e como quier que juntó en parentela con algunos de
-            los cavalleros dellas; pero conoscida la gente ser turbulenta e presta al rigor, con tal
-            prudencia los sopo tratar, que en su tiempo no le alcançó parte de algunos males que de
-            sus disensiones les vinieron; porque era varón inclinado a paz y enemigo <pb
-               edRef="#DBordonaFP" n="31"/>de discordia, e grand zelador del bien público: en la
-            governación del cual le plazía gastar el tiempo e el trabajo.</p>
-         <p>Loan los <roleName>ystoriadores</roleName> a <persName>Bruto, <roleName>cónsul
-                  romano</roleName></persName>, que mató sus fijos porque, contra el bien público de
-               <placeName>Roma</placeName>, tratavan de reduzir al <persName>rey
-            Tarquino</persName>, e dizen que la grand cobdicia de loor venció al amor natural: e
-            alega <persName>Virgilio</persName> que fue caso infelice; e si infelice, no sé cómo la
-            infelicidad deva ser loada, ni qué loor puede conseguir aquel que repugna la natura, e
-            contraría la razón.</p>
-         <p>Podemos bien creer que este <roleName>cónsul</roleName>, si lo fizo con ira, fue mal; y
-            si con deliberación, peor: porque de muchos governadores castellanos leemos, que no
-            matando sus fijos, mas templando sus pasiones, sopieron muy bien governar sus tierras y
-            provincias. E este noble conde, no señoreando de ambición por aver fama en esta vida,
-            mas señoreando la tentación por aver gloria en la otra, governó la república tan
-            rectamente, que ovo el premio que suele dar la verdadera virtud: la cual conoscida en
-            él, alcançó tener tanto crédito e autoridad, que si alguna grande e señalada confiança
-            se avía de fazer en el reino, quier de personas, quier de fortalezas o de otra cosa de
-            cualquier calidad, sienpre se confiava dél; e en algunas diferencias que el
-               <persName>rey don Juan</persName> ovo con el <roleName>rey de Navarra</roleName> e
-            con el <persName>infante don Enrique</persName>, sus primos, e en algunos otros debates
-            e controversias que los grandes <pb edRef="#DBordonaFP" n="32"/>del reino ovieron unos
-            con otros, si para se pacificar era necesario que los de la una parte e de la otra se
-            juntasen en algún logar para platicar en las diferencias que tenían, siempre se confiava
-            la salvaguarda del tal logar do se juntavan a este cavallero, e la una parte e la otra
-            confiavan sus personas de su fe e palabra, e muchas vezes se remitían a su arbitrio y
-            parescer. Fue eso mismo omme que por ganar honrra deseava fazer cosas maníficas, e
-            siguiendo esta su condición juntó muchas vezes grand copia de gente de su casa, así para
-            la guerra contra los moros, como para servir al rey, e sostener el stado e preminencia
-            real en las diferencias e guerras que en el reino acescieron: e esto fizo en logares e
-            tiempos tan necesarios, que como quier que sufrió grandes miedos, e se puso a muchos
-            discrímines e aventuras, pero al fin destos trabajos ganó grand honra e reputación, e su
-            casa por respeto de sus servicios fue acrecentada.</p>
-         <p>Quería levar las cosas por orden, e que no saliesen punto de la razón; e esta condición
-            le fazía mirar tanto en los negocios, e poner tales dubdas e inconvenientes, que tarde
-            con grand dificultad se determinava a las fazer. Verdad es que tardío, e ser súbito en
-            la determinación de las cosas, son dos estremos que se deven huir. Tanbién es cierto que
-            recibe alguna pena el que delibera en deliberar tarde, e el que le espera en esperar
-               mucho<pb edRef="#DBordonaFP" n="33"/>; pero por la mayor parte veemos más e mayores
-            inconvenientes en la persona e fechos de aquel que delibera súbito, que en el que es
-            grave e tardío en sus movimientos: porque si por deliberar tarde se pierde alguna vez el
-            bien que se podría aver, por determinar presto vimos perder muchas vezes el bien avido,
-            e acarrear tales mudanças e variedades y aun vanidades, que afean la persona e pierden
-            la honra.</p>
-         <p>Era deseoso como todos los ommes de aver bienes, e sópolos adquerir e acrescentar, e muy
-            bien conservar. Era asimismo reglado en sus gastos contínuos, e con tanta diligencia
-            mirava a quién avía de dar, e cómo e por qué le clava, que algunas vezes fallescía en la
-            virtud de la liberalidad.</p>
-         <p>Era omme esencial, e no curava de apariencias, ni fazía muestras de lo que tenía ni de
-            lo que fazía. Aprendió letras latinas, y dávase al estudio de corónicas, e saber fechos
-            pasados. Plazíale asimismo la comunicación de personas religiosas e de ommes sabios, con
-            las cuales comunicava sus cosas.</p>
-         <p>Al fin, veyéndose en los días de la vejes, porque ovo verdadero conoscimiento de los
-            gozos falsos y miserias verdaderas que este mundo da a <pb edRef="#DBordonaFP" n="34"
-            />los que en él están enbueltos, apartóse dél, y puso fin a todas las cosas mundanas, e
-            encomendó su casa e toda su gente de armas a su fijo mayor: e fundó en la su villa de
-               <placeName>Medina de Pomar</placeName> un monesterio de <roleName>monjas de la orden
-               de santa Clara</roleName>, e un ospital para pobres, e dotóles de lo necesario, e
-            allí de su voluntad se retroxo antes que muriese por espacio de dies años. E como quier
-            que fue requerido algunas vezes por el rey, e por otros grandes señores sus parientes,
-            que saliese de aquel retraimiento para entender en las disensiones que en aquellos
-            tiempos acaecieron en el reino, no quiso mudar su propósito, antes acordó de tomar en su
-            casa conpañía de ommes religiosos de buena e onesta vida, e fizo grande y estrecha
-            inquisición sobre las cosas de su conciencia desde el día que fue de hedad para pecar, e
-            cometióles que alimpiasen su ánima, así en la penitencia de su persona como en la
-            restitución que devía fazer de sus bienes: e todos los que en aquellos tiempos vinieron
-            a le demandar qualquier cargo, así de servicios que le oviesen fecho, como de otra
-            cualquier calidad a que de justicia fuese obligado, fueron oídos e satisfechos. E al
-            cabo de aver fecho su penitencia e restituciones, dexó su casa e patrimonio a su fijo
-            mayor, que fue condestable de Castilla: e dexó otros dos <pb edRef="#DBordonaFP" n="35"
-            />fijos herederos, e en buen stado. E dando dotrina de honrrado bevir, e enxemplo de bien
-            morir, feneció en hedad de setenta años, dentro en aquel monesterio que fundó.</p>
+         <head>El Conde de Haro</head>
+         <p><pb edRef="#DBordonaFP" n="23"/>Don <persName>Pero Fernández de Velasco, <roleName>conde
+                  de Haro</roleName></persName>, hijo de <persName>Juan de Velasco</persName> y
+            nieto de don <persName>Pero Fernández de Velasco</persName>, fue hombre de mediana
+            estatura. Tenía las cervices torcidas y los ojos un poco bizcos. Era de linaje noble y
+            antiguo. Hállase por las corónicas que él y su padre y abuelos fueron camareros mayores
+            de los <roleName>reyes de Castilla</roleName>, sucesivamente, por espacio de
+               <date>ciento y veinte años</date>. </p>
+         <pb edRef="#DBordonaFP" n="24"/>
+         <p>Era hombre agudo y de buen entendimiento. Vivió en los tiempos del rey don
+               <persName>Juan el segundo</persName> y del rey don <persName>Enrique
+               cuarto</persName>, su hijo. En su joventud, la edad lozana y no aún madura ni
+            experimentada en los inconvinientes que acaecen en la vida, le indusió que se juntase en
+            parcialidades con otros grandes del reino, sus parientes, y repugnase la voluntad y
+            afección grande que el rey don <persName>Juan</persName> mostraba en obras y en palabras
+            a algunos privados. Y por esta causa estovo algún tiempo en la indignación del rey y
+            padeció algunos infortunios. Y como acaece algunas veces que las adversidades dan al
+            hombre mejor doctrina para ser cauto que las prosperidades para ser templado, este
+            caballero despertó en la adversidad su buen entendimiento y conoció como dende adelante
+            viviese con más seguridad y menos peligro.</p>
+         <p>Hablaba con buena gracia y con tales razones traídas a propósito, que todos habían
+            placer de le oír. Era temeroso de Dios y hombre de verdad e inclinado a justicia. La
+            cual, como sea dividida en partes, una de las cuales se dice legal, porque es instituida
+            por ley; otra igual, que la razón natural nos manda seguir, puédese por cierto creer de
+            este caballero que ni falleció en lo que manda la razón natural, ni era transgresor de
+            lo escrito por ley, antes fue un tan gran celador de la justicia, que no se puede decir
+            otro en sus tiempos que con tan gran estudio la mirase, ni con mejor diligencia y
+            moderación la cumpliese y ejecutase. Y esta virtud mostró bien en la gobernación de sus
+            villas y logares y otras muchas tierras que tovo en administración, porque allende del
+            derecho que igualmente hacía guardar de unos y otros, dio tal forma en sus tierras, que
+            los ministros que ponía en la justicia de ellas eran<pb edRef="#DBordonaFP" n="25"/>
+            obligados de pagar todo el robo que en el campo se hiciese a los moradores o a otra
+            cualquier persona que pasase por ellas; o dar el malhechor que lo hobiese hecho o
+            perseguirlo hasta lo haber o dar razón donde fuese receptado y defendido. Y luego que
+            sabía el logar do estaba, hacía tales diligencias, que había el malhechor y hacía
+            justicia de él; o apremiaba en tal manera al que lo receptaba, que le hacía restituir el
+            robo y el robado quedaba satisfecho. </p>
+         <p>Y con esta diligencia que tenía en la justicia, sus tierras eran bien guardadas y
+            florecían entre todas las otras comarcanas. Tenía tierras vecinas a las montañas y, como
+            quier que juntó en parentela con algunos de los caballeros de ellas, pero conocida la
+            gente ser turbulenta y presta al rigor, con tal prudencia los sopo tratar, que en su
+            tiempo no le alcanzó parte de algunos males que de sus disensiones les vinieron, porque
+            era varón inclinado a paz y enemigo de discordia y gran celador del bien público, en la
+            gobernación del cual le placía gastar el tiempo y el trabajo.</p>
+         <p>Loan los <roleName>hitoriadores</roleName> a <persName>Bruto, <roleName>cónsul
+                  romano</roleName></persName>, que mató sus hijos porque contra el bien público de
+               <placeName>Roma</placeName> trataban de reducir al <persName>rey Tarquino</persName>.
+            Y dicen que la gran codicia de loor venció al amor natural. Y alega
+               <persName>Virgilio</persName> que fue caso infelice. Y si infelice, no sé cómo la
+            infelicidad deba ser loada, ni qué loor puede conseguir aquel que repugna la natura y
+            contraría la razón. Podemos<pb edRef="#DBordonaFP" n="26"/> bien creer que este
+               <roleName>cónsul</roleName>, si lo hizo con ira, fue mal, y si con deliberación,
+            peor, porque de muchos gobernadores castellanos leemos que, no matando sus hijos, mas
+            templando sus pasiones, sopieron muy bien gobernar sus tierras y provincias. </p>
+         <p>Y este noble conde, no señoreando de ambición por haber fama en esta vida, mas
+            señoreando la tentación por haber gloria en la otra, governó la república tan
+            rectamente, que hobo el premio que suele dar la verdadera virtud. La cual conocida en
+            él, alcanzó tener tanto crédito y autoridad, que si alguna grande y señalada confianza
+            se había de hacer en el reino, quier de personas, quier de fortalezas o de otra cosa de
+            cualquier calidad, siempre se confiaba de él. Y en algunas diferencias que el rey don
+               <persName>Juan</persName> hobo con el rey de <roleName>Navarra</roleName> y con el
+               <persName>infante don Enrique</persName>, sus primos, y en algunos otros debates y
+            controversias que los grandes del reino unos con otros hobieron en su tiempo, si para se
+            pacificar era necesario que los de la una parte y de la otra se juntasen en algún lugar
+            para platicar en las diferencias que tenían, siempre se encomendaba la salvaguarda del
+            tal lugar do se juntaban a este caballero; y la una parte y la otra confiaban sus
+            personas de su fe y palabra; y muchas veces se remetían a su arbitrio y parecer. </p>
+         <p>Fue eso mismo hombre que por ganar honra deseaba hacer cosas magníficas. Y siguiendo
+            esta su condición, juntó muchas veces gran copia de gente de su casa, así para la guerra
+            contra los moros como para servir al <roleName>rey</roleName> y sostener el estado y
+            preeminencia real en las diferencias y guerras que en el reino acecieron. Y esto hizo en
+            lugares y tiempos tan necesarios que, como quier que sufrió grandes miedos y se puso a
+            muchos discrímines y aventuras, pero al fin de sus trabajos ganó gran honra y
+            reputación, y su casa por respeto de sus servicios fue acrecentada.</p>
+         <pb edRef="#DBordonaFP" n="27"/>
+         <p>Quería llevar las cosas por orden y que no saliesen punto de la razón. Y esta condición
+            le hacía mirar tanto en los negocios y poner tales dubdas e inconvenientes, que tarde y
+            con gran dificultad se determinaba a las hacer. Verdad es que tardío y ser súbito en la
+            determinación de las cosas son dos extremos que se deben huir. También es cierto que
+            recibe alguna pena el que delibera, en deliberar tarde; y el que espera, en esperar
+            mucho. Pero, ciertamente por la mayor parte vemos más y mayores inconvenientes en la
+            persona y hechos de aquel que delibera súbito que en el que es grave y tardío en sus
+            movimientos. Porque si por deliberar tarde se pierde alguna vez el bien que se podría
+            haber, por determinar presto vimos perder muchas veces el bien habido; y acarrear tales
+            mudanzas y vanidades que afean la persona y pierden la honra.</p>
+         <p>Era deseoso, como todos los hombres, de haber bienes, y sópolos adquerir, acrecentar y
+            muy bien conservar. Era asimismo reglado en sus gastos continuos; y con tanta diligencia
+            miraba a quién había de dar y cómo y por qué lo daba, que algunas veces fallecía en la
+            virtud de la liberalidad. Era hombre esencial y no curaba de apariencias, ni hacía
+            muestras de lo que tenía, ni de lo que hacía. Aprendió letras latinas y placíale el
+            estudio de corónicas y saber hechos pasados. Placíale asimismo la comunicación de
+            personas religiosas y de hombres sabios, con las cuales comunicaba sus cosas.</p>
+         <p>Al fin, veyéndose en los días de la vejez, porque hobo verdadero conocimiento de los
+            gozos falsos y de las miserias verdaderas que este mundo da a los que en él están
+            envueltos, apartóse de él, y puso fin a todas las cosas mundanas, y encomendó su casa
+               y<pb edRef="#DBordonaFP" n="28"/> toda su gente de armas a su hijo mayor. Y fundó en
+            la su villa de <placeName>Medina de Pumar</placeName> un monesterio de <roleName>monjas
+               de la orden de santa Clara</roleName> y un hospital para pobres; y dotóles de lo que
+            les era necesario. Y, allí, de su voluntad, se retrujo, antes que muriese, por espacio
+            de <date>diez años</date>. Y como quier que fue requerido algunas veces por el
+               <date>rey</date>, e por otros grandes señores sus parientes, que saliese de aquel
+            retraimiento para entender en las disensiones que en aquellos tiempos acaecieron en el
+            reino, no quiso mudar su propósito. Antes, acordó de tomar en su casa compañía de
+            hombres religiosos de buena y honesta vida; e hizo grande y estrecha inquisición sobre
+            las cosas de su conciencia desde el día que fue de hedad para pecar, e cometióles que
+            alimpiasen su conciencia desde el día que fue de edad para pecar. Y cometióles que
+            alimpiasen su ánima, así en la penitencia de su persona como en la restitución que
+            debían hacer de sus bienes. Y todos los que en aquellos tiempos venieron a le demandar
+            cualquier cargo, así de servicios que le hobiesen hecho como de otra cualquier calidad a
+            que de justicia fuese obligado, fueron oídos y satisfechos. </p>
+         <p>Y al cabo de haber hecho su penitencia y restituciones, dejó su casa y patrimonio a su
+            hijo mayor, que fue <roleName>condestable de Castilla.</roleName><pb edRef="#DBordonaFP"
+               n="29"/> Y dejó otros dos hijos heredados y en buen estado. Y dando doctrina de
+            honrado vevir y ejemplo de bien morir, feneció en edad de <date>setenta años</date>,
+            dentro en aquel monesterio que fundó.</p>
 
 
       </body>

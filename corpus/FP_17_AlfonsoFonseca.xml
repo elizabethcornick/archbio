@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -49,59 +50,69 @@
 
       <revisionDesc>
          <change when="2021-03" who="#SAT">Frist encoding</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_17" xml:lang="es">
       <body>
-         <head>Alfonso de Fonseca, Arzobispo de Sevilla</head>
-         <!-- Título XXI
-         Del Arçobispo de Sevilla-->
-         <p><pb edRef="#DBordonaFP" n="133"/>Don Alfonso de Fonseca, arçobispo de Sevilla, fue ombre
-            de mediana estatura, bien proporcionado en las faciones de su rostro e en la conposición
-            de sus mienbros, fijo del doctor Juan Alfonso de Ulloa, de linaje de ombres fijosdalgo
-            del reino de Galizia. Era natural de la cibdad de Toro. Tomó el apellido de su madre,
-            que era de linaje de Fonseca. </p>
-         <p>Era ombre de muy agudo ingenio e de buen entendimiento, e bien instruto en lo que
-            requería al ábito e profesión eclesiástica que tomó. El sentido de la vista tenía muy
-            ávido e cobdicioso más que ninguno de los otros sentidos. E siguiendo esta su
-            inclinación, plazíale tener piedras preciosas e perlas e joyas de oro e de plata e otras
-            cosas fermosas a la vista. Las cosas necesarias para el servicio de su persona e para el
-            arreo de su casa quería que fuesen muy primas e toviesen singularidad de perfeción sobre
-            todas las otras, e deleitávase en ello. Era asimismo muy linpio en su persona e en su
-            vestidura e trajes, e reglado e muy ordenado en sus gastos. </p>
-         <p>Començando la hedad de mancebo, salió del estudio e vino al servicio del rey don
-            Enrique, seyendo príncipe, e fue su capellán mayor. E por su intercesión fue proveído
-            del obispado de Avila e después fue proveído a dignidad de arçobispo de Sevilla. Fablava
-            muy bien e con buena gracia. Tova grand logar en la govemación del reino en tienpo del
-            rey don Juan e del rey don Enrique su fijo. Quería tanto gratificar a los que con él
-            negociavan que ninguno iva mal contento de su respuesta. </p>
-         <p>Era ombre muy astuto e diligente. Dava buenos e prestos remedios a los casos que
-            acaescían. Zelava mucho la justicia e la honra de la corona real. Era tan agudo que
-            sienpre inventava grandes cosas. Procurava mucho la honra e sienpre quería tener el
-            principal logar cerca de los reyes, e ser único con ellos en sus fablas e retraimientos.
-            E como acaesce en las cortes de los reyes ser enbidiados e odiosos aquellos que más
-            cerca dellos están, este arçobispo, por esta singular acebción que procurava sienpre
-            tener acerca del rey don Juan e del rey don Enrique e por la grand confiança que en
-            aquellos tienpos fizieron de algunos arduos negocios que ocurrían, se le siguieron
-            enemistades peligrosas con algunos grandes del reino, las quales, por discurso de tienpo
-            e con obras que fizo de amistad, sopo con buen juizio satisfazer, de tal manera que
-            saneó el odio que dél fue concebido. </p>
-         <p>Conoscidos los grandes trabajos, así del espíritu como de la persona, que ovo en la
-            govemación del reino, le fue fecha merced por el rey don Juan de la villas de Coca e de
-            Halaejos e otras grandes mercedes, de que fizo casa e mayorazgo que dexó a su hermano. </p>
-         <p>Tenía la cobdicia común que todos los ombres tienen de aver bienes tenporales, e
-            sabíalos muy bien e con grand diligencia adquerir. Este ar obispo hedeficó de principio
-            en aquella su villa de Halaejos la fortaleza que en ella está oy fundada. E como acaesce
-            que algunos, procurando las cosas que desean, se reputan mesquinos quando no las alcan
-            an, e serloían si las alcan asen, otros ay que, aborresciendo las que piensan serles
-            dañosas, su buena fortuna les fuer a que las reciban por la utilidad que dellas se les
-            ha de seguir. Puédese creer deste ar obispo que ovo tan buena fortuna acerca destas
-            cosas mundanas que sienpre se le apartava aquello que procurava si al fin le avía de ser
-            dañoso, e se le aparejava lo que aborrescía si al fin le avía de ser próspero. </p>
-         <p>Murió en honra e prosperidad en la su villa de Coca, conosciendo a Dios como buen
-            perlado e con devoción de cathólico christiano, en hedad de cinquenta e cinco años. </p>
+         <head>Arzobispo de Sevilla</head>
+         <p><pb edRef="#DBordonaFP" n="89"/><persName>Don Alfonso de Fonseca</persName>,
+               <roleName>arzobispo de Sevilla</roleName>, fue hombre de mediana estatura, bien
+            proporcionado en las facciones de su rostro y en la composición de sus miembros; hijo
+            del doctor <persName>Juan Alfonso de Ulloa</persName>, de linaje de hombres fijosdalgo
+            del <placeName>reino de Galicia</placeName>. Era natural de la ciudad de
+               <placeName>Toro</placeName>. Tomó el apellido de su madre, que era de linaje de
+               <roleName>Fonseca</roleName>. </p>
+         <pb edRef="#DBordonaFP" n="90"/>
+         <p>Era hombre de muy agudo ingenio y de buen entendimiento y bien instructo en lo que
+            requería al hábito y profesión eclesiástica que tomó. El sentido de la vista tenía muy
+            ávido y codicioso, más que ninguno de los otros sentidos. Y seguiendo esta su
+            inclinación, placíale tener piedras preciosas y perlas y joyas de oro y de plata y otras
+            cosas hermosas a la vista. Las cosas necesarias para el servicio de su persona y para el
+            arreo de su casa quería que fuesen muy primas y toviesen singularidad de perficción
+            sobre todas las otras, y deleitábase en ello. Era asimismo muy limpio en su persona y en
+            su vestiduras y trajes, y reglado y muy ordenado en sus gastos. </p>
+         <p>Comenzando la edad de mancebo, salió del estudio y vino al servicio del rey
+               <persName>don Enrique</persName>, seyendo príncipe, y fue su capellán mayor. Y por su
+            intercesión fue proveído del <roleName>obispado de Ávila</roleName> y después fue
+            promovido a dignidad de <roleName>arzobispo de Sevilla</roleName>. Hablaba muy bien y
+            con buena gracia. Tova gran logar en la gobernación del reino en tiempo del rey
+               <persName>don Juan</persName> y del rey <persName>don Enrique</persName>, su hijo.
+            Quería tanto gratificar a los que con él negociaban, que ninguno iba mal contento de su
+            respuesta. </p>
+         <pb edRef="#DBordonaFP" n="91"/>
+         <p>Era hombre muy astuto y diligente; daba buenos y prestos remedios a los casos que
+            acaecían; celava mucho la justicia y la honra de la corona real. Era tan agudo, que
+            siempre inventaba grandes cosas. Procuraba mucho la honra y siempre quería tener el
+            principal lugar acerca de los reyes y ser único con ellos en sus hablas y retraimientos.
+            Y como acaece en las cortes de los reyes ser envidiados y odiosos aquellos que más cerca
+            de ellos están, este arzobispo, por esta singular acepción que procuraba siempre tener
+            acerca del rey <persName>don Juan</persName> y del rey <persName>don Enrique</persName>,
+            y por la gran confianza que en aquellos tiempos hicieron de algunos arduos negocios que
+            ocurrían, se le siguieron enemistades peligrosas con algunos grandes del reino. Las
+            cuales, por discurso de tiempo y con obras de amistad, sopo con buen juicio satisfacer
+            de tal manera que saneó el odio que de él fue concebido. </p>
+         <p>Conocidos los grandes trabajos así del espíritu como de la persona que hobo en la
+            gobernación del reino, le fue hecha merced por el rey <persName>don Juan</persName> de
+            las villas de <placeName>Coca</placeName> y de <persName>Alaejos</persName>, y otras
+            grandes mercedes de que hizo casa y mayorazgo que dejó a su hermano. </p>
+         <p>Tenía la codicia común que todos los hombres tienen de haber bienes temporales, y
+            sabíalos muy bien y con gran diligencia adquerir. </p>
+         <p>Este arzobispo edeficó de principio en aquella su villa de
+               <placeName>Alaejos</placeName> la fortaleza que en ella está hoy fundada. Y como
+            acaece que algunos, procurando las cosas que desean, se reputan mezquinos cuando no las
+            alcanzan y serlo hían si las alcanzasen; otros hay que, aborreciendo las que piensan
+            serles dañosas, su buena fortuna les fuerza que las reciban por la utilidad que de ellas
+            se les ha de seguir; puédese creer de este arzobispo que hobo tan buena fortuna<pb
+               edRef="#DBordonaFP" n="92"/> acerca de estas cosas mundanas, que siempre se le
+            apartaba aquello que procuraba si al fin le había de ser dañoso y se le aparejaba lo que
+            aborrecía si al fin le había de ser próspero. </p>
+         <p>Murió en honra y prosperidad en la su villa de <placeName>Coca</placeName>, conociendo a
+            Dios como buen perlado, y con devoción de católico cristiano, en edad de <date>cinquenta
+               y cinco años</date>. </p>
 
       </body>
    </text>

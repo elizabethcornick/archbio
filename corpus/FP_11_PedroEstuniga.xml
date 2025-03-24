@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -26,7 +27,7 @@
          </publicationStmt>
 
          <sourceDesc>
-           <bibl type="print">
+            <bibl type="print">
                <author>Fernando del Pulgar</author>
                <title>Claros varones de Castilla</title>
                <editor xml:id="DBordonaFP">J. Domínguez Bordona</editor><!-- Cambiar a @ref -->
@@ -49,35 +50,38 @@
 
       <revisionDesc>
          <change when="2021-03">Frist encoding by Susanna Allés-Torrent</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_11" xml:lang="es">
       <body>
-         <head>Pedro López de Zúñiga, Conde de Plasencia</head>
-         <!-- [Título XI]
-         El Conde de Plazencia-->
-         <p><pb edRef="#DBordonaFP" n="93"/>Don Pedro de Estúñiga, conde de Plazencia, fijo de Diego López de Estúñiga, justicia
-            mayor del rey, fue ombre alto de cuerpo, bien proporcionado en la conpostura de sus
-            mienbros. E el rostro tenía largo e la nariz afilada. Sus avuelos fueron de linaje
-            noble, naturales del reino de Navarra. </p>
-         <p>Era ombre de buen seso e de pocas palabras e de grand execución en las cosas que quería.
-            En sus tienpos fue tenido en grand estimación por respecto de su persona e de su grand
-            casa. Era cavallero esfonçado e muy perseverante en la opinión que tomava. Plazíale
-            tener ombres esforçados e defendíalos de las fazañas que cometían, e por esta causa
-            sienpre estava conpañado de ombres de todas suertes. En su tienpo fue acrecentada su
-            casa e floresció su fama por la grand copia de gente que de continuo era inclinado a
+         <head>El Conde de Plasencia</head>
+         <p><pb edRef="#DBordonaFP" n="64"/><persName>Don Pedro de Estúñiga</persName>,
+               <roleName>conde de Plasencia</roleName>, hijo de <persName>Diego López de
+               Estúñiga</persName>, justicia mayor del rey, fue hombre alto de cuerpo, bien
+            proporcionado en la compostura de sus miembros; y el rostro tenía largo y la nariz,
+            afilada. Sus abuelos fueron de linaje noble, naturales del reino de
+               <placeName>Navarra</placeName>. </p>
+         <p>Era hombre de buen seso y de pocas palabras y de gran ejecución en las cosas que quería.
+            En sus tiempos fue tenido en gran estimación por respeto de su persona y de su gran
+            casa. Era caballero esforzado y muy perseverante en la opinión que tomaba. Placíale
+            tener hombres esforzados y defendíalos de las fazañas que cometían; y por esta causa
+            siempre estaba acompañado de hombres de todas suertes. En su tienpo fue acrecentada su
+            casa y floreció su fama por la gran copia de gente que de continuo era inclinado a
             mantener. </p>
-         <p>Acaesció que como el rey don Juan el segundo oviese necesarias algunas gentes de armas
-            para pacificar los escándalos que estonces en sus reinos avía, este cavallero, como
-            quiera que era ya viejo e enfermo e muy gravado de gota, pero con zelo grande que tovo
-            de servir a su rey, se fizo traer en andas al real do estava la hueste e, rodeado de
-            grand copia de gente de armas de su casa, vino a le servir e sirvióle con otros
-            cavalleros de tal manera en aquella jornada que el rey rescibió dél servicio señalado, e
-            él alcan ó fama de leal súbdito e fue enxenplo de lealtad a otros que se movieron a
-            servir su rey, veyendo venir cómo vino este cavallero en andas a le servir. Murió con
-            grand honra de hedad de setenta años. </p>
+         <p>Acaeció que como el rey <persName>don Juan el segundo</persName> hobiese necesarias
+            algunas gentes de armas para pacificar los escándalos que entonces en sus reinos había,
+            este caballero, como quiera que era ya viejo y enfermo y muy gravado de gota, pero con
+            celo grande que tovo de servir a su rey, se hizo traer en andas al real, do estaba la
+            hueste, y rodeado de gran copia de gente de armas de su casa, vino a le servir. Y
+            sirvióle con otros caballeros de tal manera en aquella jornada, que el rey recibió de él
+            servicio señalado, y él alcanzó<pb edRef="#DBordonaFP" n="65"/> fama de leal súbdito y
+            fue ejemplo de lealtad a otros que se movieron a servir su rey, veyendo venir como vino
+            este caballero en andas a le servir. </p>
+         <p>Murió con gran honra de edad de <date>setenta años</date>. </p>
 
       </body>
    </text>

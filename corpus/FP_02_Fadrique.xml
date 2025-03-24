@@ -9,6 +9,7 @@
             <respStmt>
                <resp>Encoded by</resp>
                <persName ref="#SAT">Susanna Allés-Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
             </respStmt>
          </titleStmt>
 
@@ -51,115 +52,114 @@
          <change when="2019-03">Frist encoding by Carlos Fernández González (UNED, 2019) </change>
          <change when="2021-03-06" who="#SAT">Application of transcription criteria. Association
             with schema.</change>
+         <change when="2025-03-06" who="#XAS">Text revision according to Domínguez Bordona 1923 by
+            Xènia Adam Solà</change>
       </revisionDesc>
 
    </teiHeader>
 
    <text xml:id="FP_02" xml:lang="es">
       <body>
-         <head>Fadrique Enríquez, Almirante</head>
-         <!-- [Título II]
-            [El Almirante Don Fadrique] -->
-         <p><pb edRef="#DBordonaFP" n="23"/>El <persName><roleName>Almirante</roleName> Don
-               Fadrique</persName> fijo del <persName><roleName>Almirante</roleName> Don Alonso
-               Enriquez</persName> e nieto de <persName>Don Fadrique <roleName>Maestre de
-                  Santiago</roleName></persName>, é bisnieto del <persName><roleName>Rey</roleName>
-               Don Alonso</persName>, fue pequeño de cuerpo e fermoso de gesto. Era un poco corto de
-            vista. Omme de buen entendimiento. Fue en los tiempos del
-                  <persName><roleName>Rey</roleName> Don Juan</persName>, e del
-                  <persName><roleName>Rey </roleName>Don Enrique</persName>. Tenía muchos parientes,
-            por que tenía por hermano de madre al <persName><roleName>adelantado</roleName> Pero
-               Manrique</persName>, que fue un grand señor en Castilla, e tovo de su padre e madre
-            otro hermano que fue <roleName>Conde de Alva de Liste</roleName>, e nueve hermanas, que
-            casaron todas con ommes de linaje que tenían <pb edRef="#DBordonaFP" n="22"/>casas de
-            mayoradgos antiguas. E de la parte de <persName>Doña Juana de Mendoça</persName> su
-            madre, hija de <persName>Pero Gonçales de Mendoça</persName>, tenía por deudos de sangre
-            todos los más de los grandes señores de <placeName>Castilla</placeName>. Amava los
-            parientes, e allegávalos, e trabajava en procurar su honrra e
-            interese<!--muy mucho-->.</p>
-         <p>Fue cavallero esforçado, e omme de tan grande coraçón, que osadamente cometía muchas
-            vezes su persona y estado a los golpes de la fortuna por la conservaçión de sus
-            parientes, e por adquirir para sí honrra e reputación.</p>
-         <p>Usando de su oficio de <roleName>almirante</roleName>, andovo por la mar con grand flota
-            de armada, e ovo rencuentros e batallas marinas con moros e cristianos, en las cuales
-            fue vencedor, e alcançó fama de esforçado capitán. Era franco e liberal, e siempre
-            pospuso la cobdicia de guardar tesoros a la gloria que sintía en los gastar por aver
-            honrra.</p>
-         <p>Era hombre impaciente, e no podía buenamente tolerar las cosas que le parescían ecesivas
-            e contrarias a la razón, e reprehendíalas con algún rigor: especialmente increpaba la
-            grand afeción que el <persName><roleName>rey</roleName>
-               <pb edRef="#DBordonaFP" n="23"/>Don Juan</persName> tenía al
-                  <persName><roleName>maestre de Santiago</roleName>, don Álvaro de Luna,
-                  <roleName>condestable de Castilla</roleName></persName>, y el gran poder que en su
-            corte e reino le dió, e las dádivas inmensas que le fizo. Otrosí reprehendía las cosas
-            ecesivas que este condestable, con el gran favor que del rey tenía, fazía, e no las
-            podía sofrir ni disimular. E desta condición se le siguieron discordias e enemistades
-            con aquel maestre, e con otros cavalleros que seguían la su parcialidad, de las cuales
-            procedieron guerras y escándalos en el reino: porque era ome de grand autoridad, así por
-            respeto de su persona e grand casa, como por los muchos e grandes señores que tenía por
-            parientes.</p>
-         <p>Casó una hija con el <roleName>Rey de Aragón</roleName>, que a la ora era <roleName>Rey
-               de Navarra</roleName>, e por causa deste casamiento, e de las parcialidades que tenía
-            en el reino, se le siguieron algunos infortunios, especialmente en el <pb
-               edRef="#DBordonaFP" n="24"/>vencimiento de la batalla que el
-                  <persName><roleName>rey</roleName> don Juan</persName> ovo contra el <roleName>rey
-               de Navarra</roleName>, e contra el <persName><roleName>infante</roleName> don
-               Enrrique</persName>, sus primos, e contra otros cavalleros, cerca de la villa de
-               <placeName>Olmedo</placeName>: en la cual, como quier que este
-               <roleName>almirante</roleName> fue vencido del <roleName>maestre de
-               Santiago</roleName> su enemigo, e preso por un <roleName>escudero</roleName> de su
-            capitanía; pero no le falleció ánimo en la ora del infortunio, e con fuerça de razones
-            que dixo al que le prendió, le puso en libertad: y fueron tomados todos sus bienes, y él
-            andovo desterrado del reino, sintiendo aquel grave sentimiento que el vencido siente
-            veyendo su enemigo vencedor. Sufrió este cavallero sus pérdidas con igual cara, e
-            ninguna fuerça de la fortuna le abaxó la fuerza de su coraçón.</p>
-         <p>Loan los <roleName>ystoriadores romanos</roleName> por varón de grand ánimo a
-               <persName>Catón</persName> porque se mató, non podiendo con paciencia sofrir la
-            vitoria de <persName>Çésar</persName> su enemigo; y no sé yo, por cierto, qué mayor
-            crueldad le fiziera el <persName>Çésar</persName> de la que él se fizo; porque
-            repugnando [a] la natura e al común deseo de los ommes, fizo en su persona lo que todos
-            aborrescen fazer en la agena. E adornan su muerte diziendo que murió por aver libertad:
-            e, ciertamente, no puedo <pb edRef="#DBordonaFP" n="25"/>entender qué libertad puede
-            aver para sí, ni para dar a otro, el omme muerto. Así que como aya grande razón para
-            loar su vida, no veo que la aya para loar su muerte: porque anticiparse ninguno a
-            desatar aquel coniuntíssimo e natural atamiento que el ánima tiene con el cuerpo,
-            temiendo que otro le desate, cosa es más para aborrecer que para loar. No se mata el
-            marinero en la fortuna antes que le mate la fortuna, ni el cercado se da la muerte por
-            miedo de la servidumbre del cercador: a todos sostiene la esperança que no pudo sostener
-            a <persName>Catón</persName>, el cual si tovo ánimo para sofrir los bienes de la
-            prosperidad, y no los males [d]e la fortuna, con mayor razón podemos loar este
-               <roleName>almirante</roleName>: porque el uno paresció en su muerte tan flaco, que no
-            pudo sofrir sus males; y este paresció en su vida tan fuerte, que tovo esperança de
-            cobrar sus bienes, aunque se vido desterrado e vencido, e a su enemigo próspero e
-            vencedor; porque aquel es dicho varón magnánimo que sufriendo la mala, sabe buscar la
-            buena fortuna. E si el otro fue reprehensor de pecados, también fue este
-               <roleName>almirante</roleName> reprehensor de aquello que le parescía fuera de razón:
-            aunque de reprehender errores agenos más veces se sigue odio al castigador, que enmienda
-            al <pb edRef="#DBordonaFP" n="26"/>castigado. Y también devemos considerar, que si los
-            juizios de Dios no podemos comprehender, menos los devemos reprehender, porque no
-            sabemos sus misterios ni los fines que su providencia tiene ordenados en los actos de
-            los ommes. Y, por ende, el que pudiere refrenar su ira, e dar pasada a las cosas que se
-            pueden tolerar, e aver sufrimiento para las disimular, sin dubda bivirá vida más segura,
-            e no se porná, segúnd este <roleName>almirante</roleName> se puso, a los golpes
-            peligrosos de la fortuna; en los cuales en alguna manera se pudo dezir bien fortunado,
-            porque sus deudos e amigos le fueron gradecidos, e sus criados e servidores le fueron
-            leales; los cuales [m]embrándose de algunos beneficios que dél recibieron, le ayudaron
-            cuanto pudieron, e ayudaran mejor si pudieran: porque el amor verdadero ni dexa de amar,
-            ni cansa de aprovechar.</p>
-         <p>En estos tiempos de adversidades que por este caballero pasaron conosció bien la lucha
-            contínua que entre sí tienen el trabajo de la una parte, y el deleite de la otra: e como
-            quier que el uno o el otro vence a vezes, pero ninguno dellos dura en el vencimiento
-            luengamente, al fin, faziendo el tiempo las mudanzas que suele, e los amigos e
-            servidores las obras que deven, rodeó Dios las cosas de tal manera, que tornó a
-               <placeName>Castilla</placeName>, e recobró todos sus <pb edRef="#DBordonaFP" n="27"
-            />bienes e patrimonio, e ovo [lo]gar de lo acrecentar, y fue restituido en la grand
-            estimación que primero estava, e murió lleno de días en grand prosperidad; porque dexó
-            sus fijos en buen estado, e vido en sus postrimeros días a su nieto, fijo de su hija,
-            ser <roleName>príncipe de Aragón</roleName>, porque era único hijo [de]l <roleName>rey
-               de Aragón</roleName> su padre; e otrosí le vido príncipe de los reinos de
-               <placeName>Castilla</placeName> e de <placeName>León</placeName>, porque casó con la
-                  <persName><roleName>princesa de Castilla</roleName> doña Isabel</persName>, que
-            fue <roleName>reina</roleName> destos reynos. </p>
+         <head>El Almirante Don Fabrique</head>
+         <p><pb edRef="#DBordonaFP" n="19"/>El <roleName>almirante</roleName> don
+               <persName>Fadrique</persName>, hijo del <roleName>almirante</roleName> don
+               <persName>Alonso Enríquez</persName> y nieto del infante <persName>don
+               Fadrique</persName> y bisnieto del <roleName>rey</roleName> don
+               <persName>Alfonso</persName>, fue pequeño de cuerpo y hermoso de gesto. Era un poco
+            corto de vista. Hombre de buen entendimiento, fue en los tiempos del
+                  <persName><roleName>rey</roleName> don Juan</persName> y del
+                  <persName><roleName>rey </roleName>don Enrique</persName>. </p>
+         <p>Tenía muchos parientes, porque tovo por hermano de madre al
+                  <persName><roleName>adelantado</roleName> Pero Manrique</persName>, que fue un
+            gran señor en <placeName>Castilla</placeName>. Y tovo de su padre y madre otro hermano,
+            que fue <roleName>conde de Alba de Liste</roleName>y ocho hermanas, que casaron con
+            hombres de linaje que tenían casas de mayorazgos antiguas. Y de parte de
+               doña<persName>Juana de Mendoza</persName>, su madre, hija de <persName>Pero Gonzáles
+               de Mendoza</persName>, tenía por deudos de sangre todos los más de los grandes
+            señores de <placeName>Castilla</placeName>. Amaba los parientes y allegábalos; y
+            trabajaba en procurar su honra e interese. </p>
+         <p>Fue caballero esforzado y hombre de tan gran corazón, que osadamente cometía muchas
+            veces su persona y estado a los golpes<pb edRef="#DBordonaFP" n="20"/> de la fortuna por
+            la conservación de sus parientes y por adquerir para sí honra y reputación. Usando de su
+            oficio de <roleName>almirante</roleName>, andovo por la mar con gran flota de armada, y
+            hobo recuentros y batallas marinas con moros y con cristianos, en las cuales fue
+            vencedor y alcanzó fama de esforzado capitán. </p>
+         <p>Era franco y liberal, y siempre pospuso la codicia del guardar tesoros a la gloria que
+            sentía en ganando honra. Era hombre impaciente y no podía buenamente tolerar las cosas
+            que le parecían exesivas y contrarias a la razón, y reprendíalas con algún rigor.
+            Especialmente increpaba la gran afección que el <persName><roleName>rey</roleName> don
+               Juan</persName> tenía al <persName><roleName>maestre de Santiago</roleName>, don
+               Álvaro de Luna, <roleName>condestable de Castilla</roleName></persName>, y el gran
+            poder que en su persona y en su corte y reino le dio y las dádivas inmensas que le hizo.
+            Otrosí reprendía las cosas exesivas que este condestable, con el gran favor que tenía
+            del rey, hacía; y no las podía sofrir ni disimular. Y de esta condición se le siguieron
+            discordias y enemistades con aquel maestre y con otros caballeros que seguían su
+            parcialidad, de las cuales procedieron guerras y escándalos en el reino, porque era
+            hombre de gran autoridad, así por respeto de su persona y gran casa como por los muchos
+            y grandes señores que tenía por parientes.</p>
+         <p>Casó una hija con el <roleName>rey de Aragón</roleName>, que a la hora era <roleName>rey
+               de Navarra</roleName>. Y por causa de este casamiento y de las parcialidades que
+            tenía en el reino, se le siguieron algunos infortunios, especialmente en el vencimiento
+            de la batalla que el <persName><roleName>rey</roleName> don Juan</persName> hobo<pb
+               edRef="#DBordonaFP" n="21"/> contra el <roleName>rey de Navarra</roleName> y contra
+            el <persName><roleName>infante</roleName> don Enrique</persName>, sus primos, y contra
+            otros caballeros cerca de la villa de <placeName>Olmedo</placeName>. En la cual, como
+            quier que este <roleName>almirante</roleName> fue vencido del <roleName>maestre de
+               Santiago</roleName>, su enemigo, y preso por un <roleName>escudero</roleName> de su
+            capitanía, pero no le falleció ánimo en la hora del infortunio, y con fuerza de razones
+            que dijo al que le prendió, le puso en libertad. Y fueron tomados todos sus bienes, y él
+            andovo desterrado del reino sintiendo aquel grave sentimiento que el vencido siente
+            veyendo su enemigo vencedor. Y como quier que donde hay pérdida hay dolor, pero este
+            caballero sufriósus pérdidas con egual cara, y ninguna fuerza de la fortuna le abajó la
+            fuerza de su corazón.</p>
+         <p>Loan los <roleName>historiadores romanos</roleName> por varón de gran ánimo a
+               <persName>Catón</persName> el censorio, porque se mató no podiendo con paciencia
+            sofrir la vitoria de <persName>César</persName>, su enemigo. Y no sé yo, por cierto, qué
+            mayor crueldad le hiciera el <persName>César</persName> de la que él se hizo, porque
+            repugnando la natura y al común deseo de los hombres, hizo en su persona lo que todos
+            aborrecen hacer en la ajena. Y adornan su muerte diciendo que murió por haber libertad.
+            Y, ciertamente, yo no puedo entender qué libertad puede haber para sí, ni para dar a
+            otro, el hombre muerto. Así que como hallan razón para loar su vida, no veo que haya
+            para loar su muerte, porque anticiparse ninguno a desatar aquel conjuntísimo y natural
+            atamiento que el ánima tiene con el cuerpo, temiendo que otro lo desate, cosa es más
+            para aborrecer que para loar. No se mata el marinero en la fortuna antes que le mate la
+            fortuna; ni el cercado se da la muerte por miedo de la servidumbre del cercador. A todos
+            sostiene la esperanza que no pudo sostener a <persName>Catón</persName>, el cual sí tovo
+            ánimo para sofrir los bienes de la prosperidad y no los males de la fortuna. </p>
+         <p>Con mayor razón podemos loar este <roleName>almirante</roleName>, porque el uno pareció
+            en su muerte tan flaco que no pudo sofrir sus males, y<pb edRef="#DBordonaFP" n="22"/>
+            este pareció en su vida tan fuerte, que tovo esperanza de cobrar sus bienes, aunque se
+            vido desterrado y vencido y a su enemigo, próspero y vencedor. Porque aquel es dicho
+            varón magnánimo que, sufriendo la mala, sabe buscar la buena fortuna. E si el otro fue
+            censorio, que quiere decir reprensor de pecados, también fue este
+               <roleName>almirante</roleName> reprensor de aquello que le parecía fuera de razón.
+            Verdad es que de reprender errores ajenos más veces se sigue odio al castigador, que
+            enmienda al castigado. </p>
+         <p>Y también debemos considerar que si los juicios de Dios no podemos comprender, menos los
+            debemos reprender, porque no sabemos sus misterios, ni los fines que su providencia
+            tiene ordenados en los actos de los hombres. Y, por ende, el que pudiere refrenar su ira
+            y dar pasada a las cosas que se pueden tolerar y haber sufrimiento para las disimular,
+            sin dubda vivirá vida más segura y no se porná, según este
+               <roleName>almirante</roleName> se puso, a los golpes peligrosos de la fortuna. En los
+            cuales en alguna manera se pudo decir bien fortunado, porque sus deudos y amigos le
+            fueron gradecidos y sus criados y servidores le fueron leales. Los cuales, nembrándose
+            de algunos beneficios que de él recibieron, le ayudaron cuanto pudieron, y ayudaran
+            mejor si pudieran, porque el amor verdadero, ni deja de amar, ni cansa de
+            aprovechar.</p>
+         <p>En estos tiempos de adversidades que por este caballero pasaron, conoció bien la lucha
+            continua que entre sí tienen el trabajo, de la una parte, y el deleite de la otra. Y
+            como quier que el uno o el otro vence a veces, pero ninguno de ellos dura en el
+            vencimiento luengamente, al fin, haciendo el tiempo las mudanzas que suele, y los amigos
+            y servidores las obras que deben, rodeó Dios las cosas en tal manera, que tornó a
+               <placeName>Castilla</placeName>, y recobró todos sus bienes y patrimonio y hobo logar
+            de lo acrecentar y fue restituido en la gran estimación que primero estaba.<pb
+               edRef="#DBordonaFP" n="23"/> Y murió lleno de días en gran prosperidad, porque dejó
+            sus hijos en buen estado. Y vido en sus postrimeros días a su nieto, hijo de su hija,
+            ser <roleName>príncipe de Aragón</roleName>, porque era único hijo al <roleName>rey
+               de Aragón</roleName>, su padre. Y otrosí le vido príncipe de los reinos de
+               <placeName>Castilla</placeName> y de <placeName>León</placeName>, porque casó con la
+                  <persName><roleName>princesa de Castilla</roleName>, doña Isabel</persName>, que
+            fue <roleName>reina</roleName> de estos reinos. </p>
 
       </body>
    </text>
