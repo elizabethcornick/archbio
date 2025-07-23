@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+
+      <fileDesc>
+         <titleStmt>
+            <title>De viris illustribus catalanis</title>
+            <author ref="#PMC" ana="https://archbio.miami.edu/authors/pere-miquel-carbonell-i-soler"
+               >Pere Miquel Carbonell i Soler (1434-1517)</author>
+            <respStmt>
+               <resp>Encoded by: </resp>
+               <persName ref="#SAT">Susanna Allés Torrent</persName>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
+            </respStmt>
+         </titleStmt>
+
+         <editionStmt>
+            <p>Transcription criteria available at:
+                  <ref>https://archbio.miami.edu/transcripcion</ref></p>
+         </editionStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <ref>https://archbio.miami.edu/</ref>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2021</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print" xml:id="Luna_JVS_2009">
+               <author>Mariàngela Vilallonga i Vives</author>
+               <title>Dos opuscles de Pere Miquel Carbonell</title>
+               <publisher>Asociación de Bibliófilos de Barcelona</publisher>
+               <pubPlace>Barcelona</pubPlace>
+               <date>1988</date>
+               <biblScope>pp. 47-114</biblScope>
+            </bibl>
+            <!--<bibl type="digital">
+               <publisher>-</publisher>
+               <date>-</date>
+               <ref>-</ref>
+            </bibl>-->
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <p>Encoding documentation avaiable at:
+            <ref>https://archbio.miami.edu/codificacion</ref></p>
+      </encodingDesc>
+
+      <revisionDesc>
+         <change when="2025-03-25" who="#SAT">Encoding from Vilallonga i Vives 1988.</change>
+         <change when="2025-03-06" who="#XAS">Text revision by Xènia Adam Solà</change>
+      </revisionDesc>
+   </teiHeader>
+
+   <text xml:lang="it">
+      <!-- modificar l'esquema a lat. -->
+      <body>
+         <div type="prol" xml:id="dvic_1_prologus" n="1">
+
+            <p>Posteaquam a <persName>Bartholomeo Fascio</persName> Genuense
+               oratore maximo de viris illustribus Italiae quaedam commemorata fuere, decebit igitur
+               Catalanos aetatis nostrae uiros utique illustres mihi eorum asseclae et conterraneo
+               peropportune enumerare. Quom tantorum Catalanorum, ingenio et sapientia
+               praestantissimorum, praeclara facinora atramento et calamo obseruari debere mihi
+               palam uideatur; quorum quaedam ex fracmentis contribuli mei <persName>Hieronymi
+                  Pauli</persName> iurisconsulti excerpta, quaedam etiam a me aggregata fuerunt. Si
+               qui ind dies occurerint aut nouiter postea phama excellent, his, si uita superfuerit,
+               adiicientur. Nunc autem ad rem uenio.</p>
+         </div>
+         
+         <div type="bio" xml:id="dvic_2_colomines" n="2">
+            <head>Lucianus Colominius</head>
+
+            <p><persName>Lucianus cognomine Colominius</persName> natus est ni insigni oppido quod
+               uocatur <placeName>Perpinianum</placeName>, situm ni finibus <placeName>Galiae
+                  Narbonensis</placeName> prope <placeName>Hispaniam</placeName> et
+                  <placeName>Pyrenaeos Montes</placeName>. In quo oppido extat haud obscurum
+               gymasium, ubi studiis liberalibus operam dedit. Postea transtulit se
+                  <placeName>Valentiam</placeName> in <placeName>Hispania</placeName> et
+                  <placeName>Sethabim</placeName>. Postremo caecus effectus in maiores
+                  <placeName>Balearium</placeName> transffretauit et in
+                  <placeName>Maiorica</placeName> eius insulae clariore urbe, quae olium ut creditur
+                  <placeName>Palma</placeName> dicta fuit, decessit anno Domini <date>millesimo
+                  quadrigentesimo sexagesimo</date>. Composuit in carminibus
+                  <title>Gramaticae</title> libros quattuor singulis eius partibus singulos
+               atribuens libros et <title>De casu et fortuna</title> librum unum epigrammaque
+               huiusmodi ad eius libros in principio inseruit:</p>
+            <lg>
+               <l>Te tulit auctorem doctissima <placeName>Perpinianus</placeName>,</l>
+               <l> urbs aluit iuuenem praeclara <placeName>Valentia</placeName> doctum,</l>
+               <l>ossa tenet tandem elus <placeName>Balearica Palma</placeName>.</l>
+            </lg>
+         </div>
+
+         <div type="bio" xml:id="dvic_3_llobet" n="3">
+            <head>Ioannes Lubetus Barcinonensis</head>
+
+            <p><persName>Ioannes Lubetus</persName> Barcinonensis caelibem uitam elegit. Ingenio,
+               moribus et sanctitate clarus composuit <title>Logices</title> librum unum et
+                  <title>Methaphisicae</title> alterum, <title>De ture et regrmine</title> libros
+               duos epistolasque plures ad diversos. Sectatus est opinionem <persName>Lulii
+                  Maioricensis</persName>. Defunctus est apud <placeName>Maiores
+                  Balearium</placeName>, in eius insigniori urbe honorifice est humatus.
+                  <date>Decessit anno Domini millesimo quadringentesimo sexagesimo</date>. Cuius
+               sepulchro sequentia sunt subscripta epigrammata:</p>
+
+            <lg>
+               <l>Terrea <persName>Ioannis</persName> tenet hic lapis ossa
+                     <persName>Lubeti</persName>.</l>
+               <l>Arte mira <persName>Lulli</persName> nodosa aenigmata soluit,</l>
+               <l>hac eadem, monstrante polo, Christumque deumque</l>
+               <l>atque docens liberam conceptam crimine matrem</l>
+               <l n="5">iuit ad extremum soluens quodcumque tributum.</l>
+               <l>Quem nos, o Superi!, nil iam caelestibus ullis</l>
+               <l>debentem scimus. Tua numina sancta precamur,</l>
+               <l>o Pater Omnipotens, cum sanctis uiuat amoene.</l>
+            </lg>
+         </div>
+
+         <div type="bio" xml:id="dvic_4_margarit" n="4">
+            <head>Ioannes Margaritus Hierundensis episcopus, qui obiit
+               Cardinalis</head>
+
+            <p><persName>Ioannes Margaritus</persName> Hierundensis et eiusdem urbis episcopus ex
+               equestri prosapia originem trahens iurique pontificio deditus fuit accuratissime. Et
+               cum litterarum studiosissimus semper extiterit quattuor memoratu digna uolumina
+               edidit: primum haud expernendum quod <title>Paralypomenon Hispaniae</title>, secundum
+                  <title>Corona Regum</title>, tertium <title>Sedes Regum</title> et quartum
+                  <title>Mariale</title> appellatur. Is enim fuit sacrarum litterarum amator et qui
+               facundiam animi, uirtutes, humanitatem, facilitatem, morum suauitatem, pietatem,
+               modestiam atque continentiam non mediocres obtinuit. Legationibusque praeterea ac
+               summis honoribus Regiis functus Sacrae Regiae Aragonum Maiestatis ob morum
+               integritatem doctrinaeque prestantiam cum dignitate coniunctam Cancellariam adeptus
+               est.</p>
+         </div>
+
+         <div type="bio" xml:id="dvic_5_ferrando" n="5">
+            <head>Ferrandus Valentinus</head>
+
+            <p><persName>Ferrandus Valentinus</persName> et prior <placeName>Dertossae</placeName>
+               egregia phama pernotissimus extitit. Theologorum quoque ac declamatorum aetatis suae
+               prope princeps fuit et <persName>Alfonso quarto</persName> Aragonum Regi percharus.
+            </p>
+         </div>
+
+
+         <div type="bio" xml:id="dvic_6_pau" n="6">
+            <head>Iacobus Paulus iurisconsultus</head>
+
+            <p><persName>Iacobus Paulus</persName> iruisconsultus pereximius fuit in
+                  <placeName>Hispaniis</placeName> et <placeName>Italia</placeName> phama ingenti
+               percelebratus et inter omnes eius professionis hac ni mea tempestate, iudicio meo,
+               clarissimus. <placeName>Barcinone</placeName> editus est patre atque auo iam olim
+               litteratis uiris. Vitae fuit usquequaque integerrimae charitateque egregius, sermone
+               admodum iocundus, breuis, elegans, uenustus et clarus. Quique ob ingenii et doctrinae
+               praestantiam assedit in <placeName>Balearibus</placeName> annis quattuor. Cuius
+               perprudenti consilio <persName>Ioannes II</persName> Aragonum Rex accuratissime usus
+               est ac ab eodem eximia ueneratione cultus extitit. Humanitatis ac sacrarum litterarum
+               studia diligentissime explorauit. Apostillarum in Romana iura permagnum uolumen claro
+               ingenii acumine ac pensatissima aequitate uenerandum luculentissime congessit, ex quo
+               magnam sibi laudem Romani iuris perperit. Pleraque ex apostillis huius egregii
+                  <persName>Iacobi Pauli</persName> Bartholomeus Verinus, legum interpres ac
+               Balearicus uir praestantissimus, transcribi fecit per scribam <persName>Iacobum
+                  Garciam</persName> Regio Archiuo apud urbem <placeName>Barcinonam</placeName>
+               praefectum anno Christi MCCCCLXXV. Mortem obiit <placeName>Barcinone</placeName>
+               idibus iuniis anno Salutis MCCCCLXVI sub <persName>Paulo II</persName> Pontifice
+               Maximo et <persName>Ioanne II</persName> Aragonum Rege. De quo sequens epigramma
+               laureatorum quispiam haud ineleganter edidit quod ab antiquis sumptum esse puto:</p>
+
+            <lg>
+               <l>Hic <persName>Iacobus Paulus</persName> situs est, qui gloria iuris</l>
+               <l>Caesarei, magnum iubar in orbe fuit.</l>
+               <l>Hunc Paulina domus, hunc Regis Curia lugent,</l>
+               <l>hunc sibi praereptum flet studiosa cohors.</l>
+               <l n="5">Flete super quem similem nec prisca tulerunt</l>
+               <l>saecula, nec talem forte futura dabunt.</l>
+            </lg>
+         </div>
+
+         <div type="bio" xml:id="dvic_7_ferrer" n="7">
+            <head>Ioannes Ramundus Ferrarius</head>
+
+            <p><persName>Ioannes Ramundus Ferrarius</persName> iurisconsultus et eques Barcinonensis
+               in huiusmodi uirorum coetu non immerito connumerandus est. Qui heroico carmine Mariae
+               Suppremae Virginis laudes ac uitam magno uolumine decantauit, Christi etiam Dei
+               nostri miranda facinora eiusdem generis carmine complexus est. Libros
+                  <title>Aphorismorum</title>
+               <persName>Hippocratis</persName> et <title>Commentorum</title>
+               <persName>Galieni</persName> cum quibusdam a se additis metrice praescripsit, quos in
+               uolumen maximum octomilia quingentos uersus continens diggessit. Carmina quoque multa
+               in diuersis uoluminibus dispersa composuit quoque oratione de laudibus scientiarum in
+               uno uolumine opus unum maximum per alphabetum diuisum, quod appellatur <title>Semita
+                  iuris canonici</title>. Epigrammatum praeterea epistolarumque ac librorum cuiusuis
+               artis et doctrinae tam latino uugarique idiomate quam in rhythmis metrice et prosaice
+               magnam copiam contexuit.</p>
+         </div>
+
+         <div type="bio" xml:id="dvic_8_desclapers" n="8">
+            <head>Gabriel Clepesius Balearis</head>
+
+            <p><persName>Gabriel Clepesius</persName> Balearis uir sacris litteris apprime eruditus
+               et declamator acerrimus, humanitatis studia coluit. Qui et celebris uiri Lulii
+               conterranei disciplinam sectatus est. Cuius sectae uolumen unum edidit quod
+               nuncupatur....</p>
+         </div>
+
+         <div type="bio" xml:id="dvic_9_berard" n="9">
+            <head>Ferrarius Berardus Balearis</head>
+
+            <p><persName>Ferrarius Berardus</persName> Balearis iurisconsultus uri fuit Graecis et
+               Latinis ac barbaris etiam litteris eruditus.</p>
+         </div>
+
+         <div type="bio" xml:id="dvic_10_garcia" n="10">
+            <head>Iacobus Garcias Regius Archiuarius qui fuit praecesor meus
+               Petri scilicet Michaelis Carbonelli in officio Regii Archiui Barcinonensis</head>
+
+            <p>Non praetermitendum censui <persName>Iacobum Garciam</persName> Barcinonensem quamuis
+               mihi et amicissimum et eodem scribendi diligentiaac studio coniunctum. Is est cui
+               nostra Regio nec parem bonitate aut priscae fidei tenacitate aluit. Transcripsit
+               fabre libros innumeros non tam optime emendatos quam elegantissime exaratos. Studia
+               quoque humanitatis ac artes omnes maxime coluit, nec sacrarum litterarum ignarus
+               grammatica praesertim se oblectatus est. Codices multos est interpretatus
+               emendauitque ac notauit. <persName>Terentium</persName> autem iamdiu corruptum magnis
+               lucubrationibus et pertinaci diligentia solertissime emendauit. Patrias historias
+               Aragonumque Regum genealogias percalluit quippe et Archinotarius et Tabellio sacrorum
+               scriniorum Regiique Archiui fuit. Cuius multae extant notationes et apostillae ad
+               historias et grammaticam pertinentes, quae a uiris doctis non mediocriter
+               approbantur. Mortem obiit ex pestilentia <placeName>Barcinone</placeName> VI calendas
+               octobris circa noctis medium anno Christianae religionis MCCCCLXXV sub
+                  <persName>Sixto III</persName> Pontifice Maximo et <persName>Ioanne
+               II</persName>persName> Aragonum Rege.</p>
+         </div>
+
+         <div type="bio" xml:id="dvic_11_pau" n="11">
+            <head>Hieronymus Paulus</head>
+
+            <p><persName>Iacobo quem diximus Paulo</persName> successit eius filius
+                  <persName>Hieronymus Paulus</persName> iureconsultus impresentiarum uitam agens
+               Latinis a Graecis litteris praeditus qui in hoc numero non in postremis censetur.
+               Rerum antiquarum studiosus et doctus nec non studiis humanitatis deditus est. A
+               poetarum quoque studio non abhorrens Cosmographiae studiosus summopere. Epigrammatum
+               historiarumque libellum haud sane ineleganti stylo edidit epistolasque alteram
+               scilicet <title>De Hispaniarum viris illustribus</title>, alteram <title>De nomine et
+                  origine Catalanorum</title> et quamplurimas alias epistolas in honore habitas.
+               Libellos etiam <title>De fluminibus et montibus utriusque Hesperiae</title> opus et
+               elegans et perutile adhuc adulescens composuit. Tandem Romam urbem petere non desiit
+               ubi Reuerendissimi domini <persName>Roderici cognomento Boria Cardinalis
+                  Valentinensis XVII</persName> annis uel circiter familiaris continuusque
+               commensalis extitit. Et ipso Roderico hoc anno Salutis MCCCCLXXXXII in cathedra
+               Piscatoris sedente Hieronymus, quem praediximus, quadam aegrotatione percussus ad
+               suam matrem Barcinonem remeauit. Veruntamen Romae uitam agens situs urbis Barcinonis
+               aliarum urbium et opidorum Cataloniae diligentissimus inquisitor fuit, sic quod de
+               ipso situ librum unum elegantissime edidit.</p>
+         </div>
+
+
+
+         <div type="bio" xml:id="dvic_12_gerp" n="12">
+            <head>Bartholomeus Gerbius</head>
+
+            <p><persName>Bartholomeus Gerbius</persName>
+               <placeName>Leriae</placeName> natus ex agro Valentino ubique chrisianorum notissimus
+               sacris litteris deditus admodum fuit astrologia doctissimus.</p>
+         </div>
+
+
+         <div type="bio" xml:id="dvic_13_bonia" n="13">
+            <head>Bonia Valentinus</head>
+
+            <p><persName>Bonia Valentinus</persName> astrologorum et mathematicorum huius aetatis
+               princeps.</p>
+         </div>
+
+
+
+         <div type="bio" xml:id="dvic_14_malla" n="14">
+            <head>Philippus Mealia</head>
+
+            <p><persName>Philippus Mealia</persName> Barcinonensis canonicus in sacris litteris
+               educatus et conterraneus meus primo sacras litteras <placeName>Ilerdae</placeName>,
+               postremo <placeName>Luthetiae in Gallia</placeName> didicit. Is fuit quem
+                  <placeName>Luthetia</placeName> publice eas sacras litteras legentem in decimo
+               octauo aetatis suae anno summopere admirata est. Composuit librum duobus uoluminibus
+               partitum qui <title>Christianus redemptus</title> dignissime nuncupatur. Declamator
+               etiam fuit acerrimus. Tandem quamplurima sermonum uolumina edidit. Et de morte
+               memoriae Dominae <persName>Violantis</persName> Aragonum Reginae eiusque aneologia,
+               moribus et doctrina sermonem pergrandem, nusquam tantis eloquiis, exemplis et
+               auctoritatibus elimatum mirabiliter congessit. Et quamquam in ipsius sermonis initio
+               dolore ac laxitate uentris admodum opprimeretur, tamen ob audientium pudorem ac
+               illustrissimi funeris celebritatem obticere noluit. Itaque sermone peracto morbum
+               contraxit et domum reuertens cubile ocyus petiit et post dies duos ortodoxe mortem
+               obiuit.</p>
+         </div>
+
+         <div type="bio" xml:id="dvic_15_ripoll" n="15">
+            <head>Iacobus Ripullus</head>
+
+            <p><persName>Iacobus Ripullus</persName> primo publicus
+                  <placeName>Barcinonis</placeName> tabellio, postea iureconsultus eiusdem urbis
+                  <placeName>Barcinonis</placeName> filius, poeta maximus tuit et rerum antiquarum
+               quamplurimum emulus. <title>Tolosanos</title> flores in maternis rhythmis iam editos
+               percallentissime commentatus est. Epigrammata multa, uersus, cantilenas et plura
+               opera tam Latina quam uernacula lingua decantauit. Et ut memoria teneamus quod
+               salubre gestum tanti uiri comperitur, epigramma quod edidit in laudem illustrissimae
+               Dominae <persName>Elionoris</persName>, gloriosae recordationis, Cypri Reginae a me
+               hoc anno iubilei a natiuitate Domini MCCCCLXXV nouiter reparatum, quom semideletum
+               esset, iuxta altare <placeName>Coenobii Sancti Francisci Barcilonis</placeName>
+               repostum hic inserere, ut iacet, non desinamus: </p>
+         </div>
+
+         <div type="section" xml:id="dvic_16_epigramma" n="16">
+
+            <head>D.I.T.</head>
+            <p>Epigramma illustrissimae Dominae <persName>Elionoris</persName> Reginae Cypri, quae
+               mortem obiuit die uicesimo sexto decembris anno a natiuitate Domini MCCCCXVII, editum
+               ab egregio uiro <persName>Iacobo Ripullo</persName> iuris professore ciueque
+                  <placeName>Barcinonae</placeName>.</p>
+
+            <lg>
+               <l>Hic iacet Aragonum Regali stirpe creata</l>
+               <l><persName>Elionor</persName> Regina Cypri, qua foemina maior</l>
+               <l>moribus aut uita miti, probitate, pudore</l>
+               <l>aeuo nulla suo uixit, laudesque uirorum</l>
+               <l n="5">sub cute foeminea meruit, nam fraude perempti</l>
+               <l>coniugis ulta necem, gnato sua regna redemit</l>
+               <l>praemia ceu sceleris patruus quae marte premebat.</l>
+               <l>Ergo decus uestrum uirides deflete puellae,</l>
+               <l>plangite matronae, uiduae plorate pudicae</l>
+               <l n="10">uosque fauete uiri lachrymis: fuit illa uirago,</l>
+               <l>supplicium terrorque malis, spes unica iustis,</l>
+               <l>fortibus haec clypeum, miseris praestabat asylum</l>
+               <l>subsidium lapsis, placidum solamen egenis.</l>
+               <l>Hinc dos uirginibus, captis redimenta dabantur,</l>
+               <l n="15">orphanus hinc fraudem uitare, hinc templa ruinam,</l>
+               <l>hinc illaesa Deo pietas stetit: ergo beatam</l>
+               <l>caelicolae teneant animam, sed marmora corupus.</l>
+               <l>Post duo iam nouiesque nouem certumque bis acta</l>
+               <l>lustra duo fugerent anni dum Regis ad ortum</l>
+               <l n="20">perpetui, longe soluit mors uincula uitae.</l>
+            </lg>
+            
+         </div>
+
+         <div type="section" xml:id="dvic_17_laus" n="17">
+
+            <p>Ioannes Ramundus Ferrarius iureconsultus Barcinonensis in
+               laudem scriptoris:</p>
+            
+            <lg>
+               <l>Hos uersus <persName>Petrus Michael</persName>
+                  <placeName>Barcinonis</placeName> ortus</l>
+               <l><persName>Carbonellus</persName> item cognomine scriba peritus</l>
+               <l>scriptura pulchra docte reaparauit et apta,</l>
+               <l>ut qui priscorum rimator habetur acutus.</l>
+               <l>τέλος. τῶ θεῶ δόξα</l>
+            </lg>
+
+            <p>Et quia in calce huiusmodi operis ego praedictus <persName>Carbonellus</persName>
+               meis expensis Reginam Cypri praefatam cum angelis sepulchro aliisque imaginibus pingi
+               feci, ibidem manu mea propria uacciniocolore nomen pictoris hoc modo scripsi:</p>
+
+            <lg>
+               <l>Haec <persName>Alfonsus magister Cordubensis</persName> fabre pinxit</l>
+            </lg>
+
+            <p>Et fuit ipsum epigramma a me repositum apud Coenobium diui <persName>Francisci
+                  Barcilonis</persName> die festo Ascensionis Domini anno iubileo a natuitate Domini
+               MCCCC septuagesimo quinto.</p>
+         </div>
+
+         <div type="bio" xml:id="dvic_18_canyelles" n="18">
+            <head>Gabriel Canyelles</head>
+
+            <p>Inter hos illustres uiros haud omittendum aestimo immo maximo cum honore celebrandum
+                  <persName>Gabrielem cognomine Canyelles</persName> publicum
+                  <placeName>Barcinonis</placeName> ac Domus Consilii eiusdem urbis tabellionem
+               egregium, cuius memoria ob eius doctrinae prestantiam apud
+                  <placeName>Barcinonem</placeName> et etiam <placeName>Cataloniam</placeName>
+               perceleberrima habetur. Tantus uir erat doctus et probus non modo in tabellionatus
+               officio arteque notariae sed etiam oratoria facultate et omnibus quae in hac uita
+               peregit. Quicquid manu sua scripsit litteris pulcherrimis et docte factum censetur.
+               Grammaticus eximius fuit. Formulas artis notariae magno ingenio et claro pernotauit.
+               Eius formulis plerique doctiores tabularii famosissime utuntur ex quibus pleraque
+               formularia diggesta fuere. De tribus partibus in quibus ars notariae consistit breue
+               compendium scripsit quod <title>Vade mecum</title> appellauit.</p>
+         </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </body>
+   </text>
+</TEI>

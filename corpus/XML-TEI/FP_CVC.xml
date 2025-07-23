@@ -1,0 +1,2153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://archbio.miami.edu/corpus/archbio.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title ref="#CVC" ana="https://archbio.miami.edu/works/claros-varones-de-castilla"
+               >Claros varones de Castilla</title>
+            <author ref="#FP" ana="https://archbio.miami.edu/authors/fernando-del-pulgar">Fernando
+               del Pulgar</author>
+            <respStmt>
+               <resp>Encoded by</resp>
+               <persName ref="#XAS">Xènia Adam Solà</persName>
+               <persName ref="#SAT">Susanna Allés-Torrent</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <authority>Archive of Biographical Writings in Medieval and Early Modern Iberia
+               (ArchBio)</authority>
+            <publisher>University of Miami</publisher>
+            <pubPlace>Coral Gables, FL</pubPlace>
+            <availability status="free">
+               <p>This electronic text is distributed by ArchBio under a <ref
+                     target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons
+                     Attribution NonCommercial-ShareAlike 4.0 International License</ref>.</p>
+            </availability>
+            <date>2025</date>
+         </publicationStmt>
+
+         <sourceDesc>
+            <bibl type="print" xml:id="FP_CVC_RAE2022">
+               <author>Fernando del Pulgar</author>
+               <title>Claros varones de Castilla. Letras.</title> Edición, estudio y notas de
+                  <editor>María Isabel de Páiz Hernández</editor> y <editor>Pedro Martín
+                  Baños</editor>, con <editor>Gonzalo Pontón Gijón</editor>
+               <publisher>Real Academia Española</publisher>
+               <pubPlace>Madrid</pubPlace>
+               <date>2022</date>
+            </bibl>
+
+            <bibl type="digital">
+               <publisher>Real Academia Española</publisher>
+               <date>2022</date>
+               <ref>https://www.rae.es/obras-academicas/bcrae/claros-varones-de-castilla-letras</ref>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+
+      <encodingDesc>
+         <p>The transcription of this text follows the guidelines outlined in ArchBio's
+            transcription criteria. For detailed information on the transcription process,
+            conventions used, and editorial decisions, please refer to the transcription guidelines
+            available at: <ref target="https://archbio.miami.edu/transcripcion"
+               >https://archbio.miami.edu/transcripcion</ref>. </p>
+         <p>The encoding of this text adheres to ArchBio's encoding standards, which are detailed in
+            the following document. This includes information on tag usage, attribute definitions,
+            and encoding methodologies: <ref target="https://archbio.miami.edu/codificacion"
+               >https://archbio.miami.edu/codificacion</ref>. </p>
+      </encodingDesc>
+
+      <revisionDesc>
+         <change when="2021-03-06" who="#SAT">Initial encoding by Susanna Allés-Torrent, applying
+            transcription criteria and associating with the schema.</change>
+         <change when="2025-03-06" who="#XAS">Text revision based on Domínguez Bordona's 1923
+            edition by Xènia Adam Solà.</change>
+         <change when="2025-03-20" who="#XAS">Updated the text version according to the RAE's 2004
+            edition.</change>
+      </revisionDesc>
+
+   </teiHeader>
+
+   <text xml:id="FP_CVC" xml:lang="es">
+      <body>
+
+         <div type="prol" xml:id="cvc_00_prologo">
+            <pb edRef="#FP_CVC_RAE2022" n="5"/>
+            <head>Prólogo</head>
+            <p>Muy excelente y muy poderosa reina nuestra señora: </p>
+            <p>Algunos historiadores griegos y romanos escribieron bien por extenso las hazañas que
+               los claros varones de su tierra hicieron y les parecieron dignas de memoria. Otros
+               escritores hobo que las sacaron de las historias e hicieron de ellas tratados aparte
+               a fin que fuesen más comunicadas, según hizo <persName>Valerio Máximo</persName> y
+                  <persName>Plutarco</persName>, y otros algunos que, con amor de su tierra o con
+               afección de personas o por mostrar su elocuencia, quisieron adornar sus hechos
+               exaltándolos con palabras algo por ventura más de lo que fueron en obras. </p>
+            <p>Yo, muy excelente reina y señora, de ambas cosas veo menguadas las corónicas de estos
+               vuestros reinos de <placeName>Castilla</placeName> y de <placeName>León</placeName>,
+               en perjuicio grande del honor que se debe a los claros varones naturales de ellos y a
+               sus descendientes, porque, como sea verdad que <pb edRef="#FP_CVC_RAE2022" n="6"
+               />hiciesen notables hechos, pero no los leemos extendidamente en las corónicas cómo
+               los hicieron, ni veo que ninguno los escribió aparte, como hizo
+                  <persName>Valerio</persName> y los otros. Verdad es que el noble caballero
+                  <persName>Fernán Pérez de Guzmán</persName> escribió en metro algunos claros
+               varones que fueron en <placeName>España</placeName>. Asimismo escribió brevemente en
+               prosa las condiciones del muy alto y excelente <persName>rey don Juan</persName>, de
+               esclarecida memoria, vuestro padre, y de algunos caballeros y perlados, sus súbditos,
+               que fueron en su tiempo. Eso mismo vi en <placeName>Francia</placeName> el compendio
+               que hizo un maestre, <persName>Jorge de la Vernada</persName>, secretario del
+                  <persName>rey Carlos</persName>, en que compiló los hechos notables de algunos
+               caballeros y perlados de aquel reino que fueron en su tiempo. Y aun en aquel libro de
+               la <title>Sacra Escritura</title> que hizo <persName>Jesú, hijo de Sirac</persName>,
+               quiso loar los varones gloriosos de su nación. También <persName>sant
+                  Jerónimo</persName> y otros algunos escribieron loando los ilustres varones dignos
+               de memoria para ejemplo de nuestro vevir.</p>
+            <p>Yo, muy excelente reina y señora, criado desde mi menor edad en la corte del rey,
+               vuestro padre, y del <persName>rey don Enrique</persName>, vuestro hermano, movido
+               con aquel amor de mi tierra que los otros <pb edRef="#FP_CVC_RAE2022" n="7"/>hobieron
+               de la suya, me dispuse a escribir de algunos claros varones, perlados y caballeros,
+               naturales de vuestros reinos, que yo conocí y comuniqué, cuyas hazañas y notables
+               hechos, si particularmente se hobiesen de contar, requería hacerse de cada uno una
+               grand historia. Y por ende, brevemente, con el ayuda de Dios, escribiré los linajes y
+               condiciones de cada uno y algunos notables hechos que hicieron, de los cuales se
+               puede bien creer que en autoridad de personas y en ornamento de virtudes y en las
+               habilidades que tovieron, así en la ciencia como en las armas, no fueron menos
+               excelentes que aquellos griegos y romanos y franceses que tanto son loados en sus
+               escripturas. </p>
+            <p>Y primeramente pensé poner al <persName>rey don Enrique cuarto</persName>, vuestro
+               hermano, cuya ánima Dios haya. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_01_enrique_iv">
+            <pb edRef="#FP_CVC_RAE2022" n="9"/>
+            <head>El Rey Don Enrique</head>
+            <p>El <persName>rey don Enrique cuarto</persName>, hijo del <persName>rey don Juan el
+                  segundo</persName>, fue hombre alto de cuerpoy hermoso de gesto y bien
+               proporcionado en la cmnpostura de sus miembros. A este rey, seyendo príncipe, dio el
+               rey, su padre, la ciudad de <placeName>Segovia</placeName>; y púsole casa y oficiales
+               seyendo en edad de <date>catorce años</date>.</p>
+            <p>Estovo en aquella ciudad apartado del rey, su padre, los más días de su menor edad,
+               en los cuales se dio a algunos deleites que la mocedad suele demandar y la honestad
+               debe negar. E hizo hábito de ellos, porque ni la edad flaca los sabía refrenar, ni la
+               libertad que tenía los sofría castigar. No bebía vino; ni quería vestir paños muy
+               preciosos, ni curaba de la cirimonia que es debida a persona real. Tenía algunos
+               mozos aceptos de los que con él se criaban; amábalos con grand afección y dábales muy
+               grandes dádivas. Desobedeció algunas veces al rey, su padre, no porque de su voluntad
+               procediese, mas por inducimiento de algunos que, seguiendo sus propios intereses, le
+               traían a ello.</p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="10"/>Era hombre piadoso y no tenía ánimo de hacer mal,
+               ni ver padecer a ninguno. Y tan humano era, que con dificultad mandaba ejecutar
+               justicia criminal; y en la ejecución de la cevil y en las otras cosas necesarias a la
+               gobernación de sus reinos, algunas veces era negligente, y con dificultad entendía en
+               cosa ajena de su delectación. No se vido en él jamás punto de soberbia en dicho ni en
+               hecho, ni por codicia de haber grandes señoríos le vieron hacer cosa fea ni
+               deshonesta. Y si algunas veces había ira, durábale poco; y no le señoreaba tanto que
+               dañase mucho a él ni a otro. Era gran montero y placíale muchas veces andar por los
+               bosques apartado de las gentes.</p>
+            <p>Casó, seyendo príncipe, con la <persName>princesa doña Blanca</persName>, hija del
+                  <persName>rey don Juan de Aragón</persName>, su tío, que estonces era rey de
+                  <placeName>Navarra</placeName>, con la cual estovo casado por espacio de
+                  <date>diez años</date>. Y al fin, hobo divorcio entre ellos por el defecto de la
+               generación, que él imputaba a ella y ella imputó a él.</p>
+            <p>Muerto el <persName>rey don Juan</persName>, su padre, reinó luego pacíficamente en
+               los reinos de <placeName>Castilla</placeName> y de <placeName>León</placeName>,
+               seyendo ya en edad de <date>treinta años</date>. <pb edRef="#FP_CVC_RAE2022" n="11"
+               />Y luego que reinó, usó de gran magnificencia con ciertos caballeros y grandes
+               señores de sus reinos, soltando a unos de las presiones en que el rey, su padre, los
+               había puesto, y reduciendo y perdonando a otros que andaban desterrados de sus
+               reinos. Y restituyóles todas las villas y logares y rentas y todos sus patrimonios y
+               oficios que tenían. Viviendo la primera mujer de quien se apartó, casó con otra, hija
+               del rey de <placeName>Portugal</placeName>. Y en este casamiento se manifestó su
+               impotencia, porque como quier que estovo casado con ella por espacio de <date>quince
+                  años</date>, y tenía comunicación con otras mujeres, nunca pudo haber a ninguna
+               allegamiento de varón.</p>
+            <p>Reinó <date>veinte años</date>, y en los diez primeros fue muy próspero, allegó gran
+               poder de gentes y de tesoros, y los grandes y caballeros de sus reinos con gran
+               obediencia cumplían sus mandamientos. Era hombre franco y hacía grandes mercedes y
+               dádivas; y no repetía jamás lo que daba, ni le placía que otros en presencia gelo
+               repitiesen. Llegó tanta abundancia de tesoros, que, allende de los grandes gastos y
+               dádivas que hacía, mercaba cualquier villa o castillo <pb edRef="#FP_CVC_RAE2022"
+                  n="12"/>u otra gran renta que en sus reinos se vendiese para acrecentar el
+               patrimonio real.</p>
+            <p>Era hombre que las más cosas hacía por solo su arbitrio o al placer de aquellos que
+               tenía por privados. Y como los apartamientos que los reyes hacen y la gran afección
+               que sin justa causa muestran a unos más que a otros y las excesivas dádivas que les
+               dan suelen provocar a odio, y del odio nacen malos pensamientos y peores obras,
+               algunos grandes de sus reinos, a quien no comunicaba sus consejos ni la goberanción
+               de sus reinos, y pensaba que de razón les debía ser comunicado, concebieron tan
+               dañado concepto, que algunas veces conjuraron contra él para lo prender o matar. Pero
+               como este rey era piadoso, bien así Dios usó con él de piedad y le libró de la
+               presión y de los otros males que contra su persona se imaginaron. </p>
+            <p>Y ciertamente se debe considerar que, como quier que no sea ajeno de los hombres
+               tener afección a unos más que a otros, pero especialmente los reyes, que están en el
+               miradero de todos, tanto menor licencia tienen de errar cuanto más señalados y
+               mirados son que los otros; mayormente en las cosas de la justicia, de la cual tan
+               bien deben usar en mostrar su afección templada al que lo mereciere, como en todas
+               las otras cosas. Porque de mostrarse los reyes afecionados, sin templanza, y no a
+               quién, ni cómo, ni por lo que lo deben ser, nacen muchas veces las invidias, do se
+               siguen las desobediencias y vienen las guerras y otros inconvenientes que a este rey
+               acaecieron.</p>
+            <p>Era muy gran músico y tenía buena gracia en cantar y tañer y en hablar en cosas
+               generales, pero en la ejecución de las particulares y necesarias algunas veces era
+               flaco, porque ocupaba su pensamiento en aquellos deleites que estaba acostumbrado,
+               los cuales impiden el oficio de la prudencia a cualquier que de ellos está ocupado.
+                  <pb edRef="#FP_CVC_RAE2022" n="13"/>Y ciertamente vemos algunos hombres hablar muy
+               bien, loando generalmente las virtudes y vituperando los vicios. Pero cuando se les
+               ofrece caso particular que les toque, estonces, vencidos del interese o del deleite,
+               no han lugar de permanecer en la virtud que loaron, ni resistir el vicio que
+               vituperaron.</p>
+            <p>Usaba asimismo de magnificencia en los recibimientos de grandes hombres y de los
+               embajadores de reyes que venían a él, haciéndoles grandes y suntuosas fiestas y
+               dándoles grandes dones. Otrosí en hacer grandes eficios, en los alcázares y casas
+               reales y en iglesias y logares sagrados</p>
+            <p>Este rey fundó de principio los <placeName>monesterios de la Santa María del
+                  Parral</placeName> de <placeName>Segovia</placeName> y <placeName>San Jerónimo del
+                  Paso de Madrid</placeName>, que son de la <roleName>orden de San
+                  Jerónimo</roleName>, y dotólos magníficamente; y otrosí el <placeName>monesterio
+                  de San Antonio</placeName> de <placeName>Segovia</placeName>, de la <name>orden de
+                  San Francisco</name>. E hizo otros grandes edificios y reparos en otras muchas
+               iglesias y monesterios de sus reinos, y dióles grandes limosnas e hízoles muchas
+               mercedes.</p>
+            <p>Otrosí mandaba pagar cada año en tierras y acostamientos gran número de gente de
+               armas. Y allende de esto gastaba cada año en sueldo para la gente de caballo continua
+               que traía en su guarda otra gran cantidad de dinero. Y con esto fue tan poderoso, y
+               su <pb edRef="#FP_CVC_RAE2022" n="14"/>poder fue tan renombrado por el mundo, que el
+                  <persName>rey don Fernando de Nápol</persName> le envió suplicar que le recibiese
+               en su homenaje. Otrosí la ciudad de <placeName>Barcelona</placeName> con todo el
+                  <placeName>principado de Cataluña</placeName> le ofreció de se poner en su
+               señorío, y de le dar los tributos debidos al <persName>rey don Juan de
+                  Aragón</persName>, su tío, a quien por estonces aquel principado establa
+               rebelde.</p>
+            <p>Por inducimiento y persuasiones de algunos que estaban cerca de él en su Consejo, más
+               que procediendo de su voluntad, tovo algunas diferencias con este <roleName>rey de
+                     <placeName>Aragón</placeName></roleName>, su tío, que a sí mesmo se intitulaba
+                  <roleName>rey de <placeName>Navarra</placeName></roleName> Y entró por su persona
+               poderosamente en el reino de <placeName>Navarra</placeName> y envió gran copia de
+               gente de armas con sus capitanes al reino de <placeName>Aragón</placeName>; e hizo
+               guerra a los aragoneses y navarros. Y puédese bien creer que, según su gran poder y
+               la dispusición del tiempo y de la tierra y la flaqueza y poca resistencia que por
+               estonces había en la parte contraria, si este rey fuera tirano e inhumano, todos
+               aquellos reinos y señoríos fueran puestos en su obediencia, dellos con pequeña fuerza
+               y dellos de su voluntad. Y para pacificar estas diferencias se trataron vistas entre
+               él <pb edRef="#FP_CVC_RAE2022" n="15"/>y el <persName>rey don Luis de
+                  Francia</persName>, que, como árbitro se interpuso a las pacificar A las cuales
+               vistas fue acompañado de grandes señores y perlados y de gran multitud de caballeros
+               y fijosdalgo de sus reinos. Y en los gastos que hizo y dádivas que dio, y en los
+               arreos y otras cosas que fueron necesarias de se gastar y distribuir para tan gran
+               acto, mostró bien la franqueza de su corazón; y pareció la grandeza de sus reinos; y
+               guardó la preeminencia de su persona y la honra y loable fama de sus súbditos. Fue la
+               fabla de estos dos reyes entre la villa de <placeName>Fuenterrabía</placeName>, que
+               es del reino de <placeName>Castilla</placeName>, y la villa de
+                  <placeName>Bayona</placeName>, que es del reino de <placeName>Francia</placeName>,
+               en la ribera de la mar.</p>
+            <p>Continuó algunos tiempos guerra contra los moros. Hizo algunas entradas con gran
+               copia de gente en el reino de <placeName>Granada</placeName>. En su tiempo se ganó
+                  <placeName>Gibraltar</placeName> y <placeName>Archidona</placeName> y otros
+               algunos lugares de aquel reino. Constreñió a los moros que le diesen parias algunos
+               años porque no les hiciese guerra. Y los reyes comarcanos temían tanto su gran poder,
+               que ninguno osaba hacer el contrario de su voluntad. Y todas las cosas le acarreaba
+               la fortuna como las él quería, y algunas mucho mejor de lo que pensaba, como suele
+               hacer a los bien afortunados. Y los de sus reinos, todo aquel tiempo que estovieron
+               en su obediencia, gozaban de paz y de los otros bienes que de ella se siguen.</p>
+            <p>Fenecidos los <date>diez años</date> primeros de su señorío, la fortuna, envidiosa de
+               los grandes estados, mudó, como suele, la cara próspera y començó a mostrar la
+               adversa. De la cual mudança muchos <pb edRef="#FP_CVC_RAE2022" n="16"/>veo quejarse,
+               y a mi ver sin causa, porque, según pienso, allí hay mudanza de prosperidad do hay
+               corrupción de costumbres. E así por esto, como porque se debe creer que Dios,
+               queriendo punir en esta vida alguna desobediencia que este rey mostró al rey, su
+               padre, dio lugar que fuese desobedecido de los suyos. Y permitió que algunos criados
+               de los más aceptos que este rey tenía, y a quien de pequeños hombres hizo grandes y a
+               quien dio títulos y dignidades y grandes patrimonios, quier lo hiciesen por conservar
+               lo habido, quier por lo acrecentar y añadir mayores rentas a sus grandes rentas,
+               erraron de la vía que la razón les obligaba; y no podiendo refrenar la invidia
+               concebida de otros que pensaban ocuparles el lugar que tenían, conocidas en este rey
+               algunas flaquezas nacidas del hábito que tenía hecho en los deleites, osaron
+               desobedecerle y poner disensión en su casa. La cual, porque al principio no fue
+               castigada según debía, creció entre ellos tanto, que hizo decrecer el estado del rey
+               y el temor y obediencia que los grandes de sus reinos le habían. Donde se siguió que
+               algunos de estos se juntaron con otros perlados y grandes señores del reino y tomaron
+               al <persName>príncipe don Alfonso</persName>, su hermano, mozo de once años, y,
+               haciendo división en <placeName>Castilla</placeName>, lo alzaron por rey de ella. Y
+               todos los grandes y caballeros y las ciudades y villas estovieron divisos en dos
+               partes: la una permaneció siempre con este <persName>rey don Enrique</persName>; la
+               otra estovo <pb edRef="#FP_CVC_RAE2022" n="17"/>con aquel <persName>rey don
+                  Alonso</persName>, el cual duró con título de rey por espacio de <date>tres
+                  años</date>. Y murió en edad de <date>catorce</date>. </p>
+            <p>En esta división se despertó la codicia y creció el avaricia; cayó la justicia y
+               señoreó la fuerza; reinó la rapiña y disolvióse la lujuria; y hobo mayor lugar la
+               cruel tentación de la soberbia que la humilde persuasión de la obediencia. Y las
+               costumbres por la mayor parte fueron corrompidas y disolutas, de tal manera que
+               muchos, olvidada la lealtad de amor que debían a su rey y a su tierra, y siguiendo
+               sus intereses particulares, dejaron caer el bien general, de tal forma que el general
+               y el particular perecían. </p>
+            <p>Y nuestro Señor, que algunas veces permite males en las tierras, generalmente para
+               que cada uno sea punido particularmente según la medida de su yerro, permitió que
+               hobiese tantas guerras en todo el reino, que ninguno puede decir ser eximido de los
+               males que de ella se siguieron. Y especialmente aquellos que fueron causa de la
+               principiar se vieron en tales peligros, que quesieran dejar gran parte de lo que
+               primero tenían con seguridad de lo que les quedase, y ser salidos de las alteraciones
+               que a fin de acrecentar sus estados inventaron. Y así pudieron saber con la verdadera
+               experiencia lo que no les dejó conocer la ciega codicia. Por cierto, así acaece que
+               los hombres antes que sientan el mal futuro, no conocen el bien presente, pero cuando
+               se ven envueltos en las necesidades peligrosas en que su desordenada codicia los
+               mete, estonces <pb edRef="#FP_CVC_RAE2022" n="18"/>querrían, y no pueden, hacer
+               aquello que con menor daño pudieran haber hecho.</p>
+            <p>Y porque la ferviente afección de personas y la ciega codicia de los bienes hacen
+               perder el buen juicio en las cosas, duraron estas guerras los otros <date>diez
+                  años</date> postrimeros que este rey reinó; y los hombres pacíficos padecieron
+               muchas fuerzas de los hombres nuevos que se levantaron e hicieron grandes
+               destruiciones. Gastó en estos tiempos el rey todos sus tesoros; y allende de
+               aquellos, gastó y dio sin medida casi todas las rentas de su patrimonio real. Y
+               muchas de ellas le tomaron los tiranos, de manera que aquel que con el abundancia de
+               los tesoros compraba villas y castillos, vino en necesidad tan extrema, que vendió
+               muchas veces las rentas de su patrimonio para el mantenimiento de su persona.</p>
+            <p>Vivió este rey <date>cincuenta años</date>, de los cuales reinó <date>veinte</date>.
+               Y murió en el alcázar de la villa de <placeName>Madrid</placeName> de dolencia del
+               ijada, de la cual en su vida muchas veces fue gravemente apasionado.</p>
+         </div>
+
+         <div type="bio" xml:id="cvc_02_fadrique">
+            <pb edRef="#FP_CVC_RAE2022" n="19"/>
+            <head>El Almirante Don Fabrique</head>
+
+            <p>El <persName><roleName>almirante</roleName> don Fadrique</persName>, hijo del
+                     <persName><roleName>almirante</roleName> don Alonso Enríquez</persName> y nieto
+               del <persName>infante don Fadrique</persName> y bisnieto del <persName>rey don
+                  Alfonso</persName>, fue pequeño de cuerpo y hermoso de gesto. Era un poco corto de
+               vista. Hombre de buen entendimiento, fue en los tiempos del <persName>rey don
+                  Juan</persName> y del <persName>rey don Enrique</persName>. </p>
+            <p>Tenía muchos parientes, porque tovo por hermano de madre al
+                     <persName><roleName>adelantado</roleName> Pero Manrique</persName>, que fue un
+               gran señor en <placeName>Castilla</placeName>. Y tovo de su padre y madre otro
+               hermano, que fue <roleName>conde de Alba de Liste</roleName>y ocho hermanas, que
+               casaron con hombres de linaje que tenían casas de mayorazgos antiguas. Y de parte de
+               doña <persName>Juana de Mendoza</persName>, su madre, hija de <persName>Pero Gonzáles
+                  de Mendoza</persName>, tenía por deudos de sangre todos los más de los grandes
+               señores de <placeName>Castilla</placeName>. Amaba los parientes y allegábalos; y
+               trabajaba en procurar su honra e interese. </p>
+            <p>Fue caballero esforzado y hombre de tan gran corazón, que osadamente cometía muchas
+               veces su persona y estado a los golpes <pb edRef="#FP_CVC_RAE2022" n="20"/>de la
+               fortuna por la conservación de sus parientes y por adquerir para sí honra y
+               reputación. Usando de su oficio de <roleName>almirante</roleName>, andovo por la mar
+               con gran flota de armada, y hobo recuentros y batallas marinas con moros y con
+               cristianos, en las cuales fue vencedor y alcanzó fama de esforzado capitán. </p>
+            <p>Era franco y liberal, y siempre pospuso la codicia del guardar tesoros a la gloria
+               que sentía en ganando honra. Era hombre impaciente y no podía buenamente tolerar las
+               cosas que le parecían exesivas y contrarias a la razón, y reprendíalas con algún
+               rigor. Especialmente increpaba la gran afección que el <persName>rey don
+                  Juan</persName> tenía al <persName><roleName>maestre de Santiago</roleName>, don
+                  Álvaro de Luna, <roleName>condestable de Castilla</roleName></persName>, y el gran
+               poder que en su persona y en su corte y reino le dio y las dádivas inmensas que le
+               hizo. Otrosí reprendía las cosas exesivas que este condestable, con el gran favor que
+               tenía del rey, hacía; y no las podía sofrir ni disimular. Y de esta condición se le
+               siguieron discordias y enemistades con aquel maestre y con otros caballeros que
+               seguían su parcialidad, de las cuales procedieron guerras y escándalos en el reino,
+               porque era hombre de gran autoridad, así por respeto de su persona y gran casa como
+               por los muchos y grandes señores que tenía por parientes.</p>
+            <p>Casó una hija con el <roleName>rey de Aragón</roleName>, que a la hora era
+                  <roleName>rey de Navarra</roleName>. Y por causa de este casamiento y de las
+               parcialidades que tenía en el reino, se le siguieron algunos infortunios,
+               especialmente en el vencimiento de la batalla que el <persName>rey don
+                  Juan</persName> hobo <pb edRef="#FP_CVC_RAE2022" n="21"/>contra el <roleName>rey
+                  de Navarra</roleName> y contra el <persName><roleName>infante</roleName> don
+                  Enrique</persName>, sus primos, y contra otros caballeros cerca de la villa de
+                  <placeName>Olmedo</placeName>. En la cual, como quier que este
+                  <roleName>almirante</roleName> fue vencido del <roleName>maestre de
+                  Santiago</roleName>, su enemigo, y preso por un <roleName>escudero</roleName> de
+               su capitanía, pero no le falleció ánimo en la hora del infortunio, y con fuerza de
+               razones que dijo al que le prendió, le puso en libertad. Y fueron tomados todos sus
+               bienes, y él andovo desterrado del reino sintiendo aquel grave sentimiento que el
+               vencido siente veyendo su enemigo vencedor. Y como quier que donde hay pérdida hay
+               dolor, pero este caballero sufriósus pérdidas con egual cara, y ninguna fuerza de la
+               fortuna le abajó la fuerza de su corazón.</p>
+            <p>Loan los <roleName>historiadores romanos</roleName> por varón de gran ánimo a
+                  <persName>Catón</persName> el censorio, porque se mató no podiendo con paciencia
+               sofrir la vitoria de <persName>César</persName>, su enemigo. Y no sé yo, por cierto,
+               qué mayor crueldad le hiciera el <persName>César</persName> de la que él se hizo,
+               porque repugnando la natura y al común deseo de los hombres, hizo en su persona lo
+               que todos aborrecen hacer en la ajena. Y adornan su muerte diciendo que murió por
+               haber libertad. Y, ciertamente, yo no puedo entender qué libertad puede haber para
+               sí, ni para dar a otro, el hombre muerto. Así que como hallan razón para loar su
+               vida, no veo que haya para loar su muerte, porque anticiparse ninguno a desatar aquel
+               conjuntísimo y natural atamiento que el ánima tiene con el cuerpo, temiendo que otro
+               lo desate, cosa es más para aborrecer que para loar. No se mata el marinero en la
+               fortuna antes que le mate la fortuna; ni el cercado se da la muerte por miedo de la
+               servidumbre del cercador. A todos sostiene la esperanza que no pudo sostener a
+                  <persName>Catón</persName>, el cual sí tovo ánimo para sofrir los bienes de la
+               prosperidad y no los males de la fortuna. </p>
+            <p>Con mayor razón podemos loar este <roleName>almirante</roleName>, porque el uno
+               pareció en su muerte tan flaco que no pudo sofrir sus males, y <pb
+                  edRef="#FP_CVC_RAE2022" n="22"/>este pareció en su vida tan fuerte, que tovo
+               esperanza de cobrar sus bienes, aunque se vido desterrado y vencido y a su enemigo,
+               próspero y vencedor. Porque aquel es dicho varón magnánimo que, sufriendo la mala,
+               sabe buscar la buena fortuna. E si el otro fue censorio, que quiere decir reprensor
+               de pecados, también fue este <roleName>almirante</roleName> reprensor de aquello que
+               le parecía fuera de razón. Verdad es que de reprender errores ajenos más veces se
+               sigue odio al castigador, que enmienda al castigado. </p>
+            <p>Y también debemos considerar que si los juicios de Dios no podemos comprender, menos
+               los debemos reprender, porque no sabemos sus misterios, ni los fines que su
+               providencia tiene ordenados en los actos de los hombres. Y, por ende, el que pudiere
+               refrenar su ira y dar pasada a las cosas que se pueden tolerar y haber sufrimiento
+               para las disimular, sin dubda vivirá vida más segura y no se porná, según este
+                  <roleName>almirante</roleName> se puso, a los golpes peligrosos de la fortuna. En
+               los cuales en alguna manera se pudo decir bien fortunado, porque sus deudos y amigos
+               le fueron gradecidos y sus criados y servidores le fueron leales. Los cuales,
+               nembrándose de algunos beneficios que de él recibieron, le ayudaron cuanto pudieron,
+               y ayudaran mejor si pudieran, porque el amor verdadero, ni deja de amar, ni cansa de
+               aprovechar.</p>
+            <p>En estos tiempos de adversidades que por este caballero pasaron, conoció bien la
+               lucha continua que entre sí tienen el trabajo, de la una parte, y el deleite de la
+               otra. Y como quier que el uno o el otro vence a veces, pero ninguno de ellos dura en
+               el vencimiento luengamente, al fin, haciendo el tiempo las mudanzas que suele, y los
+               amigos y servidores las obras que deben, rodeó Dios las cosas en tal manera, que
+               tornó a <placeName>Castilla</placeName>, y recobró todos sus bienes y patrimonio y
+               hobo logar de lo acrecentar y fue restituido en la gran estimación que primero
+               estaba. </p>
+            <p><pb edRef="#FP_CVC_RAE2022" n="23"/>Y murió lleno de días en gran prosperidad, porque
+               dejó sus hijos en buen estado. Y vido en sus postrimeros días a su nieto, hijo de su
+               hija, ser <roleName>príncipe de Aragón</roleName>, porque era único hijo al
+                  <roleName>rey de Aragón</roleName>, su padre. Y otrosí le vido príncipe de los
+               reinos de <placeName>Castilla</placeName> y de <placeName>León</placeName>, porque
+               casó con la <persName><roleName>princesa de Castilla</roleName>, doña
+                  Isabel</persName>, que fue reina de estos reinos. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_03_velasco_haro">
+            <head>El Conde de Haro</head>
+            <p>Don <persName>Pero Fernández de Velasco, <roleName>conde de
+                  Haro</roleName></persName>, hijo de <persName>Juan de Velasco</persName> y nieto
+               de don <persName>Pero Fernández de Velasco</persName>, fue hombre de mediana
+               estatura. Tenía las cervices torcidas y los ojos un poco bizcos. Era de linaje noble
+               y antiguo. Hállase por las corónicas que él y su padre y abuelos fueron camareros
+               mayores de los <roleName>reyes de Castilla</roleName>, sucesivamente, por espacio de
+                  <date>ciento y veinte años</date>. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="24"/>Era hombre agudo y de buen entendimiento. Vivió
+               en los tiempos del <persName>rey don Juan el segundo</persName> y del <persName>rey
+                  don Enrique cuarto</persName>, su hijo. En su joventud, la edad lozana y no aún
+               madura ni experimentada en los inconvinientes que acaecen en la vida, le indusió que
+               se juntase en parcialidades con otros grandes del reino, sus parientes, y repugnase
+               la voluntad y afección grande que el <persName>rey don Juan</persName> mostraba en
+               obras y en palabras a algunos privados. Y por esta causa estovo algún tiempo en la
+               indignación del rey y padeció algunos infortunios. Y como acaece algunas veces que
+               las adversidades dan al hombre mejor doctrina para ser cauto que las prosperidades
+               para ser templado, este caballero despertó en la adversidad su buen entendimiento y
+               conoció como dende adelante viviese con más seguridad y menos peligro.</p>
+            <p>Hablaba con buena gracia y con tales razones traídas a propósito, que todos habían
+               placer de le oír. Era temeroso de Dios y hombre de verdad e inclinado a justicia. La
+               cual, como sea dividida en partes, una de las cuales se dice legal, porque es
+               instituida por ley; otra igual, que la razón natural nos manda seguir, puédese por
+               cierto creer de este caballero que ni falleció en lo que manda la razón natural, ni
+               era transgresor de lo escrito por ley, antes fue un tan gran celador de la justicia,
+               que no se puede decir otro en sus tiempos que con tan gran estudio la mirase, ni con
+               mejor diligencia y moderación la cumpliese y ejecutase. Y esta virtud mostró bien en
+               la gobernación de sus villas y logares y otras muchas tierras que tovo en
+               administración, porque allende del derecho que igualmente hacía guardar de unos y
+               otros, dio tal forma en sus tierras, que los ministros que ponía en la justicia de
+               ellas eran <pb edRef="#FP_CVC_RAE2022" n="25"/>obligados de pagar todo el robo que en
+               el campo se hiciese a los moradores o a otra cualquier persona que pasase por ellas;
+               o dar el malhechor que lo hobiese hecho o perseguirlo hasta lo haber o dar razón
+               donde fuese receptado y defendido. Y luego que sabía el logar do estaba, hacía tales
+               diligencias, que había el malhechor y hacía justicia de él; o apremiaba en tal manera
+               al que lo receptaba, que le hacía restituir el robo y el robado quedaba satisfecho. </p>
+            <p>Y con esta diligencia que tenía en la justicia, sus tierras eran bien guardadas y
+               florecían entre todas las otras comarcanas. Tenía tierras vecinas a las montañas y,
+               como quier que juntó en parentela con algunos de los caballeros de ellas, pero
+               conocida la gente ser turbulenta y presta al rigor, con tal prudencia los sopo
+               tratar, que en su tiempo no le alcanzó parte de algunos males que de sus disensiones
+               les vinieron, porque era varón inclinado a paz y enemigo de discordia y gran celador
+               del bien público, en la gobernación del cual le placía gastar el tiempo y el
+               trabajo.</p>
+            <p>Loan los <roleName>historiadores</roleName> a <persName>Bruto, <roleName>cónsul
+                     romano</roleName></persName>, que mató sus hijos porque contra el bien público
+               de <placeName>Roma</placeName> trataban de reducir al <persName>rey
+                  Tarquino</persName>. Y dicen que la gran codicia de loor venció al amor natural. Y
+               alega <persName>Virgilio</persName> que fue caso infelice. Y si infelice, no sé cómo
+               la infelicidad deba ser loada, ni qué loor puede conseguir aquel que repugna la
+               natura y contraría la razón. Podemos <pb edRef="#FP_CVC_RAE2022" n="26"/>bien creer
+               que este <roleName>cónsul</roleName>, si lo hizo con ira, fue mal, y si con
+               deliberación, peor, porque de muchos gobernadores castellanos leemos que, no matando
+               sus hijos, mas templando sus pasiones, sopieron muy bien gobernar sus tierras y
+               provincias. </p>
+            <p>Y este noble conde, no señoreando de ambición por haber fama en esta vida, mas
+               señoreando la tentación por haber gloria en la otra, governó la república tan
+               rectamente, que hobo el premio que suele dar la verdadera virtud. La cual conocida en
+               él, alcanzó tener tanto crédito y autoridad, que si alguna grande y señalada
+               confianza se había de hacer en el reino, quier de personas, quier de fortalezas o de
+               otra cosa de cualquier calidad, siempre se confiaba de él. Y en algunas diferencias
+               que el <persName>rey don Juan</persName> hobo con el <roleName>rey de
+                  Navarra</roleName> y con el <persName>infante don Enrique</persName>, sus primos,
+               y en algunos otros debates y controversias que los grandes del reino unos con otros
+               hobieron en su tiempo, si para se pacificar era necesario que los de la una parte y
+               de la otra se juntasen en algún lugar para platicar en las diferencias que tenían,
+               siempre se encomendaba la salvaguarda del tal lugar do se juntaban a este caballero;
+               y la una parte y la otra confiaban sus personas de su fe y palabra; y muchas veces se
+               remetían a su arbitrio y parecer. </p>
+            <p>Fue eso mismo hombre que por ganar honra deseaba hacer cosas magníficas. Y siguiendo
+               esta su condición, juntó muchas veces gran copia de gente de su casa, así para la
+               guerra contra los moros como para servir al <roleName>rey</roleName> y sostener el
+               estado y preeminencia real en las diferencias y guerras que en el reino acecieron. Y
+               esto hizo en lugares y tiempos tan necesarios que, como quier que sufrió grandes
+               miedos y se puso a muchos discrímines y aventuras, pero al fin de sus trabajos ganó
+               gran honra y reputación, y su casa por respeto de sus servicios fue acrecentada.</p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="27"/>Quería llevar las cosas por orden y que no
+               saliesen punto de la razón. Y esta condición le hacía mirar tanto en los negocios y
+               poner tales dubdas e inconvenientes, que tarde y con gran dificultad se determinaba a
+               las hacer. Verdad es que tardío y ser súbito en la determinación de las cosas son dos
+               extremos que se deben huir. También es cierto que recibe alguna pena el que delibera,
+               en deliberar tarde; y el que espera, en esperar mucho. Pero, ciertamente por la mayor
+               parte vemos más y mayores inconvenientes en la persona y hechos de aquel que delibera
+               súbito que en el que es grave y tardío en sus movimientos. Porque si por deliberar
+               tarde se pierde alguna vez el bien que se podría haber, por determinar presto vimos
+               perder muchas veces el bien habido; y acarrear tales mudanzas y vanidades que afean
+               la persona y pierden la honra.</p>
+            <p>Era deseoso, como todos los hombres, de haber bienes, y sópolos adquerir, acrecentar
+               y muy bien conservar. Era asimismo reglado en sus gastos continuos; y con tanta
+               diligencia miraba a quién había de dar y cómo y por qué lo daba, que algunas veces
+               fallecía en la virtud de la liberalidad. Era hombre esencial y no curaba de
+               apariencias, ni hacía muestras de lo que tenía, ni de lo que hacía. Aprendió letras
+               latinas y placíale el estudio de corónicas y saber hechos pasados. Placíale asimismo
+               la comunicación de personas religiosas y de hombres sabios, con las cuales comunicaba
+               sus cosas.</p>
+            <p>Al fin, veyéndose en los días de la vejez, porque hobo verdadero conocimiento de los
+               gozos falsos y de las miserias verdaderas que este mundo da a los que en él están
+               envueltos, apartóse de él, y puso fin a todas las cosas mundanas, y encomendó su casa
+               y <pb edRef="#FP_CVC_RAE2022" n="28"/>toda su gente de armas a su hijo mayor. Y fundó
+               en la su villa de <placeName>Medina de Pumar</placeName> un monesterio de
+                  <roleName>monjas de la orden de santa Clara</roleName> y un hospital para pobres;
+               y dotóles de lo que les era necesario. Y, allí, de su voluntad, se retrujo, antes que
+               muriese, por espacio de <date>diez años</date>. Y como quier que fue requerido
+               algunas veces por el <date>rey</date>, e por otros grandes señores sus parientes, que
+               saliese de aquel retraimiento para entender en las disensiones que en aquellos
+               tiempos acaecieron en el reino, no quiso mudar su propósito. Antes, acordó de tomar
+               en su casa compañía de hombres religiosos de buena y honesta vida; e hizo grande y
+               estrecha inquisición sobre las cosas de su conciencia desde el día que fue de hedad
+               para pecar, e cometióles que alimpiasen su conciencia desde el día que fue de edad
+               para pecar. Y cometióles que alimpiasen su ánima, así en la penitencia de su persona
+               como en la restitución que debían hacer de sus bienes. Y todos los que en aquellos
+               tiempos venieron a le demandar cualquier cargo, así de servicios que le hobiesen
+               hecho como de otra cualquier calidad a que de justicia fuese obligado, fueron oídos y
+               satisfechos. </p>
+            <p>Y al cabo de haber hecho su penitencia y restituciones, dejó su casa y patrimonio a
+               su hijo mayor, que fue <roleName>condestable de Castilla</roleName>. <pb
+                  edRef="#FP_CVC_RAE2022" n="29"/>Y dejó otros dos hijos heredados y en buen estado.
+               Y dando doctrina de honrado vevir y ejemplo de bien morir, feneció en edad de
+                  <date>setenta años</date>, dentro en aquel monesterio que fundó.</p>
+         </div>
+
+         <div type="bio" xml:id="cvc_04_lope_mendoza_santillana">
+            <head>El Marqués de Santillana</head>
+            <p>Don <persName>Íñigo López de Mendoza, <roleName>marqués de Santillana</roleName> y
+                     <roleName>conde del Real de Manzanares</roleName>, <roleName>señor de la casa
+                     de la Vega</roleName></persName>, hijo del
+                     <persName><roleName>almirante</roleName> don Diego Hurtado de
+                  Mendoza</persName> y nieto de <persName>Pero González de Mendoza, <roleName>señor
+                     de Álava</roleName></persName>, fue hombre de mediana estatura, bien
+               proporcionado en la compostura de sus miembros y hermoso en las facciones de su
+               rostro; de linaje noble castellano y muy antiguo. </p>
+            <p>Era hombre agudo y discreto, y de tan gran corazón, que ni las grandes cosas le
+               alteraban, ni en las pequeñas le placía entender. En la continencia de su persona y
+               en el resonar de su habla mostraba ser hombre generoso y magnánimo. Hablaba muy bien
+               y nunca le oían decir palabra que no fuese de notar, quier para doctrina quier para
+               placer. Era cortés y honrador de todos los que a él venían, especialmente de los
+               hombres de ciencia. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="30"/>Muertos el <roleName>almirante</roleName>, su
+               padre, y doña <persName>Leonor de la Vega</persName>, su madre, y quedando bien
+               pequeño de edad, le fueron ocupadas las <placeName>Asturias de Santillana</placeName>
+               y gran parte de los otros sus bienes. Y como fue en edad que conoció ser defraudado
+               en su patrimonio, la necesidad que despierta el buen entendimiento, y el corazón
+               grande que no deja caer sus cosas, le hicieron poner tal diligencia, que, veces por
+               justicia, veces por las armas, recobró todos sus bienes. </p>
+            <p>Fue muy templado en su comer y bever; y en esto tenía una singular continencia. Tovo
+               en su vida dos notables ejercicios: uno en la disciplina militar; otro en el estudio
+               de la ciencia. Y ni las armas le ocupaban el estudio, ni el estudio le impedía el
+               tiempo para platicar con los caballeros y escuderos de su casa en la forma de las
+               armas necesarias para defender; y cuáles habían de ser para ofender; y cómo se había
+               de herir el enemigo; y en qué manera habían de ser ordenadas las batallas y la
+               dispusición de los reales; y cómo se habían de combatir y defender las fortalezas y
+               las otras cosas que requiere el ejercicio de la caballería. Y en esta plática se
+               deleitaba por la gran habituación que en ella tovo en su mocedad. Y porque los suyos
+               supiesen por expiriencia lo que le oían decir por doctrina, <pb
+                  edRef="#FP_CVC_RAE2022" n="31"/>mandaba continuar en su casa justas; y ordenaba
+               que se hiciesen otros ejercicios de guerra, porque sus gentes, estando habituados en
+               el uso de las armas, les fuesen menores los trabajos de la guerra. </p>
+            <p>Era caballero esforzado, y antes de la facienda, cuerdo y templado; puesto en ella,
+               ardit y osado. Y ni su osadía era sin tiento, ni en su cordura se mezcló jamás punto
+               de cobardía. Fue capitán principal en muchas batallas que hobo con cristianos y con
+               moros, donde fue vencedor y vencido. Especialmente hobo una batalla contra los
+               aragoneses cerca de <placeName>Araviana</placeName> y otra batalla cerca del
+                  <placeName>río de Torote</placeName>; y estas dos batallas fueron muy heridas y
+               sangrientas, porque, peleando y no huyendo, murieron de ambas partes muchos hombres y
+               caballos. En las cuales, porque este caballero se halló en el campo con su gente,
+               aunque los suyos vido ser en número mucho menor que los contrarios, pero, porque
+               veyendo al enemigo delante, reputaba a mayor mengua bolver las espaldas sin pelear
+               que morir o dejar el campo peleando, cometióse a la fortuna de la batalla; y peleó
+               con tanto vigor y esfuerzo, que, como quier que fue herido y vencido, pero su persona
+               ganó honra y reputación de valiente capitán. </p>
+            <p>Conocidas por el <persName>rey don Juan</persName> las habilidades de este caballero,
+               lo envió por <roleName>capitán</roleName> de la guerra contra los moros —el cual
+               recibió el cargo con alegre cara— y lo tovo en la frontera gran tiempo. El cual hobo
+               con el <roleName>rey de Granada</roleName> y con otros capitanes de aquel reino
+               muchas batallas y grandes recuentros, do fue siempre vencedor. E hizo muchas talas en
+               la <placeName>vega de Granada</placeName>; y ganó por fuerza <pb
+                  edRef="#FP_CVC_RAE2022" n="32"/>de armas la villa de
+               <placeName>Huelma</placeName>; y puso los moros en tal estrecho, que ganara otros
+               logares e hiciera otras grandes hazañas dignas de memoria, salvo que el
+                  <roleName>rey</roleName>, constreñido por algunas necesidades que en aquel tiempo
+               ocurrieron en su reino, le envió mandar de su parte les diese tregua. Y como hobo
+               esta comisión, hizo la guerra tan cruda a los moros, que los puso so el yugo de
+               servidumbre y los apremió a dar en parias cada año mayor cantidad de oro de la que el
+                  <roleName>rey</roleName> esperaba recibir, ni ellos jamás pensaron dar. Y allende
+               del oro que dieron, les constreñió que soltasen todos los cristianos que estaban
+               cativos en tierra de moros; los cuales, este <roleName>marqués</roleName> redemió del
+               cativerio en que estaban y los puso en libertad. </p>
+            <p>Gobernaba asimismo con gran prudencia las gentes de armas de su capitanía; y sabía
+               ser con ellos señor y compañero; y ni era altivo en el señorío, ni raez en la
+               compañía. Y daba liberalmente todo lo que a él como capitán mayor pertenecía de las
+               presas que se tomaban; y, allende, de aquello, les repartía de lo suyo en los tiempos
+               necesarios. Y al que le regradecía las dádivas, solía dezir: «Si deseamos bienes al
+               que bien nos da, debémoslos dar al que bien nos desea». Y guardando su continencia
+               con graciosa liberalidad, las gentes de su capitanía le amaban y, temiendo de le
+               enojar, no salían de su orden en las batallas. </p>
+            <p>Loan mucho las historias romanas el caso de <persName>Manlio Torcato</persName>,
+                  <roleName>cónsul romano</roleName>, el cual, como constituyese que ninguno sin su
+               licencia saliese de la hueste a pelear con los latinos contrarios de <pb
+                  edRef="#FP_CVC_RAE2022" n="33"/><placeName>Roma</placeName>, y un caballero de la
+               hueste contraria convidase a batalla singular de uno por uno al hijo de este
+                  <roleName>cónsul</roleName>, vituperando con palabras a él y a los de la hueste
+               porque no osaban aceptar la batalla, no podiendo el mancebo sofrir la mengua que de
+               su mengua resultaba a los <name>romanos</name>, peleó con aquel caballero y lo mató.
+               Y viniendo como vencedor a se presentar con los despojos del vencido ante el
+                  <roleName>cónsul</roleName>, su padre, le hizo atar y, contra voluntad de toda la
+               hueste romana, le mandó degollar, porque fuese ejemplo a otros que no osasen ir
+               contra los mandamientos de su <roleName>capitán</roleName>. !Cómo si no hobiese otro
+               remedio para tener la hueste bien mandada sino matar el <roleName>capitán</roleName>
+               su fijo! Dura debiera ser y muy pertinaz la rebelión de los <name>romanos</name>,
+               pues tan cruel ejemplo les era necesario para que fuesen obedientes a su
+                  <roleName>capitán</roleName>. E por cierto, yo no sé qué mayor venganza pudo haber
+               el padre del latino vencido, de la que le dio el padre del romano vencedor. De este
+               caso hacen gran mención <persName>Frontino</persName> y <persName>Valerio
+                  Máximo</persName> y otros <roleName>historiadores</roleName>, loando al padre de
+               buen castigador y al hijo de buen vencedor. Pero yo no sé cómo se deba loar el padre
+               de tan cruel castigo como el hijo se queja; ni cómo loemos al hijo de tan gran
+               transgresión, como el padre le impone. Bien podemos decir que hizo este
+                  <roleName>capitán</roleName> crueldad digna de memoria, pero no doctrina digna de
+               ejemplo, ni mucho menos digna de loor, pues los mismos loadores dicen que fue triste
+               por la muerte del hijo y aborrecido de la joventud romana todo el tiempo de su vida.
+               Y no puedo entender cómo el triste y aborrecido deba ser loado. </p>
+            <p>No digo yo que las constituciones de la caballería no se deban guardar —por los
+               inconvenientes generales que no se guardando pueden recrecer—, pero digo que deben
+               ser entendidas, menguadas, interpretadas y en alguna manera templadas por el
+               príncipe, habiendo respeto al tiempo, al logar, a la persona y a las otras
+               circunstancias <pb edRef="#FP_CVC_RAE2022" n="34"/>y nuevos casos que acaecen, que
+               son tantos y tales, que no pueden ser comprendidos en los renglones de la ley. Y
+               porque estas cosas fueron bien consideradas por este claro varón en las huestes que
+               gobernó, con mayor loor, por cierto, y mejor ejemplo de doctrina se puede hacer
+               memoria de él, pues sin matar hijo ni hacer crueldad inhumana, mas con la autoridad
+               de su persona, y no con el miedo de su cuchillo, gobernó sus gentes, amado de todos y
+               no odioso a ninguno. </p>
+            <p>Conocidas por el <persName>rey don Juan</persName> las claras virtudes de este
+               caballero, y cómo era digno de dignidad, le dio título de <roleName>marqués de
+                  Santillana</roleName> y le hizo <roleName>conde del <placeName>Real de
+                     Manzanares</placeName></roleName>, y le acrecentó su casa y patrimonio. Otrosí
+               confiaba de él su persona y algunas veces la gobernación de sus reinos. El cual
+               gobernaba con tanta prudencia, que los poetas decían por él que en corte era gran
+                  <persName>Febo</persName>, por su clara gobernación, y en campo
+                  <persName>Aníbal</persName>, por su gran esfuerzo. </p>
+            <p>Era muy celoso de las cosas que a varón pertenecía hacer; y tan reprensor de las
+               flaquezas que veía en algunos hombres que, como viese llorar a un caballero en el
+               infortunio que estaba, movido con alguna ira, le dijo: «¡O, cuán digno de reprensión
+               es el caballero que por ningún grave infortunio derrama lágrimas sino a los pies del
+               confesor!». Era hombre magnánimo, y esta su magnanimidad le <pb
+                  edRef="#FP_CVC_RAE2022" n="35"/>era ornamento y compostura de todas las otras
+               virtudes. Acaecióle un día que, hablándole en su hacienda y ofreciéndole
+               acrecentamiento de sus rentas, como hombre poco atento en semejantes pláticas,
+               respondió: «Eso que decís no es mi lenguaje. Hablad —dijo él— esa cosa allá con
+               hombres que mejor la entiendan». Y solía decir a los que procuraban los deleites, que
+               mucho más deletable debía ser el trabajo virtuoso, que la vida sin virtud, cuanto
+               quier que fuese deletable. Tenía una tal piedad, que cualquier atribulado o
+               perseguido que venía a él hallaba defensa y consolación en su casa, pospuesto
+               cualquier inconveniente que por le defender se le pudiese seguir. Consideraba
+               asimismo los hombres y las cosas según su realidad y no según la opinión. Y en esto
+               tenía una virtud singular y cuasi divina, porque nunca le vieron hacer acepción de
+               personas; ni miraba dónde ni quién, sino cómo y cuál era cada uno. </p>
+            <p>Este caballero ordenó en metros los <title>Proverbios</title> que comienzan: «Hijo
+               mío mucho amado», <foreign>et caetera</foreign>, en los cuales se contienen casi
+               todos los preceptos de la filosofía moral que son necesarios para virtuosamente
+               vevir. Tenía gran copia de libros y, según he dicho, dábase al estudio, especialmente
+               de la filosofía moral y de cosas peregrinas y antiguas. Tenía siempre en su casa
+               doctores y maestros con quien platicaba en las ciencias y lecturas que estudiaba.
+               Hizo asimismo otros tratados en metros y en prosa muy dotrinables <pb
+                  edRef="#FP_CVC_RAE2022" n="36"/>para provocar a virtudes y refrenar vicios. Y en
+               estas cosas pasó lo más del tiempo de su retraimiento. Tenía gran fama y claro
+               renombre en muchos reinos fuera de <placeName>España</placeName>, pero reputaba mucho
+               más la estimación entre los sabios que la fama entre los muchos.</p>
+            <p>Y porque muchas veces vemos responder la condición de los hombres a su complexión, y
+               tener siniestras inclinaciones aquellos que no tienen buenas complexiones, podemos
+               sin duda creer que este caballero fue en gran cargo a Dios por le haber compuesto la
+               natura de tan egual complexión, que fue hábile para recibir todo uso de virtud y
+               refrenar, sin gran pena, cualquier tentación de pecado. No quiero negar que no
+               toviese algunas tentaciones de las que esta nuestra carne suele dar a nuestro
+               espíritu; y que algunas veces fuese vencido, quier de ira, quier de lujuria; o que
+               excediese haciendo o faltase alguna vez no haciendo lo que era obligado, porque
+               estando, como estovo, envuelto en guerras y en otros grandes hechos que por él
+               pasaron, difícile fuera, entre tanta multitud de errores, vevir sin errar. Pero si
+               verdad es que las virtudes dan alegría y los vicios traen tristeza, como sea verdad
+               que este caballero lo más del tiempo estaba alegre, bien se puede juzgar que mucho
+               más fue acompañado de virtudes que dan alegría, que señoreado de vicios que ponen
+               tristeza. Y como quiera que pasaron por él infortunios en batallas, y hobo algunos
+               pesares por muertes de hijos y de algunos otros, sus propincos, pero sufríalos con
+               aquella fuerza de ánimo que a otros doctrinaba que sufriesen. </p>
+            <p>Feneció sus días en edad de <date>sesenta y cinco años</date> con gran honra y
+               prosperidad. Y si se puede decir que los hombres alcanzan alguna felicidad después de
+               muertos, según la opinión de algunos, creeremos, sin duda, que este caballero la
+               hobo, porque dejó seis hijos varones, <pb edRef="#FP_CVC_RAE2022" n="37"/>y el mayor
+               que heredó su <roleName>mayorazgo</roleName>, lo acrecentó y subió en dignidad de
+                  <roleName>duque</roleName>; y el segundo hijo fue <roleName>conde de
+                  Tendilla</roleName>; y el tercero fue <roleName>conde de Coruña</roleName>; y el
+               cuarto fue <roleName>cardenal de España</roleName> y <roleName>arzobispo de
+                  Toledo</roleName> y <roleName>obispo de Sigüenza</roleName>, y uno de los mayores
+               perlados que en sus días hoboo en la Iglesia de Dios Y a estos cuatro y a los otros
+               dos menores, que se llamaron don <persName>Juan</persName> y don
+                  <persName>Hurtado</persName>, dejó villas y lugares y rentas de que hizo cinco
+               casas de mayorazgos, y allende de su casa y mayorazgo principal. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_05_alvarez_toledo">
+            <head>Don Fernán Álvarez de Toledo, Conde de Alba</head>
+
+            <p>Don <persName>Fernán Álvarez de Toledo, <roleName>conde de
+               Alba</roleName></persName>, hijo de <persName>Garci Álvarez de Toledo</persName> y
+               nieto de <persName>Fernán Álvarez</persName>, era de linaje noble, de los antiguos
+               caballeros de aquella ciudad. Hombre de buen cuerpo y de hermosa dispusición;
+               gracioso y palanciano en sus fablas. Era de buen entendimiento y caballero esforzado.
+               Fue criado en la disciplina militar y siempre, desde su moçedad, deseó hacer en el
+               hábito de la caballería cosas dignas de loable memoria. </p>
+            <p>Conocidas por el <persName>rey don Juan</persName> las habilidades de este caballero,
+               le encomendó la frontera de los moros, en la cual estovo por espacio de <date>tres
+                  años</date>. Era muy cauto y astuto en los engaños de la <pb
+                  edRef="#FP_CVC_RAE2022" n="38"/>guerra. Venció al <roleName>rey moro</roleName> y
+               a otros <roleName>capitanes de <placeName>Granada</placeName></roleName> en batallas
+               campales, y tomó las banderas de los enemigos en los vencimientos que hobo, las
+               cuales están hoy puestas en la su casa de <placeName>Alba de Tormes</placeName> y las
+               traen sus sucesores en las orladuras de sus armas. Ganó algunos astillos y lugares de
+               tierra de moros. Tomó muchas presas, e hizo notables hazañas en servicio de Dios y
+               del rey y con amor de su patria y celo de su honra. </p>
+            <p>Entre las cuales acaeció que, entrando una vez en el <placeName>reino de
+                  Granada</placeName> con toda la gente de su capitanía a hacer guerra en una tierra
+               que dicen el <placeName>Ejerquía</placeName>, que es cercana a la mar y confina con
+               la ciudad de <placeName>Málaga</placeName>, como fuese sentido por los moros que en
+               aquellas partes moran, juntáronse gran multitud de ellos, y antes que se pudiese
+               proveer, le cercaron por todas partes en un valle tal, que, según la dispusición de
+               la tierra, no podía salir, salvo peleando por un lugar muy estrecho y con gran daño
+               suyo y de las gentes de su capitanía. Veyéndose cercado este capitán, por la una
+               parte, de la mar, por la otra, de las sierras, y que los enemigos se le llegban y
+               habían tomado aquel paso por d podía salvar su gente, conocido aquel peligro y visto
+               cómo su gente desmayaba, no se le amortiguó <pb edRef="#FP_CVC_RAE2022" n="39"/>el
+               ánimo en el tiempo del terror, como hace a los cobardes, mas despertó esfuerzo de
+               valiente capitán, como hacen los varones fuertes, y habló a sus gentes: «Caballeros
+               —dijo él—, en tal lugar nos ha puesto la fortuna, que, si somos cobardes, tenemos
+               cierta la muerte y el cativerio; y si somos esforzados, podrá ser cierta la vida y la
+               honra. Yo —dijo él— elijo antes pelear para nos salvar si pudiéremos, que rendirnos
+               para ser cativos, como piensan los moros». Y juntando a gran priesa la obra con las
+               palabras, se apeó con hasta treinta hombres de armas; y púsose con ellos en aquel
+               portillo; y mandó salir por él toda su gente. Y él con aquellos treinta, peleando con
+               los moros y sufriendo por todas partes gran multitud de saetadas y lanzadas y otros
+               golpes de piedra, dábase priesa con gran ardideza, a una parte, para se defender, y a
+               otra, para ofender y herir en los moros, haciendo lugar para que pasase toda su
+               gente; la cual peleaba en la pasada con los moros que hallaba delante, y aquel caía
+               muerto que menos esfuerzo tenía peleando. Y así duró aquella priesa por espacio de
+               tres horas, en las cuales murieron y fueron heridos muchos de la una parte y de la
+               otra. Y, al fin, el conde, vista ya su gente en lugar seguro, cabalgó a caballo y
+               salió él y los que con él estaban por pura fuerza de armas y de corazón de aquel gran
+               peligro en que la fortuna le había metido. </p>
+            <p>Y ciertamente vemos por experiencia que, así como el miedo derriba al cobarde, así
+               pone ánimo al hombre esforzado. Y como el acometer y el durar en las lides son dos
+               atos pertenecientes a la virtud de la fortaleza, y para el acometer sea necesario la
+               ira, y para el durar, el tiento, bien nos mostraron, por cierto, las claras hazañas
+               de este caballero que tovo gracia singular para usar de lo uno y de lo otro, de cada
+               cosa en sus tiempos. Esta hazaña hizo este conde, en la <pb edRef="#FP_CVC_RAE2022"
+                  n="40"/>cual nos dio a conocer que la virtud de la fortaleza no se muestra en
+               guerrear lo flaco, mas parece en resistir lo fuerte; y que tovo tan buen ánimo para
+               no ser vencido como buena fortuna para ser vencedor. </p>
+            <p>Al fin, cuando por mandado del rey dejó el cargo de aquella guerra, habidas en ella
+               grandes presas de los moros y venido a su tierra con honra y provecho, don <persName>
+                  Gutierre de Toledo</persName>, su tío, <roleName>arzobispo que fue de
+                  Toledo</roleName>, conocida la gran suficiencia de este caballero, su sobrino, y
+               cómo siempre le servió y en todas las cosas le fue obediente, concibió de él gran
+               amor, allende del que por razón del deudo era constreñido de le haber. Y como quier
+               que tenía otros sobrinos en el grado que aquel era, deliberó dejarle por heredero
+               universal de todos sus bienes, entre los cuales le dio la su villa de <placeName>Alba
+                  de Tormes</placeName>, de la cual el <persName>rey don Juan</persName> le dio
+               título de conde. Y en todas las guerras y diferencias del reino fue de los
+               principales caballeros de quien se hacía cuenta y estimación. </p>
+            <p>Y como vemos que la prosperidad y el infortunio andan en esta vida luchando con los
+               hombres, y veces lo uno sube, veces lo otro deciende, acaeció que, estando en la
+               amistad y parcialidad del <persName><roleName>condestable</roleName> don Álvaro de
+                  Luna</persName>, <roleName>maestre de Santiago</roleName>, y a quien el
+                  <persName>rey don Juan</persName> confiaba la gobernación de sus reinos, el
+               maestre tovo manera que este conde fuese preso juntamente con otros condes y
+               caballeros que el rey mandó prender en la villa de
+               <placeName>Tordesillas</placeName>, y fuele tomada gran parte de su patrimonio. Este
+               infortunio que le vino sufrió con buena cara, mostrando corazón de varón, pero
+               quejábase gravemente de haber recibido aquel daño por voluntad y rodeo del
+                  <roleName>maestre de Santiago</roleName>, confiándose de él y habiéndole hecho
+               obras de amigo. </p>
+            <p>Fue hombre deseoso de alcanzar honra y procurábala por todas las vías que podía.
+               Tenía la codicia común que los hombres tienen de haber bienes y trabajaba mucho por
+               los adquerir. Era hombre <pb edRef="#FP_CVC_RAE2022" n="41"/>liberal, así en el
+               destribuir de los bienes como en los otros negocios que le ocurrían; y sin empacho
+               ninguno daba o determinaba presto lo que había de hacer. En algunas cosas era airado
+               y mal sufrido, especialmente en aquellas que entendía tocarle en la honra, de lo cual
+               se le siguieron algunos debates, gastos y fatigas. </p>
+            <p>Duró en la prisión do estava hasta que el <persName>rey don Juan</persName> murió y
+               reinó el <persName>rey don Enrique</persName>, su hijo, que le puso en libertad y
+               restituyó todos sus bienes. Y después de suelto, vivió en honra y prosperidad algunos
+               años hasta que murió en su casa, conociendo a Dios y dejando a su hijo su casa y
+               patrimonio mucho más acrecentada que lo él hobo de su padre. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_06_pacheco">
+            <head>Don Juan Pacheco, Maestre de Santiago</head>
+            <p>Don <persName>Juan Pacheco, <roleName>marqués de Villena</roleName> y
+                     <roleName>maestre de Santiago</roleName></persName>, hijo de <persName>Alfonso
+                  Téllez Girón</persName>, fue hombre de mediana estatura, el cuerpo delgado y bien
+               compuesto, las facciones hermosas y buena gracia en el gesto. Era de nación
+               portuguesa, de los más nobles de aquel reino; nieto de don <persName>Martín Vásquez
+                  de Acuña</persName>, uno de los caballeros que venieron de Portugal a Castilla a
+               servicio del <persName>rey don Juan</persName>, el que fue vencido en la batalla de
+                  <placeName>Aljubarrota</placeName>. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="42"/>Era hombre agudo y de gran prudencia. Y seyendo
+               mozo, vino a vivir con el <persName>rey don Enrique</persName>, cuando era príncipe,
+               y alcanzó tanta gracia, que fue más acepto a él que ninguno de los que en aquel
+               tiempo estaban en su servicio. Y así por el amor que el príncipe le había, como
+               porque, creciendo en días, florecían en él las virtudes inteletuales, le encargó la
+               gobernación de los grandes negocios que le ocurrían. </p>
+            <p>Hablaba con muy buena gracia y abundaba en razones sin prolijidad de palabras.
+               Temblábale un poco la voz por enfermedad accidental y no por defecto natural. En la
+               edad de mozo tovo seso y autoridad de viejo. Era hombre esencial y no curaba de
+               aparencias ni de cirimonias infladas. </p>
+            <p>En el tiempo que el <persName>rey don Juan</persName> hobo alguna indignación contra
+               el <roleName>rey de Aragón</roleName>, que entonces era <roleName>rey de
+                  Navarra</roleName>, y con otros algunos caballeros, sus súbditos, este caballero,
+               seyendo bien mancebo, entendió por parte del príncipe en algunas disensiones que por
+               estonces en el reino acaescieron. Y ora procediese de su buena dicha, ora lo
+               imputemos a su sagacidad, él sopo rodear las cosas de tal manera, que el
+                  <persName>rey don Juan</persName>, a suplicación del príncipe, le dio título de
+                  <roleName>marqués de Villena</roleName> y en pocos días le hizo merced de todas
+               las más villas y lugares de aquel marquesado, las que eran del <roleName>rey de
+                  Aragón</roleName>. </p>
+            <p>Tenía muy gran habilidad para la gobernación de estas cosas temporales, para la cual,
+               como sean necesarias agudeza, prudencia, <pb edRef="#FP_CVC_RAE2022" n="43"
+               />diligencia y sufrimiento, puédese creer de este caballero que fue tan bien dotado
+               de estas cuatro cosas como el hombre que más en su tiempo las pudo tener. Consideraba
+               muy bien la calidad del negocio, el tiempo, el lugar, la persona y las otras
+               circunstancias que la prudencia debe considerar en la gobernación de las cosas. </p>
+            <p>Tenía la agudeza tan viva, que a pocas razones conocía las condiciones y los fines de
+               los hombres; y dando a cada uno esperanza de sus deseos, alcanzaba muchas veces lo
+               que él desaba. Tenía tan gran sufrimiento, que ni palabra áspera que le dijesen le
+               movía, ni novedad de negocio que oyese le alteraba; y en el mayor discrimen de las
+               cosas tenía mejor arbitrio para las entender y remediar. Era hombre que con madura
+               deliberación determinaba lo que había de hacer; y no forzaba al tiempo, mas forçava a
+               sí mismo esperando tiempo para las hacer. De su natural condición pareció hombre de
+               verdad. Y placíale comunicación de hombres verdaderos y constantes; aunque los que
+               están en deseo de adquerir grandes bienes y honores, y especialmente aquellos que
+               entienden en la gobernación de grandes cosas, algunas veces les acaece fengir,
+               dilatar, simular y disimular y que la diversidad de los tiempos o la variedad de los
+               negocios; o por escusar mayores daños, o por haber mayores provechos, hayan de hacer
+               variaciones en los negocios, según la ven en los tiempos. </p>
+            <p>Tovo algunos amigos de los que la próspera fortuna suele traer. Tovo asimismo muchos
+               contrarios de los que la invidia de los bienes suele criar, los cuales le trataron
+               muerte y destruición e indignación grande con el <persName>rey don Juan</persName> y
+               con el príncipe, su hijo, <pb edRef="#FP_CVC_RAE2022" n="44"/>a quien servía. Y
+               comoquier que algunas veces llegaron al punto de la ejecución, pero por casos
+               inopinados y dignos de admiración fue libre de los lazos de muerte que muchas veces
+               le fueron puestos. </p>
+            <p>Era hombre de buen corazón y mostró ser caballero esforzado en algunos lugares que
+               fue necesario. Era muy sobrio y templado en su comer y beber; y pareció ser vencido
+               de la lujuria por los muchos hijos e hijas que hobo de diversas mujeres, allende de
+               los que hobo en su muger legítima. Y porque conocía que ninguna utilidad hay en estos
+               bienes de fortuna cuando no se reparten y distribuyen según deben, usaba de ellos
+               francamente en los logares y tiempos y con las personas que debía ser liberal; y
+               dando y distribuyendo, ganaba más y conservaba mejor. Y con esta virtud de
+               liberalidad que tovo, fue bien servido de los suyos y avisado de los extraños en
+               algunos tiempos y lugares, que complió mucho a la conservación de su vida y estado. </p>
+            <p>Tenía el común deseo que todos tenemos de alcanzar honras y bienes temporales, y
+               súpolas muy bien procurar y adquerir. Y quier fuese por dicha, quier por habilidad, o
+               por ambas cosas, alcanzó tener mayores rentas y estado que ninguno de los otros
+               señores de <placeName>España</placeName> que fueron en su tiempo. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="45"/>Fue hombre tratable y de dulce conversación; y
+               tanto humano, que nunca fue en muerte de ninguno, ni la consentió, aunque tovo cargo
+               de gobernación. No era varón de venganzas, ni perdía tiempo ni pensamiento en las
+               seguir. Decía él que todo hombre que piensa en venganza antes atormenta a sí que daña
+               al contrario. Perdonaba ligeramente y era piadoso en la ejecución de la justicia
+               criminal, porque pensaba ser más aceptable a Dios la gran misericordia que la extrema
+               justicia. Tenía un tal singular sufrimiento, que, por gran discordia que hobiese con
+               alguno, raras veces le vieron romper en palabras y mucho menos en obras; antes ponía
+               siempre sus diferencias en trato de concordia que en rigor ni rotura, porque reputaba
+               ser mejor cierta paz, que incierta victoria. No quería encomendar a la fortuna de una
+               hora todo lo habido en la vida pasada. Y como quier que algunas veces amenazaba con
+               la fuerza, pero nunca venía a mostrar lo último de lo que podía hacer contra ninguno,
+               aunque fuese menos poderoso que él; porque tener al adversario en miedo, con
+               amenazas, dicía él que era mucho mejor que quitárgelo mostrando el cabo de sus
+               fuerzas. Y teniendo sufrimiento, y esperando tiempo, alcanzó honra y acrecentó
+               bienes. </p>
+            <p>Y como vemos por experiencia la graveza grande que todos los mortales sienten en caer
+               del grado que se ven puestos; y las hazañas grandes y aventuras peligrosas a que se
+               ponen por lo conservar <pb edRef="#FP_CVC_RAE2022" n="46"/>y no caer; este caballero,
+               sentiendo que su estada cerca de la persona del <persName>rey don Enrique</persName>
+               no le era segura, por el peligro de la muerte y destruición que otros que estaban
+               aceptos al rey pensó que le trataban, apartóse de su servicio. Y fue el principal de
+               los caballeros y perlados que hicieron división en el reino entre el <persName>rey
+                  don Enrique</persName> y el <persName>rey don Alfonso</persName>, su hermano. Y en
+               aquellas discordias sopo tener tales maneras, que fue elegido y proveído del
+                  <roleName>maestrazgo de Santiago</roleName>. </p>
+            <p>Y después que murió el <persName>rey don Alonso</persName>, conociendo este caballero
+               haber desviado del camino que debía seguir, mitigó y amansó cuanto pudo las
+               voluntades alteradas de los caballeros y perlados que aquella división querían
+               continuar. Y tornó en la gracia del <persName>rey don Enrique</persName>, el cual le
+               perdonó e hizo grandes mercedes de villas y lugares y otras grandes rentas; y confió
+               de él toda la gobernación de sus reinos Y donde en adelante, gobernó absolutamente y
+               con mayor esención y libertad que primero solía gobernar. </p>
+            <p>No quiero negar que, como hombre humano, este caballero no toviese vicios como los
+               otros hombres, pero puédese bien creer que, si la flaqueza de su humanidad no los
+               podía resistir, la fuerza de su prudencia los sabía disimular. Vivió gobernando, en
+               cualquier parte que estovo, por espacio de <date>treinta años</date>. Y murió en gran
+               prosperidad de edad de <date>cincuenta y cinco</date>. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_07_villandrando">
+            <pb edRef="#FP_CVC_RAE2022" n="47"/>
+            <head>El Conde don Rodrigo de Villandrando</head>
+
+            <p>Don <persName>Rodrigo de Villandrando, <roleName>conde de
+                  Ribadeo</roleName></persName>, fue hijo de un escudero de baja manera natural de
+               la villa de <placeName>Valladolid</placeName>; hombre de buen cuerpo, bien compuesto
+               en sus miembros y de muy recia fuerza. Las facciones del rostro tenía hermosas y la
+               catadura, feroce. </p>
+            <p>Seyendo de pocos días, su gran corazón y su buena constelación le llevaron mozo y
+               pobre y solo al reino de <placeName>Francia</placeName>, en el tiempo que en aquellas
+               partes había grandes guerras y divisiones y compañías de gente de armas. Y como en
+               aquellos tiempos de guerra concurrían en aquel reino hombres de todas partes, este
+               caballero, por ser dispuesto para los trabajos de la guerra, halló luego capitán que
+               le recibió en su compañía. En la cual aprobó tan bien seyendo mozo, y después, en las
+               cosas que hombre mancebo debe hacer, que ganó por las armas estimación de hombre
+               valiente y esforzado; y su capitán lo reputaba por tal entre entre todos los otros de
+               su capitanía. </p>
+            <p>Acaeció algunas veces que, estando las batallas en el campo, cuando algún hombre de
+               armas de la parte contraria, confiando en <pb edRef="#FP_CVC_RAE2022" n="48"/>sus
+               fuerzas, quería hacer armas y demandaba batalla uno por uno, este caballero se
+               mezclaba entre todos los otros de su parte; y presentes las batallas de la una parte
+               y de la otra, salía a pelear con el contrario; y le vencía y derribaba; y traía sus
+               armas y despojo a su capitán. Y esta victoria que algunas veces hobo le dio honra, la
+               cual, así como le puso en gracia y estimación de algunos, así le trojo en odio e
+               invidia de otros. La cual creció tanto, que por ser extranjero fue costreñido de se
+               apartar de su capitán.</p>
+            <p>Y comoquier que le fue grave de sofrir, pero como vemos muchas veces que los
+               infortunios de presente son causa de la prosperidad futura, según que las cosas de la
+               providencia lo suele rodear, este caballero, veyéndose solo de parientes,
+               desfavorecido de compañeros, sin arrimo de capitán, pobre de dineros y sin amigos y
+               en tierra ajena, no hobo otro refugio sino a su buen seso y gran esfuerzo. Y con otro
+               u otros dos que se llegaron a él, se aventuraba con buena destreza y gran osadía a
+               hacer saltos en la tierra de los contrarios en logares peligrosos; y hacíales guerra;
+               y tomaba alguna presa con que se podía sostener. Esto hizo muchas veces y con tanta
+               sagacidad y esfuerzo, que siempre salía en salvo. Y como la fama de su valentía y de
+               las presas que tomaba se divulgó por la tierra, llegáronse a él algunos hombres. Y
+               creciendo de día en día el corazón con las hazañas, y las hazañas con la gente, y la
+               gente con el interese, allegáronse a él muchas más gentes, hasta que alcanzó a ser
+               capitán, una vez, de mil hombres, y después de grado en grado subió su capitanía,
+               hasta ser capitán de diez mil hombres. Y su poder fue de los mayores que tenía
+               ninguno de los otros capitanes del <roleName>rey de Francia</roleName>, a quien
+               servía. Y con aquel su gran poder, robó, quemó, destruyó, derribó y despojó villas y
+               logares y pueblos de <placeName>Francia</placeName> en el tiempo que aquel miserable
+               reino padecía guerras crueles que duraron por tiempo de <date>cincuenta años</date>. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="49"/>Andaba lo más del tiempo en el campo, y ponía
+               gran diligencia en la guarda de los reales para que su gente no recibiese daño. Era
+               hombre airado en los lugares que convenía serlo; y mostraba tan gran ferocidad con la
+               ira, que todos le habían miedo. Tenía dos singulares condiciones ajenas de hombre
+               airado: la una era que hacía guardar la justicia entre la gente que tenía y no
+               consentía fuerza ni robo ni otro crimen; y si alguno lo cometía, él por sus manos lo
+               punía. E con esto, todas las gentes de su hueste, aunque eran muchas y de diversas
+               naciones y tenían oficio de robar, le temían y estaban en paz y no osaban cometer
+               fuerza ni crimen uno contra otro. Hacía, asimismo, repartir las presas egualmente,
+               según que cada uno lo debía haber, y de tal manera dividía lo robado por justicia,
+               que hacía durar los robadores en concordia. </p>
+            <p>Era asimismo hombre de verdad y el seguro que daba a cualquier villa o logar o
+               provincia, o cualquier pacto que ponía con ellos, guardábalo estrechamente Y si
+               alguno osaba quebrantar su seguro y robaba o hacía daño al que él seguraba, hacíale
+               buscar con gran diligencia y ejecutaba en él la justicia. Y con esta condición que en
+               él veían, muchos pueblos y provincias y otras personas singulares se fiaban de su
+               palabra y la compraban por grandes precios a fin de ser seguros de sus gentes. Y con
+               esto tenía sus reales bastecidos de viandas y armas y de todas las cosas necesarias,
+               porque mandaba guardar y pagar a los que venían a ellos con provisión; y su mando era
+               muy temido y complido. </p>
+            <p>Hobo muchas batallas con ingleses y con borgoñeses, en las cuales Dios le libró por
+               muchos casos de ser perdido y le ayudó por muchas maneras a ser vencedor.
+               Especialmente venció una batalla que hobo con el <roleName>príncipe de
+                  Orenja</roleName>, donde concurrió mucha <pb edRef="#FP_CVC_RAE2022" n="50"/>gente
+               de ambas partes. Esta batalla fue muy herida y sangrienta. En la cual, los que le
+               vieron pelear, le compararon a león bravo en el estrago que hacía en los contrarios y
+               el ayuda y esfuerzo que daba a los suyos. Y acabado de haber el vencimiento, tovo
+               esta astucia: habló con uno de los presioneros que tenía y prometióle libertad si le
+               descubriese el valor de los presioneros que las otras sus gentes habían tomado en la
+               batalla. Y como se informó secretamente de lo que cada uno podía valer, comprólos
+               todos, dando por cada uno mucho menor precio de lo que valían. Y como fueron puestos
+               en su poder, rescatólos a todos por mucho mayores precios de lo que le costaron. Y
+               con esta astucia hobo gran tesoro. Y la fortuna le puso en tan gran reputación, que
+               alcanzó casar con la hija del <roleName>duque de Borbón</roleName>, que era de la
+               sangre real de <placeName>Francia</placeName>. Y fue señor de veinte y siete villas
+               en la tierra de <placeName>Borbones</placeName>, dellas compradas y dellas ganadas. </p>
+            <p>Y en veinte años que seguió aquella guerra, hizo otras notables hazañas. Entre las
+               cuales acaeció que, un día, estando a punto de batalla con un gran capitán de
+                  <placeName>Inglaterra</placeName> que se llamaba <persName>Talabot</persName>, en
+               la provincia de <placeName>Guiana</placeName>, el capitán inglés, que por oídas
+               conocía las condiciones de este caballero, deseaba asimismo conocer su persona por
+               ver qué cuerpo y qué facciones tenía hombre que de tan pequeña manera había subido a
+               tan gran estado. Y como <pb edRef="#FP_CVC_RAE2022" n="51"/>por medio de sus harautes
+               acordasen de se hablar, dejadas el uno y el otro sus huestes en buena guarda, estos
+               dos capitanes solos se juntaron y vieron en la ribera de un río llamado
+                  <placeName>Lera</placeName>. Y el capitán <persName>Talabot</persName> le dijo
+               así: «Deseaba ver tu persona, pues tengo conscida tu condición. Ruégote —dijo él— que
+               pues los hados nos trujeron juntos a este lugar, que comamos sendos bocados de pan y
+               bebamos sendas veces de vino. Y después será la ventura de la batalla como a Dios
+               ploguiere y señor <persName> san Jorge</persName> ayudare». </p>
+            <p>Este <persName><roleName>capitán</roleName> Rodrigo</persName> le respondió: «Si otra
+               cosa no me quieres, esta, por cierto, no la quiero hacer, porque si la fortuna
+               dispusiere que hayamos de pelear, perdería gran parte de la ira que en la facienda
+               debo tener; y menos heriría mi hierro en los tuyos, nembrándome haber comido pan
+               contigo». Y deciendo estas palabras, volvió la rienda a su caballo y tornó para sus
+               batallas. Y el capitán <persName>Talabot</persName>, aunque era caballero muy
+               esforzado, concibió de aquellas palabras tal concepto, que, así por ellas, como por
+               la dispusición del logar do estaba, acordó de no pelear, aunque tenía mayor número de
+               gente que él. Afirmóse haber dicho este capitán en su lenguaje: «No es de pelear con
+               cabeza española en tiempo de su ira». Después de muchos tiempos de guerras y
+               destruiciones habidas en aquella tierra, hobo Dios piedad de los moradores de ella y
+               dio tales victorias al <persName>rey Carlos de Francia</persName>, que lanzó de todo
+               su reino al <persName>rey Eduarte de Inlatierra</persName>, su enemigo, y a todas sus
+               gentes; y fueron cesando las crudas guerras que en aquel reino había. Y en aquel
+               tiempo acaeció haber en <placeName>Castilla</placeName> grandes debates y
+               disensiones, para las cuales el <persName>rey don Juan</persName> envió llamado a
+               este caballero, su natural, que veniese en <placeName>Castilla</placeName> a le
+               servir con la más gente que pudiese. El cual vino a su llamamiento con cuatro mil
+               hombres a caballo; y el rey le recibió muy bien; y le hizo merced de la villa de
+                  <placeName>Ribadeo</placeName> y dióle título de conde de ella; e hízole otras <pb
+                  edRef="#FP_CVC_RAE2022" n="52"/>mercedes. Muerta la primera mujer francesa, casó
+               en <placeName>Castilla</placeName> con mujer noble de linaje de
+                  <roleName>Estúñiga</roleName>. Y el rey le puso en su consejo y hacía de él gran
+               confianza, especialmente de aquellas cosas que concernían a la guerra que por
+               estonces había en sus reinos. </p>
+            <p>Y acaeció que, como el rey, en tiempo de aquellas disensiones, fuese a la ciudad de
+                  <placeName>Toledo</placeName>, y los de aquella ciudad rebelasen contra él y le
+               cerrasen las puertas, puesto el rey en algún recelo de la gente de armas que a la
+               hora estaba apoderada de aquella ciudad, este <roleName>conde de Ribadeo</roleName>
+               hizo improviso en la <placeName>iglesia de San Lázaro</placeName>, que es bien cerca
+               de la ciudad, un palenque con tan gran defensa, que la persona del rey, con la poca
+               gente que por estonces con él estaba, podía ser segura y sin daño hasta que los
+               otros, sus capitanes y gentes de armas que venían en la rezaga hobieran tienpo de
+               llegar. Y por memoria perpetua de este servicio que hizo en el día señalado de la
+               Epifanía, el rey hizo merced a él y a sus descendientes de la ropa que él y los
+                  <roleName>reyes de Castilla</roleName> sus sucesores, vestiesen aquel día; de la
+               cual merced goza hoy su sucesor. </p>
+            <p>Y, al fin, veyéndose ya viejo y enfermo de dolencia tal que no podía escapar, Dios,
+               que ni deja al hombre sin punición, ni le niega su misericordia, le dio tiempo
+               esperando en que se corregiese, arrepintiendo. Y, por cierto, cosa fue maravillosa y
+               ejemplo digno de memoria a los mortales la gran contrición que hobo y el
+               arrepentimiento <pb edRef="#FP_CVC_RAE2022" n="53"/>de sus pecados y el derramar de
+               las lágrimas que hizo continuamente muchos días antes que muriese, llamando a Dios y
+               pidiéndole, con todo corazón, que le perdonase y hobiese merced de la su ánima. Y con
+               esta contrición y arrepentimiento feneció sus días en edad de setenta años. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_08_silva_cifuentes">
+            <head>El Conde de Cifuentes</head>
+
+            <p>Don <persName>Juan de Silva, <roleName>conde de Cifuentes y alférez mayor del pendón
+                     real</roleName></persName>, hijo de don <persName>Pero Tenorio,
+                     <roleName>adelantado de Cazorla</roleName></persName>, y nieto de
+                  <persName>Arias Gómez de Silva</persName>, fue hombre delgado y alto de cuerpo y
+               bien compuesto en la proporción de sus miembros La cara tenía larga y honesta; la
+               nariz, un poco luenga; tenía la lengua ceceosa. Era fijodalgo de limpia sangre. Sus
+               abuelos eran naturales de <placeName>Portugal</placeName>. Vivió en los tiempos del
+                  <persName>rey don Juan</persName>
+               <pb edRef="#FP_CVC_RAE2022" n="54"/>y del <persName>rey don Enrique</persName>, su
+               hijo; y mozo de pocos días vino al servicio del <persName>rey don Juan</persName>.
+               Tenía tan buena gracia en la manera de su servicio, que fue uno de los aceptos
+               servidores que el rey tovo.</p>
+            <p>Era hombre muy agudo y muy discreto e inclinado a justicia. Hablaba muy bien y cosas
+               muy sustanciales y conformes a la razón. Vista la autoridad de su persona y la
+               limpieza de su vevir, fue puesto en el Consejo del rey. </p>
+            <p>Y como acaece que en las cortes y en las casas reales concurren muchos hombres que
+               por diversas vías van tras sus deseos, y algunos porque les den, otros porque no les
+               quiten, loan lo que debrían callar y callan lo que debrían reprender; y si algunos
+               dicen cosa conforme a la razón, la dañan mezclándola con alguna pasión y odio de
+               personas, este caballero, teniendo una tan singular condición, que era muy claro, sin
+               ninguna encubierta, y realmente pospuesta toda afección y odio, decía con muy buena
+               gracia su parecer en las cosas y no dejaba de decir aquello que otros, o por
+               gratificar o por no indignar, callaban. Y como quier que su voto fuese contra el
+               deseo de algunos, pero porque sus hablas se mostraban proceder de buenas y no dañadas
+               entrañas, no eran mal recibidas. Y su persona por esta causa era muy estimada y su
+               parecer en las cosas, muy esperado. </p>
+            <p>Era gran celador del bien común y con todas sus fuerzas procuró muchas veces la
+               conservación del patrimonio real; y contradecía a los que, procurando sus intereses
+               particulares, ofendían al bien general. Y por esto hobo algunas molestias y trabajos
+               de los que suelen haber los favorecedores de la verdad Pero, al fin, seyendo
+               constante en el camino de la virtud, fue muy acatado y honrado; y el rey le hizo su
+               alférez mayor y le encargó grandes y arduos negocios, porque entendía que trataba
+               verdad y guardaba fidelidad. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="55"/>Acaeció en sus tiempos que todos los cristianos
+               príncipes se acordaron con los perlados y clerecía de hacer concilio en la ciudad de
+                  <placeName>Basilea</placeName>, que es en la alta <placeName>Alemania</placeName>,
+               sobre una gran cisma que por entonces había en la Iglesia de Dios entre el
+                  <persName>papa Eugenio</persName> y otro que se llamó <persName>Félix</persName>.
+               A la cual congregación, como todos acordasen enviar sus enbajadores -porque convenía
+               mostrarse en aquella congregación la magnificencia y poderío de los reyes-, el
+                  <persName>rey don Juan</persName>, conocida la suficiencia de este caballero; le
+               cometió esta embajada, y envió con él grandes letrados; y fue acompañado de mucha
+               compaña de hidalgos, con grandes y muy suntuosos arreos. Y así en sus hablas como en
+               la continencia de su persona, y en todos los otros actos que debe hacer hombre
+               discreto y de gran autoridad, guardó tan bien la honra del rey y de su tierra y de su
+               persona, que ninguno de cuantos embajadores que fueron en aquella congregación la
+               guardó mejor. </p>
+            <p>Y como acaeciese un día que el embajador del <roleName>rey de Inlatierra</roleName>
+               quisiese anticiparse a ocupar el lugar de la precedencia que al <roleName>rey de
+                  Castilla</roleName> pertenecía, no podiendo este caballero sofrir tiempo para que
+               se determinase por razón lo que veía llevar por fuerza, llegó a aquel embajador y,
+               puestas las manos en él, con gran osadía, le arrebató y echó de aquel lugar, y él se
+               puso en él. Visto este exceso hecho en el palacio de la congregación, la gente de
+               armas, que tenía la salvaguarda de la ciudad, se escandalizó y tentaron de proceder
+               contra él y contra los suyos por haber cometido cosa <pb edRef="#FP_CVC_RAE2022"
+                  n="56"/>de hecho, sin esperar determinación de derecho. Y este caballero, guardada
+               su autoridad, sin recibir alteración, insistió en su propósito. Y preguntado por el
+               caballero presidente de la justicia cómo había osado poner las manos en tan notable
+               embajador y de tan gran príncipe como era el <roleName>rey de Inlatierra</roleName>,
+               con ánimo no vencido, le respondió: «Dígoos, presidente, que cuando padece defecto la
+               razón, no deben faltar manos al corazón». Y con su gran osadía, junto con su buena
+               razón, fue guardada la preeminencia del rey y la honra del reino y fue amansado aquel
+               escándalo. Después de largo tiempo, concluidas las cosas, volvió al reino con fama de
+               hombre magnífico, porque fue muy franco en el distribuir; y de caballero esforzado,
+               porque mostró valentía en el osar; y de varón discreto, porque gobernó aquel cargo
+               con gran sagacidad y prudencia. </p>
+            <p>Venido al reino de <placeName>Castilla</placeName> y tornado al logar que tenía en el
+               Consejo del rey, entendió muchas veces -y con grandes trabajos del cuerpo y del
+               espíritu- en concordar al <persName>príncipe don Enrique</persName> con el rey, su
+               padre, y en excusar las grandes roturas que se esperaban sobre algunas diferencias
+               que entre ellos había. Y este sopo tratar con gran prudencia, persuadiendo la
+               obediencia que el hijo debía tener al padre y mitigando la indignación que el padre
+               tenía contra el hijo; y desviando las siniestras intenciones que había de la una
+               parte y de la otra. </p>
+            <p>Entendió asimismo en otros grandes y muy arduos negocios, en los cuales el rey,
+               conocidos sus muy grandes servicios, le hizo merced de las villas de
+                  <placeName>Cifuentes y Montemayor</placeName> y de otros lugares y bienes y rentas
+               en cantidad mucho mayor de la que heredó de su padre. Y como vemos alcanzar riquezas
+               por caso y conservarlas <pb edRef="#FP_CVC_RAE2022" n="57"/>por seso, puédese creer
+               de este caballero que cumplidamente hobo lo uno y lo otro; porque si tovo fortuna
+               para alcanzar bienes, tovo asimismo prudencia para los conservar. </p>
+            <p>Después de la muerte del <persName>rey don Juan</persName>, el <persName>rey don
+                  Enrique</persName> le dio título de <roleName>conde de la villa de
+                  Cifuentes</roleName> y le hizo otras mercedes. Y como vemos por experiencia que
+               los hombres vanos e incapaces, cuando les acaece haber oficios y riquezas temporales
+               se alteran con ellos y, queriéndose mostrar magnánimos, hacen cosas fuera de lo que
+               su medida requiere, puédese bien creer que así asentó en este caballero el nuevo
+               estado y dignidad; y tan poca alteración hizo en su persona la abundancia de los
+               bienes, como si de sus abuelos, por grande antigüedad, los hobiera habido. </p>
+            <p>Al fin, entrado ya en los días de la vejez, en los cuales suele más reinar la
+               avaricia de los bienes, cosa fue por cierto singular y digna de ejemplo el fin que
+               este caballero puso a su codicia: porque dado que fue llamado por el rey para que
+               entendiese en grandes cosas do pudiera haber grandes intereses, todo lo pospuso, y se
+               retrojo a su casa, donde hizo loable fin. Y dejados dos mayorazgos de asaz rentas a
+               dos hijos, murió en edad de sesenta y cinco años. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_09_hurtado_mendoza">
+            <pb edRef="#FP_CVC_RAE2022" n="58"/>
+            <head>El Duque del Infantazgo</head>
+
+            <p>Don <persName>Diego Hurtado de Mendoza, <roleName>duque del Infantazgo</roleName>,
+                     <roleName>marqués de Santillana</roleName> y <roleName>conde del Real de
+                     Manzanares</roleName></persName>, hijo del
+                     <persName><roleName>marqués</roleName> don Íñigo López de Mendoza</persName> y
+               nieto del <persName><roleName>almirante</roleName> don Diego Hurtado</persName>, fue
+               hombre delgado y alto de cuerpo; tenía los ojos prietos y las facciones del rostro
+               hermosas; y bien proporcionado en la compostura de sus miembros. Era de linaje noble
+               castellano muy antiguo. </p>
+
+            <p>Seyendo mozo, el marqués, su padre, le envió a la su casa de la
+                  <placeName>Vega</placeName> por pacificar la tierra de las
+                  <placeName>Asturias</placeName> de Santillana y la librar de algunos tiranos que
+               gela ocupaban, con los cuales hobo algunos recuentros y hechos de armas en que usó el
+               ejercicio de la caballería e hizo hábito en la disciplina militar. Y porque las
+               gentes de aquellas tierras son hombres valientes, esforzados y muy cursados en las
+               peleas a pie, que según la disposición de aquellas montañas se requiere hacer, este
+               caballero se vido con ellos muchas veces en grandes trabajos y peligros de la guerra
+               continua que con ellos tovo. Hasta que, al fin, vencidos sus contrarios por batallas
+               en campo, y muerto su principal capitán, alimpió aquellas sus montañas de la tiranía
+               en que por largos tiempos habían estado. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="59"/>Era hombre bien instructo en las letras latinas,
+               y tenía tan buena memoria, que pocas cosas se le olvidaban de lo que en la Sacra
+               Escritura había leído. Era hombre de verdad y aborrecía tanto mentiras y mentirosos,
+               que ninguno de los tales hobo jamás logar cerca de él. Heredó la casa de su padre en
+               el tiempo del <persName>rey don Enrique</persName> cuarto. Y fue uno de los
+               principales señores del reino que entendieron en pacificar las divisiones que hobo
+               entre el <persName>rey don Enrique</persName> y el <persName>rey don
+                  Alfonso</persName>, su hermano. </p>
+            <p>Fue tan perseverante en la virtud de la constancia, que por ningún interese jamás le
+               vieron hacer mudanza de aquello que una vez asentaba de hacer. Y esta virtud se
+               experimentó en él, porque no dejó de seguir la vía del <persName>rey don
+                  Enrique</persName>, aunque en ella hobo algunos sinistres y se vido en grandes
+               discrímines y aventuras de perder su persona y casa; porque se tenía por dicho que en
+               el infortunio relucía la constancia. Peleó en la batalla que estos <pb
+                  edRef="#FP_CVC_RAE2022" n="60"/>dos reyes hobieron cerca de la villa de
+                  <placeName>Olmedo</placeName>. Ante de la cual, veyéndose las haces contrarias,
+               unas y otras en el campo, ni el miedo le turbó el seso para consejar, ni el esfuerzo
+               se enflaqueció para cometer; ni menos cansó la fuerza del corazón peleando para
+               vencer. </p>
+            <p>Celaba este caballero tanto la honra, que con dificultad era traído a entender en
+               ninguna negociación ni trato que le fuese movido, recelando que las variedades de los
+               tiempos le forzasen a hacer mudanza de su palabra por do podiese caer en punto de
+               mengua. Era hombre muy llano y tratable con todos; y honrador en los recibimientos de
+               los que a él venían; y ajeno de disimulaciones. Tenía ánimo tan noble y las entrañas
+               tan claras y tan abiertas, que jamás fue conocido en él pensamiento para muerte y
+               destruición ni injuria de ninguno. Y de su natural inclinación no quería entender
+               salvo en cosas justas y rectas. Todas las cautelas y ficciones aborrecía como cosa
+               contraria a su natural condición. </p>
+            <p>No era varón de venganças, y perdonaba tan fácilmente a los que le erraban, que jamás
+               había memoria de sus yerros. Acaecióle que, como algunos suyos le errasen de tal
+               manera que la graveza del delito les cerrase la puerta de la esperanza para ser
+               perdonados, movido este caballero por la piedad natural que tenía, podiendo haber de
+               ellos entera venganza, le acaeció llamarlos y perdonarlos, y quedando limpio de todo
+               odio, les dio de sus bienes. Porque decía él que ninguna mayor pena podía recibir el
+               injuriador, que venir a manos del injuriado; ni mayor gloria el injuriado, que dar
+               vida y beneficios al injuriador. </p>
+            <p>Tenía la codicia de haber bienes temporales como todos los mortales tienen. Pero en
+               esto tovo una tan singular templanza que, <pb edRef="#FP_CVC_RAE2022" n="61"/>por
+               gran utilidad y acrecentamiento que hobiese, no hiciera cosa fea ni deshonesta. Y
+               como vemos todos los hombres desear honra y acrecentamiento, especialmente en las
+               tierras de su morada, y la necesidad de los tiempos acarrease que el rey en
+               remuneración de sus servicios le ofreciese donación perpetua de
+                  <placeName>Guadalajara</placeName>, do era su asiento, este caballero no la quiso
+               recibir; porque su humanidad no pudo sofrir la pasión y trabajo que otros sentían por
+               ser puestos en señorío particular y apartados del señorío real. Decía él que el
+               imperio forzoso más se puede dezir cuidado grav, que posesión deleitosa. </p>
+            <p>Fue hombre que se deleitaba en labores de casas y edeficios. Este duque fundó de
+               principio en la su villa de <placeName>Manzanares</placeName> la fortaleza que está
+               en ella edificada; e hizo de nuevo y reparó algunas casas de morada en sus tierras y
+               logares. Y en esto, más que en otras cosas, fue liberal. Fue asimismo vencido de
+               mujeres e del apetito de los manjares. Y habiendo acrecentado su título y patrimonio
+               allende de lo que le dejó el marqués, su padre, murió en toda prosperidad en edad de
+                  <date>sesenta y cinco años</date>. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_10_enriquez_liste">
+            <pb edRef="#FP_CVC_RAE2022" n="62"/>
+            <head>El Conde de Alba de Liste</head>
+
+            <p>Don <persName>Enrique Enríquez, <roleName>conde de Alba de
+                  Liste</roleName></persName>, hijo del <persName><roleName>almirante</roleName> don
+                  Alfonso Enríquez</persName> y nieto de don <persName>Fadrique, <roleName>maestre
+                     de Santiago</roleName></persName>, fue hombre de mediana estatura, bien
+               compuesto en la proporción de sus miembros. La nariz tenía larga; los ojos un poco
+               colorados; y los cabellos, llanos. </p>
+            <p>Este caballero tovo el juicio muy vivo. Era hombre de buena prudencia y, por la
+               experiencia de los grandes hechos que por él pasaron, su parecer en las cosas se
+               había por muy cierto. Era hombre palanciano y siempre hablaba cosas breves y
+               graciosas. Fue hombre de tan gran esfuerzo, que en algunas afrentas peligrosas donde
+               fue experimentado, ninguno otro en sus tienpos se halló tener el ánimo más libre de
+               miedo para acometer y defender. Y como quiera que por su linaje, título y estado era
+               con gran veneración acatado, pero por respeto de su gran esfuerzo y cierto juicio,
+               siempre su persona fue mirada con más honrada estimación que otros que tenían mayores
+               estados que el suyo. </p>
+            <p>Era hombre de poco sufrimiento. Y en algunas diferencias que hobo en estos reinos,
+               siguió la parcialidad del almirante <persName>don Fadrique</persName> y del
+               adelantado <persName>Pero Manrique</persName>, sus hermanos, donde se le siguieron
+               prisiones y otros infortunios que sufrió con ánimo de varón. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="63"/>Era hombre de verdad. Y sirvió muy bien y
+               lealmente al <persName>rey don Fernando</persName> y a la <persName>reina doña
+                  Isabel</persName> en las guerras que pasaron con el <persName>rey don Alfonso de
+                  Portogal</persName>. Y en la batalla real que estos dos reyes hobieron entre las
+               ciudades de <placeName>Toro</placeName> y <placeName>Zamora</placeName>, donde el
+                  <roleName>rey de Portogal</roleName> fue vencido, este caballero, aunque en edad
+               ya de <date>setenta años</date>, ni la fuerza del corazón se le enflaqueció, ni la de
+               los miembros le faltó para pelear. Y peleó con tan gran esfuerzo, que fue siguiendo
+               el alcance contra los portogueses hasta cerca de la puente de
+                  <placeName>Toro</placeName>, donde, pensando que le guardaban los suyos, se metió
+               tanto en los contrarios, que fue preso y llevado a <placeName>Portogal</placeName>.
+               Estando en la prisión, conocida la limpieza de su condición, le fue dada libertad
+               para venir a <placeName>Castilla</placeName> con algunos partidos de concordia. Y
+               cumpliendo su palabra, volvió a la prisión, en la cual estovo hasta que la reina, a
+               su gran honra, le hizo libre. </p>
+            <p>Y feneció su vida con gran honra y ejemplo de bueno y esforzado caballero en edad de
+               setenta y cinco años</p>
+         </div>
+
+
+         <div type="bio" xml:id="cvc_11_estuniga_plasencia">
+            <pb edRef="#FP_CVC_RAE2022" n="64"/>
+            <head>El Conde de Plasencia</head>
+
+            <p>Don <persName>Pedro de Estúñiga, <roleName>conde de Plasencia</roleName></persName>,
+               hijo de <persName>Diego López de Estúñiga, <roleName>justicia mayor del
+                     rey</roleName></persName>, fue hombre alto de cuerpo, bien proporcionado en la
+               compostura de sus miembros; y el rostro tenía largo y la nariz, afilada. Sus abuelos
+               fueron de linaje noble, naturales del reino de <placeName>Navarra</placeName>. </p>
+            <p>Era hombre de buen seso y de pocas palabras y de gran ejecución en las cosas que
+               quería. En sus tiempos fue tenido en gran estimación por respeto de su persona y de
+               su gran casa. Era caballero esforzado y muy perseverante en la opinión que tomaba.
+               Placíale tener hombres esforzados y defendíalos de las fazañas que cometían; y por
+               esta causa siempre estaba acompañado de hombres de todas suertes. En su tienpo fue
+               acrecentada su casa y floreció su fama por la gran copia de gente que de continuo era
+               inclinado a mantener. </p>
+            <p>Acaeció que como el <persName>rey don Juan el segundo</persName> hobiese necesarias
+               algunas gentes de armas para pacificar los escándalos que entonces en sus reinos
+               había, este caballero, como quiera que era ya viejo y enfermo y muy gravado de gota,
+               pero con celo grande que tovo de servir a su rey, se hizo traer en andas al real, do
+               estaba la hueste, y rodeado de gran copia de gente de armas de su casa, vino a le
+               servir. Y sirvióle con otros caballeros de tal manera en aquella jornada, que el rey
+               recibió de él servicio señalado, y él alcanzó <pb edRef="#FP_CVC_RAE2022" n="65"
+               />fama de leal súbdito y fue ejemplo de lealtad a otros que se movieron a servir su
+               rey, veyendo venir como vino este caballero en andas a le servir. </p>
+            <p>Murió con gran honra de edad de <date>setenta años</date>. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_12_cerda_medinaceli">
+            <head>El Conde de Medinaceli</head>
+
+            <p>Don <persName>Gastón de la Cerda</persName>, <roleName>conde de
+               Medinaceli</roleName>, hijo de don <persName>Luis de la Cerda</persName>, fue hombre
+               delgado de cuerpo, de muy hermoso gesto, y de mediana estatura y bien compuesto en la
+               proporción de los miembros. Ceceaba un poco. Su padre y abuelos fueron de linaje de
+               los <roleName>>reyes de Castilla</roleName> decendientes por legítima línea y
+               asimismo de los <roleName>reyes de Francia</roleName>, y todos, sucesivamente, fueron
+               condes de aquel condado de <placeName>Medina</placeName>. El cual condado, con otras
+               villas y <pb edRef="#FP_CVC_RAE2022" n="66"/>logares y tierras, fue dado a su
+               trasbisabuelo, que era nieto del <persName>rey don Alfonso de Castilla</persName>,
+               por el derecho que había a estos reinos. </p>
+            <p>Este conde fue muy franco y procuraba estar acompañado de hombres fijosdalgo. Y
+               seyendo en edad de <date>veinte y cinco años</date>, veyendo que el conde, su padre,
+               seguía algunas parcialidades de caballeros contra la voluntad del <persName>rey don
+                  Juan</persName>, y puesto en pensamiento trabajoso, porque si la opinión de su
+               padre siguiese, creía errar a la lealtad que debía al rey, y si obedecía al rey,
+               pensaba errar a la obediencia paternal, pospuestos los daños que del apartamiento de
+               su padre se le siguieron, deliberó obedecer los mandamientos reales. Y sirvió a su
+               rey todo el tiempo de su vida con tanta obediencia, que la perseverancia que tovo en
+               su servicio fue a otros ejemplo de lealtad. </p>
+            <p>Y después que heredó la casa de su padre, siempre vivió haciendo guerra a los
+               contrarios del rey. Y fue preso en su servicio en una batalla que hobo con los
+               aragoneses, en la cual prisión estovo algún tiempo. Y recibió daños en su persona y
+               hacienda, que sufrió como varón fuerte, reputándolos a prosperidad por ser en
+               servicio de su rey. Este conde conoció bien cuánto reluce la lealtad y la costancia
+               en el caballero y cuánto es fea la mácula del yerro cometido contra los reyes. Fue
+               hombre vencido del amor de las mujeres, y él fue amado de ellas. </p>
+            <p>Murió con gran honra, después que salió de la prisión, en edad de cuarenta años. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_13_manrique_paredes">
+            <pb edRef="#FP_CVC_RAE2022" n="67"/>
+            <head>El Maestre don Rodrigo Manrique, Conde de Paredes</head>
+
+            <p>Don <persName>Rodrigo Manrique, <roleName>conde de Paredes</roleName> y
+                     <roleName>maestre de Santiago</roleName></persName>, hijo segundo de
+                  <persName>Pedro Manrique, <roleName>adelantado mayor del reino de
+                  León</roleName></persName>, fue hombre de mediana estatura, bien proporcionado en
+               la compostura de sus miembros. Los cabellos tenía rojos y la naríz un poco larga. Era
+               de linaje noble castellano.</p>
+            <p>En los actos que hacía en su menor edad pareció ser inclinado al oficio de la
+               caballería. Tomó hábito y orden de Santiago y fue comendador de
+                  <placeName>Segura</placeName>, que es cercana a la tierra de los moros. Y estando
+               por frontero en aquella su encomienda, hizo muchas entradas en la tierra de los
+               moros, donde hobo fama de tan buen caballero, que el adelantado, su padre, por la
+               estimación grande en que este su hijo era tenido, apartó de su mayorazgo la villa de
+                  <placeName>Paredes</placeName> y le hizo donación de ella. Y el <persName>rey don
+                  Juan</persName> le dio título de conde de aquella villa. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="68"/>Este varón gozó de dos singulares virtudes: de la
+               prudencia, conociendo los tiempos, los logares, las personas y las otras cosas que en
+               la guerra conviene que sepa el buen capitán. Fue asimismo dotado de la virtud de la
+               fortaleza, no por aquellas vías en que se muestran fuertes los que fingida y no
+               verdaderamente lo son, más así por su buena composición natural, como por los muchos
+               actos que hizo en el ejercicio de las armas, asentó tan perfectamente en su ánimo el
+               hábito de la fortaleza, que se deleitana cuando le ocurría logar en que la debiese
+               ejercitar. Esperaba con buen esfuerzo los peligros, acometía las hazañas con grande
+               osadía y ningún trabajo de guerra a él, ni a los suyos, era nuevo. </p>
+            <p>Preciábase mucho que sus criados fuesen dispuestos para las armas. Su plática con
+               ellos era la manera del defender y del ofender el enemigo; y ni se decía ni hacía en
+               su casa acto ninguno de molleza, enemiga del oficcio de las armas. Quería que todos
+               los de su compañía fuesen escogidos para aquel ejercicio. Y no convenía a ninguno
+               durar en su casa si en él fuese conocido punto de cobardía. Y si alguno venía a ella
+               que no fuese dispuesto para el uso de las armas, el gran ejercicio que había y veía
+               en los otros le hacía hábile y diestro en ellas. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="69"/>En las batallas y muchos recuentros que hobo con
+               moros y con cristianos, este caballero fue el que, mostrando gran esfuerzo a los
+               suyos, hería primero en los contrarios. Y las gentes de su compañía, visto el
+               esfuerzo de su capitán, todos le seguían y cobraban osadía de pelear. Tenía tan gran
+               conocimiento de las cosas del campo y proveíalas en tal manera, que, donde él fue
+               principal capitán, nunca puso su gente en logar do se hobiese de retraer; porque
+               volver las espaldas al enemigo era tan ajeno de su ánimo, que elegía antes recebir la
+               muerte peleando, que salvar la vida huyendo.</p>
+            <p>Este caballero osó acometer grandes hazañas. Especialmente, escaló una noche la
+               ciudad de <placeName>Huesca</placeName>, que es del reino de
+                  <placeName>Granada</placeName>. Y como quier que, subiendo el escala, los suyos
+               fueron sentidos de los moros, y fueron algunos derribados del adarve y heridos en la
+               subida, pero el esfuerzo de este capitán se imprimió a la hora tanto en los suyos,
+               que, pospuesta la vida y propuesta la gloria, subieron el muro peleando, y no
+               fallecieron de sus fuerzas defendiéndolo, aunque veían los unos derramar su sangre,
+               los otros caer de la cerca. Y en esta manera, matando de los moros y muriendo de los
+               suyos, este capitán, herido en el brazo de una saeta, peleando entró la ciudad y
+               retrojo los moros hasta que los cercó en la fortaleza: y esperando el socorro que le
+               harían los cristianos, no temió el socorro que venía a los moros. En aquella hora,
+               los suyos, vencidos de miedo, vista la multitud que sobre ellos venía por todas
+               partes a socorrer los moros y tardar el socorro que esperaban de los cristianos, le
+               amonestaron que desamparase la ciudad y no encomendase a la fortuna de una hora la
+               vida suya y de aquellas gentes, juntamente con la honra ganada en su edad pasada. Y
+               requeríanle que, pues tenía tiempo para se proveer, no esperase hora en que tomase el
+               consejo necesario, y no el que agora tenía voluntario. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="70"/>Visto por este caballero el temor que los suyos
+               mostraban. «No -dijo él- suele vencer la muchedumbre de los moros al esfuerzo de los
+               cristianos cuando son buenos, aunque no sean tantos. La buena fortuna del caballero
+               crece creciendo su esfuerzo. Y si a estos moros que vienen cumple socorrer a su
+               infortunio, a nosotros conviene permanecer en nuestra victoria hasta la acabar o
+               morir. Porque si el miedo de los moros nos hiciese desamparar esta ciudad ganada ya
+               con tanta sangre, justa culpa nos pornían los cristianos por no haber esperado su
+               socorro. Y es mejor que sean ellos culpados por no venir que nosotros por no
+               esperar». «De una cosa -dijo él- sed ciertos: que entre tanto que Dios me diere vida,
+               nunca el moro me porná miedo, porque tengo tal confianza en Dios y en vuestras
+               fuerzas, que no fallecerán peleando veyendo vuestro capitán pelear». </p>
+            <p>Este caballero duró e hizo durar a los suyos, combatiendo los moros que tenía
+               cercados y resistiendo a los moros que le tenían cercado, por espacio de dos días,
+               hasta que vino el socorro que esperaba y hobo el fruto que suelen haber aquellos que
+               permanecen en la virtud de la fortaleza. Ganada aquella ciudad y dejado en ella por
+               capitán a un su hermano llamado <persName>Gómez Manrique</persName>, ganó otras
+               fortalezas en la comarca; socorrió muchas veces algunas ciudades y villas y capitanes
+               cristianos en tiempo de extrema necesidad; e hizo tanta guerra en aquellas tierras,
+               que en el reino de <placeName>Granada</placeName> el nombre de <persName>Rodrigo
+                  Manrique</persName> fue mucho tiempo a los moros gran terror. Cercó asimismo este
+               caballero la <placeName>fortaleza de Alcaráz</placeName> por la reducir a la corona
+               real. Cercó la <placeName>fortaleza de Uclés</placeName>
+               <pb edRef="#FP_CVC_RAE2022" n="71"/>por la reducir a la su <roleName>orden de
+                  Santiago</roleName>. Esperó en estos dos sitios las gentes que contra él vinieron
+               a socorrer estas fortalezas. Y como quier que la gente contraria vido ser en mucho
+               mayor número que la suya, mostró tal esfuerzo, que los contrarios no le osaron
+               acometer y él consiguió con gran honra el fin de aquellas empresas que tomó; do se
+               puede bien creer que venció, más con el esfuerzo de su ánimo, que con el número de su
+               gente.</p>
+            <p>Hobo asimismo este caballero otras batallas y hechos de armas con cristianos y con
+               moros que requerían gran esptria si de cada una por extenso se hobiese de hacer
+               minción, porque toda la mayor parte de su vida trabajó en guerras y en hechos de
+               armas. </p>
+            <p>Hablaba muy bien y deleitábase en recontar los casos que le acaescían en las guerras.
+               Usaba de tanta liberalidad, que no bastaba su renta a sus gastos; ni le bastara si
+               muy grandes rentas y tesoros toviera, según la continuación que tovo en las guerras.
+               Era varón de altos pensamientos e inclinado a cometer grandes y peligrosas hazañas, y
+               no podía sofrir cosa que le pareciese no sofridera. Y de esta condición se le
+               siguieron grandes peligros y molestias. Y ciertamente por experiencia vemos pasar por
+               grandes infortunios a muchos que presumen forzar la fuerza del tienpo, los cuales,
+               por no sofrir una sola cosa, les acaece sofrir muchas y a muchos, <pb
+                  edRef="#FP_CVC_RAE2022" n="72"/>a quien de fuerza han de tener contentos para
+               conseguir su poco sofrimiento. </p>
+            <p>Era amado por los caballeros de la <roleName>orden de Santiago</roleName>, los
+               cuales, visto que concurrían en él todas las cosas dignas de aquella dignidad, le
+               eligieron por maestre en la <placeName>provincia de Castilla</placeName> por fin del
+                     <persName><roleName>maestre</roleName> don Juan Pacheco</persName>.</p>
+            <p>Murió con gran honra en edad de <date>setenta años</date>.</p>
+         </div>
+
+         <div type="razonamiento" xml:id="cvc_13-14_razonamiento">
+            <head>Razonamiento hecho a la Reina Nuestra Señora</head>
+
+            <p>Otros muchos claros varones naturales de vuestros reinos hobo que hicieron cosas
+               dignas de memoria, las cuales, si, como dije, se escribiesen particularmente, sin
+               ddda sería mayor libro y de mayores y más claras hazañas que el que hizo
+                  <persName>Valerio</persName> y los otros que escribieron los hechos de los griegos
+               y de los romanos. Entre los cuales, hacen gran memoria de <persName>Mucio
+                  Cévola</persName>, que ascondidamente salió de la ciudad de
+                  <placeName>Roma</placeName> y fue a matar al <persName>rey Persena</persName>, que
+               la tenía cercada, y exaltando mucho en haber quemado su brazo, porque no acertó de
+               matar al rey que pensaba y mató a otro que parecía ser el rey. ¡Ved qué culpa tovo su
+               brazo por el yerro <pb edRef="#FP_CVC_RAE2022" n="73"/>que hobo su pensamiento! Y,
+               por cierto, si la pena que este dio a su brazo toviese logar de loor, loaríamos al
+               espada que hace buen golpe y no al que la menea.</p>
+            <p>Y pues de este caso se hace gran estima por los estoriadores romanos, razón es que
+               haga aquí memoria de lo que sope y es notorio en <placeName>Francia</placeName> que
+               hizo un fijodalgo vuestro natural, que se llamó <persName>Pedro Fajardo</persName>,
+               mozo de veinte años. El cual, como sirviese en la cámara del <persName>rey Carlos de
+                  Francia</persName>, y le pidiese merced de un caballo y un arnés para le servir en
+               la batalla que tenía aplazada con el <persName>rey de Inglaterra</persName>, y el
+               rey, habido respeto que su edad era aún tierna para entrar en batalla, no gelo
+               quisiese dar y le mandase quedar en su cámara, este <persName>Pedro
+                  Fajardo</persName> respondió al rey: «No suelen los fijosdalgo de
+                  <placeName>Castilla</placeName> que son de mi edad quedar en la cámara yendo su
+               señor a la guerra. Yo vos certifico, señor -dijo él- que si no me fornecés de armas y
+               de caballo, que yo iré a pie delante las escuadras de vuestra gente, a morir peleando
+               en la batalla». El rey, conocida la animosidad de este fijodalgo, le dio un caballo y
+               un arnés. Y como se vido armado, un día antes de la batalla, en presencia del rey,
+               hizo voto solemne de matar al <roleName>rey de Inglaterra</roleName> o derribar su
+               estandarte real o morir en la demanda. El corazón de este mozo, conocido por algunos
+               mancebos franceses, despertó sus ánimos y prometieron de le ayudar a complir su voto.
+               Otro día, las haces tendidas y hecha señal de las trompetas para se juntar las haces,
+               este fijodalgo castellano se adelantó de las otras gentes y, dando golpes en los
+               enemigos y recibiéndoles en todo su cuerpo, entró por fuerza en la batalla del
+                  <roleName>rey inglés</roleName>, y abraçóse con su <pb edRef="#FP_CVC_RAE2022"
+                  n="74"/>estandarte real y vino con él al suelo. Y allí recibió tan grandes heridas
+               en la cabeza, que perdió las fuerzas y el sentido, y fue preso por los ingleses, pero
+               consiguió el fin de su voto, por donde su parte fue vencedora.</p>
+            <p>Este <persName>Pero Fajardo</persName> castellano y el otro
+                  <persName>Cévola</persName> romano iguales me parece que fueron en los propósitos,
+               pues que ambos iban con deliberación de recebir muerte por ayudar a su parte. Pero el
+               castellano se mostró claro enemigo, porque, guerreando los contrarios, fue como
+               caballero a complir su voto; el romano, como hombre encubierto, con simulación
+               fengida, fue a complir el propósito que no consiguió, porque mató a otro y no al rey
+               que pensó matar.</p>
+            <p>Notorio es asimismo en toda la cristiandad el paso que <persName>Suero de Quiñones,
+                     <roleName>caballero fijodalgo</roleName></persName>, sostovo un año en la
+               puente de <placeName>Órbigo</placeName>, que es camino de
+                  <placeName>Santiago</placeName>. Y como este caballero envió publicar con sus
+               harautes por las cortes de los reyes y señores de la cristiandad que cualquier
+               gentilhombre que por aquella puente pasase había de hacer armas con él, concurrieron
+               a esta recuesta muchos caballeros y gentileshombres de diversas tierras que en el
+               paso de aquella puente de <placeName>Órbigo</placeName> hicieron armas con este
+               caballero. En las cuales, y en todo otro ato de caballería que allí intervino, ningún
+               extranjero se esmeró ni hobo igual victoria de la que por las armas este fijodalgo
+               castellano hobo.</p>
+            <p>¿Cuál de los capitanes romanos pudo pujar al esfuerzo de don <persName>Juan Ramírez,
+                     <roleName>comendador mayor de Calatrava</roleName></persName>, de linaje noble
+               de <pb edRef="#FP_CVC_RAE2022" n="75"/><name>Guzmán</name>? El cual mostraba tan gran
+               ardideza en las batallas y tenía tanta destreza en el gobernar las armas, que, el
+               brazo desnudo, el espada en la mano, esforzando los suyos, hiriendo los enemigos,
+               venció muchas batallas de moros. Y con tanto esfuerzo acometía y con tal
+               perseverancia duraba en los peligros, que, como ajeno de todo miedo, lo imprimía en
+               los enemigos.</p>
+            <p><persName>Garcilaso de la Vega</persName>, caballero de noble sangre y antiguo,
+               criado desde su menor edad en el oficio de las armas, en la mayor priesa de las
+               batallas tenía mejor tiento para hacer golpe cierto en el enemigo. Y ni la multitud
+               de las saetas, ni los tiros de las lanzas, ni los otros golpes de los contrarios que
+               le rodeaban alteraron su continencia para hacer desconcierto en la manera de su
+               pelear.</p>
+            <p>De loar es por cierto, <persName>Horacio Teocles</persName>, romano, que peleó en la
+                  <placeName>puente <!--Suplicia-->Supicia del Tíberi</placeName> con los
+                  <name>toscanos</name> y los detovo peleando entre tanto que se derribaba el un
+               arco de aquella puente, porque los romanos fuesen salvos. Pero no es menos de estimar
+               el esfuerzo de este <persName>Garcilasso</persName>, el cual, como viese que su gente
+               estaba en punto de se perder, huyendo de la multitud de los caballeros moros que los
+               seguían, este caballero, ofreciendo su vida por la salud de los suyos, tornó con gran
+               esfuerzo a los enemigos, y tomado un paso, los impidió peleando con ellos tanto
+               espacio, que su gente se pudo salvar, que no pereciese. </p>
+            <p>Este caballero era hombre callado, sofrido, esencial, amigo de efectos y enemigo de
+               palabras. Y tovo tal gracia, que todos los caballeros de su tiempo desearon remidar
+               sus costumbres.</p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="76"/><persName>Juan de Saavedra, <roleName>caballero
+                     fijodalgo</roleName></persName>, guerreó los moros muchos tiempos. Y tan osado
+               era en las batallas, que con menor número de gente siempre osó acometer los enemigos,
+               aunque fuesen mucho más que los suyos; y los venció muchas veces y desbarató.
+                  <persName>Gonzalo de Saavedra</persName>, su hermano, en guerras de moros y de
+               cristianos, ningún romano pudo tener mayor diligencia, ni mejor conocimiento, para
+               ordenar las batallas; ni en saber los logares, ni en poner las guardas y en todas las
+               otras cosas que para seguridad de las huestes se requiere saber a todo buen capitán.
+               El cual fue tan discreto, y consideraba las cosas y los casos que podían acaecer en
+               las guerras y las proveía de tal manera, que nunca se halló que por defecto de su
+               provisión los de su parte recibiesen inconveniente.</p>
+            <p>¿Quién fue visto ser más industrioso ni más acepto en los actos de la guerra que
+                  <persName>Rodrigo de Narváez, <roleName>caballero fijodalgo</roleName></persName>
+               a quien por las notables hazañas que contra los moros hizo le fue cometida la ciudad
+               de <placeName>Antequera</placeName>? En la guarda de la cual y en los vencimientos
+               que hizo a los moros ganó tanta honra y estimación de buen caballero, que ninguno en
+               sus tiempos la hobo mayor en aquellas fronteras. </p>
+            <p>Y es de considerar que, comoquier que los moros son hombres belicosos, astutos y muy
+               engañosos en las artes de la guerra; y varones <pb edRef="#FP_CVC_RAE2022" n="77"
+               />robustos y crueles; y aunque poseen tierra de grandes y altas montañas y de logares
+               tanto ásperos y fragosos que la disposición de la misma tierra es la mayor parte de
+               su defensa, pero la fuerza y el esfuerzo de estos caballeros y de otros muchos nobles
+               y fijosdalgo, vuestros naturales, que continuaron guerra con ellos, siempre los
+               oprimieron a que diesen parias a los reyes, vuestros progenitores, y se ofreciesen
+               por sus vasallos. </p>
+            <p>Y ni estos grandes señores y caballeros y fijosdalgo, de quien aquí con causa
+               razonable es hecha memoria, ni los otros pasados que, guerreando, a
+                  <placeName>España</placeName> la ganaron del poder de los enemigos, no mataron por
+               cierto sus hijos, como hicieron los <roleName>cónsules</roleName>
+               <persName>Bruto</persName> y <persName>Torcato</persName>; ni quemaron sus brazos,
+               como hizo <persName>Cevola</persName>; ni hicieron en su propia sangre las crueldades
+               que repugna la natura y defiende la razón. Mas con fortaleza y perseverancia, con
+               prudencia y diligencia, con justicia y con clemencia, ganando el amor de los suyos y
+               seyendo terror a los extraños, gobernaron huestes, ordenaron batallas, vencieron los
+               enemigos, ganaron tierras ajenas y defendieron las suyas.</p>
+            <p>Yo, por cierto, no vi en mis tiempos ni leí que en los pasados viniesen tantos
+               caballeros de otros reinos y tierras extrañas a estos vuestros <placeName>reinos de
+                  Castilla y de León</placeName> por hacer armas a todo trance como vi que fueron
+               caballeros de <placeName>Castilla</placeName> a las buscar por otras partes de la
+               cristiandad. Conocí al <persName><roleName>conde</roleName> don Gonzalo de
+                  Guzmán</persName>
+               <pb edRef="#FP_CVC_RAE2022" n="78"/>y a <persName>Juan de Merlo</persName>. Conocí a
+                  <persName>Juan de Torres</persName> y a <persName>Juan de Polanco</persName>;
+                  <persName>Alfarán de Bivero</persName> y a <persName><roleName>mosén</roleName>
+                  Pero Vázquez de Sayavedra</persName>; a <persName>Gutierre Quijada</persName> y a
+                     <persName><roleName>mosén</roleName> Diego de Valera</persName>. Y oí decir de
+               otros castellanos que con ánimo de caballeros fueron por los reinos extraños a hacer
+               armas con cualquier caballero que quisiese hacerlas con ellos. Y por ellas ganaron
+               honra para sí y fama de valientes y esforzados caballeros para los fijosdalgo de
+                  <placeName>Castilla</placeName>. </p>
+            <p>Asimismo sope que hobo guerras en <placeName>Francia</placeName> y en
+                  <placeName>Nápoles</placeName> y en otras partes, donde concurrieron gentes de
+               muchas naciones. Y fui informado que el capitán francés o el italiano estonces tenía
+               por muy bien fornecida la escuadra de su gente, cuando podía haber en ella algunos
+               caballeros castellanos, porque conocía de ellos tener esfuerzo y constancia en los
+               peligros más que los de otras naciones. </p>
+            <p>Vi también guerras en <placeName>Castilla</placeName>, y durar algunos tiempos, pero
+               no vi que viniesen a ella guerreros de otras partes, porque así <pb
+                  edRef="#FP_CVC_RAE2022" n="79"/>como ninguno piensa llevar hierro a la tierra de
+                  <placeName>Vizcaya</placeName>, donde ello nace, bien así los extranjeros reputan
+               a mal seso venir a mostrar su valentía a la tierra de
+               <placeName>Castilla</placeName>, do saben que hay tanta abundancia de fuerzas y
+               esfuerzo en los varones de ella, que la suya será poco estimada.</p>
+            <p>Así que, reina muy excelente, estos caballeros y perlados, y otros muchos naturales
+               de vuestros reinos de que no hago aquí mención por ocupación de mi persona,
+               alcanzaron con sus loables trabajos que hobieron y virtudes que siguieron el nombre
+               de varones claros, de que sus descendientes en especial se deben arrear y todos los
+               fijosdalgo de vuestros reinos deben tomar ejemplo para limpiamente vevir, porque
+               puedan fenecer sus días en toda prosperidad como estos vivieron y fenecieron. Lo
+               cual, sin duda, todo hombre podrá hacer sacudiendo de sí malas afecciones y
+               pensamientos torpes, que al principio prometen dulzura y a la fin paren tristeza y
+               disfamia.</p>
+
+            <p>Ahora razón es hacer aquí memoria de algunos perlados naturales de
+                  <placeName>Castilla</placeName> que en mis tiempos, por su ciencia, méritos y
+               virtudes, subieron a grandes estados y tovieron grandes dignidades en la Iglesia de
+               Dios.</p>
+         </div>
+
+         <div type="bio" xml:id="cvc_14_torquemada-san-sixto">
+            <pb edRef="#FP_CVC_RAE2022" n="80"/>
+            <head>Cardenal de San Sixto</head>
+
+            <p>Don <persName>Juan de Torquemada</persName>, <roleName>cardenal de San
+                  Sixto</roleName>, fue hombre alto de cuerpo y delgado y de venerable gesto y
+               presencia, natural de la ciudad de <placeName>Burgos</placeName>. Sus abuelos fueron
+               de linaje de los judíos convertidos a nuestra santa fe católica. </p>
+            <p>Aprendió teología seyendo mooz, porque tenía inclinación a esta ciencia más que a
+               otra. Pareció, en el sosiego de su niñez, que la natura le apartó de las cosas
+               mundanas y ofreció a la religión. Los días de su adolescencia siguieron las buenas
+               costumbres que hobo en su mocedad y los de la joventud, a los de la adolescencia. Y
+               así, creciendo en días, siempre crecía en virtudes. Y según pareció en la honestad y
+               limpieza de su vida, quier procediese de su complixión o de su buen seso, siempre
+               tovo tan fuerte resistencia contra las tentaciones, que no podieron corromper sus
+               buenas costumbres. Recibió de su voluntad hábito y orden de <roleName>Santo
+                  Domingo</roleName>. Era observantísimo en su religión. Aprendió en el estudio de
+                  <placeName>París</placeName>, donde recibió el grado de magisterio. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="81"/>Venido a <placeName>Castilla</placeName> con
+               deseo de su naturaleza, conocida la ciencia y honestad de su vida, fue elegido por
+               prior del monesterio de <placeName>San Pablo de Valladolid</placeName>. Y después fue
+               prior de <placeName>San Pedro Mártir</placeName>, de la ciudad de
+                  <placeName>Toledo</placeName>. Estando en aquel monesterio con propósito de hacer
+               allí asiento de su vida, los hados, que llevan al que quieren para que vaya, y
+               aquellas cosas que la providencia divina tiene ordenadas, rodearon las cosas en tal
+               manera, que se levantó contra él tal emulación de persona de su orden, que le forzó
+               ir a <placeName>Roma</placeName> cuando fue quitada la cisma que hobo en la iglesia
+               entre el <persName>papa Eugenio</persName> y el que se llamó
+                  <persName>Félix</persName>. Y llegó a tiempo que se había de hacer congregación de
+               letrados en <placeName>Roma</placeName> para determinar algunas dudas que de la cisma
+               pasada habían resultado. Para lo cual, el <persName>rey don Juan</persName> acordó
+               enviar sus embajadores a <placeName>Roma</placeName>. Entre los cuales, porque era
+               necesario enviar grandes letrados, conocida la fama que este religioso tenía de gran
+               teólogo, le envió mandar que se juntase con sus embajadores. El cual, obedeciendo al
+               rey, lo hizo. En aquella congregación de letrados cosa maravillosa fue cuánto se
+               esmeró sobre todos los otros, así en las dudas que aclaró como en la determinación
+               que hizo en las cosas que ocurrieron, lo cual hizo crecer la fama que tenía de gran
+               letrado. Y porque la honestad de <pb edRef="#FP_CVC_RAE2022" n="82"/>su vida se
+               conformaba con la abundancia de su ciencia, el papa le hizo mucha honra y a
+               suplicación del <persName>rey don Juan</persName> le crió cardenal. </p>
+            <p>Fue habido en sus tiempos por tan gran teólogo que, cuando acaecía venir de cualquier
+               parte de la cristiandad alguna duda o qüistión de teología, todos se referían a la
+               determinación que este cardenal, entre todos los otros teólogos, hiciese. Era hombre
+               apartado, estudioso, manso y caritativo; y en su buena y honesta vida mostró tener
+               gracia singular, con la cual ganó honra para sí y dio ejemplo a otros para usar de
+               virtud. </p>
+            <p>Deleitábase en las obras del entendimiento. Hizo una glosa del Salterio devotísima y
+               otros tratados y declaraciones de la Sacra Escriptura muy provechosas y doctrinables.
+               Fundó en <placeName>Roma</placeName> a sus expensas el <placeName>monesterio de la
+                  Minerva</placeName>. Reedificó asimismo todo el monesterio de <placeName>San Pablo
+                  de Valladolid</placeName> y tornólo en observancia. E hizo otras labores y reparos
+               en monesterios y casas de oración. </p>
+            <p>Estovo con gran honra en <placeName>Roma</placeName>, después que fue criado
+               cardenal, hasta que murió de edad de ochenta años. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_15_carvajal_sant_angelo">
+            <pb edRef="#FP_CVC_RAE2022" n="83"/>
+            <head>Cardenal de Sant'Angelo</head>
+
+            <p>Don <persName>Juan de Carvajal, <roleName>cardenal de
+                  Sant'Angelo</roleName></persName>, fue hombre alto de cuerpo, el gesto blanco y el
+               cabello cano y de muy venerable y hermosa presencia; natural de la ciudad de
+                  <placeName>Plasencia</placeName>, de linaje de hombres ciudadanos. </p>
+            <p>Desde su menor edad continuó el estudio. Fue gran letrado en derecho canónico y
+               cevil. Era hombre muy honesto y gracioso en sus hablas. Cuando propuso de tomar orden
+               eclesiástica, fue a <placeName>Roma</placeName>, donde, conocido por gran letrado y
+               hombre de honesta vida, el <persName>papa Eugenio</persName> le encargó negocios
+               árduos y le envió diversas veces en embajadas de gran importancia, en las cuales
+               guardó siempre su honra y su conciencia y dio la razón que hombre letrado y discreto
+               debía dar. Fue proveído del obispado de aquella ciudad de
+                  <placeName>Plasencia</placeName> do era natural. Y veniendo de una embajada, do
+               fue enviado al concilio de <placeName>Basilea</placeName>, conocida su <pb
+                  edRef="#FP_CVC_RAE2022" n="84"/>gran suficiencia en las cosas que allí negoció, le
+               fue dado el capelo de cardenal. </p>
+            <p>Era hombre esencial, aborrecedor de apariencias y de cirimonias infladas. Cuanto más
+               huía de la honra mundana, tanto más le seguía. Nunca en sus votos públicos ni hablas
+               privadas fue visto desviar punto de la justicia por afección, ni por interese suyo ni
+               ajeno; ni hizo cosa que pareciese fuera de razón, ni demandó que otro la hiciese.</p>
+            <p>Después que hobo la renta de aquel obispado de <placeName>Plasencia</placeName>, la
+               cual entendió ser necesaria para sostener su estado, no pensó en gastar la vida
+               codiciando riquezas, mas propuso vevir obrando virtude. Y puso tales límites a la
+               codicia, que se puede bien decir haberla vencido, porque no solamente dejó de
+               procurar más renta de la que había de su obispado, mas cerró su deseo y apartó de sí
+               la cobdicia, de tal manera que jamás quiso recibir otras rentas y dignidades que
+               muchas veces le fueron ofrecidas. Y de muchos y grandes cargos que tovo y comisiones
+               que le fueron hechas, donde por alguna razón pudiera haber grandes intereses, nunca
+               recibió, ni consentió a sus oficiales recibir interese pequeño ni grande. Y en esta
+               manera, señoreando la codicia, señoreaba aquellos a quien señoreaba la codicia, y
+               ninguno osaba agraviarse de sus determinaciones, conociendo que carecían de afección
+               e interese. </p>
+            <p>Reprendía mucho a los hombres que, sobrándoles las rentas allende de lo necesario,
+               tenían el deseo de adquerir en infinito. Este varón sopo bien cuánta fuerza suele
+               hacer a las veces el oro a la justicia, la cual teme poco el criminoso cuando con
+               dinero piensa redemir su crimen. Conocido asimismo cómo todo juez que toma, <pb
+                  edRef="#FP_CVC_RAE2022" n="85"/>luego es tomado, y que no puede huir de ser
+               injusto o ingrato: injusto, si por el don que recibe, tuerce el derecho; ingrato, si
+               no lo tuerce en favor de aquel que le dio. Y si hace justicia o la abrevia por lo que
+               recibió, puédese decir vendedor de la justicia por precio. Conocido por este perlado
+               los inconvenientes que del codiciar allende de lo necesario se siguen, ni se
+               atormentó codiciando, ni se avergonzó demandando; y teniendo la codicia tan sujeta,
+               tenía la honra tan alta. Estaba continuamente alegre porque gozaba de la virtud de la
+               templanza, avenidora de la razón con el apetito. Era prudente y de gran
+               entendimiento, que son partes esenciales del ánima; y las hobo por arte y experiencia
+               de tiempos. </p>
+            <p>Estas virtudes conocidas en él, fue legado del papa a la provincia de
+                  <placeName>Alemania</placeName> dos veces. Y en estas sus legaciones hizo,
+               determinó y declaró grandes hechos, y pacificó los príncipes de aquellas partes y las
+               comunidades que estaban en discordia, y castigó la herejía de los bohemios, e hizo
+               otras singulares cosas en servicio de Dios y aumentación de la fe cristiana. </p>
+            <p>Otrosí por excusar el daño grande que conoció recrecer a todas las gentes que pasaban
+               el <placeName>río de Tajo</placeName>, acerca de la ciudad de
+                  <placeName>Plasencia</placeName>, movido con ferviente caridad, hizo a sus grandes
+               expensas la puente que hoy allí está edificada, que se llama la <placeName>Puente del
+                  Cardenal</placeName>, edificio muy notable. </p>
+            <p><pb edRef="#FP_CVC_RAE2022" n="86"/>Puédese creer de este claro varón que su buen
+               seso le hizo aprender ciencia; y su ciencia le dio saber; y su saber le dio
+               experiencia; y la experiencia le dio conocimiento de las cosas, de las cuales sopo
+               con prudencia elegir las que le hicieron hábito de virtud, mediante la cual vivió
+               próspero <date>ochenta años</date> sin pasión de codicia y con abundancia de lo
+               necesario. Y murió con gran honra en la ciudad de <placeName>Roma</placeName>. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_16_carrillo_toledo">
+            <head>Arzobispo de Toledo</head>
+
+            <p>Don <persName>Alfonso Carrillo, <roleName>arzobispo de Toledo</roleName></persName>,
+               hijo de <persName>Lope Vázquez de Acuña</persName>, fue hombre alto de cuerpo y de
+               buena presencia. Era de los fidalgos, y de limpia sangre, del reino de
+                  <placeName>Portugal</placeName>. Su abuelo fue caballero portugués, que vino a
+                  <placeName>Castilla</placeName> al servicio del <persName>rey don Juan</persName>,
+               el que fue vencido en la batalla de <placeName>Aljubarota</placeName>. </p>
+            <p>Fue primero obispo de <placeName>Sigüenza</placeName> y después fue proveído del
+                  <roleName>arzobispado de Toledo</roleName> a suplicación del <persName>rey don
+                  Juan</persName>. Rezaba bien sus horas; guardaba cumplidamente las cirimonias que
+               la iglesia <pb edRef="#FP_CVC_RAE2022" n="87"/>manda guardar. Fundó el
+                  <placeName>monesterio de San Francisco de Alcalá</placeName> y començó a fundar
+               otro monesterio en la villa de <placeName>Briyuega</placeName>. </p>
+            <p>Era hombre de gran corazón y su principal deseo era hacer grandes cosas y tener gran
+               estado por haber fama y gran renombre. Tenía en su casa letrados y caballeros y
+               hombres de facción. Recibía muy bien y honraba mucho a los que a él venían; y
+               tratábalos con buena gracia; y mandábales dar gran abundancia de manjares de diversas
+               maneras, de los cuales hacía siempre tener su casa muy proveída. Y tenía para ello
+               los oficiales y ministros necesarios, y deleitábase en ello. Sus pensamientos de este
+               perlado eran muy más altos que sus fuerzas y su gran corazón no le dejaba discerner,
+               ni consentía medir su facultad con las grandes empresas que tomaba. Y de esto se le
+               seguían trabajos y fatigas continuas. </p>
+            <p>Era hombre franco y, allende de las dádivas que de su voluntad con gran liberalidad
+               hacía, siempre daba algo a cualquier que <pb edRef="#FP_CVC_RAE2022" n="88"/>le
+               demandaba, porque no sofría que ninguno se partiese de él descontento. Y, por cierto,
+               la dádiva hecha con deseo de fama y no con pensamiento de razón más se puede decir
+               mal hecho que buen pensamiento, porque aquel beneficio es carísimo que carece de
+               vanagloria. Verdad es que ni nuestra benignidad se debe tanto cerrar que sea dura la
+               comunicación de nuestros bienes, ni tanto abrir que con prodigalidad se derramen,
+               porque si del retener se sigue odio, de lo otro procede tal mengua que de necesario
+               vienen los pródigos a poner las manos en bienes ajenos. </p>
+            <p>Era hombre belicioso y, siguiendo esta su condición, placíale tener continuamente
+               gente de armas en guerras y en juntamientos de gente. Insistía mucho en la opinión
+               que tomaba y queríala proseguir aunque se le representaban algunos inconvenientes. Y
+               como la opinión, sospecha y afección son cosas que muchas veces engañan a los
+               hombres, este perlado, traído por algunas de estas, procuraba siempre de sostener
+               parcialidades, donde se siguieron en sus tiempos algunas guerras en el reino, en las
+               cuales acaecieron batallas campales y otros recuentros y hechos de armas. Era gran
+               trabajador en las cosas de la guerr. Y cuanto era amado de algunos por ser franco,
+               tanto era desamado de muchos por ser belicoso, seyendo obligado a religión. </p>
+            <p>Placíale saber experiencias y propriedades de aguas y de yervas y otros secretos de
+               natura. Procuraba siempre haber grandes riquezas, no para tesoro, mas para las dar y
+               distribuir. Y este deseo le hizo entender muchos años en el arte del alquimia. Y como
+               quier que de ella no veía efecto, pero creyendo siempre alcanzarla <pb
+                  edRef="#FP_CVC_RAE2022" n="89"/>para las grandes hazañas que imaginaba hacer,
+               siempre la continuó. En la cual, y en buscar tesoros y mineros, consumió mucho tiempo
+               de su vida y gran parte de su renta; y todo cuanto más podía haber de otras partes. Y
+               como vemos algunas veces que los hombres, deseando ser ricos, se meten en tales
+               necesidades que los hacen pobres, este arzobispo, dando y gastando en el arte del
+               alquimia y en buscar mineros y tesoros, pensando alcanzar grandes riquezas para las
+               dar y distribuir, siempre estaba en continuas necesidades. Y sin duda se puede creer
+               que si lo que deseaba tener este perlado correspondiera al corazón que tenía él en
+               él, hiciera grandes cosas. </p>
+            <p>Al fin, gastando mucho y deseando gastar más, murió muy pobre y adeudado en la villa
+               de <placeName>Alcalá</placeName>, de edad de setenta años, de los cuales fue treinta
+               y siete <roleName>arzobispo de Toledo</roleName>. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_17_fonseca_sevilla">
+            <head>Arzobispo de Sevilla</head>
+
+            <p>Don <persName>Alfonso de Fonseca</persName>, <roleName>arzobispo de
+                  Sevilla</roleName>, fue hombre de mediana estatura, bien proporcionado en las
+               facciones de su rostro y en la composición de sus miembros; hijo del doctor
+                  <persName>Juan Alfonso de Ulloa</persName>, de linaje de hombres fijosdalgo del
+                  <placeName>reino de Galicia</placeName>. Era natural de la ciudad de
+                  <placeName>Toro</placeName>. Tomó el apellido de su madre, que era de linaje de
+                  <name>Fonseca</name>. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="90"/>Era hombre de muy agudo ingenio y de buen
+               entendimiento y bien instructo en lo que requería al hábito y profesión eclesiástica
+               que tomó. El sentido de la vista tenía muy ávido y codicioso, más que ninguno de los
+               otros sentidos. Y seguiendo esta su inclinación, placíale tener piedras preciosas y
+               perlas y joyas de oro y de plata y otras cosas hermosas a la vista. Las cosas
+               necesarias para el servicio de su persona y para el arreo de su casa quería que
+               fuesen muy primas y toviesen singularidad de perficción sobre todas las otras, y
+               deleitábase en ello. Era asimismo muy limpio en su persona y en su vestiduras y
+               trajes, y reglado y muy ordenado en sus gastos. </p>
+            <p>Comenzando la edad de mancebo, salió del estudio y vino al servicio del <persName>rey
+                  don Enrique</persName>, seyendo príncipe, y fue su capellán mayor. Y por su
+               intercesión fue proveído del <roleName>obispado de Ávila</roleName> y después fue
+               promovido a dignidad de <roleName>arzobispo de Sevilla</roleName>. Hablaba muy bien y
+               con buena gracia. Tova gran logar en la gobernación del reino en tiempo del
+                  <persName>rey don Juan</persName> y del <persName>rey don Enrique</persName>, su
+               hijo. Quería tanto gratificar a los que con él negociaban, que ninguno iba mal
+               contento de su respuesta. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="91"/>Era hombre muy astuto y diligente; daba buenos y
+               prestos remedios a los casos que acaecían; celava mucho la justicia y la honra de la
+               corona real. Era tan agudo, que siempre inventaba grandes cosas. Procuraba mucho la
+               honra y siempre quería tener el principal lugar acerca de los reyes y ser único con
+               ellos en sus hablas y retraimientos. Y como acaece en las cortes de los reyes ser
+               envidiados y odiosos aquellos que más cerca de ellos están, este arzobispo, por esta
+               singular acepción que procuraba siempre tener acerca del <persName>rey don
+                  Juan</persName> y del <persName>rey don Enrique</persName>, y por la gran
+               confianza que en aquellos tiempos hicieron de algunos arduos negocios que ocurrían,
+               se le siguieron enemistades peligrosas con algunos grandes del reino. Las cuales, por
+               discurso de tiempo y con obras de amistad, sopo con buen juicio satisfacer de tal
+               manera que saneó el odio que de él fue concebido. </p>
+            <p>Conocidos los grandes trabajos así del espíritu como de la persona que hobo en la
+               gobernación del reino, le fue hecha merced por el <persName>rey don Juan</persName>
+               de las villas de <placeName>Coca</placeName> y de <placeName>Alaejos</placeName>, y
+               otras grandes mercedes de que hizo casa y mayorazgo que dejó a su hermano. </p>
+            <p>Tenía la codicia común que todos los hombres tienen de haber bienes temporales, y
+               sabíalos muy bien y con gran diligencia adquerir. </p>
+            <p>Este arzobispo edeficó de principio en aquella su villa de
+                  <placeName>Alaejos</placeName> la fortaleza que en ella está hoy fundada. Y como
+               acaece que algunos, procurando las cosas que desean, se reputan mezquinos cuando no
+               las alcanzan y serlo hían si las alcanzasen; otros hay que, aborreciendo las que
+               piensan serles dañosas, su buena fortuna les fuerza que las reciban por la utilidad
+               que de ellas se les ha de seguir; puédese creer de este arzobispo que hobo tan buena
+               fortuna <pb edRef="#FP_CVC_RAE2022" n="92"/>acerca de estas cosas mundanas, que
+               siempre se le apartaba aquello que procuraba si al fin le había de ser dañoso y se le
+               aparejaba lo que aborrecía si al fin le había de ser próspero. </p>
+            <p>Y murió en honra y prosperidad en la su villa de <placeName>Coca</placeName>,
+               conociendo a Dios como buen perlado, y con devoción de católico cristiano, en edad de
+               cinquenta y cinco años. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_18_santamaria_burgos">
+            <head>Obispo de Burgos</head>
+
+            <p>Don <persName>Alonso de Santa María, <roleName>obispo de
+               Burgos</roleName></persName>, fue hombre de buen cuerpo, bien compuesto en la
+               proporción de sus miembros; tenía cara y persona muy reverenda. Era hijo de don
+                  <persName>Pablo, <roleName>obispo que fue de Burgos</roleName></persName>, el cual
+               le hobo en su mujer legítima que tovo antes que entrase en la religión eclesiástica.
+               Y este <persName><roleName>obispo</roleName> don Pablo</persName> fue de linaje de
+               los judíos, y tan gran sabio, que fue alumbrado de la gracia del Espíritu Santo y,
+               habido conocimiento de la verdad, se convirtió a la fe católica. </p>
+            <p>Este <persName>obispo don Alfonso</persName>, su hijo, desde su mocedad, fue criado
+               en la Iglesia y en escuela de ciencia; y fue gran letrado en derecho canónico y
+               cevil. Era asimismo gran filósofo moral. Hablaba <pb edRef="#FP_CVC_RAE2022" n="93"
+               />muy bien y con buena gracia; ceceaba un poco. Y su persona era tan reverenda y de
+               tanta autoridad, que en su presencia todos se honestaban y ninguno osaba decir ni
+               hacer cosa torpe. Era ya tan acostumbrado en los actos de virtud, que se deleitaba en
+               los obrar. </p>
+            <p>Entre los letrados que fueron escogidos para enviar a un gran concilio que se hizo en
+                  <placeName>Basilea</placeName>, este obispo, seyendo <roleName>deán de
+                  Santiago</roleName>, fue uno de los nombrados a quien el <persName>rey don
+                  Juan</persName> mandó ir en aquella embajada. En la cual, conocida su ciencia y la
+               experiencia de sus letras y claras costumbres, ganó tan gran fama que, estando en
+                  <placeName>Roma</placeName> el <persName>papa Eugenio</persName>, le proveyó del
+                  <placeName>obispado de Burgos</placeName>, que era del <persName>obispo don
+                  Pablo</persName>, su padre. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="94"/>Puesto en esta dignidad, guardó tan bien los
+               preceptos que según los sacros cánones y decretos debe guardar el perlado, que fue
+               ejemplo de vida y doctrina a todos los otros perlados que fueron en su tiempo. Fue
+               embajador al <roleName>rey de Portogal</roleName> por mandado del <persName>rey don
+                  Juan</persName>. Y con la fuerza de sus razones excusó la guerra y concluyó la paz
+               que por entonces hobo entre estos dos reinos. Era observantísimo en la orden y hábito
+               que tomó. Predicaba, corregía y usaba en su diócesis de aquellas cosas que perlado es
+               obligado a hacer. Era limosnero y ayudó con gran suma a edeficar el
+                  <placeName>monesterio de San Pablo de Burgos</placeName> y reedificó otras
+               iglesias y monesterios de su obispado. </p>
+            <p>Fue varón quito de codicias temporales y nunca se sintió en él punto de invidia.
+               Decía él que no podía ser alegre con sus bienes el que se atormenta con bienes
+               ajenos. Era de espíritu humilde y, doctrinando con humildad, su doctrina era mejor
+               recibida y hacía mejor fruto. </p>
+            <p>Tornó de lengua latina en nuestra lengua vulgar ciertas obras de
+                  <persName>Séneca</persName>, que el <persName>rey don Juan</persName> le mandó
+               reducir. Era muy estudioso y deleitábase en platicar las cosas de ciencia. Hobo una
+               gran disputa con un filósofo y orador grande de <placeName>Italia</placeName>, que se
+               llamó <persName>Leonardo de Arecio</persName> sobre la nueva traslación que hizo de
+               las <title>Éticas</title> de <persName>Aristótiles</persName>, en la cual disputa se
+               contienen muchos y muy doctrinables preceptos. Hizo asimismo algunos tratados de
+               filosofía moral y de teología, y provechosos a la vida, los cuales están hoy en la
+               capilla do está enterrado, en la <placeName>iglesia mayor de Burgos</placeName>. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="95"/>Aborrecía los loores que en presencia le decían,
+               «porque si la conciencia acusaba de dentro poco -decía él- ¿qué aprovechaban los
+               loores de fuera?». Y si el entendimiento humano es tan alto y generoso que pone sus
+               términos cercanos a los del alto Dios, quien bien considerare los actos exteriores de
+               este perlado, conocerá, sin duda, que sus pensamientos interiores más participaban
+               con las cosas celestiales, que con las terrenales. </p>
+            <p>Al fin, seyendo en edad de <date>setenta años</date>, como propusiese ir en romería a
+                  <placeName>Santiago</placeName>, aun en este su voto pareció ser bien acepto a
+               Dios, porque le dio gracia que fuese en salvo y cumpliese su romería. La cual
+               complida, y tornado a su diócesis, finó conociendo a Dios y dejando fama loable y
+               claro ejempplo de vida. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_19_francisco_coria">
+            <head>Obispo de Coria</head>
+
+            <p>Don <persName>Francisco</persName>, <roleName>obispo de Coria</roleName>, fue hombre
+               pequeño de cuerpo y hermoso de gesto; la cabeza tenía grande. Era natural de la
+               ciudad de <placeName>Toledo</placeName>. Sus abuelos fueron de linaje de los judíos
+               convertidos a la fe católica. Desde su menor edad fue honesto y tovo inclinación a la
+               ciencia. Era cuerdo y de muy sotil ingenio. </p>
+            <p>Muertos su padre y madre y quedando mozo, la vergüenza que padecía por falta de lo
+               necesario le constriñó salir de su tierra e ir al estudio de
+                  <placeName>Lérida</placeName>, donde, mostrando gramática a otros <pb
+                  edRef="#FP_CVC_RAE2022" n="96"/>y aprendiendo él filosofía, pobremente pasó algún
+               tiempo. Durante el cual hobo noticia de su habilidad la <persName>reina doña María de
+                  Aragón</persName>, hermana del <persName>rey don Juan</persName>, y porque le
+               placía mucho ver castellanos dados a virtud, le tomó para su capilla. Y a pocos días,
+               conocido que tal ingenio no debía ser distraído del estudio, proveyéndole de su
+               limosna para cada año, le envió al estudio de <placeName>París</placeName>, donde
+               aprendió por espacio de diez años. En los cuales, los rectores de aquel estudio,
+               conociendo que su gran ciencia e integridad de vida suplía el defecto de su edad, le
+               dieron grado de magisterio, que a otros tan mancebos no se acostumbra dar en aquel
+               estudio. </p>
+            <p>Fue muy gran pedricador; ceceaba un poco y, comoquier que pequeño de cuerpo, su
+               órgano resonaba muy claro; y tenía singular gracia en sermonar, tan bien en lengua
+               latina como en la suya materna. Era observantísimo en la orden clerical que tomó.
+               Sostuvo muchas veces conclusiones de filosofía y teología en el estudio de
+                  <placeName>París</placeName> y en corte romana y en otros estudios generales,
+               donde alcanzó honra y fama de gran teólogo. Era de vida honestísima y no fue visto en
+               ninguna de sus edades jugar ni jurar. Y como el entendimiento comprende las cosas
+               universalmente, y el apetito las sigue y la prudencia las ordena, puédese creer de
+               este perlado que ni falleció en el entender, ni erró en el elegir, ni menos desvió
+               del verdadero juicio para las discerner. Movíase a la obra virtuosa, no por el bien
+               aparente, salvo por el existente. Era hombre justo, no por temor de la pena, mas por
+               amor de la justicia. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="97"/>Estando en <placeName>Roma</placeName>, un
+               cardenal que se decía de <persName>Fermo</persName>, varón muy notable, le recibió en
+               su casa. Y visto por experiencia lo que de este claro varón se decía por fama, le
+               hizo su confesor y al tiempo de su fin le estableció albacea de su ánima. Era de vida
+               tan clara, que jamás le vieron hacer cosa en secreto que sin reprensión no la pudiera
+               hacer en público. No suplicó jamás por beneficio ni dignidad que hobiese, mas su
+               ciencia y su vida procuraban su provisión sin procuración. Muerto aquel cardenal, el
+                  <persName>papa Nicolás</persName> le recibió por su familiar y le proveyó del
+                  <roleName>deanazgo de Toledo</roleName> y de otros beneficios. Y conocida la gran
+               fuerza que tenía en el razonar, le envió diversas veces por embajador al
+                  <persName>rey don Luis de Francia</persName> y al <persName>rey don Alonso de
+                  Aragón</persName>. Fue asimismo uno de los teólogos escogidos que el papa envió
+               dos veces a reducir los bohemios herejes, donde trabajó mucho el espíritu y la
+               persona en aumentación de la fe católica. </p>
+            <p>No tenía en tal estimación las cosas humanas que le impediesen la contemplación de
+               las divinas. Ordenó algunos tratados de filosofía y teología y sermones de gran
+               doctrina. Y habiendo consideración <pb edRef="#FP_CVC_RAE2022" n="98"/>del yerro
+               grande en que caen aquellos que sin autoridad del <roleName>Sumo Pontífice</roleName>
+               presumen quitar reyes y ponerlos, ordenó un libro, fundado por derecho, contra
+               aquellos que hacen división en los reinos y presumen por su propia autoridad quitar
+               un rey y poner otro. Y nunca fue tan laborioso que no pensase en las cosas de Dios,
+               ni tan ocioso que no trabajase en utilidad del prójimo. Estaba ya habituado en vida
+               tan recta y tan razonable, que aquella gracia del libre arbitrio que le copo siempre
+               la ejercitó en loor de Aquel que gela dio. </p>
+            <p>El <persName>rey don Enrique cuarto</persName> le dio cargo de la embajada y
+               procuración suya y de sus reinos en corte romana. Y el <roleName>papa
+                  Sixto</roleName> le hizo su datario, que es oficio de gran confianza, y le proveyó
+               del <placeName>obispado de Coria</placeName>. Y porque en la ciudad de
+                  <placeName>Génova</placeName> acaecieron grandes divisiones y escándalos de los
+               que suelen acaecer entre los de aquella ciudad, el papa, que era de aquella nación
+               genovesa, deseándolos pacificar y conociendo que el honesto vevir de este perlado le
+               daba gran autoridad, le envió por su legado a aquella provincia. El cual, conocidos
+               los deseos de los principales movedores, y dando a cada uno las razones que entendió
+               ser medecinales a su pasión, los retrojo de las vías erradas que llevaban; y puestos
+               en las verdaderas que debían llevar, los amansó y pacificó los escándalos que estaban
+               aparejados a la destruición de la tierra. </p>
+            <p>Puestas en paz las cosas de aquella provincia y vuelto a la ciudad de
+                  <placeName>Roma</placeName>, estando para ser criado cardenal en edad de
+                  <date>cincuenta y cinco años</date>, feneció sus días, y tornó a la tierra tan
+               virgen como salió de ella. </p>
+            <p>Y porque las molestias y tentaciones en esta vida vienen a los hombres por diversas
+               maneras: a unos, por que sean punidos; a otros, por que sean corregidos o por que,
+               tentados con alguna adversidad, conozcan mejor a Dios; o por otros respetos notos a
+               Él e ignotos a nos; puédese creer de este perlado que, así como fue amado de <pb
+                  edRef="#FP_CVC_RAE2022" n="99"/>los buenos por ser gran persuasor de virtudes, así
+               por ser reprensor de vicios fue aborrecido de algunos malos, de cuyos mordimientos
+               hobo molestias que sufrió y venció con verdadera paciencia. </p>
+            <p>Ciertamente, quien considerare la vida de este claro varón hallará ser ejemplo y
+               doctrina para todo hombre que quisiere bien vevir, porque ni esta opinión que tenemos
+               de linaje le sublimó, ni la compostura del cuerpo, ni las riquezas le hicieron claro
+               varón; ni menos se puede decir que la fortuna le fuese favorable para alcanzar la
+               honra y estimación grande que hobo, mas la perseverancia que tovo en la vida virtuosa
+               le abrió puerta para entrar en grandes lugares y le hizo haber acepción acerca de
+               grandes señores y para haber la honra que le dio claro nombre. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_20_madrigal_avila">
+            <head>Obispo de Ávila</head>
+
+            <p>Don <persName>Alfonso, <roleName>obispo de Ávila</roleName></persName>, fue hombre de
+               mediana estatura, el cuerpo espeso, bien proporcionado en la compostura de sus
+               miembros. Tenía la cabeza grande, el gesto robusto, el pescuezo un poco corto. Era
+               natural de la villa de <placeName>Madrigal</placeName>, de linaje de labradores. </p>
+            <p>Desde su niñez tovo inclinación a la ciencia, y creciendo en días, creció más en
+               deseo de aprender. Era hombre agudo y de gran memoria. Hobo principios en filosofia y
+               teología. Aprendió en el <placeName>estudio <pb edRef="#FP_CVC_RAE2022" n="100"/> de
+                  Salamanca</placeName>, donde recibió hábito clerical. Fue observantísimo en la
+               orden que recibió, y de edad de <date>veinte y cinco años</date>, hobo el grado de
+               magisterio. Y tanto resplandecía en ciencia y en vida honesta que, como quier que
+               había otros de mayor edad y de gran suficiencia, pero por sus méritos fue elegido
+               para leer las cátedras de teología y filosofía. Y tovo gran perseveración en el
+               estudio, que el tienpo que se pasaba siempre lo tenía presente, porque gozaba en la
+               hora presente de lo que en la pasada había aprendido. Tovo muchos discípulos. Y
+               después que fue maestro nunca halló mostrador, porque ni se excusó jamás de aprender,
+               ni fue acusado de haber mal aprendido. </p>
+            <p>El papa, movido por la habilidad interior de este claro varón más que por suplicación
+               exterior de otro, le proveyó de maestrescuela de <placeName>Salamanca</placeName>.
+               Seyendo gran maestro en artes y teología, se dispuso aprender derecho canónico y
+               cevil, y fue en aquellas facultades instructo como el más docto hombre que en ellas
+               era principado. Y tan gran era la fama de su saber en todas ciencias, que, estando en
+               aquel estudio, duró gran tiempo que venían a le ver hombres doctos, también de los
+               reinos de <placeName>España</placeName>. </p>
+            <p>Cierto es que ningún hombre, dado que viva largos tiempos, puede saber la perficción
+               y profundidad de todas las ciencias, y no quiero decir que este sabio perlado las
+               alcanzó todas, pero puédese creer de él que en la ciencia de las artes y teología y
+               filosofía natural y moral, ey en las facultades de derecho y asimismo en el arte del
+               estrología y astronomía, no se vido en los reinos de <placeName>España</placeName> ni
+               en otros extraños se oyó, haber otro en sus tiempos que con él se comparase. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="101"/>Era hombre callado y resplandecía más en él la
+               lumbre de la ciencia que el florear de la lengua. Fue a <placeName>Roma</placeName>
+               donde sostovo conclusiones de gran ciencia; y alcanzó fama de varón muy sabio; y fue
+               mirado por el papa y por todos los cardenales como hombre singular en la Iglesia de
+               Dios. Este hizo muchos tratados de filosofía y teología. Y escribió sobre el texto de
+               la Sacra Escritura una muy copiosa declaración y de gran doctrina que está hoy en el
+                  <placeName>monesterio de Guadalupe</placeName> y en el estudio de
+                  <placeName>Salamanca</placeName>, en el cual verá, quien bien la mirare, cuánto
+               este perlado abundaba en todas ciencias y cómo es verdad lo que de él aquí se
+               predica. </p>
+            <p>El <persName>rey don Juan</persName>, que era un príncipe a quien placía oír lecturas
+               y saber declaraciones y secretos de la Sacra Escritura, lo tovo cerca de sí y le hizo
+               de su Consejo; y suplicó al papa que le proveyese del <placeName>obispado de
+                  Ávila</placeName>. Duró perlado en aquel obispado <date>seis años</date>. </p>
+            <p>Y murió de edad de <date>cincuenta y cinco</date>, conociendo a Dios y con fama del
+               más sabio hombre que en sus tiempos hobo en la Iglesia de Dios. </p>
+         </div>
+
+         <div type="bio" xml:id="cvc_21_tello_cordoba">
+            <pb edRef="#FP_CVC_RAE2022" n="102"/>
+            <head>Obispo de Córdoba</head>
+
+            <p>Don <persName>Tello, <roleName>obispo de Córdoba</roleName></persName>, fue hombre
+               alto de cuerpo, bien proporcionado en la compostura de sus miembros; y el rostro
+               tenía honesto. Era natural de una villa que se dice <placeName>Buendía</placeName>,
+               de linaje de labradores. </p>
+            <p>Desde su menor edad tovo gran deseo a la ciencia. Y como quier que le menguaba lo
+               necesario para continuar el estudio, pero la voluntad que tenía de aprender le llevó
+               a las escuelas de <placeName>Salamanca</placeName>, confiando más en la providencia
+               de Dios, que suele acorrer a los buenos deseos, que en la facultad suya ni de otro
+               ninguno que le ayudase. Aprendió en un colegio de <placeName>Salamanca</placeName>
+               donde muestran a los pobres por amor de Dios. Fue buen letrado en derecho canónico y
+               en aquella facultad le fue dado grado de doctor. Elegió el hábito clerical y guardó
+               muy bien aquellas cosas que la Iglesia estatuyó que guardasen los buenos clérigos.
+               Por sus méritos fue proveído del <roleName>arcedianazgo de Toledo</roleName> y de
+               otros beneficios en la Iglesia de Dios. Y como este claro varón se vido con gran
+               renta, y puesto ya en la edad que demanda reposo, retrójose a la <placeName>iglesia
+                  de Toledo</placeName> a servir a Dios en aquella dignidad que tenía. </p>
+            <p>Era hombre a quien movía más la caridad para distribuir que la codicia para ganar.
+               Compadecíase de los miserables y, veces con el consejo, veces con el consuelo y
+               también con su limosna, allí do era necesario los consolaba y remediaba: porque creía
+               que estos bienes temporales no se dieron más para poseer que para destribuir. Su
+               deseo era hacer obras de misericordia y, poniéndolas en obra, sacaba todos los años
+               cierto número de cativos cristianos <pb edRef="#FP_CVC_RAE2022" n="103"/>de tierra de
+               moros. Y en esto, y en casar huérfanas y socorrer pobres, gastaba su pensamiento y
+               toda la renta que tenía, reputando a pecado si de un año le fincase algo para otro. Y
+               esto hizo complidamente y con tanta diligencia que sin duda se puede decir que fue
+               leal despensero de sus bienes para los distribuir a voluntad del que gelos dio,
+               porque servía tanto en la virtud de la caridad, que de lo necesario a su persona
+               propia no curaba tanto cuanto pensaba en socorrer la necesidad ajena. </p>
+            <p>Y porque fue informado que por falta de una torre que no había en un término cerca de
+               la ciudad de <placeName>Alcalá la Real</placeName> perecían algunos cristianos en las
+               guerras que en aquellas partes tienen con los moros, este perlado envió a la edeficar
+               a sus propias expensas en el logar y forma que le fue dicho ser necesario al bien y
+               defensa de aquella tierra. Otrosí, visto que algunos hombres perecían en el
+                  <placeName>río de Guadarrama</placeName>, que pasa por el camino que va desde la
+               ciudad de <placeName>Toledo</placeName> a la villa de
+               <placeName>Torrijos</placeName>, este claro varón edeficó la puente que hoy allí está
+               edificada y excusó los inconvenientes que todos los años por falta de ella en el paso
+               de aquel río se recrecían. En la cual obra este perlado usó de tal magnanimidad, que,
+               como viese la dificultad que algunas personas particulares ponían en la contribución
+               de lo necesario para aquel edeficio, no consintió que ninguno contribuyese cosa
+               alguna para él, salvo él solo acordó de lo hacer a sus expensas. Y en esta
+               liberalidad nos dio a conocer cuánto más el virtuoso se deleita en el gastar, que el
+               avariento pena en el guardar. </p>
+
+            <p><pb edRef="#FP_CVC_RAE2022" n="104"/>La <persName>reina doña Isabel</persName>, que
+               tenía un singular deseo de proveer a las iglesias de sus reinos de personas notables,
+               suplicó al papa que proveyese a este claro varón del <placeName>obispado de
+                  Córdoba</placeName>. El cual fue proveído de aquella iglesia y, mediante los
+               ruegos y exhortaciones que de parte de la reina le fueron fechas, aceptó la provisión
+               que el papa le hizo de aquella dignidad. </p>
+            <p>Y dentro del año que fue proveído por perlado de aquella iglesia, feneció en esta
+               vida con testimonio cierto de haber ganado la otra, en edad de setenta años. </p>
+         </div>
+
+         <div type="razonamiento" xml:id="cvc_21_razonamiento">
+            <pb edRef="#FP_CVC_RAE2022" n="105"/>
+            <head>Otro razonamiento breve hecho a la reina nuestra señora</head>
+
+            <p>Muy excelente reina y señora, por cierto se debe creer que tan bien se loara un hecho
+               castellano como se loa un hecho romano, si hobiera escritores en
+                  <placeName>Castilla</placeName> que sopieran ensalzar en escritura los hechos de
+               los castellanos, como hobo romanos que supieron sublimar los de su nación romana. Así
+               que imputaremos la nigligencia a los escritores que no escribieron, mas no
+               imputaremos por cierto a los castellanos que no hicieron actos de virtud en todas las
+               cosas donde ella, ejercitada, suele relucir. Y, por tanto, el noble caballero
+                  <persName>Fernán Pérez de Guzmán</persName> dijo verdad: que para ser la escritura
+               buena y verdadera, los caballeros debían ser castellanos y los escritores de sus
+               hechos, romanos.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
